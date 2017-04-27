@@ -1,0 +1,3 @@
+# Folder 2
+
+This section contains ...

@@ -1,0 +1,3 @@
+# Folder 1 - PRETEND TRANSLATED PAGE
+
+This section contains ...

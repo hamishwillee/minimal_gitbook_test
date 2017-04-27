@@ -1,0 +1,36 @@
+{   
+    "gitbook": ">= 3.2.2",
+    "title": "Minimal Test Gitbook",
+    "plugins": [
+        "youtube",
+        "richquotes",
+        "language-picker",
+        "collapsible-menu",
+        "page-toc-button",
+        "page-footer-ex",
+        "github",
+        "custom-favicon"
+    ],
+    "pluginsConfig": {
+
+        "page-footer-ex":{
+            "copyright":"© Someone. License:   <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>",
+            "update_label":"Updated: ",
+            "update_format":"YYYY-MM-DD HH:mm:ss"
+        },
+        "github": {
+            "url": "https://github.com/PX4/px4_user_guide"
+        },
+        "richquotes":
+        {
+            "tip": {
+                "alert": "success",
+                "picto": "fa-thumbs-o-up"
+            }
+        },
+        "favicon": "favicon.ico"
+    } 
+    
+    
+}
+
