@@ -45,7 +45,7 @@
                     "label": "Edit page on github",
                     "icon": "fa fa-pencil-square-o",
                     "position" : "left",
-                    "url": "https://github.com/hamishwillee/minimal_gitbook_test/edit/master/{{filepath}}"
+                    "url": "https://github.com/hamishwillee/minimal_gitbook_test/edit/master/{{filepath_lang}}"
                 }
             ]
         }
