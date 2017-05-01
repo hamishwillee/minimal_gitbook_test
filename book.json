@@ -9,9 +9,10 @@
         "page-toc-button",
         "page-footer-ex",
         "custom-favicon",
-        "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git"
+        "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
+        "redirect-to-lang@git+https://github.com/hamishwillee/gitbook-plugin-redirect-to-lang.git"
     ],
-    "pluginsConfig": {
+    "pluginsConfig": {  
 
         "page-footer-ex":{
             "copyright":"© Someone. License:   <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>",
