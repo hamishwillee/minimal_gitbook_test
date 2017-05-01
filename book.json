@@ -17,6 +17,7 @@
         "redirect-root": {
             "url":"https://hamishwillee.gitbooks.io/minimal-test-book-for-testing-gitbook-changes/content/en/"
         },
+        
         "page-footer-ex":{
             "copyright":"© Someone. License:   <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>",
             "update_label":"Updated: ",
