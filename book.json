@@ -13,6 +13,10 @@
         "redirect-to-lang@git+https://github.com/hamishwillee/gitbook-plugin-redirect-to-lang.git"
     ],
     "pluginsConfig": {  
+    
+        "redirect-to-lang": {
+            "language":"en"
+        },
 
         "page-footer-ex":{
             "copyright":"© Someone. License:   <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>",
