@@ -15,7 +15,8 @@
     "pluginsConfig": {  
     
         "redirect-to-lang": {
-            "language":"en"
+            "language":"en",
+            "baseurl":"content/"
         },
 
         "page-footer-ex":{
