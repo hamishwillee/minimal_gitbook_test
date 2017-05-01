@@ -10,13 +10,12 @@
         "page-footer-ex",
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
-        "redirect-to-lang@git+https://github.com/hamishwillee/gitbook-plugin-redirect-to-lang.git"
+        "redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git"
     ],
     "pluginsConfig": {  
     
-        "redirect-to-lang": {
-            "language":"en",
-            "baseurl":"content/"
+        "redirect-root": {
+            "url":"https://hamishwillee.gitbooks.io/minimal-test-book-for-testing-gitbook-changes/content/en/"
         },
 
         "page-footer-ex":{
