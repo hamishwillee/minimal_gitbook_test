@@ -2,6 +2,8 @@
 
 Some text. 
 
+A deliberately broken link [Broken Link](../impossible/path.md)
+
 ## 2nd level heading
 
 Some text. 

@@ -10,7 +10,8 @@
         "page-footer-ex",
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
-        "redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git"
+        "redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git",
+        "validate-links"
     ],
     "pluginsConfig": {  
     
