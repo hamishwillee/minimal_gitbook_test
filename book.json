@@ -5,18 +5,18 @@
         "book_id": "minimal_test_gitbook"
     },
     "plugins": [
-        "-youtube",
-        "-richquotes",
+        "youtube",
+        "richquotes",
         "language-picker",
         "collapsible-menu",
-        "-page-toc-button",
-        "-page-footer-ex",
-        "-custom-favicon",
+        "page-toc-button",
+        "page-footer-ex",
+        "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
         "-redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git",
         "-validate-links",
         "-summary-enhance@git+https://github.com/hamishwillee/gitbook-plugin-summary-enhance.git",
-        "theme-dronecode@git+https://github.com/hamishwillee/theme-dronecode.git"
+        "-theme-multi-book@git+https://github.com/hamishwillee/theme-multi-book.git"
     ],
     "pluginsConfig": { 
     
