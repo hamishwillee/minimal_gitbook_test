@@ -16,8 +16,10 @@
         "-redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git",
         "-validate-links",
         "-summary-enhance@git+https://github.com/hamishwillee/gitbook-plugin-summary-enhance.git",
-        "-theme-multi-book@git+https://github.com/hamishwillee/theme-multi-book.git"
-    ],
+        "-theme-multi-book@git+https://github.com/hamishwillee/theme-multi-book.git",
+        "-responsive-iframes",
+        "-autosize-iframe"
+        ],
     "pluginsConfig": { 
     
     
