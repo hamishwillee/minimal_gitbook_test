@@ -19,7 +19,7 @@
         "-theme-multi-book@git+https://github.com/hamishwillee/theme-multi-book.git",
         "-responsive-iframes",
         "-autosize-iframe",
-        "github-embed"
+        "github-embed@git+https://github.com/hamishwillee/gitbook-plugin-github-embed.git"
         ],
     "pluginsConfig": { 
     
