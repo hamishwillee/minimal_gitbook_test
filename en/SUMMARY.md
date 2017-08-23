@@ -7,11 +7,8 @@
 * [Folder 2](folder2/README.md)
   * [Doc 3](folder2/doc3.md)
   * [Doc 4](folder2/doc4.md)
-
-----
-  
-* [TEMP TEST Message Definitions](message-definitions.md)
-
+  * [Doc 5](folder2/doc5.md)
+ 
 
 ## Dronecode Shortcuts
 
