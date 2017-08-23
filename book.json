@@ -23,7 +23,6 @@
         ],
     "pluginsConfig": { 
     
-    
         "summary-enhance": {
             "myConfigKey":"SOME TEST STRING"
         },
