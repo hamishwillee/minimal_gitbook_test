@@ -6,7 +6,6 @@ This repo contains a test book for testing plugins and themes that I plan to use
 * [QGC Dev Guide](https://dev.qgroundcontrol.com/)
 * [QGC User Guide](https://docs.qgroundcontrol.com/)
 
-
 The guide uses the [Gitbook](https://www.gitbook.com/about) toolchain. 
 
 - Pages are written in separate files using markdown (the same syntax used by Github wiki). 
