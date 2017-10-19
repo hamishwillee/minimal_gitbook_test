@@ -16,7 +16,7 @@
         "-redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git",
         "-validate-links",
         "-summary-enhance@git+https://github.com/hamishwillee/gitbook-plugin-summary-enhance.git",
-        "theme-dronecode@git+https://github.com/hamishwillee/theme-dronecode.git",
+        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
         "-responsive-iframes",
         "-autosize-iframe"
         ],
