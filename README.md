@@ -19,4 +19,3 @@ The guide uses the [Gitbook](https://www.gitbook.com/about) toolchain.
 - There is a [handy book editor](https://gitbookio.gitbooks.io/documentation/content/editor/index.html) you may find useful.
 
 Everything you need to install and build Gitbook locally is explained in its [toolchain documentation](https://toolchain.gitbook.com/).
-
