@@ -26,3 +26,5 @@ Some text.
 
 <span></span>
 > **Todo** This is a todo.
+
+This is a new tag test.
