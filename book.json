@@ -18,7 +18,9 @@
         "-summary-enhance@git+https://github.com/hamishwillee/gitbook-plugin-summary-enhance.git",
         "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
         "-responsive-iframes",
-        "-autosize-iframe"
+        "-autosize-iframe",
+        "versions"
+
         ],
     "pluginsConfig": { 
     
@@ -67,6 +69,10 @@
                     "url": "https://github.com/hamishwillee/minimal_gitbook_test/edit/master/{{filepath_lang}}"
                 }
             ]
+        },
+        
+        "versions": {
+            "type": "branches"
         }
         
         
