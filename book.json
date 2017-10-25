@@ -19,7 +19,7 @@
         "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
         "-responsive-iframes",
         "-autosize-iframe",
-        "versions"
+        "versions-select"
 
         ],
     "pluginsConfig": { 
