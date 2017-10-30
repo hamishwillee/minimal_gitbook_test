@@ -10,7 +10,7 @@ install:
 
 script: 
 
-- htmlproofer ./_book
+- htmlproofer --empty_alt_ignore true ./_book
 
 # branch whitelist
 #branches:
