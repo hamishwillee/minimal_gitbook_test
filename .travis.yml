@@ -1,10 +1,15 @@
 language: ruby
 rvm:
 - 2.1
-script: 
+
+install:
 - npm install gitbook-cli -g
 - gitbook install
 - gitbook build
+- gem install html-proofer
+
+script: 
+
 - htmlproof ./_book
 
 # branch whitelist
