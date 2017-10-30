@@ -7,7 +7,7 @@
 * [Folder 2](folder2/README.md)
   * [Doc 3](folder2/doc3.md)
   * [Doc 4](folder2/doc4.md)
-  * [Link Tests](folder1/link_tests.md)
+  * [Link Tests](folder2/link_tests.md)
 
 
 
