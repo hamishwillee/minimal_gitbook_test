@@ -9,7 +9,7 @@ install:
 - gem install html-proofer
 
 script: 
-
+- htmlproofer --help
 - htmlproofer ./_book
 
 # branch whitelist
