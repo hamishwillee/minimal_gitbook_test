@@ -1,7 +1,9 @@
 language: ruby
 rvm:
 - 2.1
-script: gitbook build && htmlproof ./_book
+script: 
+- npm install gitbook-cli
+- gitbook build && htmlproof ./_book
 
 # branch whitelist
 #branches:
