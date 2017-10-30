@@ -9,9 +9,6 @@
   * [Doc 4](folder2/doc4.md)
   * [Link Tests](folder1/link_tests.md)
 
-----
-  
-* [TEMP TEST Message Definitions](message-definitions.md)
 
 
 ## Dronecode Shortcuts
