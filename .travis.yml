@@ -1,0 +1,21 @@
+sudo: false
+
+language: bash
+
+services:
+  - docker
+
+# Install the Docker Container
+install:
+  - docker pull ellerbrock/link-checker
+
+# Add your Site or Files to Check
+script:
+  - docker run ellerbrock/link-checker https://hamishwillee.gitbooks.io/minimal-test-book-for-testing-gitbook-changes/content/v/37dfce6264bdacfdcac07b9341737c5ffcd54c5e/en/
+  - docker run ellerbrock/link-checker https://dev.px4.io/en/
+
+# Notification Setup
+notifications:
+  email:
+    on_success: never
+    on_failure: always
