@@ -3,6 +3,7 @@ rvm:
 - 2.1
 script: 
 - npm install gitbook-cli -g
+- gitbook install
 - gitbook build
 - htmlproof ./_book
 
