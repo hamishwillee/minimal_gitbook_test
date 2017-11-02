@@ -15,11 +15,10 @@
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
         "-redirect-root@git+https://github.com/hamishwillee/gitbook-plugin-redirect-root.git",
         "-validate-links",
-        "-summary-enhance@git+https://github.com/hamishwillee/gitbook-plugin-summary-enhance.git",
-        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
-        "-responsive-iframes",
         "-autosize-iframe",
-        "versions"
+        "versions",
+        "theme-api",
+        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
 
         ],
     "pluginsConfig": { 
