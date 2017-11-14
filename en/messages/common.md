@@ -262,6 +262,11 @@
      <td class="mavlink_name" valign="top">MAV_TYPE_ADSB</td>
      <td class="mavlink_comment">Onboard ADSB peripheral</td>
     </tr>
+    <tr class="mavlink_field" id="MAV_TYPE_PARAFOIL">
+     <td class="mavlink_type" valign="top">28</td>
+     <td class="mavlink_name" valign="top">MAV_TYPE_PARAFOIL</td>
+     <td class="mavlink_comment">Steerable, nonrigid airfoil</td>
+    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="FIRMWARE_VERSION_TYPE" name="ENUM_FIRMWARE_VERSION_TYPE">FIRMWARE_VERSION_TYPE</h2>
@@ -336,7 +341,7 @@
     <tr class="mavlink_field" id="MAV_MODE_FLAG_GUIDED_ENABLED">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">MAV_MODE_FLAG_GUIDED_ENABLED</td>
-     <td class="mavlink_comment">0b00001000 guided mode enabled, system flies MISSIONs / mission items.</td>
+     <td class="mavlink_comment">0b00001000 guided mode enabled, system flies waypoints / mission items.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_AUTO_ENABLED">
      <td class="mavlink_type" valign="top">4</td>
@@ -491,12 +496,12 @@
     <tr class="mavlink_field" id="MAV_MODE_AUTO_DISARMED">
      <td class="mavlink_type" valign="top">92</td>
      <td class="mavlink_name" valign="top">MAV_MODE_AUTO_DISARMED</td>
-     <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by MISSIONs)</td>
+     <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by waypoints)</td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_AUTO_ARMED">
      <td class="mavlink_type" valign="top">220</td>
      <td class="mavlink_name" valign="top">MAV_MODE_AUTO_ARMED</td>
-     <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by MISSIONs)</td>
+     <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by waypoints)</td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_TEST_DISARMED">
      <td class="mavlink_type" valign="top">66</td>
@@ -569,6 +574,12 @@
      <td class="mavlink_name" valign="top">MAV_STATE_POWEROFF</td>
      <td class="mavlink_comment">System just initialized its power-down sequence, will shut down now.</td>
     </tr>
+    <tr class="mavlink_field" id="MAV_STATE_FLIGHT_TERMINATION">
+     <td class="mavlink_type" valign="top">
+     </td>
+     <td class="mavlink_name" valign="top">MAV_STATE_FLIGHT_TERMINATION</td>
+     <td class="mavlink_comment">System is terminating itself.</td>
+    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="MAV_COMPONENT" name="ENUM_MAV_COMPONENT">MAV_COMPONENT</h2>
@@ -598,6 +609,36 @@
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA">
      <td class="mavlink_type" valign="top">100</td>
      <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA</td>
+     <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA2">
+     <td class="mavlink_type" valign="top">101</td>
+     <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA2</td>
+     <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA3">
+     <td class="mavlink_type" valign="top">102</td>
+     <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA3</td>
+     <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA4">
+     <td class="mavlink_type" valign="top">103</td>
+     <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA4</td>
+     <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA5">
+     <td class="mavlink_type" valign="top">104</td>
+     <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA5</td>
+     <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA6">
+     <td class="mavlink_type" valign="top">105</td>
+     <td class="mavlink_name" valign="top">MAV_COMP_ID_CAMERA6</td>
      <td class="mavlink_comment">
      </td>
     </tr>
@@ -1171,6 +1212,77 @@
     </tr>
    </tbody>
   </table>
+  <h2 class="mavlink_message_name" id="UAVCAN_NODE_HEALTH" name="ENUM_UAVCAN_NODE_HEALTH">UAVCAN_NODE_HEALTH</h2>
+  <p class="description">Generalized UAVCAN node health</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_OK">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_HEALTH_OK</td>
+     <td class="mavlink_comment">The node is functioning properly.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_WARNING">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_HEALTH_WARNING</td>
+     <td class="mavlink_comment">A critical parameter went out of range or the node has encountered a minor failure.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_ERROR">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_HEALTH_ERROR</td>
+     <td class="mavlink_comment">The node has encountered a major failure.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_CRITICAL">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_HEALTH_CRITICAL</td>
+     <td class="mavlink_comment">The node has suffered a fatal malfunction.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="UAVCAN_NODE_MODE" name="ENUM_UAVCAN_NODE_MODE">UAVCAN_NODE_MODE</h2>
+  <p class="description">Generalized UAVCAN node mode</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="UAVCAN_NODE_MODE_OPERATIONAL">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_MODE_OPERATIONAL</td>
+     <td class="mavlink_comment">The node is performing its primary functions.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_MODE_INITIALIZATION">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_MODE_INITIALIZATION</td>
+     <td class="mavlink_comment">The node is initializing; this mode is entered immediately after startup.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_MODE_MAINTENANCE">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_MODE_MAINTENANCE</td>
+     <td class="mavlink_comment">The node is under maintenance.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_MODE_SOFTWARE_UPDATE">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_MODE_SOFTWARE_UPDATE</td>
+     <td class="mavlink_comment">The node is in the process of updating its software.</td>
+    </tr>
+    <tr class="mavlink_field" id="UAVCAN_NODE_MODE_OFFLINE">
+     <td class="mavlink_type" valign="top">7</td>
+     <td class="mavlink_name" valign="top">UAVCAN_NODE_MODE_OFFLINE</td>
+     <td class="mavlink_comment">The node is no longer available online.</td>
+    </tr>
+   </tbody>
+  </table>
   <h2 class="mavlink_message_name" id="MAV_CMD" name="ENUM_MAV_CMD">MAV_CMD</h2>
   <p class="description">Commands to be executed by the MAV. They can be executed on user request, or as part of a mission script. If the action is used in a mission, the parameter mapping to the waypoint/mission message is as follows: Param 1, Param 2, Param 3, Param 4, X: Param 5, Y:Param 6, Z:Param 7. This command list is similar what ARINC 424 is for commercial aircraft: A data format how to interpret waypoint/mission data.</p>
   <table class="sortable">
@@ -1185,22 +1297,22 @@
     <tr class="mavlink_field" id="MAV_CMD_NAV_WAYPOINT">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_WAYPOINT</td>
-     <td class="mavlink_comment">Navigate to MISSION.</td>
+     <td class="mavlink_comment">Navigate to waypoint.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_LOITER_UNLIM">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_LOITER_UNLIM</td>
-     <td class="mavlink_comment">Loiter around this MISSION an unlimited amount of time</td>
+     <td class="mavlink_comment">Loiter around this waypoint an unlimited amount of time</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_LOITER_TURNS">
      <td class="mavlink_type" valign="top">18</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_LOITER_TURNS</td>
-     <td class="mavlink_comment">Loiter around this MISSION for X turns</td>
+     <td class="mavlink_comment">Loiter around this waypoint for X turns</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_LOITER_TIME">
      <td class="mavlink_type" valign="top">19</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_LOITER_TIME</td>
-     <td class="mavlink_comment">Loiter around this MISSION for X seconds</td>
+     <td class="mavlink_comment">Loiter around this waypoint for X seconds</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_RETURN_TO_LAUNCH">
      <td class="mavlink_type" valign="top">20</td>
@@ -1265,7 +1377,7 @@
     <tr class="mavlink_field" id="MAV_CMD_NAV_SPLINE_WAYPOINT">
      <td class="mavlink_type" valign="top">82</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_SPLINE_WAYPOINT</td>
-     <td class="mavlink_comment">Navigate to MISSION using a spline path.</td>
+     <td class="mavlink_comment">Navigate to waypoint using a spline path.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_VTOL_TAKEOFF">
      <td class="mavlink_type" valign="top">84</td>
@@ -1570,32 +1682,22 @@
     <tr class="mavlink_field" id="MAV_CMD_REQUEST_CAMERA_INFORMATION">
      <td class="mavlink_type" valign="top">521</td>
      <td class="mavlink_name" valign="top">MAV_CMD_REQUEST_CAMERA_INFORMATION</td>
-     <td class="mavlink_comment">WIP: Request camera information (CAMERA_INFORMATION)</td>
+     <td class="mavlink_comment">WIP: Request camera information (CAMERA_INFORMATION).</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_REQUEST_CAMERA_SETTINGS">
      <td class="mavlink_type" valign="top">522</td>
      <td class="mavlink_name" valign="top">MAV_CMD_REQUEST_CAMERA_SETTINGS</td>
-     <td class="mavlink_comment">WIP: Request camera settings (CAMERA_SETTINGS)</td>
-    </tr>
-    <tr class="mavlink_field" id="MAV_CMD_SET_CAMERA_SETTINGS_1">
-     <td class="mavlink_type" valign="top">523</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_SET_CAMERA_SETTINGS_1</td>
-     <td class="mavlink_comment">WIP: Set the camera settings part 1 (CAMERA_SETTINGS). Use NAN for values you don't want to change.</td>
-    </tr>
-    <tr class="mavlink_field" id="MAV_CMD_SET_CAMERA_SETTINGS_2">
-     <td class="mavlink_type" valign="top">524</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_SET_CAMERA_SETTINGS_2</td>
-     <td class="mavlink_comment">WIP: Set the camera settings part 2 (CAMERA_SETTINGS). Use NAN for values you don't want to change.</td>
+     <td class="mavlink_comment">WIP: Request camera settings (CAMERA_SETTINGS).</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_REQUEST_STORAGE_INFORMATION">
      <td class="mavlink_type" valign="top">525</td>
      <td class="mavlink_name" valign="top">MAV_CMD_REQUEST_STORAGE_INFORMATION</td>
-     <td class="mavlink_comment">WIP: Request storage information (STORAGE_INFORMATION)</td>
+     <td class="mavlink_comment">WIP: Request storage information (STORAGE_INFORMATION). Use the command's target_component to target a specific component's storage.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_STORAGE_FORMAT">
      <td class="mavlink_type" valign="top">526</td>
      <td class="mavlink_name" valign="top">MAV_CMD_STORAGE_FORMAT</td>
-     <td class="mavlink_comment">WIP: Format a storage medium</td>
+     <td class="mavlink_comment">WIP: Format a storage medium. Once format is complete, a STORAGE_INFORMATION message is sent. Use the command's target_component to target a specific component's storage.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_REQUEST_CAMERA_CAPTURE_STATUS">
      <td class="mavlink_type" valign="top">527</td>
@@ -1610,27 +1712,27 @@
     <tr class="mavlink_field" id="MAV_CMD_RESET_CAMERA_SETTINGS">
      <td class="mavlink_type" valign="top">529</td>
      <td class="mavlink_name" valign="top">MAV_CMD_RESET_CAMERA_SETTINGS</td>
-     <td class="mavlink_comment">WIP: Reset all camera settings to Factory Default (CAMERA_SETTINGS)</td>
+     <td class="mavlink_comment">WIP: Reset all camera settings to Factory Default</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_SET_CAMERA_MODE">
      <td class="mavlink_type" valign="top">530</td>
      <td class="mavlink_name" valign="top">MAV_CMD_SET_CAMERA_MODE</td>
-     <td class="mavlink_comment">WIP: Set camera running mode. Use NAN for values you don't want to change.</td>
+     <td class="mavlink_comment">Set camera running mode. Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_IMAGE_START_CAPTURE">
      <td class="mavlink_type" valign="top">2000</td>
      <td class="mavlink_name" valign="top">MAV_CMD_IMAGE_START_CAPTURE</td>
-     <td class="mavlink_comment">WIP: Start image capture sequence. Sends CAMERA_IMAGE_CAPTURED after each capture.</td>
+     <td class="mavlink_comment">Start image capture sequence. Sends CAMERA_IMAGE_CAPTURED after each capture. Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_IMAGE_STOP_CAPTURE">
      <td class="mavlink_type" valign="top">2001</td>
      <td class="mavlink_name" valign="top">MAV_CMD_IMAGE_STOP_CAPTURE</td>
-     <td class="mavlink_comment">WIP: Stop image capture sequence</td>
+     <td class="mavlink_comment">Stop image capture sequence Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_REQUEST_CAMERA_IMAGE_CAPTURE">
      <td class="mavlink_type" valign="top">2002</td>
      <td class="mavlink_name" valign="top">MAV_CMD_REQUEST_CAMERA_IMAGE_CAPTURE</td>
-     <td class="mavlink_comment">WIP: Re-request a CAMERA_IMAGE_CAPTURE packet</td>
+     <td class="mavlink_comment">WIP: Re-request a CAMERA_IMAGE_CAPTURE packet. Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_DO_TRIGGER_CONTROL">
      <td class="mavlink_type" valign="top">2003</td>
@@ -1640,12 +1742,12 @@
     <tr class="mavlink_field" id="MAV_CMD_VIDEO_START_CAPTURE">
      <td class="mavlink_type" valign="top">2500</td>
      <td class="mavlink_name" valign="top">MAV_CMD_VIDEO_START_CAPTURE</td>
-     <td class="mavlink_comment">WIP: Starts video capture (recording)</td>
+     <td class="mavlink_comment">Starts video capture (recording). Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_VIDEO_STOP_CAPTURE">
      <td class="mavlink_type" valign="top">2501</td>
      <td class="mavlink_name" valign="top">MAV_CMD_VIDEO_STOP_CAPTURE</td>
-     <td class="mavlink_comment">WIP: Stop the current video capture (recording)</td>
+     <td class="mavlink_comment">Stop the current video capture (recording). Use NAN for reserved values.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_VIDEO_START_STREAMING">
      <td class="mavlink_type" valign="top">2502</td>
@@ -1698,6 +1800,16 @@
      <td class="mavlink_name" valign="top">MAV_CMD_SET_GUIDED_SUBMODE_CIRCLE</td>
      <td class="mavlink_comment">This command sets submode circle when vehicle is in guided mode. Vehicle flies along a circle facing the center of the circle. The user can input the velocity along the circle and change the radius. If no input is given the vehicle will hold position.</td>
     </tr>
+    <tr class="mavlink_field" id="MAV_CMD_CONDITION_GATE">
+     <td class="mavlink_type" valign="top">4501</td>
+     <td class="mavlink_name" valign="top">MAV_CMD_CONDITION_GATE</td>
+     <td class="mavlink_comment">WIP: Delay mission state machine until gate has been reached.</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_CMD_ARM_AUTHORIZATION_REQUEST">
+     <td class="mavlink_type" valign="top">3001</td>
+     <td class="mavlink_name" valign="top">MAV_CMD_ARM_AUTHORIZATION_REQUEST</td>
+     <td class="mavlink_comment">Request authorization to arm the vehicle to a external entity, the arm authorizer is resposible to request all data that is needs from the vehicle before authorize or deny the request. If approved the progress of command_ack message should be set with period of time that this authorization is valid in seconds or in case it was denied it should be set with one of the reasons in ARM_AUTH_DENIED_REASON.</td>
+    </tr>
     <tr class="mavlink_field" id="MAV_CMD_NAV_FENCE_RETURN_POINT">
      <td class="mavlink_type" valign="top">5000</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_FENCE_RETURN_POINT</td>
@@ -1727,6 +1839,11 @@
      <td class="mavlink_type" valign="top">5100</td>
      <td class="mavlink_name" valign="top">MAV_CMD_NAV_RALLY_POINT</td>
      <td class="mavlink_comment">Rally point. You can have multiple rally points defined.</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_CMD_UAVCAN_GET_NODE_INFO">
+     <td class="mavlink_type" valign="top">5200</td>
+     <td class="mavlink_name" valign="top">MAV_CMD_UAVCAN_GET_NODE_INFO</td>
+     <td class="mavlink_comment">Commands the vehicle to respond with a sequence of messages UAVCAN_NODE_INFO, one message per every UAVCAN node that is online. Note that some of the response messages can be lost, which the receiver can detect easily by checking whether every received UAVCAN_NODE_STATUS has a matching message UAVCAN_NODE_INFO received earlier; if not, this command should be sent again in order to request re-transmission of the node information messages.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_PAYLOAD_PREPARE_DEPLOY">
      <td class="mavlink_type" valign="top">30001</td>
@@ -1896,12 +2013,12 @@
     <tr class="mavlink_field" id="MAV_ROI_WPNEXT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">MAV_ROI_WPNEXT</td>
-     <td class="mavlink_comment">Point toward next MISSION.</td>
+     <td class="mavlink_comment">Point toward next waypoint.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_ROI_WPINDEX">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">MAV_ROI_WPINDEX</td>
-     <td class="mavlink_comment">Point toward given MISSION.</td>
+     <td class="mavlink_comment">Point toward given waypoint.</td>
     </tr>
     <tr class="mavlink_field" id="MAV_ROI_LOCATION">
      <td class="mavlink_type" valign="top">3</td>
@@ -2042,6 +2159,74 @@
      <td class="mavlink_type" valign="top">10</td>
      <td class="mavlink_name" valign="top">MAV_PARAM_TYPE_REAL64</td>
      <td class="mavlink_comment">64-bit floating-point</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="MAV_PARAM_EXT_TYPE" name="ENUM_MAV_PARAM_EXT_TYPE">MAV_PARAM_EXT_TYPE</h2>
+  <p class="description">Specifies the datatype of a MAVLink extended parameter.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT8">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_UINT8</td>
+     <td class="mavlink_comment">8-bit unsigned integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT8">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_INT8</td>
+     <td class="mavlink_comment">8-bit signed integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT16">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_UINT16</td>
+     <td class="mavlink_comment">16-bit unsigned integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT16">
+     <td class="mavlink_type" valign="top">4</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_INT16</td>
+     <td class="mavlink_comment">16-bit signed integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT32">
+     <td class="mavlink_type" valign="top">5</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_UINT32</td>
+     <td class="mavlink_comment">32-bit unsigned integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT32">
+     <td class="mavlink_type" valign="top">6</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_INT32</td>
+     <td class="mavlink_comment">32-bit signed integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT64">
+     <td class="mavlink_type" valign="top">7</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_UINT64</td>
+     <td class="mavlink_comment">64-bit unsigned integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT64">
+     <td class="mavlink_type" valign="top">8</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_INT64</td>
+     <td class="mavlink_comment">64-bit signed integer</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_REAL32">
+     <td class="mavlink_type" valign="top">9</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_REAL32</td>
+     <td class="mavlink_comment">32-bit floating-point</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_REAL64">
+     <td class="mavlink_type" valign="top">10</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_REAL64</td>
+     <td class="mavlink_comment">64-bit floating-point</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_CUSTOM">
+     <td class="mavlink_type" valign="top">11</td>
+     <td class="mavlink_name" valign="top">MAV_PARAM_EXT_TYPE_CUSTOM</td>
+     <td class="mavlink_comment">Custom Type</td>
     </tr>
    </tbody>
   </table>
@@ -2373,6 +2558,16 @@
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">MAV_DISTANCE_SENSOR_INFRARED</td>
      <td class="mavlink_comment">Infrared rangefinder, e.g. Sharp units</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_RADAR">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">MAV_DISTANCE_SENSOR_RADAR</td>
+     <td class="mavlink_comment">Radar type, e.g. uLanding units</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_UNKNOWN">
+     <td class="mavlink_type" valign="top">4</td>
+     <td class="mavlink_name" valign="top">MAV_DISTANCE_SENSOR_UNKNOWN</td>
+     <td class="mavlink_comment">Broken or unknown type, e.g. analog units</td>
     </tr>
    </tbody>
   </table>
@@ -3435,6 +3630,230 @@
      <td class="mavlink_name" valign="top">GPS_FIX_TYPE_STATIC</td>
      <td class="mavlink_comment">Static fixed, typically used for base stations</td>
     </tr>
+    <tr class="mavlink_field" id="GPS_FIX_TYPE_PPP">
+     <td class="mavlink_type" valign="top">8</td>
+     <td class="mavlink_name" valign="top">GPS_FIX_TYPE_PPP</td>
+     <td class="mavlink_comment">PPP, 3D position.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="LANDING_TARGET_TYPE" name="ENUM_LANDING_TARGET_TYPE">LANDING_TARGET_TYPE</h2>
+  <p class="description">Type of landing target</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="LANDING_TARGET_TYPE_LIGHT_BEACON">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">LANDING_TARGET_TYPE_LIGHT_BEACON</td>
+     <td class="mavlink_comment">Landing target signaled by light beacon (ex: IR-LOCK)</td>
+    </tr>
+    <tr class="mavlink_field" id="LANDING_TARGET_TYPE_RADIO_BEACON">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">LANDING_TARGET_TYPE_RADIO_BEACON</td>
+     <td class="mavlink_comment">Landing target signaled by radio beacon (ex: ILS, NDB)</td>
+    </tr>
+    <tr class="mavlink_field" id="LANDING_TARGET_TYPE_VISION_FIDUCIAL">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">LANDING_TARGET_TYPE_VISION_FIDUCIAL</td>
+     <td class="mavlink_comment">Landing target represented by a fiducial marker (ex: ARTag)</td>
+    </tr>
+    <tr class="mavlink_field" id="LANDING_TARGET_TYPE_VISION_OTHER">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">LANDING_TARGET_TYPE_VISION_OTHER</td>
+     <td class="mavlink_comment">Landing target represented by a pre-defined visual shape/feature (ex: X-marker, H-marker, square)</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="VTOL_TRANSITION_HEADING" name="ENUM_VTOL_TRANSITION_HEADING">VTOL_TRANSITION_HEADING</h2>
+  <p class="description">Direction of VTOL transition</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_VEHICLE_DEFAULT">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">VTOL_TRANSITION_HEADING_VEHICLE_DEFAULT</td>
+     <td class="mavlink_comment">Respect the heading configuration of the vehicle.</td>
+    </tr>
+    <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_NEXT_WAYPOINT">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">VTOL_TRANSITION_HEADING_NEXT_WAYPOINT</td>
+     <td class="mavlink_comment">Use the heading pointing towards the next waypoint.</td>
+    </tr>
+    <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_TAKEOFF">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">VTOL_TRANSITION_HEADING_TAKEOFF</td>
+     <td class="mavlink_comment">Use the heading on takeoff (while sitting on the ground).</td>
+    </tr>
+    <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_SPECIFIED">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">VTOL_TRANSITION_HEADING_SPECIFIED</td>
+     <td class="mavlink_comment">Use the specified heading in parameter 4.</td>
+    </tr>
+    <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_ANY">
+     <td class="mavlink_type" valign="top">4</td>
+     <td class="mavlink_name" valign="top">VTOL_TRANSITION_HEADING_ANY</td>
+     <td class="mavlink_comment">Use the current heading when reaching takeoff altitude (potentially facing the wind when weather-vaning is active).</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="CAMERA_CAP_FLAGS" name="ENUM_CAMERA_CAP_FLAGS">CAMERA_CAP_FLAGS</h2>
+  <p class="description">Camera capability flags (Bitmap).</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAPTURE_VIDEO">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_CAPTURE_VIDEO</td>
+     <td class="mavlink_comment">Camera is able to record video.</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAPTURE_IMAGE">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_CAPTURE_IMAGE</td>
+     <td class="mavlink_comment">Camera is able to capture images.</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_HAS_MODES">
+     <td class="mavlink_type" valign="top">4</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_HAS_MODES</td>
+     <td class="mavlink_comment">Camera has separate Video and Image/Photo modes (MAV_CMD_SET_CAMERA_MODE)</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAN_CAPTURE_IMAGE_IN_VIDEO_MODE">
+     <td class="mavlink_type" valign="top">8</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_CAN_CAPTURE_IMAGE_IN_VIDEO_MODE</td>
+     <td class="mavlink_comment">Camera can capture images while in video mode</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAN_CAPTURE_VIDEO_IN_IMAGE_MODE">
+     <td class="mavlink_type" valign="top">16</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_CAN_CAPTURE_VIDEO_IN_IMAGE_MODE</td>
+     <td class="mavlink_comment">Camera can capture videos while in Photo/Image mode</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_HAS_IMAGE_SURVEY_MODE">
+     <td class="mavlink_type" valign="top">32</td>
+     <td class="mavlink_name" valign="top">CAMERA_CAP_FLAGS_HAS_IMAGE_SURVEY_MODE</td>
+     <td class="mavlink_comment">Camera has image survey mode (MAV_CMD_SET_CAMERA_MODE)</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_ACK" name="ENUM_PARAM_ACK">PARAM_ACK</h2>
+  <p class="description">Result from a PARAM_EXT_SET message.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="PARAM_ACK_ACCEPTED">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">PARAM_ACK_ACCEPTED</td>
+     <td class="mavlink_comment">Parameter value ACCEPTED and SET</td>
+    </tr>
+    <tr class="mavlink_field" id="PARAM_ACK_VALUE_UNSUPPORTED">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">PARAM_ACK_VALUE_UNSUPPORTED</td>
+     <td class="mavlink_comment">Parameter value UNKNOWN/UNSUPPORTED</td>
+    </tr>
+    <tr class="mavlink_field" id="PARAM_ACK_FAILED">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">PARAM_ACK_FAILED</td>
+     <td class="mavlink_comment">Parameter failed to set</td>
+    </tr>
+    <tr class="mavlink_field" id="PARAM_ACK_IN_PROGRESS">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">PARAM_ACK_IN_PROGRESS</td>
+     <td class="mavlink_comment">Parameter value received but not yet validated or set. A subsequent PARAM_EXT_ACK will follow once operation is completed with the actual result. These are for parameters that may take longer to set. Instead of waiting for an ACK and potentially timing out, you will immediately receive this response to let you know it was received.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="CAMERA_MODE" name="ENUM_CAMERA_MODE">CAMERA_MODE</h2>
+  <p class="description">Camera Modes.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="CAMERA_MODE_IMAGE">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">CAMERA_MODE_IMAGE</td>
+     <td class="mavlink_comment">Camera is in image/photo capture mode.</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_MODE_VIDEO">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">CAMERA_MODE_VIDEO</td>
+     <td class="mavlink_comment">Camera is in video capture mode.</td>
+    </tr>
+    <tr class="mavlink_field" id="CAMERA_MODE_IMAGE_SURVEY">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">CAMERA_MODE_IMAGE_SURVEY</td>
+     <td class="mavlink_comment">Camera is in image survey capture mode. It allows for camera controller to do specific settings for surveys.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="MAV_ARM_AUTH_DENIED_REASON" name="ENUM_MAV_ARM_AUTH_DENIED_REASON">MAV_ARM_AUTH_DENIED_REASON</h2>
+  <p class="description">
+  </p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">CMD ID</th>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_GENERIC">
+     <td class="mavlink_type" valign="top">0</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_GENERIC</td>
+     <td class="mavlink_comment">Not a specific reason</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_NONE">
+     <td class="mavlink_type" valign="top">1</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_NONE</td>
+     <td class="mavlink_comment">Authorizer will send the error as string to GCS</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_INVALID_WAYPOINT">
+     <td class="mavlink_type" valign="top">2</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_INVALID_WAYPOINT</td>
+     <td class="mavlink_comment">At least one waypoint have a invalid value</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_TIMEOUT">
+     <td class="mavlink_type" valign="top">3</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_TIMEOUT</td>
+     <td class="mavlink_comment">Timeout in the authorizer process(in case it depends on network)</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_AIRSPACE_IN_USE">
+     <td class="mavlink_type" valign="top">4</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_AIRSPACE_IN_USE</td>
+     <td class="mavlink_comment">Airspace of the mission in use by another vehicle, second result parameter can have the waypoint id that caused it to be denied.</td>
+    </tr>
+    <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_BAD_WEATHER">
+     <td class="mavlink_type" valign="top">5</td>
+     <td class="mavlink_name" valign="top">MAV_ARM_AUTH_DENIED_REASON_BAD_WEATHER</td>
+     <td class="mavlink_comment">Weather is not good to fly</td>
+    </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
@@ -3492,7 +3911,7 @@
    </a>
    )
   </h2>
-  <p class="description">The general system state. If the system is following the MAVLink standard, the system state is mainly defined by three orthogonal states/modes: The system mode, which is either LOCKED (motors shut down and locked), MANUAL (system under RC control), GUIDED (system with autonomous position control, position setpoint controlled manually) or AUTO (system guided by path/waypoint planner). The NAV_MODE defined the current flight state: LIFTOFF (often an open-loop maneuver), LANDING, WAYPOINTS or VECTOR. This represents the internal navigation state machine. The system status shows wether the system is currently active or not and if an emergency occured. During the CRITICAL and EMERGENCY states the MAV is still considered to be active, but should start emergency procedures autonomously. After a failure occured it should first move from active to critical to allow manual intervention and then move to emergency after a certain timeout.</p>
+  <p class="description">The general system state. If the system is following the MAVLink standard, the system state is mainly defined by three orthogonal states/modes: The system mode, which is either LOCKED (motors shut down and locked), MANUAL (system under RC control), GUIDED (system with autonomous position control, position setpoint controlled manually) or AUTO (system guided by path/waypoint planner). The NAV_MODE defined the current flight state: LIFTOFF (often an open-loop maneuver), LANDING, WAYPOINTS or VECTOR. This represents the internal navigation state machine. The system status shows whether the system is currently active or not and if an emergency occured. During the CRITICAL and EMERGENCY states the MAV is still considered to be active, but should start emergency procedures autonomously. After a failure occured it should first move from active to critical to allow manual intervention and then move to emergency after a certain timeout.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -3944,12 +4363,12 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
-     <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7</td>
+     <td class="mavlink_comment">Latitude (WGS84, EGM96 ellipsoid), in degrees * 1E7</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
-     <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7</td>
+     <td class="mavlink_comment">Longitude (WGS84, EGM96 ellipsoid), in degrees * 1E7</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">alt</td>
@@ -3980,6 +4399,31 @@
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown, set to 255</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">alt_ellipsoid</td>
+     <td class="mavlink_type" valign="top">int32_t</td>
+     <td class="mavlink_comment">Altitude (above WGS84, EGM96 ellipsoid), in meters * 1000 (positive for up).</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">h_acc</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">Position uncertainty in meters * 1000 (positive for up).</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">v_acc</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">Altitude uncertainty in meters * 1000 (positive for up).</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">vel_acc</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">Speed uncertainty in meters * 1000 (positive for up).</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">hdg_acc</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">Heading / track uncertainty in degrees * 1e5.</td>
     </tr>
    </tbody>
   </table>
@@ -4851,12 +5295,12 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">The coordinate system of the MISSION. see MAV_FRAME in mavlink_types.h</td>
+     <td class="mavlink_comment">The coordinate system of the waypoint. see MAV_FRAME in mavlink_types.h</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">The scheduled action for the MISSION. see MAV_CMD in common.xml MAVLink specs</td>
+     <td class="mavlink_comment">The scheduled action for the waypoint. see MAV_CMD in common.xml MAVLink specs</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">current</td>
@@ -5043,7 +5487,7 @@
    </a>
    )
   </h2>
-  <p class="description">This message is emitted as response to MISSION_REQUEST_LIST by the MAV and to initiate a write transaction. The GCS can then request the individual mission item based on the knowledge of the total number of MISSIONs.</p>
+  <p class="description">This message is emitted as response to MISSION_REQUEST_LIST by the MAV and to initiate a write transaction. The GCS can then request the individual mission item based on the knowledge of the total number of waypoints.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5114,7 +5558,7 @@
    </a>
    )
   </h2>
-  <p class="description">A certain mission item has been reached. The system will either hold this position (or circle on the orbit) or (if the autocontinue on the WP was set) continue to the next MISSION.</p>
+  <p class="description">A certain mission item has been reached. The system will either hold this position (or circle on the orbit) or (if the autocontinue on the WP was set) continue to the next waypoint.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5137,7 +5581,7 @@
    </a>
    )
   </h2>
-  <p class="description">Ack message during MISSION handling. The type field states if this message is a positive ack (type=0) or if an error happened (type=non-zero).</p>
+  <p class="description">Ack message during waypoint handling. The type field states if this message is a positive ack (type=0) or if an error happened (type=non-zero).</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5175,7 +5619,7 @@
    </a>
    )
   </h2>
-  <p class="description">As local waypoints exist, the global MISSION reference allows to transform between the local coordinate frame and the global (GPS) coordinate frame. This can be necessary when e.g. in- and outdoor settings are connected and the MAV should move from in- to outdoor.</p>
+  <p class="description">As local waypoints exist, the global waypoint reference allows to transform between the local coordinate frame and the global (GPS) coordinate frame. This can be necessary when e.g. in- and outdoor settings are connected and the MAV should move from in- to outdoor.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5204,6 +5648,11 @@
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
     </tr>
    </tbody>
   </table>
@@ -5237,6 +5686,11 @@
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
     </tr>
    </tbody>
   </table>
@@ -5347,7 +5801,7 @@
    </a>
    )
   </h2>
-  <p class="description">Set a safety zone (volume), which is defined by two corners of a cube. This message can be used to tell the MAV which setpoints/MISSIONs to accept and which to reject. Safety areas are often enforced by national or competition regulations.</p>
+  <p class="description">Set a safety zone (volume), which is defined by two corners of a cube. This message can be used to tell the MAV which setpoints/waypoints to accept and which to reject. Safety areas are often enforced by national or competition regulations.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5539,12 +5993,12 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">target_bearing</td>
      <td class="mavlink_type" valign="top">int16_t</td>
-     <td class="mavlink_comment">Bearing to current MISSION/target in degrees</td>
+     <td class="mavlink_comment">Bearing to current waypoint/target in degrees</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">wp_dist</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">Distance to active MISSION in meters</td>
+     <td class="mavlink_comment">Distance to active waypoint in meters</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">alt_error</td>
@@ -6059,12 +6513,12 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">The coordinate system of the MISSION. see MAV_FRAME in mavlink_types.h</td>
+     <td class="mavlink_comment">The coordinate system of the waypoint. see MAV_FRAME in mavlink_types.h</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">The scheduled action for the MISSION. see MAV_CMD in common.xml MAVLink specs</td>
+     <td class="mavlink_comment">The scheduled action for the waypoint. see MAV_CMD in common.xml MAVLink specs</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">current</td>
@@ -6328,7 +6782,7 @@
    </a>
    )
   </h2>
-  <p class="description">Report status of a command. Includes feedback wether the command was executed.</p>
+  <p class="description">Report status of a command. Includes feedback whether the command was executed.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -6351,7 +6805,22 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">progress</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">WIP: Needs to be set when MAV_RESULT is MAV_RESULT_IN_PROGRESS, values from 0 to 100 for progress percentage, 255 for unknown progress.</td>
+     <td class="mavlink_comment">WIP: Also used as result_param1, it can be set with a enum containing the errors reasons of why the command was denied or the progress percentage or 255 if unknown the progress when result is MAV_RESULT_IN_PROGRESS.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">result_param2</td>
+     <td class="mavlink_type" valign="top">int32_t</td>
+     <td class="mavlink_comment">WIP: Additional parameter of the result, example: which parameter of MAV_CMD_NAV_WAYPOINT caused it to be denied.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_system</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">WIP: System which requested the command to be executed</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_component</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">WIP: Component which requested the command to be executed</td>
     </tr>
    </tbody>
   </table>
@@ -9159,7 +9628,7 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">orientation</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Direction the sensor faces from MAV_SENSOR_ORIENTATION enum.</td>
+     <td class="mavlink_comment">Direction the sensor faces from MAV_SENSOR_ORIENTATION enum. downward-facing: ROTATION_PITCH_270, upward-facing: ROTATION_PITCH_90, backward-facing: ROTATION_PITCH_180, forward-facing: ROTATION_NONE, left-facing: ROTATION_YAW_90, right-facing: ROTATION_YAW_270</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">covariance</td>
@@ -9933,7 +10402,12 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">uid</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
-     <td class="mavlink_comment">UID if provided by hardware</td>
+     <td class="mavlink_comment">UID if provided by hardware (see uid2)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">uid2</td>
+     <td class="mavlink_type" valign="top">uint8_t[18]</td>
+     <td class="mavlink_comment">UID if provided by hardware (supersedes the uid field. If this is non-zero, use this field, otherwise use uid)</td>
     </tr>
    </tbody>
   </table>
@@ -9992,6 +10466,36 @@
      <td class="mavlink_name" valign="top">size_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Size in radians of target along y-axis</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">x</td>
+     <td class="mavlink_type" valign="top">float</td>
+     <td class="mavlink_comment">X Position of the landing target on MAV_FRAME</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">y</td>
+     <td class="mavlink_type" valign="top">float</td>
+     <td class="mavlink_comment">Y Position of the landing target on MAV_FRAME</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">z</td>
+     <td class="mavlink_type" valign="top">float</td>
+     <td class="mavlink_comment">Z Position of the landing target on MAV_FRAME</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">q</td>
+     <td class="mavlink_type" valign="top">float[4]</td>
+     <td class="mavlink_comment">Quaternion of landing target orientation (w, x, y, z order, zero-rotation is 1, 0, 0, 0)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">type</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">LANDING_TARGET_TYPE enum specifying the type of landing target</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">position_valid</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Boolean indicating known position (1) or default unkown position (0), for validation of positioning of the landing target</td>
     </tr>
    </tbody>
   </table>
@@ -10525,6 +11029,11 @@
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.</td>
     </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
+    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="SET_HOME_POSITION" name="SET_HOME_POSITION">SET_HOME_POSITION (<a href="
@@ -10597,6 +11106,11 @@
      <td class="mavlink_name" valign="top">approach_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
     </tr>
    </tbody>
   </table>
@@ -11170,16 +11684,6 @@
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">camera_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">camera_count</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Number of cameras</td>
-    </tr>
-    <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">vendor_name</td>
      <td class="mavlink_type" valign="top">uint8_t[32]</td>
      <td class="mavlink_comment">Name of the camera vendor</td>
@@ -11192,7 +11696,7 @@
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">firmware_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
-     <td class="mavlink_comment">Version of the camera firmware</td>
+     <td class="mavlink_comment">Version of the camera firmware (v &lt;&lt; 24 &amp; 0xff = Dev, v &lt;&lt; 16 &amp; 0xff = Patch, v &lt;&lt; 8 &amp; 0xff = Minor, v &amp; 0xff = Major)</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">focal_length</td>
@@ -11224,6 +11728,21 @@
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Reserved for a lens ID</td>
     </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">flags</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">CAMERA_CAP_FLAGS enum flags (bitmap) describing camera capabilities.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">cam_definition_version</td>
+     <td class="mavlink_type" valign="top">uint16_t</td>
+     <td class="mavlink_comment">Camera definition version (iteration)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">cam_definition_uri</td>
+     <td class="mavlink_type" valign="top">char[140]</td>
+     <td class="mavlink_comment">Camera definition URI (if any, otherwise only basic functions will be available).</td>
+    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="CAMERA_SETTINGS" name="CAMERA_SETTINGS">CAMERA_SETTINGS (<a href="
@@ -11232,7 +11751,7 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Settings of a camera, can be requested using MAV_CMD_REQUEST_CAMERA_SETTINGS and written using MAV_CMD_SET_CAMERA_SETTINGS</p>
+  <p class="description">WIP: Settings of a camera, can be requested using MAV_CMD_REQUEST_CAMERA_SETTINGS.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -11248,74 +11767,9 @@
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">camera_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">exposure_mode</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">0: full auto 1: full manual 2: aperture priority 3: shutter priority</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">aperture</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">Aperture is 1/value</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">shutter_speed</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">Shutter speed in seconds</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">iso_sensitivity</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">ISO sensitivity</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">ev</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">Exposure Value</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">white_balance</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">Color temperature in degrees Kelvin. (0: Auto WB)</td>
-    </tr>
-    <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">mode_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for a camera mode ID. (0: Photo 1: Video)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">audio_recording</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Audio recording enabled (0: off 1: on)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">color_mode_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for a color mode ID (Neutral, Vivid, etc.)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">image_format_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for image format ID (Jpeg/Raw/Jpeg+Raw)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">image_quality_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for image quality ID (Compression)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">metering_mode_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for metering mode ID (Average, Center, Spot, etc.)</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">flicker_mode_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Reserved for flicker mode ID (Auto, 60Hz, 50Hz, etc.)</td>
+     <td class="mavlink_comment">Camera mode (CAMERA_MODE)</td>
     </tr>
    </tbody>
   </table>
@@ -11325,7 +11779,7 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about a storage medium</p>
+  <p class="description">WIP: Information about a storage medium.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -11404,49 +11858,19 @@
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">camera_id</td>
-     <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
-    </tr>
-    <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">image_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Current status of image capturing (0: not running, 1: interval capture in progress)</td>
+     <td class="mavlink_comment">Current status of image capturing (0: idle, 1: capture in progress, 2: interval set but idle, 3: interval set and capture in progress)</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">video_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
-     <td class="mavlink_comment">Current status of video capturing (0: not running, 1: capture in progress)</td>
+     <td class="mavlink_comment">Current status of video capturing (0: idle, 1: capture in progress)</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">image_interval</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Image capture interval in seconds</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">video_framerate</td>
-     <td class="mavlink_type" valign="top">float</td>
-     <td class="mavlink_comment">Video frame rate in Hz</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">image_resolution_h</td>
-     <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">Image resolution in pixels horizontal</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">image_resolution_v</td>
-     <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">Image resolution in pixels vertical</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">video_resolution_h</td>
-     <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">Video resolution in pixels horizontal</td>
-    </tr>
-    <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">video_resolution_v</td>
-     <td class="mavlink_type" valign="top">uint16_t</td>
-     <td class="mavlink_comment">Video resolution in pixels vertical</td>
     </tr>
     <tr class="mavlink_field">
      <td class="mavlink_name" valign="top">recording_time_ms</td>
@@ -11466,7 +11890,7 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about a captured image</p>
+  <p class="description">Information about a captured image</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -11859,6 +12283,34 @@
     </tr>
    </tbody>
   </table>
+  <h2 class="mavlink_message_name" id="WIFI_CONFIG_AP" name="WIFI_CONFIG_AP">WIFI_CONFIG_AP (<a href="
+      #WIFI_CONFIG_AP">
+    #299
+   </a>
+   )
+  </h2>
+  <p class="description">Configure AP SSID and Password.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">ssid</td>
+     <td class="mavlink_type" valign="top">char[32]</td>
+     <td class="mavlink_comment">Name of Wi-Fi network (SSID). Leave it blank to leave it unchanged.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">password</td>
+     <td class="mavlink_type" valign="top">char[64]</td>
+     <td class="mavlink_comment">Password. Leave it blank for an open AP.</td>
+    </tr>
+   </tbody>
+  </table>
   <h2 class="mavlink_message_name" id="PROTOCOL_VERSION" name="PROTOCOL_VERSION">PROTOCOL_VERSION (<a href="
       #PROTOCOL_VERSION">
     #300
@@ -11899,6 +12351,307 @@
      <td class="mavlink_name" valign="top">library_version_hash</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">The first 8 bytes (not characters printed in hex!) of the git hash.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="UAVCAN_NODE_STATUS" name="UAVCAN_NODE_STATUS">UAVCAN_NODE_STATUS (<a href="
+      #UAVCAN_NODE_STATUS">
+    #310
+   </a>
+   )
+  </h2>
+  <p class="description">General status information of an UAVCAN node. Please refer to the definition of the UAVCAN message "uavcan.protocol.NodeStatus" for the background information. The UAVCAN specification is available at http://uavcan.org.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">uptime_sec</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">The number of seconds since the start-up of the node.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">health</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Generalized node health status.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">mode</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Generalized operating mode.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">sub_mode</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Not used currently.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">vendor_specific_status_code</td>
+     <td class="mavlink_type" valign="top">uint16_t</td>
+     <td class="mavlink_comment">Vendor-specific status information.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="UAVCAN_NODE_INFO" name="UAVCAN_NODE_INFO">UAVCAN_NODE_INFO (<a href="
+      #UAVCAN_NODE_INFO">
+    #311
+   </a>
+   )
+  </h2>
+  <p class="description">General information describing a particular UAVCAN node. Please refer to the definition of the UAVCAN service "uavcan.protocol.GetNodeInfo" for the background information. This message should be emitted by the system whenever a new node appears online, or an existing node reboots. Additionally, it can be emitted upon request from the other end of the MAVLink channel (see MAV_CMD_UAVCAN_GET_NODE_INFO). It is also not prohibited to emit this message unconditionally at a low frequency. The UAVCAN specification is available at http://uavcan.org.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">time_usec</td>
+     <td class="mavlink_type" valign="top">uint64_t</td>
+     <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">uptime_sec</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">The number of seconds since the start-up of the node.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">name</td>
+     <td class="mavlink_type" valign="top">char[80]</td>
+     <td class="mavlink_comment">Node name string. For example, "sapog.px4.io".</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">hw_version_major</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Hardware major version number.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">hw_version_minor</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Hardware minor version number.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">hw_unique_id</td>
+     <td class="mavlink_type" valign="top">uint8_t[16]</td>
+     <td class="mavlink_comment">Hardware unique 128-bit ID.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">sw_version_major</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Software major version number.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">sw_version_minor</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Software minor version number.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">sw_vcs_commit</td>
+     <td class="mavlink_type" valign="top">uint32_t</td>
+     <td class="mavlink_comment">Version control system (VCS) revision identifier (e.g. git short commit hash). Zero if unknown.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_EXT_REQUEST_READ" name="PARAM_EXT_REQUEST_READ">PARAM_EXT_REQUEST_READ (<a href="
+      #PARAM_EXT_REQUEST_READ">
+    #320
+   </a>
+   )
+  </h2>
+  <p class="description">Request to read the value of a parameter with the either the param_id string id or param_index.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_system</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">System ID</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_component</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Component ID</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_id</td>
+     <td class="mavlink_type" valign="top">char[16]</td>
+     <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_index</td>
+     <td class="mavlink_type" valign="top">int16_t</td>
+     <td class="mavlink_comment">Parameter index. Set to -1 to use the Parameter ID field as identifier (else param_id will be ignored)</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_EXT_REQUEST_LIST" name="PARAM_EXT_REQUEST_LIST">PARAM_EXT_REQUEST_LIST (<a href="
+      #PARAM_EXT_REQUEST_LIST">
+    #321
+   </a>
+   )
+  </h2>
+  <p class="description">Request all parameters of this component. After this request, all parameters are emitted.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_system</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">System ID</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_component</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Component ID</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_EXT_VALUE" name="PARAM_EXT_VALUE">PARAM_EXT_VALUE (<a href="
+      #PARAM_EXT_VALUE">
+    #322
+   </a>
+   )
+  </h2>
+  <p class="description">Emit the value of a parameter. The inclusion of param_count and param_index in the message allows the recipient to keep track of received parameters and allows them to re-request missing parameters after a loss or timeout.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_id</td>
+     <td class="mavlink_type" valign="top">char[16]</td>
+     <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_value</td>
+     <td class="mavlink_type" valign="top">char[128]</td>
+     <td class="mavlink_comment">Parameter value</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_type</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_count</td>
+     <td class="mavlink_type" valign="top">uint16_t</td>
+     <td class="mavlink_comment">Total number of parameters</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_index</td>
+     <td class="mavlink_type" valign="top">uint16_t</td>
+     <td class="mavlink_comment">Index of this parameter</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_EXT_SET" name="PARAM_EXT_SET">PARAM_EXT_SET (<a href="
+      #PARAM_EXT_SET">
+    #323
+   </a>
+   )
+  </h2>
+  <p class="description">Set a parameter value. In order to deal with message loss (and retransmission of PARAM_EXT_SET), when setting a parameter value and the new value is the same as the current value, you will immediately get a PARAM_ACK_ACCEPTED response. If the current state is PARAM_ACK_IN_PROGRESS, you will accordingly receive a PARAM_ACK_IN_PROGRESS in response.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_system</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">System ID</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">target_component</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Component ID</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_id</td>
+     <td class="mavlink_type" valign="top">char[16]</td>
+     <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_value</td>
+     <td class="mavlink_type" valign="top">char[128]</td>
+     <td class="mavlink_comment">Parameter value</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_type</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.</td>
+    </tr>
+   </tbody>
+  </table>
+  <h2 class="mavlink_message_name" id="PARAM_EXT_ACK" name="PARAM_EXT_ACK">PARAM_EXT_ACK (<a href="
+      #PARAM_EXT_ACK">
+    #324
+   </a>
+   )
+  </h2>
+  <p class="description">Response from a PARAM_EXT_SET message.</p>
+  <table class="sortable">
+   <thead>
+    <tr>
+     <th class="mavlink_field_header">Field Name</th>
+     <th class="mavlink_field_header">Type</th>
+     <th class="mavlink_field_header">Description</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_id</td>
+     <td class="mavlink_type" valign="top">char[16]</td>
+     <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_value</td>
+     <td class="mavlink_type" valign="top">char[128]</td>
+     <td class="mavlink_comment">Parameter value (new value if PARAM_ACK_ACCEPTED, current value otherwise)</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_type</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.</td>
+    </tr>
+    <tr class="mavlink_field">
+     <td class="mavlink_name" valign="top">param_result</td>
+     <td class="mavlink_type" valign="top">uint8_t</td>
+     <td class="mavlink_comment">Result code: see the PARAM_ACK enum for possible codes.</td>
     </tr>
    </tbody>
   </table>
