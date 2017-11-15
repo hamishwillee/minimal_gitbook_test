@@ -32,22 +32,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ACCELCAL_VEHICLE_POS_LEFT">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#ACCELCAL_VEHICLE_POS_LEFT">ACCELCAL_VEHICLE_POS_LEFT</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ACCELCAL_VEHICLE_POS_RIGHT">
@@ -58,22 +48,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ACCELCAL_VEHICLE_POS_NOSEDOWN">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#ACCELCAL_VEHICLE_POS_NOSEDOWN">ACCELCAL_VEHICLE_POS_NOSEDOWN</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ACCELCAL_VEHICLE_POS_NOSEUP">
@@ -84,22 +64,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ACCELCAL_VEHICLE_POS_BACK">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#ACCELCAL_VEHICLE_POS_BACK">ACCELCAL_VEHICLE_POS_BACK</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -1127,22 +1097,12 @@
      </td>
      <td class="mavlink_comment">pre-initialization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LIMITS_DISABLED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#LIMITS_DISABLED">LIMITS_DISABLED</a>
      </td>
      <td class="mavlink_comment">disabled</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="LIMITS_ENABLED">
      <td class="mavlink_type" valign="top">2</td>
@@ -1151,22 +1111,12 @@
      </td>
      <td class="mavlink_comment">checking limits</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LIMITS_TRIGGERED">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#LIMITS_TRIGGERED">LIMITS_TRIGGERED</a>
      </td>
      <td class="mavlink_comment">a limit has been breached</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="LIMITS_RECOVERING">
      <td class="mavlink_type" valign="top">4</td>
@@ -1175,22 +1125,12 @@
      </td>
      <td class="mavlink_comment">taking action eg. RTL</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LIMITS_RECOVERED">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#LIMITS_RECOVERED">LIMITS_RECOVERED</a>
      </td>
      <td class="mavlink_comment">we're no longer in breach of a limit</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1215,11 +1155,6 @@
      </td>
      <td class="mavlink_comment">pre-initialization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LIMIT_GEOFENCE">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
@@ -1227,22 +1162,12 @@
      </td>
      <td class="mavlink_comment">disabled</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LIMIT_ALTITUDE">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#LIMIT_ALTITUDE">LIMIT_ALTITUDE</a>
      </td>
      <td class="mavlink_comment">checking limits</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1266,22 +1191,12 @@
      </td>
      <td class="mavlink_comment">Flag set when requiring favorable winds for landing.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LAND_IMMEDIATELY">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#LAND_IMMEDIATELY">LAND_IMMEDIATELY</a>
      </td>
      <td class="mavlink_comment">Flag set when plane is to immediately descend to break altitude and land without GCS intervention. Flag not set when plane is to loiter at Rally point until commanded to land.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1306,11 +1221,6 @@
      </td>
      <td class="mavlink_comment">Disable parachute release</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PARACHUTE_ENABLE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -1318,22 +1228,12 @@
      </td>
      <td class="mavlink_comment">Enable parachute release</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PARACHUTE_RELEASE">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#PARACHUTE_RELEASE">PARACHUTE_RELEASE</a>
      </td>
      <td class="mavlink_comment">Release parachute</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1357,22 +1257,12 @@
      </td>
      <td class="mavlink_comment">gripper release of cargo</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GRIPPER_ACTION_GRAB">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GRIPPER_ACTION_GRAB">GRIPPER_ACTION_GRAB</a>
      </td>
      <td class="mavlink_comment">gripper grabs onto cargo</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1397,22 +1287,12 @@
      </td>
      <td class="mavlink_comment">Camera heartbeat, announce camera component ID at 1hz</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_TRIGGER">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_STATUS_TYPE_TRIGGER">CAMERA_STATUS_TYPE_TRIGGER</a>
      </td>
      <td class="mavlink_comment">Camera image triggered</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_DISCONNECT">
      <td class="mavlink_type" valign="top">2</td>
@@ -1421,22 +1301,12 @@
      </td>
      <td class="mavlink_comment">Camera connection lost</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_ERROR">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_STATUS_TYPE_ERROR">CAMERA_STATUS_TYPE_ERROR</a>
      </td>
      <td class="mavlink_comment">Camera unknown error</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_LOWBATT">
      <td class="mavlink_type" valign="top">4</td>
@@ -1445,11 +1315,6 @@
      </td>
      <td class="mavlink_comment">Camera battery low. Parameter p1 shows reported voltage</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_LOWSTORE">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -1457,22 +1322,12 @@
      </td>
      <td class="mavlink_comment">Camera storage low. Parameter p1 shows reported shots remaining</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_STATUS_TYPE_LOWSTOREV">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_STATUS_TYPE_LOWSTOREV">CAMERA_STATUS_TYPE_LOWSTOREV</a>
      </td>
      <td class="mavlink_comment">Camera storage low. Parameter p1 shows reported video minutes remaining</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1497,22 +1352,12 @@
      </td>
      <td class="mavlink_comment">Shooting photos, not video</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_FEEDBACK_VIDEO">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_FEEDBACK_VIDEO">CAMERA_FEEDBACK_VIDEO</a>
      </td>
      <td class="mavlink_comment">Shooting video, not stills</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CAMERA_FEEDBACK_BADEXPOSURE">
      <td class="mavlink_type" valign="top">2</td>
@@ -1521,11 +1366,6 @@
      </td>
      <td class="mavlink_comment">Unable to achieve requested exposure (e.g. shutter speed too low)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_FEEDBACK_CLOSEDLOOP">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -1533,22 +1373,12 @@
      </td>
      <td class="mavlink_comment">Closed loop feedback from camera, we know for sure it has successfully taken a picture</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_FEEDBACK_OPENLOOP">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_FEEDBACK_OPENLOOP">CAMERA_FEEDBACK_OPENLOOP</a>
      </td>
      <td class="mavlink_comment">Open loop camera, an image trigger has been requested but we can't know for sure it has successfully taken a picture</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1573,22 +1403,12 @@
      </td>
      <td class="mavlink_comment">Gimbal is powered on but has not started initializing yet</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_CALIBRATING_PITCH">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_GIMBAL_CALIBRATING_PITCH">MAV_MODE_GIMBAL_CALIBRATING_PITCH</a>
      </td>
      <td class="mavlink_comment">Gimbal is currently running calibration on the pitch axis</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_CALIBRATING_ROLL">
      <td class="mavlink_type" valign="top">2</td>
@@ -1597,22 +1417,12 @@
      </td>
      <td class="mavlink_comment">Gimbal is currently running calibration on the roll axis</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_CALIBRATING_YAW">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_GIMBAL_CALIBRATING_YAW">MAV_MODE_GIMBAL_CALIBRATING_YAW</a>
      </td>
      <td class="mavlink_comment">Gimbal is currently running calibration on the yaw axis</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_INITIALIZED">
      <td class="mavlink_type" valign="top">4</td>
@@ -1621,11 +1431,6 @@
      </td>
      <td class="mavlink_comment">Gimbal has finished calibrating and initializing, but is relaxed pending reception of first rate command from copter</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_ACTIVE">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -1633,22 +1438,12 @@
      </td>
      <td class="mavlink_comment">Gimbal is actively stabilizing</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_GIMBAL_RATE_CMD_TIMEOUT">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_GIMBAL_RATE_CMD_TIMEOUT">MAV_MODE_GIMBAL_RATE_CMD_TIMEOUT</a>
      </td>
      <td class="mavlink_comment">Gimbal is relaxed because it missed more than 10 expected rate command messages in a row. Gimbal will move back to active mode when it receives a new rate command</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1673,11 +1468,6 @@
      </td>
      <td class="mavlink_comment">Gimbal yaw axis</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_PITCH">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -1685,22 +1475,12 @@
      </td>
      <td class="mavlink_comment">Gimbal pitch axis</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_ROLL">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GIMBAL_AXIS_ROLL">GIMBAL_AXIS_ROLL</a>
      </td>
      <td class="mavlink_comment">Gimbal roll axis</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1725,11 +1505,6 @@
      </td>
      <td class="mavlink_comment">Axis calibration is in progress</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_CALIBRATION_STATUS_SUCCEEDED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -1737,22 +1512,12 @@
      </td>
      <td class="mavlink_comment">Axis calibration succeeded</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_CALIBRATION_STATUS_FAILED">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GIMBAL_AXIS_CALIBRATION_STATUS_FAILED">GIMBAL_AXIS_CALIBRATION_STATUS_FAILED</a>
      </td>
      <td class="mavlink_comment">Axis calibration failed</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1777,11 +1542,6 @@
      </td>
      <td class="mavlink_comment">Whether or not this axis requires calibration is unknown at this time</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_CALIBRATION_REQUIRED_TRUE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -1789,22 +1549,12 @@
      </td>
      <td class="mavlink_comment">This axis requires calibration</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GIMBAL_AXIS_CALIBRATION_REQUIRED_FALSE">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GIMBAL_AXIS_CALIBRATION_REQUIRED_FALSE">GIMBAL_AXIS_CALIBRATION_REQUIRED_FALSE</a>
      </td>
      <td class="mavlink_comment">This axis does not require calibration</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1829,22 +1579,12 @@
      </td>
      <td class="mavlink_comment">No GoPro connected</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_HEARTBEAT_STATUS_INCOMPATIBLE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_HEARTBEAT_STATUS_INCOMPATIBLE">GOPRO_HEARTBEAT_STATUS_INCOMPATIBLE</a>
      </td>
      <td class="mavlink_comment">The detected GoPro is not HeroBus compatible</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_HEARTBEAT_STATUS_CONNECTED">
      <td class="mavlink_type" valign="top">2</td>
@@ -1853,22 +1593,12 @@
      </td>
      <td class="mavlink_comment">A HeroBus compatible GoPro is connected</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_HEARTBEAT_STATUS_ERROR">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_HEARTBEAT_STATUS_ERROR">GOPRO_HEARTBEAT_STATUS_ERROR</a>
      </td>
      <td class="mavlink_comment">An unrecoverable error was encountered with the connected GoPro, it may require a power cycle</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1893,11 +1623,6 @@
      </td>
      <td class="mavlink_comment">GoPro is currently recording</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="ENUM_GOPRO_REQUEST_STATUS">
@@ -1921,22 +1646,12 @@
      </td>
      <td class="mavlink_comment">The write message with ID indicated succeeded</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_REQUEST_FAILED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_REQUEST_FAILED">GOPRO_REQUEST_FAILED</a>
      </td>
      <td class="mavlink_comment">The write message with ID indicated failed</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1963,11 +1678,6 @@
       (Get/Set)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_CAPTURE_MODE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -1975,11 +1685,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_SHUTTER">
@@ -1991,11 +1696,6 @@
       (___/Set)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_BATTERY">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2003,11 +1703,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/___)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_MODEL">
@@ -2019,11 +1714,6 @@
       (Get/___)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_VIDEO_SETTINGS">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -2031,11 +1721,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_LOW_LIGHT">
@@ -2047,11 +1732,6 @@
       (Get/Set)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PHOTO_RESOLUTION">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
@@ -2059,11 +1739,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PHOTO_BURST_RATE">
@@ -2075,11 +1750,6 @@
       (Get/Set)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
@@ -2087,11 +1757,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE_WHITE_BALANCE">
@@ -2103,11 +1768,6 @@
       (Get/Set) Hero 3+ Only
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE_COLOUR">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
@@ -2115,11 +1775,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set) Hero 3+ Only
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE_GAIN">
@@ -2131,11 +1786,6 @@
       (Get/Set) Hero 3+ Only
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE_SHARPNESS">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
@@ -2143,11 +1793,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set) Hero 3+ Only
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_PROTUNE_EXPOSURE">
@@ -2159,11 +1804,6 @@
       (Get/Set) Hero 3+ Only
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_TIME">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
@@ -2173,11 +1813,6 @@
       (Get/Set)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_COMMAND_CHARGING">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
@@ -2185,11 +1820,6 @@
      </td>
      <td class="mavlink_comment">
       (Get/Set)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -2215,22 +1845,12 @@
      </td>
      <td class="mavlink_comment">Video mode</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_PHOTO">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_CAPTURE_MODE_PHOTO">GOPRO_CAPTURE_MODE_PHOTO</a>
      </td>
      <td class="mavlink_comment">Photo mode</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_BURST">
      <td class="mavlink_type" valign="top">2</td>
@@ -2239,22 +1859,12 @@
      </td>
      <td class="mavlink_comment">Burst mode, hero 3+ only</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_TIME_LAPSE">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_CAPTURE_MODE_TIME_LAPSE">GOPRO_CAPTURE_MODE_TIME_LAPSE</a>
      </td>
      <td class="mavlink_comment">Time lapse mode, hero 3+ only</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_MULTI_SHOT">
      <td class="mavlink_type" valign="top">4</td>
@@ -2263,22 +1873,12 @@
      </td>
      <td class="mavlink_comment">Multi shot mode, hero 4 only</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_PLAYBACK">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_CAPTURE_MODE_PLAYBACK">GOPRO_CAPTURE_MODE_PLAYBACK</a>
      </td>
      <td class="mavlink_comment">Playback mode, hero 4 only, silver only except when LCD or HDMI is connected to black</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_SETUP">
      <td class="mavlink_type" valign="top">6</td>
@@ -2287,22 +1887,12 @@
      </td>
      <td class="mavlink_comment">Playback mode, hero 4 only</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_CAPTURE_MODE_UNKNOWN">
      <td class="mavlink_type" valign="top">255</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_CAPTURE_MODE_UNKNOWN">GOPRO_CAPTURE_MODE_UNKNOWN</a>
      </td>
      <td class="mavlink_comment">Mode not yet known</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2327,22 +1917,12 @@
      </td>
      <td class="mavlink_comment">848 x 480 (480p)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_720p">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_720p">GOPRO_RESOLUTION_720p</a>
      </td>
      <td class="mavlink_comment">1280 x 720 (720p)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_960p">
      <td class="mavlink_type" valign="top">2</td>
@@ -2351,22 +1931,12 @@
      </td>
      <td class="mavlink_comment">1280 x 960 (960p)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_1080p">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_1080p">GOPRO_RESOLUTION_1080p</a>
      </td>
      <td class="mavlink_comment">1920 x 1080 (1080p)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_1440p">
      <td class="mavlink_type" valign="top">4</td>
@@ -2375,22 +1945,12 @@
      </td>
      <td class="mavlink_comment">1920 x 1440 (1440p)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_2_7k_17_9">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_2_7k_17_9">GOPRO_RESOLUTION_2_7k_17_9</a>
      </td>
      <td class="mavlink_comment">2704 x 1440 (2.7k-17:9)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_2_7k_16_9">
      <td class="mavlink_type" valign="top">6</td>
@@ -2399,22 +1959,12 @@
      </td>
      <td class="mavlink_comment">2704 x 1524 (2.7k-16:9)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_2_7k_4_3">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_2_7k_4_3">GOPRO_RESOLUTION_2_7k_4_3</a>
      </td>
      <td class="mavlink_comment">2704 x 2028 (2.7k-4:3)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_4k_16_9">
      <td class="mavlink_type" valign="top">8</td>
@@ -2423,22 +1973,12 @@
      </td>
      <td class="mavlink_comment">3840 x 2160 (4k-16:9)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_4k_17_9">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_4k_17_9">GOPRO_RESOLUTION_4k_17_9</a>
      </td>
      <td class="mavlink_comment">4096 x 2160 (4k-17:9)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_720p_SUPERVIEW">
      <td class="mavlink_type" valign="top">10</td>
@@ -2447,22 +1987,12 @@
      </td>
      <td class="mavlink_comment">1280 x 720 (720p-SuperView)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_1080p_SUPERVIEW">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_1080p_SUPERVIEW">GOPRO_RESOLUTION_1080p_SUPERVIEW</a>
      </td>
      <td class="mavlink_comment">1920 x 1080 (1080p-SuperView)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_2_7k_SUPERVIEW">
      <td class="mavlink_type" valign="top">12</td>
@@ -2471,22 +2001,12 @@
      </td>
      <td class="mavlink_comment">2704 x 1520 (2.7k-SuperView)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_RESOLUTION_4k_SUPERVIEW">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_RESOLUTION_4k_SUPERVIEW">GOPRO_RESOLUTION_4k_SUPERVIEW</a>
      </td>
      <td class="mavlink_comment">3840 x 2160 (4k-SuperView)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2511,22 +2031,12 @@
      </td>
      <td class="mavlink_comment">12 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_15">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_15">GOPRO_FRAME_RATE_15</a>
      </td>
      <td class="mavlink_comment">15 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_24">
      <td class="mavlink_type" valign="top">2</td>
@@ -2535,22 +2045,12 @@
      </td>
      <td class="mavlink_comment">24 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_25">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_25">GOPRO_FRAME_RATE_25</a>
      </td>
      <td class="mavlink_comment">25 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_30">
      <td class="mavlink_type" valign="top">4</td>
@@ -2559,22 +2059,12 @@
      </td>
      <td class="mavlink_comment">30 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_48">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_48">GOPRO_FRAME_RATE_48</a>
      </td>
      <td class="mavlink_comment">48 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_50">
      <td class="mavlink_type" valign="top">6</td>
@@ -2583,22 +2073,12 @@
      </td>
      <td class="mavlink_comment">50 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_60">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_60">GOPRO_FRAME_RATE_60</a>
      </td>
      <td class="mavlink_comment">60 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_80">
      <td class="mavlink_type" valign="top">8</td>
@@ -2607,22 +2087,12 @@
      </td>
      <td class="mavlink_comment">80 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_90">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_90">GOPRO_FRAME_RATE_90</a>
      </td>
      <td class="mavlink_comment">90 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_100">
      <td class="mavlink_type" valign="top">10</td>
@@ -2631,22 +2101,12 @@
      </td>
      <td class="mavlink_comment">100 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_120">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_120">GOPRO_FRAME_RATE_120</a>
      </td>
      <td class="mavlink_comment">120 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_240">
      <td class="mavlink_type" valign="top">12</td>
@@ -2655,22 +2115,12 @@
      </td>
      <td class="mavlink_comment">240 FPS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FRAME_RATE_12_5">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FRAME_RATE_12_5">GOPRO_FRAME_RATE_12_5</a>
      </td>
      <td class="mavlink_comment">12.5 FPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2695,11 +2145,6 @@
      </td>
      <td class="mavlink_comment">0x00: Wide</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FIELD_OF_VIEW_MEDIUM">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -2707,22 +2152,12 @@
      </td>
      <td class="mavlink_comment">0x01: Medium</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_FIELD_OF_VIEW_NARROW">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_FIELD_OF_VIEW_NARROW">GOPRO_FIELD_OF_VIEW_NARROW</a>
      </td>
      <td class="mavlink_comment">0x02: Narrow</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2747,11 +2182,6 @@
      </td>
      <td class="mavlink_comment">0=NTSC, 1=PAL</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="ENUM_GOPRO_PHOTO_RESOLUTION">
@@ -2775,22 +2205,12 @@
      </td>
      <td class="mavlink_comment">5MP Medium</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PHOTO_RESOLUTION_7MP_MEDIUM">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PHOTO_RESOLUTION_7MP_MEDIUM">GOPRO_PHOTO_RESOLUTION_7MP_MEDIUM</a>
      </td>
      <td class="mavlink_comment">7MP Medium</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PHOTO_RESOLUTION_7MP_WIDE">
      <td class="mavlink_type" valign="top">2</td>
@@ -2799,11 +2219,6 @@
      </td>
      <td class="mavlink_comment">7MP Wide</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PHOTO_RESOLUTION_10MP_WIDE">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2811,22 +2226,12 @@
      </td>
      <td class="mavlink_comment">10MP Wide</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PHOTO_RESOLUTION_12MP_WIDE">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PHOTO_RESOLUTION_12MP_WIDE">GOPRO_PHOTO_RESOLUTION_12MP_WIDE</a>
      </td>
      <td class="mavlink_comment">12MP Wide</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2851,22 +2256,12 @@
      </td>
      <td class="mavlink_comment">Auto</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_WHITE_BALANCE_3000K">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_WHITE_BALANCE_3000K">GOPRO_PROTUNE_WHITE_BALANCE_3000K</a>
      </td>
      <td class="mavlink_comment">3000K</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_WHITE_BALANCE_5500K">
      <td class="mavlink_type" valign="top">2</td>
@@ -2875,11 +2270,6 @@
      </td>
      <td class="mavlink_comment">5500K</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_WHITE_BALANCE_6500K">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2887,22 +2277,12 @@
      </td>
      <td class="mavlink_comment">6500K</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_WHITE_BALANCE_RAW">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_WHITE_BALANCE_RAW">GOPRO_PROTUNE_WHITE_BALANCE_RAW</a>
      </td>
      <td class="mavlink_comment">Camera Raw</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2927,22 +2307,12 @@
      </td>
      <td class="mavlink_comment">Auto</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_COLOUR_NEUTRAL">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_COLOUR_NEUTRAL">GOPRO_PROTUNE_COLOUR_NEUTRAL</a>
      </td>
      <td class="mavlink_comment">Neutral</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2967,22 +2337,12 @@
      </td>
      <td class="mavlink_comment">ISO 400</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_GAIN_800">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_GAIN_800">GOPRO_PROTUNE_GAIN_800</a>
      </td>
      <td class="mavlink_comment">ISO 800 (Only Hero 4)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_GAIN_1600">
      <td class="mavlink_type" valign="top">2</td>
@@ -2991,11 +2351,6 @@
      </td>
      <td class="mavlink_comment">ISO 1600</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_GAIN_3200">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -3003,22 +2358,12 @@
      </td>
      <td class="mavlink_comment">ISO 3200 (Only Hero 4)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_GAIN_6400">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_GAIN_6400">GOPRO_PROTUNE_GAIN_6400</a>
      </td>
      <td class="mavlink_comment">ISO 6400</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3043,11 +2388,6 @@
      </td>
      <td class="mavlink_comment">Low Sharpness</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_SHARPNESS_MEDIUM">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -3055,22 +2395,12 @@
      </td>
      <td class="mavlink_comment">Medium Sharpness</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_SHARPNESS_HIGH">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_SHARPNESS_HIGH">GOPRO_PROTUNE_SHARPNESS_HIGH</a>
      </td>
      <td class="mavlink_comment">High Sharpness</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3097,11 +2427,6 @@
       -5.0 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_4_5">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -3109,11 +2434,6 @@
      </td>
      <td class="mavlink_comment">
       -4.5 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_4_0">
@@ -3125,11 +2445,6 @@
       -4.0 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_3_5">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -3137,11 +2452,6 @@
      </td>
      <td class="mavlink_comment">
       -3.5 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_3_0">
@@ -3153,11 +2463,6 @@
       -3.0 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_2_5">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -3165,11 +2470,6 @@
      </td>
      <td class="mavlink_comment">
       -2.5 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_2_0">
@@ -3181,11 +2481,6 @@
       -2.0 EV
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_1_5">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
@@ -3193,11 +2488,6 @@
      </td>
      <td class="mavlink_comment">
       -1.5 EV
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_1_0">
@@ -3209,11 +2499,6 @@
       -1.0 EV
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_NEG_0_5">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
@@ -3223,22 +2508,12 @@
       -0.5 EV
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_ZERO">
      <td class="mavlink_type" valign="top">10</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_PROTUNE_EXPOSURE_ZERO">GOPRO_PROTUNE_EXPOSURE_ZERO</a>
      </td>
      <td class="mavlink_comment">0.0 EV</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_0_5">
      <td class="mavlink_type" valign="top">11</td>
@@ -3247,11 +2522,6 @@
      </td>
      <td class="mavlink_comment">
       +0.5 EV
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_1_0">
@@ -3263,11 +2533,6 @@
       +1.0 EV
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_1_5">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
@@ -3275,11 +2540,6 @@
      </td>
      <td class="mavlink_comment">
       +1.5 EV
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_2_0">
@@ -3291,11 +2551,6 @@
       +2.0 EV
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_2_5">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
@@ -3303,11 +2558,6 @@
      </td>
      <td class="mavlink_comment">
       +2.5 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_3_0">
@@ -3319,11 +2569,6 @@
       +3.0 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_3_5">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">
@@ -3331,11 +2576,6 @@
      </td>
      <td class="mavlink_comment">
       +3.5 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_4_0">
@@ -3347,11 +2587,6 @@
       +4.0 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_4_5">
      <td class="mavlink_type" valign="top">19</td>
      <td class="mavlink_name" valign="top">
@@ -3361,11 +2596,6 @@
       +4.5 EV (Hero 3+ Only)
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_PROTUNE_EXPOSURE_POS_5_0">
      <td class="mavlink_type" valign="top">20</td>
      <td class="mavlink_name" valign="top">
@@ -3373,11 +2603,6 @@
      </td>
      <td class="mavlink_comment">
       +5.0 EV (Hero 3+ Only)
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -3403,22 +2628,12 @@
      </td>
      <td class="mavlink_comment">Charging disabled</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_CHARGING_ENABLED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_CHARGING_ENABLED">GOPRO_CHARGING_ENABLED</a>
      </td>
      <td class="mavlink_comment">Charging enabled</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3443,22 +2658,12 @@
      </td>
      <td class="mavlink_comment">Unknown gopro model</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_MODEL_HERO_3_PLUS_SILVER">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_MODEL_HERO_3_PLUS_SILVER">GOPRO_MODEL_HERO_3_PLUS_SILVER</a>
      </td>
      <td class="mavlink_comment">Hero 3+ Silver (HeroBus not supported by GoPro)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_MODEL_HERO_3_PLUS_BLACK">
      <td class="mavlink_type" valign="top">2</td>
@@ -3467,11 +2672,6 @@
      </td>
      <td class="mavlink_comment">Hero 3+ Black</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_MODEL_HERO_4_SILVER">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -3479,22 +2679,12 @@
      </td>
      <td class="mavlink_comment">Hero 4 Silver</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_MODEL_HERO_4_BLACK">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_MODEL_HERO_4_BLACK">GOPRO_MODEL_HERO_4_BLACK</a>
      </td>
      <td class="mavlink_comment">Hero 4 Black</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3519,22 +2709,12 @@
      </td>
      <td class="mavlink_comment">3 Shots / 1 Second</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_5_IN_1_SECOND">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_BURST_RATE_5_IN_1_SECOND">GOPRO_BURST_RATE_5_IN_1_SECOND</a>
      </td>
      <td class="mavlink_comment">5 Shots / 1 Second</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_10_IN_1_SECOND">
      <td class="mavlink_type" valign="top">2</td>
@@ -3543,22 +2723,12 @@
      </td>
      <td class="mavlink_comment">10 Shots / 1 Second</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_10_IN_2_SECOND">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_BURST_RATE_10_IN_2_SECOND">GOPRO_BURST_RATE_10_IN_2_SECOND</a>
      </td>
      <td class="mavlink_comment">10 Shots / 2 Second</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_10_IN_3_SECOND">
      <td class="mavlink_type" valign="top">4</td>
@@ -3567,22 +2737,12 @@
      </td>
      <td class="mavlink_comment">10 Shots / 3 Second (Hero 4 Only)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_30_IN_1_SECOND">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_BURST_RATE_30_IN_1_SECOND">GOPRO_BURST_RATE_30_IN_1_SECOND</a>
      </td>
      <td class="mavlink_comment">30 Shots / 1 Second</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_30_IN_2_SECOND">
      <td class="mavlink_type" valign="top">6</td>
@@ -3591,11 +2751,6 @@
      </td>
      <td class="mavlink_comment">30 Shots / 2 Second</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_30_IN_3_SECOND">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
@@ -3603,22 +2758,12 @@
      </td>
      <td class="mavlink_comment">30 Shots / 3 Second</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GOPRO_BURST_RATE_30_IN_6_SECOND">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#GOPRO_BURST_RATE_30_IN_6_SECOND">GOPRO_BURST_RATE_30_IN_6_SECOND</a>
      </td>
      <td class="mavlink_comment">30 Shots / 6 Second</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3643,11 +2788,6 @@
      </td>
      <td class="mavlink_comment">LED patterns off (return control to regular vehicle control)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LED_CONTROL_PATTERN_FIRMWAREUPDATE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -3655,22 +2795,12 @@
      </td>
      <td class="mavlink_comment">LEDs show pattern during firmware update</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LED_CONTROL_PATTERN_CUSTOM">
      <td class="mavlink_type" valign="top">255</td>
      <td class="mavlink_name" valign="top">
       <a href="#LED_CONTROL_PATTERN_CUSTOM">LED_CONTROL_PATTERN_CUSTOM</a>
      </td>
      <td class="mavlink_comment">Custom Pattern using custom bytes fields</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3694,22 +2824,12 @@
      </td>
      <td class="mavlink_comment">set if EKF's attitude estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="EKF_VELOCITY_HORIZ">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#EKF_VELOCITY_HORIZ">EKF_VELOCITY_HORIZ</a>
      </td>
      <td class="mavlink_comment">set if EKF's horizontal velocity estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="EKF_VELOCITY_VERT">
      <td class="mavlink_type" valign="top">4</td>
@@ -3718,22 +2838,12 @@
      </td>
      <td class="mavlink_comment">set if EKF's vertical velocity estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="EKF_POS_HORIZ_REL">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#EKF_POS_HORIZ_REL">EKF_POS_HORIZ_REL</a>
      </td>
      <td class="mavlink_comment">set if EKF's horizontal position (relative) estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="EKF_POS_HORIZ_ABS">
      <td class="mavlink_type" valign="top">16</td>
@@ -3742,22 +2852,12 @@
      </td>
      <td class="mavlink_comment">set if EKF's horizontal position (absolute) estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="EKF_POS_VERT_ABS">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#EKF_POS_VERT_ABS">EKF_POS_VERT_ABS</a>
      </td>
      <td class="mavlink_comment">set if EKF's vertical position (absolute) estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="EKF_POS_VERT_AGL">
      <td class="mavlink_type" valign="top">64</td>
@@ -3766,22 +2866,12 @@
      </td>
      <td class="mavlink_comment">set if EKF's vertical position (above ground) estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="EKF_CONST_POS_MODE">
      <td class="mavlink_type" valign="top">128</td>
      <td class="mavlink_name" valign="top">
       <a href="#EKF_CONST_POS_MODE">EKF_CONST_POS_MODE</a>
      </td>
      <td class="mavlink_comment">EKF is in constant position mode and does not know it's absolute or relative position</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="EKF_PRED_POS_HORIZ_REL">
      <td class="mavlink_type" valign="top">256</td>
@@ -3790,22 +2880,12 @@
      </td>
      <td class="mavlink_comment">set if EKF's predicted horizontal position (relative) estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="EKF_PRED_POS_HORIZ_ABS">
      <td class="mavlink_type" valign="top">512</td>
      <td class="mavlink_name" valign="top">
       <a href="#EKF_PRED_POS_HORIZ_ABS">EKF_PRED_POS_HORIZ_ABS</a>
      </td>
      <td class="mavlink_comment">set if EKF's predicted horizontal position (absolute) estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -3831,22 +2911,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PID_TUNING_PITCH">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#PID_TUNING_PITCH">PID_TUNING_PITCH</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="PID_TUNING_YAW">
@@ -3857,22 +2927,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PID_TUNING_ACCZ">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#PID_TUNING_ACCZ">PID_TUNING_ACCZ</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="PID_TUNING_STEER">
@@ -3883,22 +2943,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PID_TUNING_LANDING">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#PID_TUNING_LANDING">PID_TUNING_LANDING</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -3925,22 +2975,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAG_CAL_WAITING_TO_START">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAG_CAL_WAITING_TO_START">MAG_CAL_WAITING_TO_START</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAG_CAL_RUNNING_STEP_ONE">
@@ -3951,22 +2991,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAG_CAL_RUNNING_STEP_TWO">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAG_CAL_RUNNING_STEP_TWO">MAG_CAL_RUNNING_STEP_TWO</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAG_CAL_SUCCESS">
@@ -3977,22 +3007,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAG_CAL_FAILED">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAG_CAL_FAILED">MAG_CAL_FAILED</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -4017,22 +3037,12 @@
      </td>
      <td class="mavlink_comment">UAV to stop sending DataFlash blocks</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_REMOTE_LOG_DATA_BLOCK_START">
      <td class="mavlink_type" valign="top">2147483646</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_REMOTE_LOG_DATA_BLOCK_START">MAV_REMOTE_LOG_DATA_BLOCK_START</a>
      </td>
      <td class="mavlink_comment">UAV to start sending DataFlash blocks</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -4056,22 +3066,12 @@
      </td>
      <td class="mavlink_comment">This block has NOT been received</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_REMOTE_LOG_DATA_BLOCK_ACK">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_REMOTE_LOG_DATA_BLOCK_ACK">MAV_REMOTE_LOG_DATA_BLOCK_ACK</a>
      </td>
      <td class="mavlink_comment">This block has been received</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -4095,22 +3095,12 @@
      </td>
      <td class="mavlink_comment">I2C Device operation</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="DEVICE_OP_BUSTYPE_SPI">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#DEVICE_OP_BUSTYPE_SPI">DEVICE_OP_BUSTYPE_SPI</a>
      </td>
      <td class="mavlink_comment">SPI Device operation</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>

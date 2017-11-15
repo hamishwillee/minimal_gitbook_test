@@ -22,22 +22,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_STATE_AUTOPILOT_ENABLED">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_DYNAMIC_STATE_AUTOPILOT_ENABLED">UAVIONIX_ADSB_OUT_DYNAMIC_STATE_AUTOPILOT_ENABLED</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_STATE_NICBARO_CROSSCHECKED">
@@ -48,11 +38,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_STATE_ON_GROUND">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
@@ -61,22 +46,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_STATE_IDENT">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_DYNAMIC_STATE_IDENT">UAVIONIX_ADSB_OUT_DYNAMIC_STATE_IDENT</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -102,11 +77,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_RF_SELECT_RX_ENABLED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -115,22 +85,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_RF_SELECT_TX_ENABLED">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_RF_SELECT_TX_ENABLED">UAVIONIX_ADSB_OUT_RF_SELECT_TX_ENABLED</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -156,22 +116,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_NONE_1">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_NONE_1">UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_NONE_1</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_2D">
@@ -182,22 +132,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_3D">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_3D">UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_3D</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_DGPS">
@@ -208,22 +148,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_RTK">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_RTK">UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX_RTK</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -249,22 +179,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_RF_HEALTH_OK">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_RF_HEALTH_OK">UAVIONIX_ADSB_RF_HEALTH_OK</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_RF_HEALTH_FAIL_TX">
@@ -275,22 +195,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_RF_HEALTH_FAIL_RX">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_RF_HEALTH_FAIL_RX">UAVIONIX_ADSB_RF_HEALTH_FAIL_RX</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -316,22 +226,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L15M_W23M">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L15M_W23M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L15M_W23M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L25M_W28P5M">
@@ -342,22 +242,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L25_34M">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L25_34M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L25_34M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L35_33M">
@@ -368,22 +258,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L35_38M">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L35_38M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L35_38M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L45_39P5M">
@@ -394,22 +274,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L45_45M">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L45_45M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L45_45M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L55_45M">
@@ -420,22 +290,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L55_52M">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L55_52M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L55_52M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L65_59P5M">
@@ -446,22 +306,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L65_67M">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L65_67M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L65_67M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L75_W72P5M">
@@ -472,22 +322,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L75_W80M">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L75_W80M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L75_W80M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L85_W80M">
@@ -498,22 +338,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L85_W90M">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L85_W90M">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE_L85_W90M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -539,22 +369,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_2M">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_2M">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_2M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_4M">
@@ -565,22 +385,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_6M">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_6M">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_LEFT_6M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_0M">
@@ -591,22 +401,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_2M">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_2M">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_2M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_4M">
@@ -617,22 +417,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_6M">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_6M">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT_RIGHT_6M</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -658,22 +448,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON_APPLIED_BY_SENSOR">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON_APPLIED_BY_SENSOR">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON_APPLIED_BY_SENSOR</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -699,22 +479,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_GENERAL_EMERGENCY">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_GENERAL_EMERGENCY">UAVIONIX_ADSB_OUT_GENERAL_EMERGENCY</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_LIFEGUARD_EMERGENCY">
@@ -725,22 +495,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_MINIMUM_FUEL_EMERGENCY">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_MINIMUM_FUEL_EMERGENCY">UAVIONIX_ADSB_OUT_MINIMUM_FUEL_EMERGENCY</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_NO_COMM_EMERGENCY">
@@ -751,22 +511,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_UNLAWFUL_INTERFERANCE_EMERGENCY">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_UNLAWFUL_INTERFERANCE_EMERGENCY">UAVIONIX_ADSB_OUT_UNLAWFUL_INTERFERANCE_EMERGENCY</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_DOWNED_AIRCRAFT_EMERGENCY">
@@ -777,22 +527,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVIONIX_ADSB_OUT_RESERVED">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVIONIX_ADSB_OUT_RESERVED">UAVIONIX_ADSB_OUT_RESERVED</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>

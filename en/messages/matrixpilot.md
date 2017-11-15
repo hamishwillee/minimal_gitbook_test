@@ -26,22 +26,12 @@
      </td>
      <td class="mavlink_comment">Read all parameters from storage</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_WRITE_ALL">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PFS_CMD_WRITE_ALL">MAV_PFS_CMD_WRITE_ALL</a>
      </td>
      <td class="mavlink_comment">Write all parameters to storage</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_CLEAR_ALL">
      <td class="mavlink_type" valign="top">2</td>
@@ -50,22 +40,12 @@
      </td>
      <td class="mavlink_comment">Clear all  parameters in storage</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_READ_SPECIFIC">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PFS_CMD_READ_SPECIFIC">MAV_PFS_CMD_READ_SPECIFIC</a>
      </td>
      <td class="mavlink_comment">Read specific parameters from storage</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_WRITE_SPECIFIC">
      <td class="mavlink_type" valign="top">4</td>
@@ -74,11 +54,6 @@
      </td>
      <td class="mavlink_comment">Write specific parameters to storage</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_CLEAR_SPECIFIC">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -86,22 +61,12 @@
      </td>
      <td class="mavlink_comment">Clear specific parameters in storage</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_DO_NOTHING">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PFS_CMD_DO_NOTHING">MAV_PFS_CMD_DO_NOTHING</a>
      </td>
      <td class="mavlink_comment">do nothing</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>

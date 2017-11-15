@@ -27,11 +27,6 @@
      </td>
      <td class="mavlink_comment">Raw input pulse widts sent to output</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MODE_MANUAL_SCALED">
      <td class="mavlink_type" valign="top">
      </td>
@@ -39,11 +34,6 @@
       <a href="#MODE_MANUAL_SCALED">MODE_MANUAL_SCALED</a>
      </td>
      <td class="mavlink_comment">Inputs are normalized using calibration, the converted back to raw pulse widths for output</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_ATT">
      <td class="mavlink_type" valign="top">
@@ -53,11 +43,6 @@
      </td>
      <td class="mavlink_comment">dfsdfs</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_VEL">
      <td class="mavlink_type" valign="top">
      </td>
@@ -66,11 +51,6 @@
      </td>
      <td class="mavlink_comment">dfsfds</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_POS">
      <td class="mavlink_type" valign="top">
      </td>
@@ -78,11 +58,6 @@
       <a href="#MODE_AUTO_PID_POS">MODE_AUTO_PID_POS</a>
      </td>
      <td class="mavlink_comment">dfsdfsdfs</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -108,11 +83,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="NAV_AHRS">
      <td class="mavlink_type" valign="top">
      </td>
@@ -120,11 +90,6 @@
       <a href="#NAV_AHRS">NAV_AHRS</a>
      </td>
      <td class="mavlink_comment">AHRS mode</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="NAV_INS_GPS_INIT">
      <td class="mavlink_type" valign="top">
@@ -134,11 +99,6 @@
      </td>
      <td class="mavlink_comment">INS/GPS initialization mode</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="NAV_INS_GPS">
      <td class="mavlink_type" valign="top">
      </td>
@@ -146,11 +106,6 @@
       <a href="#NAV_INS_GPS">NAV_INS_GPS</a>
      </td>
      <td class="mavlink_comment">INS/GPS mode</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -175,11 +130,6 @@
      </td>
      <td class="mavlink_comment">sdf</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PILOT_AUTO">
      <td class="mavlink_type" valign="top">
      </td>
@@ -188,11 +138,6 @@
      </td>
      <td class="mavlink_comment">dfs</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PILOT_ROTO">
      <td class="mavlink_type" valign="top">
      </td>
@@ -200,11 +145,6 @@
       <a href="#PILOT_ROTO">PILOT_ROTO</a>
      </td>
      <td class="mavlink_comment">Rotomotion mode</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>

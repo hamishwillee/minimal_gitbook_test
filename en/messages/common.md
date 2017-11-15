@@ -22,22 +22,12 @@
      </td>
      <td class="mavlink_comment">Generic autopilot, full support for everything</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_RESERVED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_RESERVED">MAV_AUTOPILOT_RESERVED</a>
      </td>
      <td class="mavlink_comment">Reserved for future use.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_SLUGS">
      <td class="mavlink_type" valign="top">2</td>
@@ -46,22 +36,12 @@
      </td>
      <td class="mavlink_comment">SLUGS autopilot, http://slugsuav.soe.ucsc.edu</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_ARDUPILOTMEGA">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_ARDUPILOTMEGA">MAV_AUTOPILOT_ARDUPILOTMEGA</a>
      </td>
      <td class="mavlink_comment">ArduPilotMega / ArduCopter, http://diydrones.com</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_OPENPILOT">
      <td class="mavlink_type" valign="top">4</td>
@@ -70,22 +50,12 @@
      </td>
      <td class="mavlink_comment">OpenPilot, http://openpilot.org</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_GENERIC_WAYPOINTS_ONLY">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_GENERIC_WAYPOINTS_ONLY">MAV_AUTOPILOT_GENERIC_WAYPOINTS_ONLY</a>
      </td>
      <td class="mavlink_comment">Generic autopilot only supporting simple waypoints</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_GENERIC_WAYPOINTS_AND_SIMPLE_NAVIGATION_ONLY">
      <td class="mavlink_type" valign="top">6</td>
@@ -94,22 +64,12 @@
      </td>
      <td class="mavlink_comment">Generic autopilot supporting waypoints and other simple navigation commands</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_GENERIC_MISSION_FULL">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_GENERIC_MISSION_FULL">MAV_AUTOPILOT_GENERIC_MISSION_FULL</a>
      </td>
      <td class="mavlink_comment">Generic autopilot supporting the full mission command set</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_INVALID">
      <td class="mavlink_type" valign="top">8</td>
@@ -118,22 +78,12 @@
      </td>
      <td class="mavlink_comment">No valid autopilot, e.g. a GCS or other MAVLink component</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_PPZ">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_PPZ">MAV_AUTOPILOT_PPZ</a>
      </td>
      <td class="mavlink_comment">PPZ UAV - http://nongnu.org/paparazzi</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_UDB">
      <td class="mavlink_type" valign="top">10</td>
@@ -142,22 +92,12 @@
      </td>
      <td class="mavlink_comment">UAV Dev Board</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_FP">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_FP">MAV_AUTOPILOT_FP</a>
      </td>
      <td class="mavlink_comment">FlexiPilot</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_PX4">
      <td class="mavlink_type" valign="top">12</td>
@@ -166,22 +106,12 @@
      </td>
      <td class="mavlink_comment">PX4 Autopilot - http://pixhawk.ethz.ch/px4/</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_SMACCMPILOT">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_SMACCMPILOT">MAV_AUTOPILOT_SMACCMPILOT</a>
      </td>
      <td class="mavlink_comment">SMACCMPilot - http://smaccmpilot.org</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_AUTOQUAD">
      <td class="mavlink_type" valign="top">14</td>
@@ -190,22 +120,12 @@
      </td>
      <td class="mavlink_comment">AutoQuad -- http://autoquad.org</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_ARMAZILA">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_ARMAZILA">MAV_AUTOPILOT_ARMAZILA</a>
      </td>
      <td class="mavlink_comment">Armazila -- http://armazila.com</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_AEROB">
      <td class="mavlink_type" valign="top">16</td>
@@ -214,11 +134,6 @@
      </td>
      <td class="mavlink_comment">Aerob -- http://aerob.ru</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_ASLUAV">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">
@@ -226,22 +141,12 @@
      </td>
      <td class="mavlink_comment">ASLUAV autopilot -- http://www.asl.ethz.ch</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_AUTOPILOT_SMARTAP">
      <td class="mavlink_type" valign="top">18</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_AUTOPILOT_SMARTAP">MAV_AUTOPILOT_SMARTAP</a>
      </td>
      <td class="mavlink_comment">SmartAP Autopilot - http://sky-drones.com</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -266,22 +171,12 @@
      </td>
      <td class="mavlink_comment">Generic micro air vehicle.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_FIXED_WING">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_FIXED_WING">MAV_TYPE_FIXED_WING</a>
      </td>
      <td class="mavlink_comment">Fixed wing aircraft.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_QUADROTOR">
      <td class="mavlink_type" valign="top">2</td>
@@ -290,22 +185,12 @@
      </td>
      <td class="mavlink_comment">Quadrotor</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_COAXIAL">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_COAXIAL">MAV_TYPE_COAXIAL</a>
      </td>
      <td class="mavlink_comment">Coaxial helicopter</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_HELICOPTER">
      <td class="mavlink_type" valign="top">4</td>
@@ -314,22 +199,12 @@
      </td>
      <td class="mavlink_comment">Normal helicopter with tail rotor.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_ANTENNA_TRACKER">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_ANTENNA_TRACKER">MAV_TYPE_ANTENNA_TRACKER</a>
      </td>
      <td class="mavlink_comment">Ground installation</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_GCS">
      <td class="mavlink_type" valign="top">6</td>
@@ -338,22 +213,12 @@
      </td>
      <td class="mavlink_comment">Operator control unit / ground control station</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_AIRSHIP">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_AIRSHIP">MAV_TYPE_AIRSHIP</a>
      </td>
      <td class="mavlink_comment">Airship, controlled</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_FREE_BALLOON">
      <td class="mavlink_type" valign="top">8</td>
@@ -362,22 +227,12 @@
      </td>
      <td class="mavlink_comment">Free balloon, uncontrolled</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_ROCKET">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_ROCKET">MAV_TYPE_ROCKET</a>
      </td>
      <td class="mavlink_comment">Rocket</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_GROUND_ROVER">
      <td class="mavlink_type" valign="top">10</td>
@@ -386,22 +241,12 @@
      </td>
      <td class="mavlink_comment">Ground rover</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_SURFACE_BOAT">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_SURFACE_BOAT">MAV_TYPE_SURFACE_BOAT</a>
      </td>
      <td class="mavlink_comment">Surface vessel, boat, ship</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_SUBMARINE">
      <td class="mavlink_type" valign="top">12</td>
@@ -410,22 +255,12 @@
      </td>
      <td class="mavlink_comment">Submarine</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_HEXAROTOR">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_HEXAROTOR">MAV_TYPE_HEXAROTOR</a>
      </td>
      <td class="mavlink_comment">Hexarotor</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_OCTOROTOR">
      <td class="mavlink_type" valign="top">14</td>
@@ -434,22 +269,12 @@
      </td>
      <td class="mavlink_comment">Octorotor</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_TRICOPTER">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_TRICOPTER">MAV_TYPE_TRICOPTER</a>
      </td>
      <td class="mavlink_comment">Tricopter</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_FLAPPING_WING">
      <td class="mavlink_type" valign="top">16</td>
@@ -458,22 +283,12 @@
      </td>
      <td class="mavlink_comment">Flapping wing</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_KITE">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_KITE">MAV_TYPE_KITE</a>
      </td>
      <td class="mavlink_comment">Kite</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_ONBOARD_CONTROLLER">
      <td class="mavlink_type" valign="top">18</td>
@@ -482,22 +297,12 @@
      </td>
      <td class="mavlink_comment">Onboard companion controller</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_DUOROTOR">
      <td class="mavlink_type" valign="top">19</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_VTOL_DUOROTOR">MAV_TYPE_VTOL_DUOROTOR</a>
      </td>
      <td class="mavlink_comment">Two-rotor VTOL using control surfaces in vertical operation in addition. Tailsitter.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_QUADROTOR">
      <td class="mavlink_type" valign="top">20</td>
@@ -506,22 +311,12 @@
      </td>
      <td class="mavlink_comment">Quad-rotor VTOL using a V-shaped quad config in vertical operation. Tailsitter.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_TILTROTOR">
      <td class="mavlink_type" valign="top">21</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_VTOL_TILTROTOR">MAV_TYPE_VTOL_TILTROTOR</a>
      </td>
      <td class="mavlink_comment">Tiltrotor VTOL</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_RESERVED2">
      <td class="mavlink_type" valign="top">22</td>
@@ -530,22 +325,12 @@
      </td>
      <td class="mavlink_comment">VTOL reserved 2</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_RESERVED3">
      <td class="mavlink_type" valign="top">23</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_VTOL_RESERVED3">MAV_TYPE_VTOL_RESERVED3</a>
      </td>
      <td class="mavlink_comment">VTOL reserved 3</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_RESERVED4">
      <td class="mavlink_type" valign="top">24</td>
@@ -554,22 +339,12 @@
      </td>
      <td class="mavlink_comment">VTOL reserved 4</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_VTOL_RESERVED5">
      <td class="mavlink_type" valign="top">25</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_VTOL_RESERVED5">MAV_TYPE_VTOL_RESERVED5</a>
      </td>
      <td class="mavlink_comment">VTOL reserved 5</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_TYPE_GIMBAL">
      <td class="mavlink_type" valign="top">26</td>
@@ -578,11 +353,6 @@
      </td>
      <td class="mavlink_comment">Onboard gimbal</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_ADSB">
      <td class="mavlink_type" valign="top">27</td>
      <td class="mavlink_name" valign="top">
@@ -590,22 +360,12 @@
      </td>
      <td class="mavlink_comment">Onboard ADSB peripheral</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_TYPE_PARAFOIL">
      <td class="mavlink_type" valign="top">28</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_TYPE_PARAFOIL">MAV_TYPE_PARAFOIL</a>
      </td>
      <td class="mavlink_comment">Steerable, nonrigid airfoil</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -629,22 +389,12 @@
      </td>
      <td class="mavlink_comment">development release</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FIRMWARE_VERSION_TYPE_ALPHA">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#FIRMWARE_VERSION_TYPE_ALPHA">FIRMWARE_VERSION_TYPE_ALPHA</a>
      </td>
      <td class="mavlink_comment">alpha release</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="FIRMWARE_VERSION_TYPE_BETA">
      <td class="mavlink_type" valign="top">128</td>
@@ -653,11 +403,6 @@
      </td>
      <td class="mavlink_comment">beta release</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FIRMWARE_VERSION_TYPE_RC">
      <td class="mavlink_type" valign="top">192</td>
      <td class="mavlink_name" valign="top">
@@ -665,22 +410,12 @@
      </td>
      <td class="mavlink_comment">release candidate</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FIRMWARE_VERSION_TYPE_OFFICIAL">
      <td class="mavlink_type" valign="top">255</td>
      <td class="mavlink_name" valign="top">
       <a href="#FIRMWARE_VERSION_TYPE_OFFICIAL">FIRMWARE_VERSION_TYPE_OFFICIAL</a>
      </td>
      <td class="mavlink_comment">official stable release</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -704,22 +439,12 @@
      </td>
      <td class="mavlink_comment">0b10000000 MAV safety set to armed. Motors are enabled / running / can start. Ready to fly. Additional note: this flag is to be ignore when sent in the command MAV_CMD_DO_SET_MODE and MAV_CMD_COMPONENT_ARM_DISARM shall be used instead. The flag can still be used to report the armed state.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_MANUAL_INPUT_ENABLED">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_MANUAL_INPUT_ENABLED">MAV_MODE_FLAG_MANUAL_INPUT_ENABLED</a>
      </td>
      <td class="mavlink_comment">0b01000000 remote control input is enabled.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_HIL_ENABLED">
      <td class="mavlink_type" valign="top">32</td>
@@ -728,22 +453,12 @@
      </td>
      <td class="mavlink_comment">0b00100000 hardware in the loop simulation. All motors / actuators are blocked, but internal software is full operational.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_STABILIZE_ENABLED">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_STABILIZE_ENABLED">MAV_MODE_FLAG_STABILIZE_ENABLED</a>
      </td>
      <td class="mavlink_comment">0b00010000 system stabilizes electronically its attitude (and optionally position). It needs however further control inputs to move around.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_GUIDED_ENABLED">
      <td class="mavlink_type" valign="top">8</td>
@@ -752,22 +467,12 @@
      </td>
      <td class="mavlink_comment">0b00001000 guided mode enabled, system flies waypoints / mission items.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_AUTO_ENABLED">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_AUTO_ENABLED">MAV_MODE_FLAG_AUTO_ENABLED</a>
      </td>
      <td class="mavlink_comment">0b00000100 autonomous mode enabled, system finds its own goal positions. Guided flag can be set or not, depends on the actual implementation.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_TEST_ENABLED">
      <td class="mavlink_type" valign="top">2</td>
@@ -776,22 +481,12 @@
      </td>
      <td class="mavlink_comment">0b00000010 system has a test mode enabled. This flag is intended for temporary system tests and should not be used for stable implementations.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_CUSTOM_MODE_ENABLED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_CUSTOM_MODE_ENABLED">MAV_MODE_FLAG_CUSTOM_MODE_ENABLED</a>
      </td>
      <td class="mavlink_comment">0b00000001 Reserved for future use.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -815,22 +510,12 @@
      </td>
      <td class="mavlink_comment">First bit:  10000000</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_MANUAL">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_DECODE_POSITION_MANUAL">MAV_MODE_FLAG_DECODE_POSITION_MANUAL</a>
      </td>
      <td class="mavlink_comment">Second bit: 01000000</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_HIL">
      <td class="mavlink_type" valign="top">32</td>
@@ -839,22 +524,12 @@
      </td>
      <td class="mavlink_comment">Third bit:  00100000</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_STABILIZE">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_DECODE_POSITION_STABILIZE">MAV_MODE_FLAG_DECODE_POSITION_STABILIZE</a>
      </td>
      <td class="mavlink_comment">Fourth bit: 00010000</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_GUIDED">
      <td class="mavlink_type" valign="top">8</td>
@@ -863,22 +538,12 @@
      </td>
      <td class="mavlink_comment">Fifth bit:  00001000</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_AUTO">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_DECODE_POSITION_AUTO">MAV_MODE_FLAG_DECODE_POSITION_AUTO</a>
      </td>
      <td class="mavlink_comment">Sixt bit:   00000100</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_TEST">
      <td class="mavlink_type" valign="top">2</td>
@@ -887,22 +552,12 @@
      </td>
      <td class="mavlink_comment">Seventh bit: 00000010</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_FLAG_DECODE_POSITION_CUSTOM_MODE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_FLAG_DECODE_POSITION_CUSTOM_MODE">MAV_MODE_FLAG_DECODE_POSITION_CUSTOM_MODE</a>
      </td>
      <td class="mavlink_comment">Eighth bit: 00000001</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -926,22 +581,12 @@
      </td>
      <td class="mavlink_comment">Hold at the current position.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_GOTO_DO_CONTINUE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_GOTO_DO_CONTINUE">MAV_GOTO_DO_CONTINUE</a>
      </td>
      <td class="mavlink_comment">Continue with the next item in mission execution.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_GOTO_HOLD_AT_CURRENT_POSITION">
      <td class="mavlink_type" valign="top">2</td>
@@ -950,22 +595,12 @@
      </td>
      <td class="mavlink_comment">Hold at the current position of the system</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_GOTO_HOLD_AT_SPECIFIED_POSITION">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_GOTO_HOLD_AT_SPECIFIED_POSITION">MAV_GOTO_HOLD_AT_SPECIFIED_POSITION</a>
      </td>
      <td class="mavlink_comment">Hold at the position specified in the parameters of the DO_HOLD action</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -990,22 +625,12 @@
      </td>
      <td class="mavlink_comment">System is not ready to fly, booting, calibrating, etc. No flag is set.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_STABILIZE_DISARMED">
      <td class="mavlink_type" valign="top">80</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_STABILIZE_DISARMED">MAV_MODE_STABILIZE_DISARMED</a>
      </td>
      <td class="mavlink_comment">System is allowed to be active, under assisted RC control.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_STABILIZE_ARMED">
      <td class="mavlink_type" valign="top">208</td>
@@ -1014,22 +639,12 @@
      </td>
      <td class="mavlink_comment">System is allowed to be active, under assisted RC control.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_MANUAL_DISARMED">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_MANUAL_DISARMED">MAV_MODE_MANUAL_DISARMED</a>
      </td>
      <td class="mavlink_comment">System is allowed to be active, under manual (RC) control, no stabilization</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_MANUAL_ARMED">
      <td class="mavlink_type" valign="top">192</td>
@@ -1038,22 +653,12 @@
      </td>
      <td class="mavlink_comment">System is allowed to be active, under manual (RC) control, no stabilization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_GUIDED_DISARMED">
      <td class="mavlink_type" valign="top">88</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_GUIDED_DISARMED">MAV_MODE_GUIDED_DISARMED</a>
      </td>
      <td class="mavlink_comment">System is allowed to be active, under autonomous control, manual setpoint</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_GUIDED_ARMED">
      <td class="mavlink_type" valign="top">216</td>
@@ -1062,22 +667,12 @@
      </td>
      <td class="mavlink_comment">System is allowed to be active, under autonomous control, manual setpoint</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_AUTO_DISARMED">
      <td class="mavlink_type" valign="top">92</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_AUTO_DISARMED">MAV_MODE_AUTO_DISARMED</a>
      </td>
      <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by waypoints)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MODE_AUTO_ARMED">
      <td class="mavlink_type" valign="top">220</td>
@@ -1086,11 +681,6 @@
      </td>
      <td class="mavlink_comment">System is allowed to be active, under autonomous control and navigation (the trajectory is decided onboard and not pre-programmed by waypoints)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_TEST_DISARMED">
      <td class="mavlink_type" valign="top">66</td>
      <td class="mavlink_name" valign="top">
@@ -1098,22 +688,12 @@
      </td>
      <td class="mavlink_comment">UNDEFINED mode. This solely depends on the autopilot - use with caution, intended for developers only.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MODE_TEST_ARMED">
      <td class="mavlink_type" valign="top">194</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MODE_TEST_ARMED">MAV_MODE_TEST_ARMED</a>
      </td>
      <td class="mavlink_comment">UNDEFINED mode. This solely depends on the autopilot - use with caution, intended for developers only.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1138,11 +718,6 @@
      </td>
      <td class="mavlink_comment">Uninitialized system, state is unknown.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_STATE_BOOT">
      <td class="mavlink_type" valign="top">
      </td>
@@ -1150,11 +725,6 @@
       <a href="#MAV_STATE_BOOT">MAV_STATE_BOOT</a>
      </td>
      <td class="mavlink_comment">System is booting up.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_STATE_CALIBRATING">
      <td class="mavlink_type" valign="top">
@@ -1164,11 +734,6 @@
      </td>
      <td class="mavlink_comment">System is calibrating and not flight-ready.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_STATE_STANDBY">
      <td class="mavlink_type" valign="top">
      </td>
@@ -1176,11 +741,6 @@
       <a href="#MAV_STATE_STANDBY">MAV_STATE_STANDBY</a>
      </td>
      <td class="mavlink_comment">System is grounded and on standby. It can be launched any time.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_STATE_ACTIVE">
      <td class="mavlink_type" valign="top">
@@ -1190,11 +750,6 @@
      </td>
      <td class="mavlink_comment">System is active and might be already airborne. Motors are engaged.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_STATE_CRITICAL">
      <td class="mavlink_type" valign="top">
      </td>
@@ -1202,11 +757,6 @@
       <a href="#MAV_STATE_CRITICAL">MAV_STATE_CRITICAL</a>
      </td>
      <td class="mavlink_comment">System is in a non-normal flight mode. It can however still navigate.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_STATE_EMERGENCY">
      <td class="mavlink_type" valign="top">
@@ -1216,11 +766,6 @@
      </td>
      <td class="mavlink_comment">System is in a non-normal flight mode. It lost control over parts or over the whole airframe. It is in mayday and going down.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_STATE_POWEROFF">
      <td class="mavlink_type" valign="top">
      </td>
@@ -1229,11 +774,6 @@
      </td>
      <td class="mavlink_comment">System just initialized its power-down sequence, will shut down now.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_STATE_FLIGHT_TERMINATION">
      <td class="mavlink_type" valign="top">
      </td>
@@ -1241,11 +781,6 @@
       <a href="#MAV_STATE_FLIGHT_TERMINATION">MAV_STATE_FLIGHT_TERMINATION</a>
      </td>
      <td class="mavlink_comment">System is terminating itself.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -1271,22 +806,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_AUTOPILOT1">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_AUTOPILOT1">MAV_COMP_ID_AUTOPILOT1</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA">
@@ -1297,22 +822,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA2">
      <td class="mavlink_type" valign="top">101</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_CAMERA2">MAV_COMP_ID_CAMERA2</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA3">
@@ -1323,22 +838,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA4">
      <td class="mavlink_type" valign="top">103</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_CAMERA4">MAV_COMP_ID_CAMERA4</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA5">
@@ -1349,22 +854,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_CAMERA6">
      <td class="mavlink_type" valign="top">105</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_CAMERA6">MAV_COMP_ID_CAMERA6</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO1">
@@ -1375,22 +870,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO2">
      <td class="mavlink_type" valign="top">141</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO2">MAV_COMP_ID_SERVO2</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO3">
@@ -1401,22 +886,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO4">
      <td class="mavlink_type" valign="top">143</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO4">MAV_COMP_ID_SERVO4</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO5">
@@ -1427,22 +902,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO6">
      <td class="mavlink_type" valign="top">145</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO6">MAV_COMP_ID_SERVO6</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO7">
@@ -1453,22 +918,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO8">
      <td class="mavlink_type" valign="top">147</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO8">MAV_COMP_ID_SERVO8</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO9">
@@ -1479,22 +934,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO10">
      <td class="mavlink_type" valign="top">149</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO10">MAV_COMP_ID_SERVO10</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO11">
@@ -1505,22 +950,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO12">
      <td class="mavlink_type" valign="top">151</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO12">MAV_COMP_ID_SERVO12</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO13">
@@ -1531,22 +966,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SERVO14">
      <td class="mavlink_type" valign="top">153</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SERVO14">MAV_COMP_ID_SERVO14</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_GIMBAL">
@@ -1557,22 +982,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_LOG">
      <td class="mavlink_type" valign="top">155</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_LOG">MAV_COMP_ID_LOG</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_ADSB">
@@ -1583,22 +998,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_OSD">
      <td class="mavlink_type" valign="top">157</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_OSD">MAV_COMP_ID_OSD</a>
      </td>
      <td class="mavlink_comment">On Screen Display (OSD) devices for video links</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_PERIPHERAL">
      <td class="mavlink_type" valign="top">158</td>
@@ -1607,22 +1012,12 @@
      </td>
      <td class="mavlink_comment">Generic autopilot peripheral component ID. Meant for devices that do not implement the parameter sub-protocol</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_QX1_GIMBAL">
      <td class="mavlink_type" valign="top">159</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_QX1_GIMBAL">MAV_COMP_ID_QX1_GIMBAL</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_MAPPER">
@@ -1633,22 +1028,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_MISSIONPLANNER">
      <td class="mavlink_type" valign="top">190</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_MISSIONPLANNER">MAV_COMP_ID_MISSIONPLANNER</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_PATHPLANNER">
@@ -1659,22 +1044,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_IMU">
      <td class="mavlink_type" valign="top">200</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_IMU">MAV_COMP_ID_IMU</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_IMU_2">
@@ -1685,22 +1060,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_IMU_3">
      <td class="mavlink_type" valign="top">202</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_IMU_3">MAV_COMP_ID_IMU_3</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_GPS">
@@ -1711,22 +1076,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_GPS2">
      <td class="mavlink_type" valign="top">221</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_GPS2">MAV_COMP_ID_GPS2</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_UDP_BRIDGE">
@@ -1737,11 +1092,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_UART_BRIDGE">
      <td class="mavlink_type" valign="top">241</td>
      <td class="mavlink_name" valign="top">
@@ -1750,22 +1100,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COMP_ID_SYSTEM_CONTROL">
      <td class="mavlink_type" valign="top">250</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COMP_ID_SYSTEM_CONTROL">MAV_COMP_ID_SYSTEM_CONTROL</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -1790,22 +1130,12 @@
      </td>
      <td class="mavlink_comment">0x01 3D gyro</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_3D_ACCEL">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_3D_ACCEL">MAV_SYS_STATUS_SENSOR_3D_ACCEL</a>
      </td>
      <td class="mavlink_comment">0x02 3D accelerometer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_3D_MAG">
      <td class="mavlink_type" valign="top">4</td>
@@ -1814,22 +1144,12 @@
      </td>
      <td class="mavlink_comment">0x04 3D magnetometer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_ABSOLUTE_PRESSURE">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_ABSOLUTE_PRESSURE">MAV_SYS_STATUS_SENSOR_ABSOLUTE_PRESSURE</a>
      </td>
      <td class="mavlink_comment">0x08 absolute pressure</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_DIFFERENTIAL_PRESSURE">
      <td class="mavlink_type" valign="top">16</td>
@@ -1838,22 +1158,12 @@
      </td>
      <td class="mavlink_comment">0x10 differential pressure</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_GPS">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_GPS">MAV_SYS_STATUS_SENSOR_GPS</a>
      </td>
      <td class="mavlink_comment">0x20 GPS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_OPTICAL_FLOW">
      <td class="mavlink_type" valign="top">64</td>
@@ -1862,22 +1172,12 @@
      </td>
      <td class="mavlink_comment">0x40 optical flow</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_VISION_POSITION">
      <td class="mavlink_type" valign="top">128</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_VISION_POSITION">MAV_SYS_STATUS_SENSOR_VISION_POSITION</a>
      </td>
      <td class="mavlink_comment">0x80 computer vision position</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_LASER_POSITION">
      <td class="mavlink_type" valign="top">256</td>
@@ -1886,22 +1186,12 @@
      </td>
      <td class="mavlink_comment">0x100 laser based position</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_EXTERNAL_GROUND_TRUTH">
      <td class="mavlink_type" valign="top">512</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_EXTERNAL_GROUND_TRUTH">MAV_SYS_STATUS_SENSOR_EXTERNAL_GROUND_TRUTH</a>
      </td>
      <td class="mavlink_comment">0x200 external ground truth (Vicon or Leica)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_ANGULAR_RATE_CONTROL">
      <td class="mavlink_type" valign="top">1024</td>
@@ -1910,22 +1200,12 @@
      </td>
      <td class="mavlink_comment">0x400 3D angular rate control</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_ATTITUDE_STABILIZATION">
      <td class="mavlink_type" valign="top">2048</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_ATTITUDE_STABILIZATION">MAV_SYS_STATUS_SENSOR_ATTITUDE_STABILIZATION</a>
      </td>
      <td class="mavlink_comment">0x800 attitude stabilization</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_YAW_POSITION">
      <td class="mavlink_type" valign="top">4096</td>
@@ -1934,22 +1214,12 @@
      </td>
      <td class="mavlink_comment">0x1000 yaw position</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_Z_ALTITUDE_CONTROL">
      <td class="mavlink_type" valign="top">8192</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_Z_ALTITUDE_CONTROL">MAV_SYS_STATUS_SENSOR_Z_ALTITUDE_CONTROL</a>
      </td>
      <td class="mavlink_comment">0x2000 z/altitude control</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_XY_POSITION_CONTROL">
      <td class="mavlink_type" valign="top">16384</td>
@@ -1958,22 +1228,12 @@
      </td>
      <td class="mavlink_comment">0x4000 x/y position control</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_MOTOR_OUTPUTS">
      <td class="mavlink_type" valign="top">32768</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_MOTOR_OUTPUTS">MAV_SYS_STATUS_SENSOR_MOTOR_OUTPUTS</a>
      </td>
      <td class="mavlink_comment">0x8000 motor outputs / control</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_RC_RECEIVER">
      <td class="mavlink_type" valign="top">65536</td>
@@ -1982,22 +1242,12 @@
      </td>
      <td class="mavlink_comment">0x10000 rc receiver</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_3D_GYRO2">
      <td class="mavlink_type" valign="top">131072</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_3D_GYRO2">MAV_SYS_STATUS_SENSOR_3D_GYRO2</a>
      </td>
      <td class="mavlink_comment">0x20000 2nd 3D gyro</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_3D_ACCEL2">
      <td class="mavlink_type" valign="top">262144</td>
@@ -2006,22 +1256,12 @@
      </td>
      <td class="mavlink_comment">0x40000 2nd 3D accelerometer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_3D_MAG2">
      <td class="mavlink_type" valign="top">524288</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_3D_MAG2">MAV_SYS_STATUS_SENSOR_3D_MAG2</a>
      </td>
      <td class="mavlink_comment">0x80000 2nd 3D magnetometer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_GEOFENCE">
      <td class="mavlink_type" valign="top">1048576</td>
@@ -2030,22 +1270,12 @@
      </td>
      <td class="mavlink_comment">0x100000 geofence</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_AHRS">
      <td class="mavlink_type" valign="top">2097152</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_AHRS">MAV_SYS_STATUS_AHRS</a>
      </td>
      <td class="mavlink_comment">0x200000 AHRS subsystem health</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_TERRAIN">
      <td class="mavlink_type" valign="top">4194304</td>
@@ -2054,22 +1284,12 @@
      </td>
      <td class="mavlink_comment">0x400000 Terrain subsystem health</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_REVERSE_MOTOR">
      <td class="mavlink_type" valign="top">8388608</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_REVERSE_MOTOR">MAV_SYS_STATUS_REVERSE_MOTOR</a>
      </td>
      <td class="mavlink_comment">0x800000 Motors are reversed</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_LOGGING">
      <td class="mavlink_type" valign="top">16777216</td>
@@ -2078,22 +1298,12 @@
      </td>
      <td class="mavlink_comment">0x1000000 Logging</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SYS_STATUS_SENSOR_BATTERY">
      <td class="mavlink_type" valign="top">33554432</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SYS_STATUS_SENSOR_BATTERY">MAV_SYS_STATUS_SENSOR_BATTERY</a>
      </td>
      <td class="mavlink_comment">0x2000000 Battery</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2118,22 +1328,12 @@
      </td>
      <td class="mavlink_comment">Global coordinate frame, WGS84 coordinate system. First value / x: latitude, second value / y: longitude, third value / z: positive altitude over mean sea level (MSL)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_LOCAL_NED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_LOCAL_NED">MAV_FRAME_LOCAL_NED</a>
      </td>
      <td class="mavlink_comment">Local coordinate frame, Z-up (x: north, y: east, z: down).</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_FRAME_MISSION">
      <td class="mavlink_type" valign="top">2</td>
@@ -2142,22 +1342,12 @@
      </td>
      <td class="mavlink_comment">NOT a coordinate frame, indicates a mission command.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_GLOBAL_RELATIVE_ALT">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_GLOBAL_RELATIVE_ALT">MAV_FRAME_GLOBAL_RELATIVE_ALT</a>
      </td>
      <td class="mavlink_comment">Global coordinate frame, WGS84 coordinate system, relative altitude over ground with respect to the home position. First value / x: latitude, second value / y: longitude, third value / z: positive altitude with 0 being at the altitude of the home location.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_FRAME_LOCAL_ENU">
      <td class="mavlink_type" valign="top">4</td>
@@ -2166,22 +1356,12 @@
      </td>
      <td class="mavlink_comment">Local coordinate frame, Z-down (x: east, y: north, z: up)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_GLOBAL_INT">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_GLOBAL_INT">MAV_FRAME_GLOBAL_INT</a>
      </td>
      <td class="mavlink_comment">Global coordinate frame, WGS84 coordinate system. First value / x: latitude in degrees*1.0e-7, second value / y: longitude in degrees*1.0e-7, third value / z: positive altitude over mean sea level (MSL)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_FRAME_GLOBAL_RELATIVE_ALT_INT">
      <td class="mavlink_type" valign="top">6</td>
@@ -2190,22 +1370,12 @@
      </td>
      <td class="mavlink_comment">Global coordinate frame, WGS84 coordinate system, relative altitude over ground with respect to the home position. First value / x: latitude in degrees*10e-7, second value / y: longitude in degrees*10e-7, third value / z: positive altitude with 0 being at the altitude of the home location.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_LOCAL_OFFSET_NED">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_LOCAL_OFFSET_NED">MAV_FRAME_LOCAL_OFFSET_NED</a>
      </td>
      <td class="mavlink_comment">Offset to the current local frame. Anything expressed in this frame should be added to the current local frame position.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_FRAME_BODY_NED">
      <td class="mavlink_type" valign="top">8</td>
@@ -2214,22 +1384,12 @@
      </td>
      <td class="mavlink_comment">Setpoint in body NED frame. This makes sense if all position control is externalized - e.g. useful to command 2 m/s^2 acceleration to the right.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_BODY_OFFSET_NED">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_BODY_OFFSET_NED">MAV_FRAME_BODY_OFFSET_NED</a>
      </td>
      <td class="mavlink_comment">Offset in body NED frame. This makes sense if adding setpoints to the current flight path, to avoid an obstacle - e.g. useful to command 2 m/s^2 acceleration to the east.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_FRAME_GLOBAL_TERRAIN_ALT">
      <td class="mavlink_type" valign="top">10</td>
@@ -2238,22 +1398,12 @@
      </td>
      <td class="mavlink_comment">Global coordinate frame with above terrain level altitude. WGS84 coordinate system, relative altitude over terrain with respect to the waypoint coordinate. First value / x: latitude in degrees, second value / y: longitude in degrees, third value / z: positive altitude in meters with 0 being at ground level in terrain model.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_FRAME_GLOBAL_TERRAIN_ALT_INT">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_FRAME_GLOBAL_TERRAIN_ALT_INT">MAV_FRAME_GLOBAL_TERRAIN_ALT_INT</a>
      </td>
      <td class="mavlink_comment">Global coordinate frame with above terrain level altitude. WGS84 coordinate system, relative altitude over terrain with respect to the waypoint coordinate. First value / x: latitude in degrees*10e-7, second value / y: longitude in degrees*10e-7, third value / z: positive altitude in meters with 0 being at ground level in terrain model.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2280,11 +1430,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAVLINK_DATA_STREAM_IMG_BMP">
      <td class="mavlink_type" valign="top">
      </td>
@@ -2292,11 +1437,6 @@
       <a href="#MAVLINK_DATA_STREAM_IMG_BMP">MAVLINK_DATA_STREAM_IMG_BMP</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAVLINK_DATA_STREAM_IMG_RAW8U">
@@ -2308,11 +1448,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAVLINK_DATA_STREAM_IMG_RAW32U">
      <td class="mavlink_type" valign="top">
      </td>
@@ -2320,11 +1455,6 @@
       <a href="#MAVLINK_DATA_STREAM_IMG_RAW32U">MAVLINK_DATA_STREAM_IMG_RAW32U</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="MAVLINK_DATA_STREAM_IMG_PGM">
@@ -2336,11 +1466,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAVLINK_DATA_STREAM_IMG_PNG">
      <td class="mavlink_type" valign="top">
      </td>
@@ -2348,11 +1473,6 @@
       <a href="#MAVLINK_DATA_STREAM_IMG_PNG">MAVLINK_DATA_STREAM_IMG_PNG</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -2378,22 +1498,12 @@
      </td>
      <td class="mavlink_comment">Disable fenced mode</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FENCE_ACTION_GUIDED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#FENCE_ACTION_GUIDED">FENCE_ACTION_GUIDED</a>
      </td>
      <td class="mavlink_comment">Switched to guided mode to return point (fence point 0)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="FENCE_ACTION_REPORT">
      <td class="mavlink_type" valign="top">2</td>
@@ -2402,11 +1512,6 @@
      </td>
      <td class="mavlink_comment">Report fence breach, but don't take action</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FENCE_ACTION_GUIDED_THR_PASS">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2414,22 +1519,12 @@
      </td>
      <td class="mavlink_comment">Switched to guided mode to return point (fence point 0) with manual throttle control</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FENCE_ACTION_RTL">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#FENCE_ACTION_RTL">FENCE_ACTION_RTL</a>
      </td>
      <td class="mavlink_comment">Switch to RTL (return to launch) mode and head for the return point.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2454,22 +1549,12 @@
      </td>
      <td class="mavlink_comment">No last fence breach</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FENCE_BREACH_MINALT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#FENCE_BREACH_MINALT">FENCE_BREACH_MINALT</a>
      </td>
      <td class="mavlink_comment">Breached minimum altitude</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="FENCE_BREACH_MAXALT">
      <td class="mavlink_type" valign="top">2</td>
@@ -2478,22 +1563,12 @@
      </td>
      <td class="mavlink_comment">Breached maximum altitude</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="FENCE_BREACH_BOUNDARY">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#FENCE_BREACH_BOUNDARY">FENCE_BREACH_BOUNDARY</a>
      </td>
      <td class="mavlink_comment">Breached fence boundary</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2517,22 +1592,12 @@
      </td>
      <td class="mavlink_comment">Load and keep safe position (Roll,Pitch,Yaw) from permant memory and stop stabilization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MOUNT_MODE_NEUTRAL">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MOUNT_MODE_NEUTRAL">MAV_MOUNT_MODE_NEUTRAL</a>
      </td>
      <td class="mavlink_comment">Load and keep neutral position (Roll,Pitch,Yaw) from permanent memory.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MOUNT_MODE_MAVLINK_TARGETING">
      <td class="mavlink_type" valign="top">2</td>
@@ -2541,11 +1606,6 @@
      </td>
      <td class="mavlink_comment">Load neutral position and start MAVLink Roll,Pitch,Yaw control with stabilization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MOUNT_MODE_RC_TARGETING">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2553,22 +1613,12 @@
      </td>
      <td class="mavlink_comment">Load neutral position and start RC Roll,Pitch,Yaw control with stabilization</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MOUNT_MODE_GPS_POINT">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MOUNT_MODE_GPS_POINT">MAV_MOUNT_MODE_GPS_POINT</a>
      </td>
      <td class="mavlink_comment">Load neutral position and start to point to Lat,Lon,Alt</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2592,22 +1642,12 @@
      </td>
      <td class="mavlink_comment">The node is functioning properly.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_WARNING">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVCAN_NODE_HEALTH_WARNING">UAVCAN_NODE_HEALTH_WARNING</a>
      </td>
      <td class="mavlink_comment">A critical parameter went out of range or the node has encountered a minor failure.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_ERROR">
      <td class="mavlink_type" valign="top">2</td>
@@ -2616,22 +1656,12 @@
      </td>
      <td class="mavlink_comment">The node has encountered a major failure.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_HEALTH_CRITICAL">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVCAN_NODE_HEALTH_CRITICAL">UAVCAN_NODE_HEALTH_CRITICAL</a>
      </td>
      <td class="mavlink_comment">The node has suffered a fatal malfunction.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -2655,22 +1685,12 @@
      </td>
      <td class="mavlink_comment">The node is performing its primary functions.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_MODE_INITIALIZATION">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVCAN_NODE_MODE_INITIALIZATION">UAVCAN_NODE_MODE_INITIALIZATION</a>
      </td>
      <td class="mavlink_comment">The node is initializing; this mode is entered immediately after startup.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_MODE_MAINTENANCE">
      <td class="mavlink_type" valign="top">2</td>
@@ -2679,11 +1699,6 @@
      </td>
      <td class="mavlink_comment">The node is under maintenance.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_MODE_SOFTWARE_UPDATE">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -2691,22 +1706,12 @@
      </td>
      <td class="mavlink_comment">The node is in the process of updating its software.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="UAVCAN_NODE_MODE_OFFLINE">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#UAVCAN_NODE_MODE_OFFLINE">UAVCAN_NODE_MODE_OFFLINE</a>
      </td>
      <td class="mavlink_comment">The node is no longer available online.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -7741,11 +6746,6 @@
      </td>
      <td class="mavlink_comment">This command sets the submode to standard guided when vehicle is in guided mode. The vehicle holds position and altitude and the user can input the desired velocites along all three axes.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_SET_GUIDED_SUBMODE_CIRCLE">
      <td class="mavlink_type" valign="top">4001</td>
      <td class="mavlink_name" valign="top">
@@ -9294,22 +8294,12 @@
      </td>
      <td class="mavlink_comment">Enable all data streams</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_RAW_SENSORS">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DATA_STREAM_RAW_SENSORS">MAV_DATA_STREAM_RAW_SENSORS</a>
      </td>
      <td class="mavlink_comment">Enable IMU_RAW, GPS_RAW, GPS_STATUS packets.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_EXTENDED_STATUS">
      <td class="mavlink_type" valign="top">2</td>
@@ -9318,22 +8308,12 @@
      </td>
      <td class="mavlink_comment">Enable GPS_STATUS, CONTROL_STATUS, AUX_STATUS</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_RC_CHANNELS">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DATA_STREAM_RC_CHANNELS">MAV_DATA_STREAM_RC_CHANNELS</a>
      </td>
      <td class="mavlink_comment">Enable RC_CHANNELS_SCALED, RC_CHANNELS_RAW, SERVO_OUTPUT_RAW</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_RAW_CONTROLLER">
      <td class="mavlink_type" valign="top">4</td>
@@ -9342,22 +8322,12 @@
      </td>
      <td class="mavlink_comment">Enable ATTITUDE_CONTROLLER_OUTPUT, POSITION_CONTROLLER_OUTPUT, NAV_CONTROLLER_OUTPUT.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_POSITION">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DATA_STREAM_POSITION">MAV_DATA_STREAM_POSITION</a>
      </td>
      <td class="mavlink_comment">Enable LOCAL_POSITION, GLOBAL_POSITION/GLOBAL_POSITION_INT messages.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_EXTRA1">
      <td class="mavlink_type" valign="top">10</td>
@@ -9366,11 +8336,6 @@
      </td>
      <td class="mavlink_comment">Dependent on the autopilot</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_EXTRA2">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
@@ -9378,22 +8343,12 @@
      </td>
      <td class="mavlink_comment">Dependent on the autopilot</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DATA_STREAM_EXTRA3">
      <td class="mavlink_type" valign="top">12</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DATA_STREAM_EXTRA3">MAV_DATA_STREAM_EXTRA3</a>
      </td>
      <td class="mavlink_comment">Dependent on the autopilot</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9419,22 +8374,12 @@
      </td>
      <td class="mavlink_comment">No region of interest.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ROI_WPNEXT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ROI_WPNEXT">MAV_ROI_WPNEXT</a>
      </td>
      <td class="mavlink_comment">Point toward next waypoint.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_ROI_WPINDEX">
      <td class="mavlink_type" valign="top">2</td>
@@ -9443,11 +8388,6 @@
      </td>
      <td class="mavlink_comment">Point toward given waypoint.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ROI_LOCATION">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -9455,22 +8395,12 @@
      </td>
      <td class="mavlink_comment">Point toward fixed location.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ROI_TARGET">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ROI_TARGET">MAV_ROI_TARGET</a>
      </td>
      <td class="mavlink_comment">Point toward of given id.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9495,11 +8425,6 @@
      </td>
      <td class="mavlink_comment">Command / mission item is ok.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_FAIL">
      <td class="mavlink_type" valign="top">
      </td>
@@ -9507,11 +8432,6 @@
       <a href="#MAV_CMD_ACK_ERR_FAIL">MAV_CMD_ACK_ERR_FAIL</a>
      </td>
      <td class="mavlink_comment">Generic error message if none of the other reasons fails or if no detailed error reporting is implemented.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_ACCESS_DENIED">
      <td class="mavlink_type" valign="top">
@@ -9521,11 +8441,6 @@
      </td>
      <td class="mavlink_comment">The system is refusing to accept this command from this source / communication partner.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_NOT_SUPPORTED">
      <td class="mavlink_type" valign="top">
      </td>
@@ -9533,11 +8448,6 @@
       <a href="#MAV_CMD_ACK_ERR_NOT_SUPPORTED">MAV_CMD_ACK_ERR_NOT_SUPPORTED</a>
      </td>
      <td class="mavlink_comment">Command or mission item is not supported, other commands would be accepted.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_COORDINATE_FRAME_NOT_SUPPORTED">
      <td class="mavlink_type" valign="top">
@@ -9547,11 +8457,6 @@
      </td>
      <td class="mavlink_comment">The coordinate frame of this command / mission item is not supported.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE">
      <td class="mavlink_type" valign="top">
      </td>
@@ -9559,11 +8464,6 @@
       <a href="#MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE">MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE</a>
      </td>
      <td class="mavlink_comment">The coordinate frame of this command is ok, but he coordinate values exceed the safety limits of this system. This is a generic error, please use the more specific error messages below if possible.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_X_LAT_OUT_OF_RANGE">
      <td class="mavlink_type" valign="top">
@@ -9573,11 +8473,6 @@
      </td>
      <td class="mavlink_comment">The X or latitude value is out of range.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_Y_LON_OUT_OF_RANGE">
      <td class="mavlink_type" valign="top">
      </td>
@@ -9586,11 +8481,6 @@
      </td>
      <td class="mavlink_comment">The Y or longitude value is out of range.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE">
      <td class="mavlink_type" valign="top">
      </td>
@@ -9598,11 +8488,6 @@
       <a href="#MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE">MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE</a>
      </td>
      <td class="mavlink_comment">The Z or altitude value is out of range.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9626,22 +8511,12 @@
      </td>
      <td class="mavlink_comment">8-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_INT8">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_TYPE_INT8">MAV_PARAM_TYPE_INT8</a>
      </td>
      <td class="mavlink_comment">8-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_UINT16">
      <td class="mavlink_type" valign="top">3</td>
@@ -9650,22 +8525,12 @@
      </td>
      <td class="mavlink_comment">16-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_INT16">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_TYPE_INT16">MAV_PARAM_TYPE_INT16</a>
      </td>
      <td class="mavlink_comment">16-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_UINT32">
      <td class="mavlink_type" valign="top">5</td>
@@ -9674,22 +8539,12 @@
      </td>
      <td class="mavlink_comment">32-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_INT32">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_TYPE_INT32">MAV_PARAM_TYPE_INT32</a>
      </td>
      <td class="mavlink_comment">32-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_UINT64">
      <td class="mavlink_type" valign="top">7</td>
@@ -9698,22 +8553,12 @@
      </td>
      <td class="mavlink_comment">64-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_INT64">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_TYPE_INT64">MAV_PARAM_TYPE_INT64</a>
      </td>
      <td class="mavlink_comment">64-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_REAL32">
      <td class="mavlink_type" valign="top">9</td>
@@ -9722,22 +8567,12 @@
      </td>
      <td class="mavlink_comment">32-bit floating-point</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_TYPE_REAL64">
      <td class="mavlink_type" valign="top">10</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_TYPE_REAL64">MAV_PARAM_TYPE_REAL64</a>
      </td>
      <td class="mavlink_comment">64-bit floating-point</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9761,22 +8596,12 @@
      </td>
      <td class="mavlink_comment">8-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT8">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_EXT_TYPE_INT8">MAV_PARAM_EXT_TYPE_INT8</a>
      </td>
      <td class="mavlink_comment">8-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT16">
      <td class="mavlink_type" valign="top">3</td>
@@ -9785,22 +8610,12 @@
      </td>
      <td class="mavlink_comment">16-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT16">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_EXT_TYPE_INT16">MAV_PARAM_EXT_TYPE_INT16</a>
      </td>
      <td class="mavlink_comment">16-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT32">
      <td class="mavlink_type" valign="top">5</td>
@@ -9809,22 +8624,12 @@
      </td>
      <td class="mavlink_comment">32-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT32">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_EXT_TYPE_INT32">MAV_PARAM_EXT_TYPE_INT32</a>
      </td>
      <td class="mavlink_comment">32-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_UINT64">
      <td class="mavlink_type" valign="top">7</td>
@@ -9833,22 +8638,12 @@
      </td>
      <td class="mavlink_comment">64-bit unsigned integer</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_INT64">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_EXT_TYPE_INT64">MAV_PARAM_EXT_TYPE_INT64</a>
      </td>
      <td class="mavlink_comment">64-bit signed integer</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_REAL32">
      <td class="mavlink_type" valign="top">9</td>
@@ -9857,11 +8652,6 @@
      </td>
      <td class="mavlink_comment">32-bit floating-point</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_REAL64">
      <td class="mavlink_type" valign="top">10</td>
      <td class="mavlink_name" valign="top">
@@ -9869,22 +8659,12 @@
      </td>
      <td class="mavlink_comment">64-bit floating-point</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PARAM_EXT_TYPE_CUSTOM">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PARAM_EXT_TYPE_CUSTOM">MAV_PARAM_EXT_TYPE_CUSTOM</a>
      </td>
      <td class="mavlink_comment">Custom Type</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9908,22 +8688,12 @@
      </td>
      <td class="mavlink_comment">Command ACCEPTED and EXECUTED</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_RESULT_TEMPORARILY_REJECTED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_RESULT_TEMPORARILY_REJECTED">MAV_RESULT_TEMPORARILY_REJECTED</a>
      </td>
      <td class="mavlink_comment">Command TEMPORARY REJECTED/DENIED</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_RESULT_DENIED">
      <td class="mavlink_type" valign="top">2</td>
@@ -9932,22 +8702,12 @@
      </td>
      <td class="mavlink_comment">Command PERMANENTLY DENIED</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_RESULT_UNSUPPORTED">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_RESULT_UNSUPPORTED">MAV_RESULT_UNSUPPORTED</a>
      </td>
      <td class="mavlink_comment">Command UNKNOWN/UNSUPPORTED</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_RESULT_FAILED">
      <td class="mavlink_type" valign="top">4</td>
@@ -9956,22 +8716,12 @@
      </td>
      <td class="mavlink_comment">Command executed, but failed</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_RESULT_IN_PROGRESS">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_RESULT_IN_PROGRESS">MAV_RESULT_IN_PROGRESS</a>
      </td>
      <td class="mavlink_comment">WIP: Command being executed</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -9995,22 +8745,12 @@
      </td>
      <td class="mavlink_comment">mission accepted OK</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_ERROR">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_ERROR">MAV_MISSION_ERROR</a>
      </td>
      <td class="mavlink_comment">generic error / not accepting mission commands at all right now</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_UNSUPPORTED_FRAME">
      <td class="mavlink_type" valign="top">2</td>
@@ -10019,22 +8759,12 @@
      </td>
      <td class="mavlink_comment">coordinate frame is not supported</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_UNSUPPORTED">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_UNSUPPORTED">MAV_MISSION_UNSUPPORTED</a>
      </td>
      <td class="mavlink_comment">command is not supported</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_NO_SPACE">
      <td class="mavlink_type" valign="top">4</td>
@@ -10043,22 +8773,12 @@
      </td>
      <td class="mavlink_comment">mission item exceeds storage space</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_INVALID">MAV_MISSION_INVALID</a>
      </td>
      <td class="mavlink_comment">one of the parameters has an invalid value</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM1">
      <td class="mavlink_type" valign="top">6</td>
@@ -10067,22 +8787,12 @@
      </td>
      <td class="mavlink_comment">param1 has an invalid value</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM2">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_INVALID_PARAM2">MAV_MISSION_INVALID_PARAM2</a>
      </td>
      <td class="mavlink_comment">param2 has an invalid value</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM3">
      <td class="mavlink_type" valign="top">8</td>
@@ -10091,22 +8801,12 @@
      </td>
      <td class="mavlink_comment">param3 has an invalid value</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM4">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_INVALID_PARAM4">MAV_MISSION_INVALID_PARAM4</a>
      </td>
      <td class="mavlink_comment">param4 has an invalid value</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM5_X">
      <td class="mavlink_type" valign="top">10</td>
@@ -10115,22 +8815,12 @@
      </td>
      <td class="mavlink_comment">x/param5 has an invalid value</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM6_Y">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_INVALID_PARAM6_Y">MAV_MISSION_INVALID_PARAM6_Y</a>
      </td>
      <td class="mavlink_comment">y/param6 has an invalid value</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_PARAM7">
      <td class="mavlink_type" valign="top">12</td>
@@ -10139,11 +8829,6 @@
      </td>
      <td class="mavlink_comment">param7 has an invalid value</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_INVALID_SEQUENCE">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
@@ -10151,22 +8836,12 @@
      </td>
      <td class="mavlink_comment">received waypoint out of sequence</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_DENIED">
      <td class="mavlink_type" valign="top">14</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_DENIED">MAV_MISSION_DENIED</a>
      </td>
      <td class="mavlink_comment">not accepting any mission commands from this communication partner</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10190,22 +8865,12 @@
      </td>
      <td class="mavlink_comment">System is unusable. This is a "panic" condition.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_ALERT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SEVERITY_ALERT">MAV_SEVERITY_ALERT</a>
      </td>
      <td class="mavlink_comment">Action should be taken immediately. Indicates error in non-critical systems.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_CRITICAL">
      <td class="mavlink_type" valign="top">2</td>
@@ -10214,22 +8879,12 @@
      </td>
      <td class="mavlink_comment">Action must be taken immediately. Indicates failure in a primary system.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_ERROR">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SEVERITY_ERROR">MAV_SEVERITY_ERROR</a>
      </td>
      <td class="mavlink_comment">Indicates an error in secondary/redundant systems.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_WARNING">
      <td class="mavlink_type" valign="top">4</td>
@@ -10238,22 +8893,12 @@
      </td>
      <td class="mavlink_comment">Indicates about a possible future error if this is not resolved within a given timeframe. Example would be a low battery warning.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_NOTICE">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SEVERITY_NOTICE">MAV_SEVERITY_NOTICE</a>
      </td>
      <td class="mavlink_comment">An unusual event has occured, though not an error condition. This should be investigated for the root cause.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_INFO">
      <td class="mavlink_type" valign="top">6</td>
@@ -10262,22 +8907,12 @@
      </td>
      <td class="mavlink_comment">Normal operational messages. Useful for logging. No action is required for these messages.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SEVERITY_DEBUG">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SEVERITY_DEBUG">MAV_SEVERITY_DEBUG</a>
      </td>
      <td class="mavlink_comment">Useful non-operational messages that can assist in debugging. These should not occur during normal operation.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10301,22 +8936,12 @@
      </td>
      <td class="mavlink_comment">main brick power supply valid</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_POWER_STATUS_SERVO_VALID">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_POWER_STATUS_SERVO_VALID">MAV_POWER_STATUS_SERVO_VALID</a>
      </td>
      <td class="mavlink_comment">main servo power supply valid for FMU</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_POWER_STATUS_USB_CONNECTED">
      <td class="mavlink_type" valign="top">4</td>
@@ -10325,22 +8950,12 @@
      </td>
      <td class="mavlink_comment">USB power is connected</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_POWER_STATUS_PERIPH_OVERCURRENT">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_POWER_STATUS_PERIPH_OVERCURRENT">MAV_POWER_STATUS_PERIPH_OVERCURRENT</a>
      </td>
      <td class="mavlink_comment">peripheral supply is in over-current state</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_POWER_STATUS_PERIPH_HIPOWER_OVERCURRENT">
      <td class="mavlink_type" valign="top">16</td>
@@ -10349,22 +8964,12 @@
      </td>
      <td class="mavlink_comment">hi-power peripheral supply is in over-current state</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_POWER_STATUS_CHANGED">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_POWER_STATUS_CHANGED">MAV_POWER_STATUS_CHANGED</a>
      </td>
      <td class="mavlink_comment">Power status has changed since boot</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10388,22 +8993,12 @@
      </td>
      <td class="mavlink_comment">First telemetry port</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_DEV_TELEM2">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#SERIAL_CONTROL_DEV_TELEM2">SERIAL_CONTROL_DEV_TELEM2</a>
      </td>
      <td class="mavlink_comment">Second telemetry port</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_DEV_GPS1">
      <td class="mavlink_type" valign="top">2</td>
@@ -10412,11 +9007,6 @@
      </td>
      <td class="mavlink_comment">First GPS port</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_DEV_GPS2">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -10424,22 +9014,12 @@
      </td>
      <td class="mavlink_comment">Second GPS port</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_DEV_SHELL">
      <td class="mavlink_type" valign="top">10</td>
      <td class="mavlink_name" valign="top">
       <a href="#SERIAL_CONTROL_DEV_SHELL">SERIAL_CONTROL_DEV_SHELL</a>
      </td>
      <td class="mavlink_comment">system shell</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10463,22 +9043,12 @@
      </td>
      <td class="mavlink_comment">Set if this is a reply</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_FLAG_RESPOND">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#SERIAL_CONTROL_FLAG_RESPOND">SERIAL_CONTROL_FLAG_RESPOND</a>
      </td>
      <td class="mavlink_comment">Set if the sender wants the receiver to send a response as another SERIAL_CONTROL message</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_FLAG_EXCLUSIVE">
      <td class="mavlink_type" valign="top">4</td>
@@ -10487,11 +9057,6 @@
      </td>
      <td class="mavlink_comment">Set if access to the serial port should be removed from whatever driver is currently using it, giving exclusive access to the SERIAL_CONTROL protocol. The port can be handed back by sending a request without this flag set</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_FLAG_BLOCKING">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
@@ -10499,22 +9064,12 @@
      </td>
      <td class="mavlink_comment">Block on writes to the serial port</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SERIAL_CONTROL_FLAG_MULTI">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#SERIAL_CONTROL_FLAG_MULTI">SERIAL_CONTROL_FLAG_MULTI</a>
      </td>
      <td class="mavlink_comment">Send multiple replies until port is drained</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10538,22 +9093,12 @@
      </td>
      <td class="mavlink_comment">Laser rangefinder, e.g. LightWare SF02/F or PulsedLight units</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_ULTRASOUND">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DISTANCE_SENSOR_ULTRASOUND">MAV_DISTANCE_SENSOR_ULTRASOUND</a>
      </td>
      <td class="mavlink_comment">Ultrasound rangefinder, e.g. MaxBotix units</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_INFRARED">
      <td class="mavlink_type" valign="top">2</td>
@@ -10562,11 +9107,6 @@
      </td>
      <td class="mavlink_comment">Infrared rangefinder, e.g. Sharp units</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_RADAR">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -10574,22 +9114,12 @@
      </td>
      <td class="mavlink_comment">Radar type, e.g. uLanding units</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_DISTANCE_SENSOR_UNKNOWN">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_DISTANCE_SENSOR_UNKNOWN">MAV_DISTANCE_SENSOR_UNKNOWN</a>
      </td>
      <td class="mavlink_comment">Broken or unknown type, e.g. analog units</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -10613,22 +9143,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_45">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_YAW_45">MAV_SENSOR_ROTATION_YAW_45</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 45</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_90">
      <td class="mavlink_type" valign="top">2</td>
@@ -10637,22 +9157,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_135">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_YAW_135">MAV_SENSOR_ROTATION_YAW_135</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 135</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_180">
      <td class="mavlink_type" valign="top">4</td>
@@ -10661,22 +9171,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 180</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_225">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_YAW_225">MAV_SENSOR_ROTATION_YAW_225</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 225</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_270">
      <td class="mavlink_type" valign="top">6</td>
@@ -10685,22 +9185,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 270</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_YAW_315">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_YAW_315">MAV_SENSOR_ROTATION_YAW_315</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 0, Yaw: 315</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180">
      <td class="mavlink_type" valign="top">8</td>
@@ -10709,22 +9199,12 @@
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_45">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_180_YAW_45">MAV_SENSOR_ROTATION_ROLL_180_YAW_45</a>
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 45</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_90">
      <td class="mavlink_type" valign="top">10</td>
@@ -10733,22 +9213,12 @@
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_135">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_180_YAW_135">MAV_SENSOR_ROTATION_ROLL_180_YAW_135</a>
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 135</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_PITCH_180">
      <td class="mavlink_type" valign="top">12</td>
@@ -10757,22 +9227,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 180, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_225">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_180_YAW_225">MAV_SENSOR_ROTATION_ROLL_180_YAW_225</a>
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 225</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_270">
      <td class="mavlink_type" valign="top">14</td>
@@ -10781,22 +9241,12 @@
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 270</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_YAW_315">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_180_YAW_315">MAV_SENSOR_ROTATION_ROLL_180_YAW_315</a>
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 0, Yaw: 315</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90">
      <td class="mavlink_type" valign="top">16</td>
@@ -10805,22 +9255,12 @@
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 0, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_YAW_45">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_90_YAW_45">MAV_SENSOR_ROTATION_ROLL_90_YAW_45</a>
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 0, Yaw: 45</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_YAW_90">
      <td class="mavlink_type" valign="top">18</td>
@@ -10829,22 +9269,12 @@
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 0, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_YAW_135">
      <td class="mavlink_type" valign="top">19</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_90_YAW_135">MAV_SENSOR_ROTATION_ROLL_90_YAW_135</a>
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 0, Yaw: 135</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270">
      <td class="mavlink_type" valign="top">20</td>
@@ -10853,22 +9283,12 @@
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 0, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_YAW_45">
      <td class="mavlink_type" valign="top">21</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_270_YAW_45">MAV_SENSOR_ROTATION_ROLL_270_YAW_45</a>
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 0, Yaw: 45</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_YAW_90">
      <td class="mavlink_type" valign="top">22</td>
@@ -10877,22 +9297,12 @@
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 0, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_YAW_135">
      <td class="mavlink_type" valign="top">23</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_270_YAW_135">MAV_SENSOR_ROTATION_ROLL_270_YAW_135</a>
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 0, Yaw: 135</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_PITCH_90">
      <td class="mavlink_type" valign="top">24</td>
@@ -10901,22 +9311,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 90, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_PITCH_270">
      <td class="mavlink_type" valign="top">25</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_PITCH_270">MAV_SENSOR_ROTATION_PITCH_270</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 270, Yaw: 0</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_PITCH_180_YAW_90">
      <td class="mavlink_type" valign="top">26</td>
@@ -10925,22 +9325,12 @@
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 180, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_PITCH_180_YAW_270">
      <td class="mavlink_type" valign="top">27</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_PITCH_180_YAW_270">MAV_SENSOR_ROTATION_PITCH_180_YAW_270</a>
      </td>
      <td class="mavlink_comment">Roll: 0, Pitch: 180, Yaw: 270</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_PITCH_90">
      <td class="mavlink_type" valign="top">28</td>
@@ -10949,22 +9339,12 @@
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 90, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_PITCH_90">
      <td class="mavlink_type" valign="top">29</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_180_PITCH_90">MAV_SENSOR_ROTATION_ROLL_180_PITCH_90</a>
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 90, Yaw: 0</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_PITCH_90">
      <td class="mavlink_type" valign="top">30</td>
@@ -10973,22 +9353,12 @@
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 90, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_PITCH_180">
      <td class="mavlink_type" valign="top">31</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_90_PITCH_180">MAV_SENSOR_ROTATION_ROLL_90_PITCH_180</a>
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 180, Yaw: 0</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_PITCH_180">
      <td class="mavlink_type" valign="top">32</td>
@@ -10997,22 +9367,12 @@
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 180, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_PITCH_270">
      <td class="mavlink_type" valign="top">33</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_90_PITCH_270">MAV_SENSOR_ROTATION_ROLL_90_PITCH_270</a>
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 270, Yaw: 0</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_180_PITCH_270">
      <td class="mavlink_type" valign="top">34</td>
@@ -11021,22 +9381,12 @@
      </td>
      <td class="mavlink_comment">Roll: 180, Pitch: 270, Yaw: 0</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_270_PITCH_270">
      <td class="mavlink_type" valign="top">35</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_270_PITCH_270">MAV_SENSOR_ROTATION_ROLL_270_PITCH_270</a>
      </td>
      <td class="mavlink_comment">Roll: 270, Pitch: 270, Yaw: 0</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_PITCH_180_YAW_90">
      <td class="mavlink_type" valign="top">36</td>
@@ -11045,11 +9395,6 @@
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 180, Yaw: 90</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_90_YAW_270">
      <td class="mavlink_type" valign="top">37</td>
      <td class="mavlink_name" valign="top">
@@ -11057,22 +9402,12 @@
      </td>
      <td class="mavlink_comment">Roll: 90, Pitch: 0, Yaw: 270</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_SENSOR_ROTATION_ROLL_315_PITCH_315_YAW_315">
      <td class="mavlink_type" valign="top">38</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_SENSOR_ROTATION_ROLL_315_PITCH_315_YAW_315">MAV_SENSOR_ROTATION_ROLL_315_PITCH_315_YAW_315</a>
      </td>
      <td class="mavlink_comment">Roll: 315, Pitch: 315, Yaw: 315</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11096,22 +9431,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports MISSION float message type.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_PARAM_FLOAT">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_PARAM_FLOAT">MAV_PROTOCOL_CAPABILITY_PARAM_FLOAT</a>
      </td>
      <td class="mavlink_comment">Autopilot supports the new param float message type.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_MISSION_INT">
      <td class="mavlink_type" valign="top">4</td>
@@ -11120,22 +9445,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports MISSION_INT scaled integer message type.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_COMMAND_INT">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_COMMAND_INT">MAV_PROTOCOL_CAPABILITY_COMMAND_INT</a>
      </td>
      <td class="mavlink_comment">Autopilot supports COMMAND_INT scaled integer message type.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_PARAM_UNION">
      <td class="mavlink_type" valign="top">16</td>
@@ -11144,22 +9459,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports the new param union message type.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_FTP">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_FTP">MAV_PROTOCOL_CAPABILITY_FTP</a>
      </td>
      <td class="mavlink_comment">Autopilot supports the new FILE_TRANSFER_PROTOCOL message type.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_SET_ATTITUDE_TARGET">
      <td class="mavlink_type" valign="top">64</td>
@@ -11168,22 +9473,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports commanding attitude offboard.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_SET_POSITION_TARGET_LOCAL_NED">
      <td class="mavlink_type" valign="top">128</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_SET_POSITION_TARGET_LOCAL_NED">MAV_PROTOCOL_CAPABILITY_SET_POSITION_TARGET_LOCAL_NED</a>
      </td>
      <td class="mavlink_comment">Autopilot supports commanding position and velocity targets in local NED frame.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_SET_POSITION_TARGET_GLOBAL_INT">
      <td class="mavlink_type" valign="top">256</td>
@@ -11192,22 +9487,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports commanding position and velocity targets in global scaled integers.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_TERRAIN">
      <td class="mavlink_type" valign="top">512</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_TERRAIN">MAV_PROTOCOL_CAPABILITY_TERRAIN</a>
      </td>
      <td class="mavlink_comment">Autopilot supports terrain protocol / data handling.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_SET_ACTUATOR_TARGET">
      <td class="mavlink_type" valign="top">1024</td>
@@ -11216,22 +9501,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports direct actuator control.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_FLIGHT_TERMINATION">
      <td class="mavlink_type" valign="top">2048</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_FLIGHT_TERMINATION">MAV_PROTOCOL_CAPABILITY_FLIGHT_TERMINATION</a>
      </td>
      <td class="mavlink_comment">Autopilot supports the flight termination command.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_COMPASS_CALIBRATION">
      <td class="mavlink_type" valign="top">4096</td>
@@ -11240,22 +9515,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports onboard compass calibration.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_MAVLINK2">
      <td class="mavlink_type" valign="top">8192</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_MAVLINK2">MAV_PROTOCOL_CAPABILITY_MAVLINK2</a>
      </td>
      <td class="mavlink_comment">Autopilot supports mavlink version 2.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_MISSION_FENCE">
      <td class="mavlink_type" valign="top">16384</td>
@@ -11264,11 +9529,6 @@
      </td>
      <td class="mavlink_comment">Autopilot supports mission fence protocol.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_MISSION_RALLY">
      <td class="mavlink_type" valign="top">32768</td>
      <td class="mavlink_name" valign="top">
@@ -11276,22 +9536,12 @@
      </td>
      <td class="mavlink_comment">Autopilot supports mission rally point protocol.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_PROTOCOL_CAPABILITY_FLIGHT_INFORMATION">
      <td class="mavlink_type" valign="top">65536</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_PROTOCOL_CAPABILITY_FLIGHT_INFORMATION">MAV_PROTOCOL_CAPABILITY_FLIGHT_INFORMATION</a>
      </td>
      <td class="mavlink_comment">Autopilot supports the flight information protocol.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11315,22 +9565,12 @@
      </td>
      <td class="mavlink_comment">Items are mission commands for main mission.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_TYPE_FENCE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_TYPE_FENCE">MAV_MISSION_TYPE_FENCE</a>
      </td>
      <td class="mavlink_comment">Specifies GeoFence area(s). Items are MAV_CMD_FENCE_ GeoFence items.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_MISSION_TYPE_RALLY">
      <td class="mavlink_type" valign="top">2</td>
@@ -11339,22 +9579,12 @@
      </td>
      <td class="mavlink_comment">Specifies the rally points for the vehicle. Rally points are alternative RTL points. Items are MAV_CMD_RALLY_POINT rally point items.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_MISSION_TYPE_ALL">
      <td class="mavlink_type" valign="top">255</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_MISSION_TYPE_ALL">MAV_MISSION_TYPE_ALL</a>
      </td>
      <td class="mavlink_comment">Only used in MISSION_CLEAR_ALL to clear all mission types.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11378,22 +9608,12 @@
      </td>
      <td class="mavlink_comment">This is a naive estimator without any real covariance feedback.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ESTIMATOR_TYPE_VISION">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ESTIMATOR_TYPE_VISION">MAV_ESTIMATOR_TYPE_VISION</a>
      </td>
      <td class="mavlink_comment">Computer vision based estimate. Might be up to scale.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_ESTIMATOR_TYPE_VIO">
      <td class="mavlink_type" valign="top">3</td>
@@ -11402,11 +9622,6 @@
      </td>
      <td class="mavlink_comment">Visual-inertial estimate.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ESTIMATOR_TYPE_GPS">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
@@ -11414,22 +9629,12 @@
      </td>
      <td class="mavlink_comment">Plain GPS estimate.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ESTIMATOR_TYPE_GPS_INS">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ESTIMATOR_TYPE_GPS_INS">MAV_ESTIMATOR_TYPE_GPS_INS</a>
      </td>
      <td class="mavlink_comment">Estimator integrating GPS and inertial sensing.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11453,22 +9658,12 @@
      </td>
      <td class="mavlink_comment">Not specified.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_TYPE_LIPO">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_BATTERY_TYPE_LIPO">MAV_BATTERY_TYPE_LIPO</a>
      </td>
      <td class="mavlink_comment">Lithium polymer battery</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_TYPE_LIFE">
      <td class="mavlink_type" valign="top">2</td>
@@ -11477,11 +9672,6 @@
      </td>
      <td class="mavlink_comment">Lithium-iron-phosphate battery</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_TYPE_LION">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -11489,22 +9679,12 @@
      </td>
      <td class="mavlink_comment">Lithium-ION battery</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_TYPE_NIMH">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_BATTERY_TYPE_NIMH">MAV_BATTERY_TYPE_NIMH</a>
      </td>
      <td class="mavlink_comment">Nickel metal hydride battery</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11528,22 +9708,12 @@
      </td>
      <td class="mavlink_comment">Battery function is unknown</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_FUNCTION_ALL">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_BATTERY_FUNCTION_ALL">MAV_BATTERY_FUNCTION_ALL</a>
      </td>
      <td class="mavlink_comment">Battery supports all flight systems</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_FUNCTION_PROPULSION">
      <td class="mavlink_type" valign="top">2</td>
@@ -11552,11 +9722,6 @@
      </td>
      <td class="mavlink_comment">Battery for the propulsion system</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_FUNCTION_AVIONICS">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -11564,22 +9729,12 @@
      </td>
      <td class="mavlink_comment">Avionics battery</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_BATTERY_TYPE_PAYLOAD">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_BATTERY_TYPE_PAYLOAD">MAV_BATTERY_TYPE_PAYLOAD</a>
      </td>
      <td class="mavlink_comment">Payload battery</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11603,22 +9758,12 @@
      </td>
      <td class="mavlink_comment">MAV is not configured as VTOL</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_VTOL_STATE_TRANSITION_TO_FW">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_VTOL_STATE_TRANSITION_TO_FW">MAV_VTOL_STATE_TRANSITION_TO_FW</a>
      </td>
      <td class="mavlink_comment">VTOL is in transition from multicopter to fixed-wing</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_VTOL_STATE_TRANSITION_TO_MC">
      <td class="mavlink_type" valign="top">2</td>
@@ -11627,11 +9772,6 @@
      </td>
      <td class="mavlink_comment">VTOL is in transition from fixed-wing to multicopter</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_VTOL_STATE_MC">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -11639,22 +9779,12 @@
      </td>
      <td class="mavlink_comment">VTOL is in multicopter state</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_VTOL_STATE_FW">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_VTOL_STATE_FW">MAV_VTOL_STATE_FW</a>
      </td>
      <td class="mavlink_comment">VTOL is in fixed-wing state</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11678,22 +9808,12 @@
      </td>
      <td class="mavlink_comment">MAV landed state is unknown</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_LANDED_STATE_ON_GROUND">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_LANDED_STATE_ON_GROUND">MAV_LANDED_STATE_ON_GROUND</a>
      </td>
      <td class="mavlink_comment">MAV is landed (on ground)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_LANDED_STATE_IN_AIR">
      <td class="mavlink_type" valign="top">2</td>
@@ -11702,11 +9822,6 @@
      </td>
      <td class="mavlink_comment">MAV is in air</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_LANDED_STATE_TAKEOFF">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -11714,22 +9829,12 @@
      </td>
      <td class="mavlink_comment">MAV currently taking off</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_LANDED_STATE_LANDING">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_LANDED_STATE_LANDING">MAV_LANDED_STATE_LANDING</a>
      </td>
      <td class="mavlink_comment">MAV currently landing</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11753,22 +9858,12 @@
      </td>
      <td class="mavlink_comment">Altitude reported from a Baro source using QNH reference</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_ALTITUDE_TYPE_GEOMETRIC">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_ALTITUDE_TYPE_GEOMETRIC">ADSB_ALTITUDE_TYPE_GEOMETRIC</a>
      </td>
      <td class="mavlink_comment">Altitude reported from a GNSS source</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -11793,22 +9888,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_LIGHT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_LIGHT">ADSB_EMITTER_TYPE_LIGHT</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_SMALL">
@@ -11819,22 +9904,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_LARGE">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_LARGE">ADSB_EMITTER_TYPE_LARGE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_HIGH_VORTEX_LARGE">
@@ -11845,22 +9920,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_HEAVY">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_HEAVY">ADSB_EMITTER_TYPE_HEAVY</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_HIGHLY_MANUV">
@@ -11871,22 +9936,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_ROTOCRAFT">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_ROTOCRAFT">ADSB_EMITTER_TYPE_ROTOCRAFT</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_UNASSIGNED">
@@ -11897,22 +9952,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_GLIDER">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_GLIDER">ADSB_EMITTER_TYPE_GLIDER</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_LIGHTER_AIR">
@@ -11923,22 +9968,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_PARACHUTE">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_PARACHUTE">ADSB_EMITTER_TYPE_PARACHUTE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_ULTRA_LIGHT">
@@ -11949,22 +9984,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_UNASSIGNED2">
      <td class="mavlink_type" valign="top">13</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_UNASSIGNED2">ADSB_EMITTER_TYPE_UNASSIGNED2</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_UAV">
@@ -11975,22 +10000,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_SPACE">
      <td class="mavlink_type" valign="top">15</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_SPACE">ADSB_EMITTER_TYPE_SPACE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_UNASSGINED3">
@@ -12001,22 +10016,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_EMERGENCY_SURFACE">
      <td class="mavlink_type" valign="top">17</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_EMERGENCY_SURFACE">ADSB_EMITTER_TYPE_EMERGENCY_SURFACE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_SERVICE_SURFACE">
@@ -12027,22 +10032,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_EMITTER_TYPE_POINT_OBSTACLE">
      <td class="mavlink_type" valign="top">19</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_EMITTER_TYPE_POINT_OBSTACLE">ADSB_EMITTER_TYPE_POINT_OBSTACLE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -12068,22 +10063,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_VALID_ALTITUDE">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_FLAGS_VALID_ALTITUDE">ADSB_FLAGS_VALID_ALTITUDE</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_VALID_HEADING">
@@ -12094,22 +10079,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_VALID_VELOCITY">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_FLAGS_VALID_VELOCITY">ADSB_FLAGS_VALID_VELOCITY</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_VALID_CALLSIGN">
@@ -12120,11 +10095,6 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_VALID_SQUAWK">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
@@ -12133,22 +10103,12 @@
      <td class="mavlink_comment">
      </td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ADSB_FLAGS_SIMULATED">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#ADSB_FLAGS_SIMULATED">ADSB_FLAGS_SIMULATED</a>
      </td>
      <td class="mavlink_comment">
-     </td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
      </td>
     </tr>
    </tbody>
@@ -12173,11 +10133,6 @@
      </td>
      <td class="mavlink_comment">The aircraft should immediately transition into guided. This should not be set for follow me applications</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
    </tbody>
   </table>
   <h2 class="mavlink_message_name" id="ENUM_ESTIMATOR_STATUS_FLAGS">
@@ -12200,22 +10155,12 @@
      </td>
      <td class="mavlink_comment">True if the attitude estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_VELOCITY_HORIZ">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#ESTIMATOR_VELOCITY_HORIZ">ESTIMATOR_VELOCITY_HORIZ</a>
      </td>
      <td class="mavlink_comment">True if the horizontal velocity estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="ESTIMATOR_VELOCITY_VERT">
      <td class="mavlink_type" valign="top">4</td>
@@ -12224,22 +10169,12 @@
      </td>
      <td class="mavlink_comment">True if the  vertical velocity estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_POS_HORIZ_REL">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#ESTIMATOR_POS_HORIZ_REL">ESTIMATOR_POS_HORIZ_REL</a>
      </td>
      <td class="mavlink_comment">True if the horizontal position (relative) estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="ESTIMATOR_POS_HORIZ_ABS">
      <td class="mavlink_type" valign="top">16</td>
@@ -12248,22 +10183,12 @@
      </td>
      <td class="mavlink_comment">True if the horizontal position (absolute) estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_POS_VERT_ABS">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#ESTIMATOR_POS_VERT_ABS">ESTIMATOR_POS_VERT_ABS</a>
      </td>
      <td class="mavlink_comment">True if the vertical position (absolute) estimate is good</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="ESTIMATOR_POS_VERT_AGL">
      <td class="mavlink_type" valign="top">64</td>
@@ -12272,22 +10197,12 @@
      </td>
      <td class="mavlink_comment">True if the vertical position (above ground) estimate is good</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_CONST_POS_MODE">
      <td class="mavlink_type" valign="top">128</td>
      <td class="mavlink_name" valign="top">
       <a href="#ESTIMATOR_CONST_POS_MODE">ESTIMATOR_CONST_POS_MODE</a>
      </td>
      <td class="mavlink_comment">True if the EKF is in a constant position mode and is not using external measurements (eg GPS or optical flow)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="ESTIMATOR_PRED_POS_HORIZ_REL">
      <td class="mavlink_type" valign="top">256</td>
@@ -12296,11 +10211,6 @@
      </td>
      <td class="mavlink_comment">True if the EKF has sufficient data to enter a mode that will provide a (relative) position estimate</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_PRED_POS_HORIZ_ABS">
      <td class="mavlink_type" valign="top">512</td>
      <td class="mavlink_name" valign="top">
@@ -12308,22 +10218,12 @@
      </td>
      <td class="mavlink_comment">True if the EKF has sufficient data to enter a mode that will provide a (absolute) position estimate</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="ESTIMATOR_GPS_GLITCH">
      <td class="mavlink_type" valign="top">1024</td>
      <td class="mavlink_name" valign="top">
       <a href="#ESTIMATOR_GPS_GLITCH">ESTIMATOR_GPS_GLITCH</a>
      </td>
      <td class="mavlink_comment">True if the EKF has detected a GPS glitch</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12348,11 +10248,6 @@
      </td>
      <td class="mavlink_comment">throttle as a percentage from 0 ~ 100</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MOTOR_TEST_THROTTLE_PWM">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -12360,22 +10255,12 @@
      </td>
      <td class="mavlink_comment">throttle as an absolute PWM value (normally in range of 1000~2000)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MOTOR_TEST_THROTTLE_PILOT">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MOTOR_TEST_THROTTLE_PILOT">MOTOR_TEST_THROTTLE_PILOT</a>
      </td>
      <td class="mavlink_comment">throttle pass-through from pilot's transmitter</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12400,22 +10285,12 @@
      </td>
      <td class="mavlink_comment">ignore altitude field</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_HDOP">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_INPUT_IGNORE_FLAG_HDOP">GPS_INPUT_IGNORE_FLAG_HDOP</a>
      </td>
      <td class="mavlink_comment">ignore hdop field</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_VDOP">
      <td class="mavlink_type" valign="top">4</td>
@@ -12424,22 +10299,12 @@
      </td>
      <td class="mavlink_comment">ignore vdop field</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_VEL_HORIZ">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_INPUT_IGNORE_FLAG_VEL_HORIZ">GPS_INPUT_IGNORE_FLAG_VEL_HORIZ</a>
      </td>
      <td class="mavlink_comment">ignore horizontal velocity field (vn and ve)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_VEL_VERT">
      <td class="mavlink_type" valign="top">16</td>
@@ -12448,22 +10313,12 @@
      </td>
      <td class="mavlink_comment">ignore vertical velocity field (vd)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_SPEED_ACCURACY">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_INPUT_IGNORE_FLAG_SPEED_ACCURACY">GPS_INPUT_IGNORE_FLAG_SPEED_ACCURACY</a>
      </td>
      <td class="mavlink_comment">ignore speed accuracy field</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_HORIZONTAL_ACCURACY">
      <td class="mavlink_type" valign="top">64</td>
@@ -12472,22 +10327,12 @@
      </td>
      <td class="mavlink_comment">ignore horizontal accuracy field</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_INPUT_IGNORE_FLAG_VERTICAL_ACCURACY">
      <td class="mavlink_type" valign="top">128</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_INPUT_IGNORE_FLAG_VERTICAL_ACCURACY">GPS_INPUT_IGNORE_FLAG_VERTICAL_ACCURACY</a>
      </td>
      <td class="mavlink_comment">ignore vertical accuracy field</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12511,22 +10356,12 @@
      </td>
      <td class="mavlink_comment">Ignore any potential collisions</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_REPORT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COLLISION_ACTION_REPORT">MAV_COLLISION_ACTION_REPORT</a>
      </td>
      <td class="mavlink_comment">Report potential collision</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_ASCEND_OR_DESCEND">
      <td class="mavlink_type" valign="top">2</td>
@@ -12535,22 +10370,12 @@
      </td>
      <td class="mavlink_comment">Ascend or Descend to avoid threat</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_MOVE_HORIZONTALLY">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COLLISION_ACTION_MOVE_HORIZONTALLY">MAV_COLLISION_ACTION_MOVE_HORIZONTALLY</a>
      </td>
      <td class="mavlink_comment">Move horizontally to avoid threat</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_MOVE_PERPENDICULAR">
      <td class="mavlink_type" valign="top">4</td>
@@ -12559,11 +10384,6 @@
      </td>
      <td class="mavlink_comment">Aircraft to move perpendicular to the collision's velocity vector</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_RTL">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
@@ -12571,22 +10391,12 @@
      </td>
      <td class="mavlink_comment">Aircraft to fly directly back to its launch point</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_ACTION_HOVER">
      <td class="mavlink_type" valign="top">6</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COLLISION_ACTION_HOVER">MAV_COLLISION_ACTION_HOVER</a>
      </td>
      <td class="mavlink_comment">Aircraft to stop in place</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12610,11 +10420,6 @@
      </td>
      <td class="mavlink_comment">Not a threat</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_THREAT_LEVEL_LOW">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -12622,22 +10427,12 @@
      </td>
      <td class="mavlink_comment">Craft is mildly concerned about this threat</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_THREAT_LEVEL_HIGH">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COLLISION_THREAT_LEVEL_HIGH">MAV_COLLISION_THREAT_LEVEL_HIGH</a>
      </td>
      <td class="mavlink_comment">Craft is panicing, and may take actions to avoid threat</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12661,22 +10456,12 @@
      </td>
      <td class="mavlink_comment">ID field references ADSB_VEHICLE packets</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_COLLISION_SRC_MAVLINK_GPS_GLOBAL_INT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_COLLISION_SRC_MAVLINK_GPS_GLOBAL_INT">MAV_COLLISION_SRC_MAVLINK_GPS_GLOBAL_INT</a>
      </td>
      <td class="mavlink_comment">ID field references MAVLink SRC ID</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12700,22 +10485,12 @@
      </td>
      <td class="mavlink_comment">No GPS connected</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_NO_FIX">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_FIX_TYPE_NO_FIX">GPS_FIX_TYPE_NO_FIX</a>
      </td>
      <td class="mavlink_comment">No position information, GPS is connected</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_2D_FIX">
      <td class="mavlink_type" valign="top">2</td>
@@ -12724,22 +10499,12 @@
      </td>
      <td class="mavlink_comment">2D position</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_3D_FIX">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_FIX_TYPE_3D_FIX">GPS_FIX_TYPE_3D_FIX</a>
      </td>
      <td class="mavlink_comment">3D position</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_DGPS">
      <td class="mavlink_type" valign="top">4</td>
@@ -12748,22 +10513,12 @@
      </td>
      <td class="mavlink_comment">DGPS/SBAS aided 3D position</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_RTK_FLOAT">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_FIX_TYPE_RTK_FLOAT">GPS_FIX_TYPE_RTK_FLOAT</a>
      </td>
      <td class="mavlink_comment">RTK float, 3D position</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_RTK_FIXED">
      <td class="mavlink_type" valign="top">6</td>
@@ -12772,11 +10527,6 @@
      </td>
      <td class="mavlink_comment">RTK Fixed, 3D position</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_STATIC">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
@@ -12784,22 +10534,12 @@
      </td>
      <td class="mavlink_comment">Static fixed, typically used for base stations</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="GPS_FIX_TYPE_PPP">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#GPS_FIX_TYPE_PPP">GPS_FIX_TYPE_PPP</a>
      </td>
      <td class="mavlink_comment">PPP, 3D position.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12823,22 +10563,12 @@
      </td>
      <td class="mavlink_comment">Landing target signaled by light beacon (ex: IR-LOCK)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LANDING_TARGET_TYPE_RADIO_BEACON">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#LANDING_TARGET_TYPE_RADIO_BEACON">LANDING_TARGET_TYPE_RADIO_BEACON</a>
      </td>
      <td class="mavlink_comment">Landing target signaled by radio beacon (ex: ILS, NDB)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="LANDING_TARGET_TYPE_VISION_FIDUCIAL">
      <td class="mavlink_type" valign="top">2</td>
@@ -12847,22 +10577,12 @@
      </td>
      <td class="mavlink_comment">Landing target represented by a fiducial marker (ex: ARTag)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="LANDING_TARGET_TYPE_VISION_OTHER">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#LANDING_TARGET_TYPE_VISION_OTHER">LANDING_TARGET_TYPE_VISION_OTHER</a>
      </td>
      <td class="mavlink_comment">Landing target represented by a pre-defined visual shape/feature (ex: X-marker, H-marker, square)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12886,22 +10606,12 @@
      </td>
      <td class="mavlink_comment">Respect the heading configuration of the vehicle.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_NEXT_WAYPOINT">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#VTOL_TRANSITION_HEADING_NEXT_WAYPOINT">VTOL_TRANSITION_HEADING_NEXT_WAYPOINT</a>
      </td>
      <td class="mavlink_comment">Use the heading pointing towards the next waypoint.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_TAKEOFF">
      <td class="mavlink_type" valign="top">2</td>
@@ -12910,11 +10620,6 @@
      </td>
      <td class="mavlink_comment">Use the heading on takeoff (while sitting on the ground).</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_SPECIFIED">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
@@ -12922,22 +10627,12 @@
      </td>
      <td class="mavlink_comment">Use the specified heading in parameter 4.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="VTOL_TRANSITION_HEADING_ANY">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#VTOL_TRANSITION_HEADING_ANY">VTOL_TRANSITION_HEADING_ANY</a>
      </td>
      <td class="mavlink_comment">Use the current heading when reaching takeoff altitude (potentially facing the wind when weather-vaning is active).</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -12961,22 +10656,12 @@
      </td>
      <td class="mavlink_comment">Camera is able to record video.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAPTURE_IMAGE">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_CAP_FLAGS_CAPTURE_IMAGE">CAMERA_CAP_FLAGS_CAPTURE_IMAGE</a>
      </td>
      <td class="mavlink_comment">Camera is able to capture images.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_HAS_MODES">
      <td class="mavlink_type" valign="top">4</td>
@@ -12985,22 +10670,12 @@
      </td>
      <td class="mavlink_comment">Camera has separate Video and Image/Photo modes (MAV_CMD_SET_CAMERA_MODE)</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAN_CAPTURE_IMAGE_IN_VIDEO_MODE">
      <td class="mavlink_type" valign="top">8</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_CAP_FLAGS_CAN_CAPTURE_IMAGE_IN_VIDEO_MODE">CAMERA_CAP_FLAGS_CAN_CAPTURE_IMAGE_IN_VIDEO_MODE</a>
      </td>
      <td class="mavlink_comment">Camera can capture images while in video mode</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_CAN_CAPTURE_VIDEO_IN_IMAGE_MODE">
      <td class="mavlink_type" valign="top">16</td>
@@ -13009,22 +10684,12 @@
      </td>
      <td class="mavlink_comment">Camera can capture videos while in Photo/Image mode</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_CAP_FLAGS_HAS_IMAGE_SURVEY_MODE">
      <td class="mavlink_type" valign="top">32</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_CAP_FLAGS_HAS_IMAGE_SURVEY_MODE">CAMERA_CAP_FLAGS_HAS_IMAGE_SURVEY_MODE</a>
      </td>
      <td class="mavlink_comment">Camera has image survey mode (MAV_CMD_SET_CAMERA_MODE)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -13048,22 +10713,12 @@
      </td>
      <td class="mavlink_comment">Parameter value ACCEPTED and SET</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PARAM_ACK_VALUE_UNSUPPORTED">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#PARAM_ACK_VALUE_UNSUPPORTED">PARAM_ACK_VALUE_UNSUPPORTED</a>
      </td>
      <td class="mavlink_comment">Parameter value UNKNOWN/UNSUPPORTED</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="PARAM_ACK_FAILED">
      <td class="mavlink_type" valign="top">2</td>
@@ -13072,22 +10727,12 @@
      </td>
      <td class="mavlink_comment">Parameter failed to set</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="PARAM_ACK_IN_PROGRESS">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#PARAM_ACK_IN_PROGRESS">PARAM_ACK_IN_PROGRESS</a>
      </td>
      <td class="mavlink_comment">Parameter value received but not yet validated or set. A subsequent PARAM_EXT_ACK will follow once operation is completed with the actual result. These are for parameters that may take longer to set. Instead of waiting for an ACK and potentially timing out, you will immediately receive this response to let you know it was received.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -13111,11 +10756,6 @@
      </td>
      <td class="mavlink_comment">Camera is in image/photo capture mode.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_MODE_VIDEO">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
@@ -13123,22 +10763,12 @@
      </td>
      <td class="mavlink_comment">Camera is in video capture mode.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CAMERA_MODE_IMAGE_SURVEY">
      <td class="mavlink_type" valign="top">2</td>
      <td class="mavlink_name" valign="top">
       <a href="#CAMERA_MODE_IMAGE_SURVEY">CAMERA_MODE_IMAGE_SURVEY</a>
      </td>
      <td class="mavlink_comment">Camera is in image survey capture mode. It allows for camera controller to do specific settings for surveys.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -13163,22 +10793,12 @@
      </td>
      <td class="mavlink_comment">Not a specific reason</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_NONE">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ARM_AUTH_DENIED_REASON_NONE">MAV_ARM_AUTH_DENIED_REASON_NONE</a>
      </td>
      <td class="mavlink_comment">Authorizer will send the error as string to GCS</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_INVALID_WAYPOINT">
      <td class="mavlink_type" valign="top">2</td>
@@ -13187,22 +10807,12 @@
      </td>
      <td class="mavlink_comment">At least one waypoint have a invalid value</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_TIMEOUT">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ARM_AUTH_DENIED_REASON_TIMEOUT">MAV_ARM_AUTH_DENIED_REASON_TIMEOUT</a>
      </td>
      <td class="mavlink_comment">Timeout in the authorizer process(in case it depends on network)</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_AIRSPACE_IN_USE">
      <td class="mavlink_type" valign="top">4</td>
@@ -13211,22 +10821,12 @@
      </td>
      <td class="mavlink_comment">Airspace of the mission in use by another vehicle, second result parameter can have the waypoint id that caused it to be denied.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_ARM_AUTH_DENIED_REASON_BAD_WEATHER">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#MAV_ARM_AUTH_DENIED_REASON_BAD_WEATHER">MAV_ARM_AUTH_DENIED_REASON_BAD_WEATHER</a>
      </td>
      <td class="mavlink_comment">Weather is not good to fly</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>

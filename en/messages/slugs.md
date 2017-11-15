@@ -71,11 +71,6 @@
      </td>
      <td class="mavlink_comment">Stops the vehicle from returning to base and resumes flight.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="MAV_CMD_TURN_LIGHT">
      <td class="mavlink_type" valign="top">10013</td>
      <td class="mavlink_name" valign="top">
@@ -110,11 +105,6 @@
       <a href="#MAV_CMD_GET_MID_LEVEL_COMMANDS">MAV_CMD_GET_MID_LEVEL_COMMANDS</a>
      </td>
      <td class="mavlink_comment">Requests vehicle to send current mid-level commands to ground station.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_MIDLEVEL_STORAGE">
      <td class="mavlink_type" valign="top">10015</td>
@@ -160,22 +150,12 @@
      </td>
      <td class="mavlink_comment">No change to SLUGS mode.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LIFTOFF">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_LIFTOFF">SLUGS_MODE_LIFTOFF</a>
      </td>
      <td class="mavlink_comment">Vehicle is in liftoff mode.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_PASSTHROUGH">
      <td class="mavlink_type" valign="top">2</td>
@@ -184,22 +164,12 @@
      </td>
      <td class="mavlink_comment">Vehicle is in passthrough mode, being controlled by a pilot.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_WAYPOINT">
      <td class="mavlink_type" valign="top">3</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_WAYPOINT">SLUGS_MODE_WAYPOINT</a>
      </td>
      <td class="mavlink_comment">Vehicle is in waypoint mode, navigating to waypoints.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_MID_LEVEL">
      <td class="mavlink_type" valign="top">4</td>
@@ -208,22 +178,12 @@
      </td>
      <td class="mavlink_comment">Vehicle is executing mid-level commands.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_RETURNING">
      <td class="mavlink_type" valign="top">5</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_RETURNING">SLUGS_MODE_RETURNING</a>
      </td>
      <td class="mavlink_comment">Vehicle is returning to the home location.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LANDING">
      <td class="mavlink_type" valign="top">6</td>
@@ -232,22 +192,12 @@
      </td>
      <td class="mavlink_comment">Vehicle is landing.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LOST">
      <td class="mavlink_type" valign="top">7</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_LOST">SLUGS_MODE_LOST</a>
      </td>
      <td class="mavlink_comment">Lost connection with vehicle.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_SELECTIVE_PASSTHROUGH">
      <td class="mavlink_type" valign="top">8</td>
@@ -256,22 +206,12 @@
      </td>
      <td class="mavlink_comment">Vehicle is in selective passthrough mode, where selected surfaces are being manually controlled.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_ISR">
      <td class="mavlink_type" valign="top">9</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_ISR">SLUGS_MODE_ISR</a>
      </td>
      <td class="mavlink_comment">Vehicle is in ISR mode, performing reconaissance at a point specified by ISR_LOCATION message.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LINE_PATROL">
      <td class="mavlink_type" valign="top">10</td>
@@ -280,22 +220,12 @@
      </td>
      <td class="mavlink_comment">Vehicle is patrolling along lines between waypoints.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_GROUNDED">
      <td class="mavlink_type" valign="top">11</td>
      <td class="mavlink_name" valign="top">
       <a href="#SLUGS_MODE_GROUNDED">SLUGS_MODE_GROUNDED</a>
      </td>
      <td class="mavlink_comment">Vehicle is grounded or an error has occurred.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
@@ -320,22 +250,12 @@
      </td>
      <td class="mavlink_comment">0b10000000 Throttle control passes through to pilot console.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_AILERON">
      <td class="mavlink_type" valign="top">64</td>
      <td class="mavlink_name" valign="top">
       <a href="#CONTROL_SURFACE_FLAG_LEFT_AILERON">CONTROL_SURFACE_FLAG_LEFT_AILERON</a>
      </td>
      <td class="mavlink_comment">0b01000000 Left aileron control passes through to pilot console.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_AILERON">
      <td class="mavlink_type" valign="top">32</td>
@@ -344,22 +264,12 @@
      </td>
      <td class="mavlink_comment">0b00100000 Right aileron control passes through to pilot console.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RUDDER">
      <td class="mavlink_type" valign="top">16</td>
      <td class="mavlink_name" valign="top">
       <a href="#CONTROL_SURFACE_FLAG_RUDDER">CONTROL_SURFACE_FLAG_RUDDER</a>
      </td>
      <td class="mavlink_comment">0b00010000 Rudder control passes through to pilot console.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_ELEVATOR">
      <td class="mavlink_type" valign="top">8</td>
@@ -368,22 +278,12 @@
      </td>
      <td class="mavlink_comment">0b00001000 Left elevator control passes through to pilot console.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR">
      <td class="mavlink_type" valign="top">4</td>
      <td class="mavlink_name" valign="top">
       <a href="#CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR">CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR</a>
      </td>
      <td class="mavlink_comment">0b00000100 Right elevator control passes through to pilot console.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_FLAP">
      <td class="mavlink_type" valign="top">2</td>
@@ -392,22 +292,12 @@
      </td>
      <td class="mavlink_comment">0b00000010 Left flap control passes through to pilot console.</td>
     </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
-    </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_FLAP">
      <td class="mavlink_type" valign="top">1</td>
      <td class="mavlink_name" valign="top">
       <a href="#CONTROL_SURFACE_FLAG_RIGHT_FLAP">CONTROL_SURFACE_FLAG_RIGHT_FLAP</a>
      </td>
      <td class="mavlink_comment">0b00000001 Right flap control passes through to pilot console.</td>
-    </tr>
-    <tr>
-     <td colspan="3">
-      <br/>
-     </td>
     </tr>
    </tbody>
   </table>
