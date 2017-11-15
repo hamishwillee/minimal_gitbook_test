@@ -543,7 +543,10 @@
    </a>
    )
   </h2>
-  <p class="description">Static data to configure the ADS-B transponder (send within 10 sec of a POR and every 10 sec thereafter)</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Static data to configure the ADS-B transponder (send within 10 sec of a POR and every 10 sec thereafter)</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -616,7 +619,10 @@
    </a>
    )
   </h2>
-  <p class="description">Dynamic data used to generate ADS-B out transponder data (send at 5Hz)</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Dynamic data used to generate ADS-B out transponder data (send at 5Hz)</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -733,7 +739,10 @@
    </a>
    )
   </h2>
-  <p class="description">Transceiver heartbeat with health report (updated every 10s)</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Transceiver heartbeat with health report (updated every 10s)</p>
   <table class="sortable">
    <thead>
     <tr>

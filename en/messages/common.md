@@ -19190,7 +19190,10 @@
    </a>
    )
   </h2>
-  <p class="description">Setup a MAVLink2 signing key. If called with secret_key of all zero and zero initial_timestamp will disable signing</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Setup a MAVLink2 signing key. If called with secret_key of all zero and zero initial_timestamp will disable signing</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19227,7 +19230,10 @@
    </a>
    )
   </h2>
-  <p class="description">Report button state change</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Report button state change</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19261,7 +19267,10 @@
    </a>
    )
   </h2>
-  <p class="description">Control vehicle tone generation (buzzer)</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Control vehicle tone generation (buzzer)</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19293,7 +19302,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about a camera</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Information about a camera</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19384,7 +19396,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Settings of a camera, can be requested using MAV_CMD_REQUEST_CAMERA_SETTINGS.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Settings of a camera, can be requested using MAV_CMD_REQUEST_CAMERA_SETTINGS.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19415,7 +19430,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about a storage medium.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Information about a storage medium.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19483,7 +19501,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about the status of a capture</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Information about the status of a capture</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19534,7 +19555,10 @@
    </a>
    )
   </h2>
-  <p class="description">Information about a captured image</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Information about a captured image</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19612,7 +19636,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about flight since last arming</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Information about flight since last arming</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19652,7 +19679,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Orientation of a mount</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Orientation of a mount</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19693,7 +19723,10 @@
    </a>
    )
   </h2>
-  <p class="description">A message containing logged data (see also MAV_CMD_LOGGING_START)</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>A message containing logged data (see also MAV_CMD_LOGGING_START)</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19742,7 +19775,10 @@
    </a>
    )
   </h2>
-  <p class="description">A message containing logged data which requires a LOGGING_ACK to be sent back</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>A message containing logged data which requires a LOGGING_ACK to be sent back</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19791,7 +19827,10 @@
    </a>
    )
   </h2>
-  <p class="description">An ack for a LOGGING_DATA_ACKED message</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>An ack for a LOGGING_DATA_ACKED message</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19823,7 +19862,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Information about video stream</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Information about video stream</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19885,7 +19927,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Message that sets video stream settings</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Message that sets video stream settings</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19952,7 +19997,10 @@
    </a>
    )
   </h2>
-  <p class="description">Configure AP SSID and Password.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Configure AP SSID and Password.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -19979,7 +20027,10 @@
    </a>
    )
   </h2>
-  <p class="description">WIP: Version and capability of protocol version. This message is the response to REQUEST_PROTOCOL_VERSION and is used as part of the handshaking to establish which MAVLink version should be used on the network. Every node should respond to REQUEST_PROTOCOL_VERSION to enable the handshaking. Library implementers should consider adding this into the default decoding state machine to allow the protocol core to respond directly.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>WIP: Version and capability of protocol version. This message is the response to REQUEST_PROTOCOL_VERSION and is used as part of the handshaking to establish which MAVLink version should be used on the network. Every node should respond to REQUEST_PROTOCOL_VERSION to enable the handshaking. Library implementers should consider adding this into the default decoding state machine to allow the protocol core to respond directly.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20021,7 +20072,10 @@
    </a>
    )
   </h2>
-  <p class="description">General status information of an UAVCAN node. Please refer to the definition of the UAVCAN message "uavcan.protocol.NodeStatus" for the background information. The UAVCAN specification is available at http://uavcan.org.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>General status information of an UAVCAN node. Please refer to the definition of the UAVCAN message "uavcan.protocol.NodeStatus" for the background information. The UAVCAN specification is available at http://uavcan.org.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20076,7 +20130,10 @@
    </a>
    )
   </h2>
-  <p class="description">General information describing a particular UAVCAN node. Please refer to the definition of the UAVCAN service "uavcan.protocol.GetNodeInfo" for the background information. This message should be emitted by the system whenever a new node appears online, or an existing node reboots. Additionally, it can be emitted upon request from the other end of the MAVLink channel (see MAV_CMD_UAVCAN_GET_NODE_INFO). It is also not prohibited to emit this message unconditionally at a low frequency. The UAVCAN specification is available at http://uavcan.org.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>General information describing a particular UAVCAN node. Please refer to the definition of the UAVCAN service "uavcan.protocol.GetNodeInfo" for the background information. This message should be emitted by the system whenever a new node appears online, or an existing node reboots. Additionally, it can be emitted upon request from the other end of the MAVLink channel (see MAV_CMD_UAVCAN_GET_NODE_INFO). It is also not prohibited to emit this message unconditionally at a low frequency. The UAVCAN specification is available at http://uavcan.org.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20140,7 +20197,10 @@
    </a>
    )
   </h2>
-  <p class="description">Request to read the value of a parameter with the either the param_id string id or param_index.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Request to read the value of a parameter with the either the param_id string id or param_index.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20177,7 +20237,10 @@
    </a>
    )
   </h2>
-  <p class="description">Request all parameters of this component. After this request, all parameters are emitted.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Request all parameters of this component. After this request, all parameters are emitted.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20204,7 +20267,10 @@
    </a>
    )
   </h2>
-  <p class="description">Emit the value of a parameter. The inclusion of param_count and param_index in the message allows the recipient to keep track of received parameters and allows them to re-request missing parameters after a loss or timeout.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Emit the value of a parameter. The inclusion of param_count and param_index in the message allows the recipient to keep track of received parameters and allows them to re-request missing parameters after a loss or timeout.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20249,7 +20315,10 @@
    </a>
    )
   </h2>
-  <p class="description">Set a parameter value. In order to deal with message loss (and retransmission of PARAM_EXT_SET), when setting a parameter value and the new value is the same as the current value, you will immediately get a PARAM_ACK_ACCEPTED response. If the current state is PARAM_ACK_IN_PROGRESS, you will accordingly receive a PARAM_ACK_IN_PROGRESS in response.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Set a parameter value. In order to deal with message loss (and retransmission of PARAM_EXT_SET), when setting a parameter value and the new value is the same as the current value, you will immediately get a PARAM_ACK_ACCEPTED response. If the current state is PARAM_ACK_IN_PROGRESS, you will accordingly receive a PARAM_ACK_IN_PROGRESS in response.</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -20294,7 +20363,10 @@
    </a>
    )
   </h2>
-  <p class="description">Response from a PARAM_EXT_SET message.</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Response from a PARAM_EXT_SET message.</p>
   <table class="sortable">
    <thead>
     <tr>

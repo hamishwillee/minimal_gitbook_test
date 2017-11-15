@@ -5574,7 +5574,10 @@
    </a>
    )
   </h2>
-  <p class="description">Read registers for a device</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Read registers for a device</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5639,7 +5642,10 @@
    </a>
    )
   </h2>
-  <p class="description">Read registers reply</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Read registers reply</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5681,7 +5687,10 @@
    </a>
    )
   </h2>
-  <p class="description">Write registers for a device</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Write registers for a device</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5751,7 +5760,10 @@
    </a>
    )
   </h2>
-  <p class="description">Write registers reply</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Write registers reply</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5778,7 +5790,10 @@
    </a>
    )
   </h2>
-  <p class="description">Adaptive Controller tuning information</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>Adaptive Controller tuning information</p>
   <table class="sortable">
    <thead>
     <tr>
@@ -5865,7 +5880,10 @@
    </a>
    )
   </h2>
-  <p class="description">camera vision based attitude and position deltas</p>
+  <p class="description">
+   <strong>
+    (MAVLink 2)
+   </strong>camera vision based attitude and position deltas</p>
   <table class="sortable">
    <thead>
     <tr>
