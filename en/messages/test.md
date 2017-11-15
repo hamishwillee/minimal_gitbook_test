@@ -1,13 +1,17 @@
+# MAVLINK Message Set: test.xml
+
+*This is a human-readable form of the XML definition file: [test.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/test.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Protocol Version</h1>
+  <h2>MAVLink Protocol Version</h2>
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="TEST_TYPES">TEST_TYPES (<a href="#TEST_TYPES">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="TEST_TYPES">TEST_TYPES (<a href="#TEST_TYPES">
     #0
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Test all field types</p>
   <table class="sortable">
    <thead>

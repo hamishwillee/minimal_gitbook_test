@@ -1,16 +1,19 @@
+# MAVLINK Message Set: python_array_test.xml
+
+*This is a human-readable form of the XML definition file: [python_array_test.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/python_array_test.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_0">ARRAY_TEST_0 (<a href="#ARRAY_TEST_0">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_0">ARRAY_TEST_0 (<a href="#ARRAY_TEST_0">
     #150
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #0.</p>
   <table class="sortable">
    <thead>
@@ -48,11 +51,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_1">ARRAY_TEST_1 (<a href="#ARRAY_TEST_1">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_1">ARRAY_TEST_1 (<a href="#ARRAY_TEST_1">
     #151
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #1.</p>
   <table class="sortable">
    <thead>
@@ -70,11 +73,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_3">ARRAY_TEST_3 (<a href="#ARRAY_TEST_3">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_3">ARRAY_TEST_3 (<a href="#ARRAY_TEST_3">
     #153
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #3.</p>
   <table class="sortable">
    <thead>
@@ -97,11 +100,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_4">ARRAY_TEST_4 (<a href="#ARRAY_TEST_4">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_4">ARRAY_TEST_4 (<a href="#ARRAY_TEST_4">
     #154
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #4.</p>
   <table class="sortable">
    <thead>
@@ -124,11 +127,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_5">ARRAY_TEST_5 (<a href="#ARRAY_TEST_5">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_5">ARRAY_TEST_5 (<a href="#ARRAY_TEST_5">
     #155
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #5.</p>
   <table class="sortable">
    <thead>
@@ -151,11 +154,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_6">ARRAY_TEST_6 (<a href="#ARRAY_TEST_6">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_6">ARRAY_TEST_6 (<a href="#ARRAY_TEST_6">
     #156
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #6.</p>
   <table class="sortable">
    <thead>
@@ -228,11 +231,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_7">ARRAY_TEST_7 (<a href="#ARRAY_TEST_7">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_7">ARRAY_TEST_7 (<a href="#ARRAY_TEST_7">
     #157
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #7.</p>
   <table class="sortable">
    <thead>
@@ -290,11 +293,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_8">ARRAY_TEST_8 (<a href="#ARRAY_TEST_8">
+  <h3 class="mavlink_message_name" id="ARRAY_TEST_8">ARRAY_TEST_8 (<a href="#ARRAY_TEST_8">
     #158
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Array test #8.</p>
   <table class="sortable">
    <thead>

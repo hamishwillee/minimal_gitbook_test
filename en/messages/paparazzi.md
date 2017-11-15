@@ -1,19 +1,22 @@
+# MAVLINK Message Set: paparazzi.xml
+
+*This is a human-readable form of the XML definition file: [paparazzi.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/paparazzi.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Protocol Version</h1>
+  <h2>MAVLink Protocol Version</h2>
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
-  <h1>MAVLink Type Enumerations</h1>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="SCRIPT_ITEM">SCRIPT_ITEM (<a href="#SCRIPT_ITEM">
+  <h2>MAVLink Type Enumerations</h2>
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="SCRIPT_ITEM">SCRIPT_ITEM (<a href="#SCRIPT_ITEM">
     #180
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Message encoding a mission script item. This message is emitted upon a request for the next script item.</p>
   <table class="sortable">
    <thead>
@@ -46,11 +49,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST">SCRIPT_REQUEST (<a href="#SCRIPT_REQUEST">
+  <h3 class="mavlink_message_name" id="SCRIPT_REQUEST">SCRIPT_REQUEST (<a href="#SCRIPT_REQUEST">
     #181
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request script item with the sequence number seq. The response of the system to this message should be a SCRIPT_ITEM message.</p>
   <table class="sortable">
    <thead>
@@ -78,11 +81,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST_LIST">SCRIPT_REQUEST_LIST (<a href="#SCRIPT_REQUEST_LIST">
+  <h3 class="mavlink_message_name" id="SCRIPT_REQUEST_LIST">SCRIPT_REQUEST_LIST (<a href="#SCRIPT_REQUEST_LIST">
     #182
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request the overall list of mission items from the system/component.</p>
   <table class="sortable">
    <thead>
@@ -105,11 +108,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_COUNT">SCRIPT_COUNT (<a href="#SCRIPT_COUNT">
+  <h3 class="mavlink_message_name" id="SCRIPT_COUNT">SCRIPT_COUNT (<a href="#SCRIPT_COUNT">
     #183
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">This message is emitted as response to SCRIPT_REQUEST_LIST by the MAV to get the number of mission scripts.</p>
   <table class="sortable">
    <thead>
@@ -137,11 +140,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_CURRENT">SCRIPT_CURRENT (<a href="#SCRIPT_CURRENT">
+  <h3 class="mavlink_message_name" id="SCRIPT_CURRENT">SCRIPT_CURRENT (<a href="#SCRIPT_CURRENT">
     #184
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">This message informs about the currently active SCRIPT.</p>
   <table class="sortable">
    <thead>

@@ -1,18 +1,24 @@
+# MAVLINK ArduPilotMega Message Set
+
+These messages define the APM specific message set, which is custom to [http://ardupilot.org](http://ardupilot.org).
+
+*This is a human-readable form of the XML definition file: [ardupilotmega.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/ardupilotmega.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>uAvionix.xml</strong>
-  </p>2<h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_ACCELCAL_VEHICLE_POS">
+   <strong>MAVLink Include Files:</strong>
+   <a href="uAvionix.md">uAvionix.xml</a>
+  </p>
+  <p>This file has protocol dialect: 2.</p>
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_ACCELCAL_VEHICLE_POS">
    <a href="#ENUM_ACCELCAL_VEHICLE_POS">ACCELCAL_VEHICLE_POS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -74,9 +80,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_CMD">
    <a href="#ENUM_MAV_CMD">MAV_CMD</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1076,9 +1082,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_LIMITS_STATE">
+  <h3 class="mavlink_message_name" id="ENUM_LIMITS_STATE">
    <a href="#ENUM_LIMITS_STATE">LIMITS_STATE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1134,9 +1140,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_LIMIT_MODULE">
+  <h3 class="mavlink_message_name" id="ENUM_LIMIT_MODULE">
    <a href="#ENUM_LIMIT_MODULE">LIMIT_MODULE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1171,9 +1177,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_RALLY_FLAGS">
+  <h3 class="mavlink_message_name" id="ENUM_RALLY_FLAGS">
    <a href="#ENUM_RALLY_FLAGS">RALLY_FLAGS</a>
-  </h2>
+  </h3>
   <p class="description">Flags in RALLY_POINT message</p>
   <table class="sortable">
    <thead>
@@ -1200,9 +1206,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_PARACHUTE_ACTION">
+  <h3 class="mavlink_message_name" id="ENUM_PARACHUTE_ACTION">
    <a href="#ENUM_PARACHUTE_ACTION">PARACHUTE_ACTION</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1237,9 +1243,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GRIPPER_ACTIONS">
+  <h3 class="mavlink_message_name" id="ENUM_GRIPPER_ACTIONS">
    <a href="#ENUM_GRIPPER_ACTIONS">GRIPPER_ACTIONS</a>
-  </h2>
+  </h3>
   <p class="description">Gripper actions.</p>
   <table class="sortable">
    <thead>
@@ -1266,9 +1272,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_CAMERA_STATUS_TYPES">
+  <h3 class="mavlink_message_name" id="ENUM_CAMERA_STATUS_TYPES">
    <a href="#ENUM_CAMERA_STATUS_TYPES">CAMERA_STATUS_TYPES</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1331,9 +1337,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_CAMERA_FEEDBACK_FLAGS">
+  <h3 class="mavlink_message_name" id="ENUM_CAMERA_FEEDBACK_FLAGS">
    <a href="#ENUM_CAMERA_FEEDBACK_FLAGS">CAMERA_FEEDBACK_FLAGS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1382,9 +1388,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_MODE_GIMBAL">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_MODE_GIMBAL">
    <a href="#ENUM_MAV_MODE_GIMBAL">MAV_MODE_GIMBAL</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1447,9 +1453,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS">
+  <h3 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS">
    <a href="#ENUM_GIMBAL_AXIS">GIMBAL_AXIS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1484,9 +1490,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS_CALIBRATION_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS_CALIBRATION_STATUS">
    <a href="#ENUM_GIMBAL_AXIS_CALIBRATION_STATUS">GIMBAL_AXIS_CALIBRATION_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1521,9 +1527,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS_CALIBRATION_REQUIRED">
+  <h3 class="mavlink_message_name" id="ENUM_GIMBAL_AXIS_CALIBRATION_REQUIRED">
    <a href="#ENUM_GIMBAL_AXIS_CALIBRATION_REQUIRED">GIMBAL_AXIS_CALIBRATION_REQUIRED</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1558,9 +1564,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_HEARTBEAT_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_HEARTBEAT_STATUS">
    <a href="#ENUM_GOPRO_HEARTBEAT_STATUS">GOPRO_HEARTBEAT_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1602,9 +1608,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_HEARTBEAT_FLAGS">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_HEARTBEAT_FLAGS">
    <a href="#ENUM_GOPRO_HEARTBEAT_FLAGS">GOPRO_HEARTBEAT_FLAGS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1625,9 +1631,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_REQUEST_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_REQUEST_STATUS">
    <a href="#ENUM_GOPRO_REQUEST_STATUS">GOPRO_REQUEST_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1655,9 +1661,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_COMMAND">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_COMMAND">
    <a href="#ENUM_GOPRO_COMMAND">GOPRO_COMMAND</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1824,9 +1830,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_CAPTURE_MODE">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_CAPTURE_MODE">
    <a href="#ENUM_GOPRO_CAPTURE_MODE">GOPRO_CAPTURE_MODE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -1896,9 +1902,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_RESOLUTION">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_RESOLUTION">
    <a href="#ENUM_GOPRO_RESOLUTION">GOPRO_RESOLUTION</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2010,9 +2016,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_FRAME_RATE">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_FRAME_RATE">
    <a href="#ENUM_GOPRO_FRAME_RATE">GOPRO_FRAME_RATE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2124,9 +2130,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_FIELD_OF_VIEW">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_FIELD_OF_VIEW">
    <a href="#ENUM_GOPRO_FIELD_OF_VIEW">GOPRO_FIELD_OF_VIEW</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2161,9 +2167,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_VIDEO_SETTINGS_FLAGS">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_VIDEO_SETTINGS_FLAGS">
    <a href="#ENUM_GOPRO_VIDEO_SETTINGS_FLAGS">GOPRO_VIDEO_SETTINGS_FLAGS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2184,9 +2190,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PHOTO_RESOLUTION">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PHOTO_RESOLUTION">
    <a href="#ENUM_GOPRO_PHOTO_RESOLUTION">GOPRO_PHOTO_RESOLUTION</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2235,9 +2241,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_WHITE_BALANCE">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_WHITE_BALANCE">
    <a href="#ENUM_GOPRO_PROTUNE_WHITE_BALANCE">GOPRO_PROTUNE_WHITE_BALANCE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2286,9 +2292,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_COLOUR">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_COLOUR">
    <a href="#ENUM_GOPRO_PROTUNE_COLOUR">GOPRO_PROTUNE_COLOUR</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2316,9 +2322,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_GAIN">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_GAIN">
    <a href="#ENUM_GOPRO_PROTUNE_GAIN">GOPRO_PROTUNE_GAIN</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2367,9 +2373,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_SHARPNESS">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_SHARPNESS">
    <a href="#ENUM_GOPRO_PROTUNE_SHARPNESS">GOPRO_PROTUNE_SHARPNESS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2404,9 +2410,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_EXPOSURE">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_PROTUNE_EXPOSURE">
    <a href="#ENUM_GOPRO_PROTUNE_EXPOSURE">GOPRO_PROTUNE_EXPOSURE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2607,9 +2613,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_CHARGING">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_CHARGING">
    <a href="#ENUM_GOPRO_CHARGING">GOPRO_CHARGING</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2637,9 +2643,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_MODEL">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_MODEL">
    <a href="#ENUM_GOPRO_MODEL">GOPRO_MODEL</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2688,9 +2694,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_GOPRO_BURST_RATE">
+  <h3 class="mavlink_message_name" id="ENUM_GOPRO_BURST_RATE">
    <a href="#ENUM_GOPRO_BURST_RATE">GOPRO_BURST_RATE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2767,9 +2773,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_LED_CONTROL_PATTERN">
+  <h3 class="mavlink_message_name" id="ENUM_LED_CONTROL_PATTERN">
    <a href="#ENUM_LED_CONTROL_PATTERN">LED_CONTROL_PATTERN</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2804,9 +2810,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_EKF_STATUS_FLAGS">
+  <h3 class="mavlink_message_name" id="ENUM_EKF_STATUS_FLAGS">
    <a href="#ENUM_EKF_STATUS_FLAGS">EKF_STATUS_FLAGS</a>
-  </h2>
+  </h3>
   <p class="description">Flags in EKF_STATUS message</p>
   <table class="sortable">
    <thead>
@@ -2889,9 +2895,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_PID_TUNING_AXIS">
+  <h3 class="mavlink_message_name" id="ENUM_PID_TUNING_AXIS">
    <a href="#ENUM_PID_TUNING_AXIS">PID_TUNING_AXIS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -2953,9 +2959,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAG_CAL_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_MAG_CAL_STATUS">
    <a href="#ENUM_MAG_CAL_STATUS">MAG_CAL_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -3017,9 +3023,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS">
    <a href="#ENUM_MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS">MAV_REMOTE_LOG_DATA_BLOCK_COMMANDS</a>
-  </h2>
+  </h3>
   <p class="description">Special ACK block numbers control activation of dataflash log streaming</p>
   <table class="sortable">
    <thead>
@@ -3046,9 +3052,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_REMOTE_LOG_DATA_BLOCK_STATUSES">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_REMOTE_LOG_DATA_BLOCK_STATUSES">
    <a href="#ENUM_MAV_REMOTE_LOG_DATA_BLOCK_STATUSES">MAV_REMOTE_LOG_DATA_BLOCK_STATUSES</a>
-  </h2>
+  </h3>
   <p class="description">Possible remote log data block statuses</p>
   <table class="sortable">
    <thead>
@@ -3075,9 +3081,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_DEVICE_OP_BUSTYPE">
+  <h3 class="mavlink_message_name" id="ENUM_DEVICE_OP_BUSTYPE">
    <a href="#ENUM_DEVICE_OP_BUSTYPE">DEVICE_OP_BUSTYPE</a>
-  </h2>
+  </h3>
   <p class="description">Bus types for device operations</p>
   <table class="sortable">
    <thead>
@@ -3104,12 +3110,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="SENSOR_OFFSETS">SENSOR_OFFSETS (<a href="#SENSOR_OFFSETS">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="SENSOR_OFFSETS">SENSOR_OFFSETS (<a href="#SENSOR_OFFSETS">
     #150
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Offsets and calibrations values for hardware sensors. This makes it easier to debug the calibration process.</p>
   <table class="sortable">
    <thead>
@@ -3183,11 +3189,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SET_MAG_OFFSETS">SET_MAG_OFFSETS (<a href="#SET_MAG_OFFSETS">
+  <h3 class="mavlink_message_name" id="SET_MAG_OFFSETS">SET_MAG_OFFSETS (<a href="#SET_MAG_OFFSETS">
     #151
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Deprecated. Use MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS instead. Set the magnetometer offsets</p>
   <table class="sortable">
    <thead>
@@ -3225,11 +3231,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MEMINFO">MEMINFO (<a href="#MEMINFO">
+  <h3 class="mavlink_message_name" id="MEMINFO">MEMINFO (<a href="#MEMINFO">
     #152
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">state of APM memory</p>
   <table class="sortable">
    <thead>
@@ -3259,11 +3265,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AP_ADC">AP_ADC (<a href="#AP_ADC">
+  <h3 class="mavlink_message_name" id="AP_ADC">AP_ADC (<a href="#AP_ADC">
     #153
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">raw ADC output</p>
   <table class="sortable">
    <thead>
@@ -3306,11 +3312,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DIGICAM_CONFIGURE">DIGICAM_CONFIGURE (<a href="#DIGICAM_CONFIGURE">
+  <h3 class="mavlink_message_name" id="DIGICAM_CONFIGURE">DIGICAM_CONFIGURE (<a href="#DIGICAM_CONFIGURE">
     #154
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Configure on-board Camera Control System.</p>
   <table class="sortable">
    <thead>
@@ -3379,11 +3385,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DIGICAM_CONTROL">DIGICAM_CONTROL (<a href="#DIGICAM_CONTROL">
+  <h3 class="mavlink_message_name" id="DIGICAM_CONTROL">DIGICAM_CONTROL (<a href="#DIGICAM_CONTROL">
     #155
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Control on-board Camera Control System to take shots.</p>
   <table class="sortable">
    <thead>
@@ -3448,11 +3454,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MOUNT_CONFIGURE">MOUNT_CONFIGURE (<a href="#MOUNT_CONFIGURE">
+  <h3 class="mavlink_message_name" id="MOUNT_CONFIGURE">MOUNT_CONFIGURE (<a href="#MOUNT_CONFIGURE">
     #156
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Message to configure a camera mount, directional antenna, etc.</p>
   <table class="sortable">
    <thead>
@@ -3504,11 +3510,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MOUNT_CONTROL">MOUNT_CONTROL (<a href="#MOUNT_CONTROL">
+  <h3 class="mavlink_message_name" id="MOUNT_CONTROL">MOUNT_CONTROL (<a href="#MOUNT_CONTROL">
     #157
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Message to control a camera mount, directional antenna, etc.</p>
   <table class="sortable">
    <thead>
@@ -3551,11 +3557,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MOUNT_STATUS">MOUNT_STATUS (<a href="#MOUNT_STATUS">
+  <h3 class="mavlink_message_name" id="MOUNT_STATUS">MOUNT_STATUS (<a href="#MOUNT_STATUS">
     #158
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Message with some status from APM to GCS about camera or antenna mount</p>
   <table class="sortable">
    <thead>
@@ -3596,11 +3602,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FENCE_POINT">FENCE_POINT (<a href="#FENCE_POINT">
+  <h3 class="mavlink_message_name" id="FENCE_POINT">FENCE_POINT (<a href="#FENCE_POINT">
     #160
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">A fence point. Used to set a point when from GCS -&gt; MAV. Also used to return a point from MAV -&gt; GCS</p>
   <table class="sortable">
    <thead>
@@ -3645,11 +3651,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FENCE_FETCH_POINT">FENCE_FETCH_POINT (<a href="#FENCE_FETCH_POINT">
+  <h3 class="mavlink_message_name" id="FENCE_FETCH_POINT">FENCE_FETCH_POINT (<a href="#FENCE_FETCH_POINT">
     #161
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request a current fence point from MAV</p>
   <table class="sortable">
    <thead>
@@ -3677,11 +3683,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FENCE_STATUS">FENCE_STATUS (<a href="#FENCE_STATUS">
+  <h3 class="mavlink_message_name" id="FENCE_STATUS">FENCE_STATUS (<a href="#FENCE_STATUS">
     #162
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of geo-fencing. Sent in extended status stream when fencing enabled</p>
   <table class="sortable">
    <thead>
@@ -3718,11 +3724,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AHRS">AHRS (<a href="#AHRS">
+  <h3 class="mavlink_message_name" id="AHRS">AHRS (<a href="#AHRS">
     #163
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of DCM attitude estimator</p>
   <table class="sortable">
    <thead>
@@ -3773,11 +3779,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SIMSTATE">SIMSTATE (<a href="#SIMSTATE">
+  <h3 class="mavlink_message_name" id="SIMSTATE">SIMSTATE (<a href="#SIMSTATE">
     #164
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of simulation environment, if used</p>
   <table class="sortable">
    <thead>
@@ -3856,11 +3862,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="HWSTATUS">HWSTATUS (<a href="#HWSTATUS">
+  <h3 class="mavlink_message_name" id="HWSTATUS">HWSTATUS (<a href="#HWSTATUS">
     #165
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of key hardware</p>
   <table class="sortable">
    <thead>
@@ -3884,11 +3890,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RADIO">RADIO (<a href="#RADIO">
+  <h3 class="mavlink_message_name" id="RADIO">RADIO (<a href="#RADIO">
     #166
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status generated by radio</p>
   <table class="sortable">
    <thead>
@@ -3937,11 +3943,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="LIMITS_STATUS">LIMITS_STATUS (<a href="#LIMITS_STATUS">
+  <h3 class="mavlink_message_name" id="LIMITS_STATUS">LIMITS_STATUS (<a href="#LIMITS_STATUS">
     #167
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of AP_Limits. Sent in extended status stream when AP_Limits is enabled</p>
   <table class="sortable">
    <thead>
@@ -4015,11 +4021,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="WIND">WIND (<a href="#WIND">
+  <h3 class="mavlink_message_name" id="WIND">WIND (<a href="#WIND">
     #168
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Wind estimation</p>
   <table class="sortable">
    <thead>
@@ -4050,11 +4056,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA16">DATA16 (<a href="#DATA16">
+  <h3 class="mavlink_message_name" id="DATA16">DATA16 (<a href="#DATA16">
     #169
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Data packet, size 16</p>
   <table class="sortable">
    <thead>
@@ -4083,11 +4089,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA32">DATA32 (<a href="#DATA32">
+  <h3 class="mavlink_message_name" id="DATA32">DATA32 (<a href="#DATA32">
     #170
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Data packet, size 32</p>
   <table class="sortable">
    <thead>
@@ -4116,11 +4122,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA64">DATA64 (<a href="#DATA64">
+  <h3 class="mavlink_message_name" id="DATA64">DATA64 (<a href="#DATA64">
     #171
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Data packet, size 64</p>
   <table class="sortable">
    <thead>
@@ -4149,11 +4155,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA96">DATA96 (<a href="#DATA96">
+  <h3 class="mavlink_message_name" id="DATA96">DATA96 (<a href="#DATA96">
     #172
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Data packet, size 96</p>
   <table class="sortable">
    <thead>
@@ -4182,11 +4188,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RANGEFINDER">RANGEFINDER (<a href="#RANGEFINDER">
+  <h3 class="mavlink_message_name" id="RANGEFINDER">RANGEFINDER (<a href="#RANGEFINDER">
     #173
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Rangefinder reporting</p>
   <table class="sortable">
    <thead>
@@ -4211,11 +4217,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AIRSPEED_AUTOCAL">AIRSPEED_AUTOCAL (<a href="#AIRSPEED_AUTOCAL">
+  <h3 class="mavlink_message_name" id="AIRSPEED_AUTOCAL">AIRSPEED_AUTOCAL (<a href="#AIRSPEED_AUTOCAL">
     #174
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Airspeed auto-calibration</p>
   <table class="sortable">
    <thead>
@@ -4292,11 +4298,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RALLY_POINT">RALLY_POINT (<a href="#RALLY_POINT">
+  <h3 class="mavlink_message_name" id="RALLY_POINT">RALLY_POINT (<a href="#RALLY_POINT">
     #175
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">A rally point. Used to set a point when from GCS -&gt; MAV. Also used to return a point from MAV -&gt; GCS</p>
   <table class="sortable">
    <thead>
@@ -4367,11 +4373,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RALLY_FETCH_POINT">RALLY_FETCH_POINT (<a href="#RALLY_FETCH_POINT">
+  <h3 class="mavlink_message_name" id="RALLY_FETCH_POINT">RALLY_FETCH_POINT (<a href="#RALLY_FETCH_POINT">
     #176
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request a current rally point from MAV. MAV should respond with a RALLY_POINT message. MAV should not respond if the request is invalid.</p>
   <table class="sortable">
    <thead>
@@ -4399,11 +4405,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="COMPASSMOT_STATUS">COMPASSMOT_STATUS (<a href="#COMPASSMOT_STATUS">
+  <h3 class="mavlink_message_name" id="COMPASSMOT_STATUS">COMPASSMOT_STATUS (<a href="#COMPASSMOT_STATUS">
     #177
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of compassmot calibration</p>
   <table class="sortable">
    <thead>
@@ -4449,11 +4455,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AHRS2">AHRS2 (<a href="#AHRS2">
+  <h3 class="mavlink_message_name" id="AHRS2">AHRS2 (<a href="#AHRS2">
     #178
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of secondary AHRS filter if available</p>
   <table class="sortable">
    <thead>
@@ -4502,11 +4508,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CAMERA_STATUS">CAMERA_STATUS (<a href="#CAMERA_STATUS">
+  <h3 class="mavlink_message_name" id="CAMERA_STATUS">CAMERA_STATUS (<a href="#CAMERA_STATUS">
     #179
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Camera Event</p>
   <table class="sortable">
    <thead>
@@ -4568,11 +4574,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CAMERA_FEEDBACK">CAMERA_FEEDBACK (<a href="#CAMERA_FEEDBACK">
+  <h3 class="mavlink_message_name" id="CAMERA_FEEDBACK">CAMERA_FEEDBACK (<a href="#CAMERA_FEEDBACK">
     #180
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Camera Capture Feedback</p>
   <table class="sortable">
    <thead>
@@ -4662,11 +4668,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="BATTERY2">BATTERY2 (<a href="#BATTERY2">
+  <h3 class="mavlink_message_name" id="BATTERY2">BATTERY2 (<a href="#BATTERY2">
     #181
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">2nd Battery status</p>
   <table class="sortable">
    <thead>
@@ -4691,11 +4697,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AHRS3">AHRS3 (<a href="#AHRS3">
+  <h3 class="mavlink_message_name" id="AHRS3">AHRS3 (<a href="#AHRS3">
     #182
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Status of third AHRS filter if available. This is for ANU research group (Ali and Sean)</p>
   <table class="sortable">
    <thead>
@@ -4763,11 +4769,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AUTOPILOT_VERSION_REQUEST">AUTOPILOT_VERSION_REQUEST (<a href="#AUTOPILOT_VERSION_REQUEST">
+  <h3 class="mavlink_message_name" id="AUTOPILOT_VERSION_REQUEST">AUTOPILOT_VERSION_REQUEST (<a href="#AUTOPILOT_VERSION_REQUEST">
     #183
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request the autopilot version from the system/component.</p>
   <table class="sortable">
    <thead>
@@ -4790,11 +4796,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="REMOTE_LOG_DATA_BLOCK">REMOTE_LOG_DATA_BLOCK (<a href="#REMOTE_LOG_DATA_BLOCK">
+  <h3 class="mavlink_message_name" id="REMOTE_LOG_DATA_BLOCK">REMOTE_LOG_DATA_BLOCK (<a href="#REMOTE_LOG_DATA_BLOCK">
     #184
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Send a block of log data to remote location</p>
   <table class="sortable">
    <thead>
@@ -4830,11 +4836,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="REMOTE_LOG_BLOCK_STATUS">REMOTE_LOG_BLOCK_STATUS (<a href="#REMOTE_LOG_BLOCK_STATUS">
+  <h3 class="mavlink_message_name" id="REMOTE_LOG_BLOCK_STATUS">REMOTE_LOG_BLOCK_STATUS (<a href="#REMOTE_LOG_BLOCK_STATUS">
     #185
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Send Status of each log block that autopilot board might have sent</p>
   <table class="sortable">
    <thead>
@@ -4870,11 +4876,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="LED_CONTROL">LED_CONTROL (<a href="#LED_CONTROL">
+  <h3 class="mavlink_message_name" id="LED_CONTROL">LED_CONTROL (<a href="#LED_CONTROL">
     #186
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Control vehicle LEDs</p>
   <table class="sortable">
    <thead>
@@ -4917,11 +4923,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MAG_CAL_PROGRESS">MAG_CAL_PROGRESS (<a href="#MAG_CAL_PROGRESS">
+  <h3 class="mavlink_message_name" id="MAG_CAL_PROGRESS">MAG_CAL_PROGRESS (<a href="#MAG_CAL_PROGRESS">
     #191
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Reports progress of compass calibration.</p>
   <table class="sortable">
    <thead>
@@ -4983,11 +4989,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MAG_CAL_REPORT">MAG_CAL_REPORT (<a href="#MAG_CAL_REPORT">
+  <h3 class="mavlink_message_name" id="MAG_CAL_REPORT">MAG_CAL_REPORT (<a href="#MAG_CAL_REPORT">
     #192
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Reports results of completed compass calibration. Sent until MAG_CAL_ACK received.</p>
   <table class="sortable">
    <thead>
@@ -5074,11 +5080,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="EKF_STATUS_REPORT">EKF_STATUS_REPORT (<a href="#EKF_STATUS_REPORT">
+  <h3 class="mavlink_message_name" id="EKF_STATUS_REPORT">EKF_STATUS_REPORT (<a href="#EKF_STATUS_REPORT">
     #193
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">EKF Status message including flags and variances</p>
   <table class="sortable">
    <thead>
@@ -5124,11 +5130,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="PID_TUNING">PID_TUNING (<a href="#PID_TUNING">
+  <h3 class="mavlink_message_name" id="PID_TUNING">PID_TUNING (<a href="#PID_TUNING">
     #194
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">PID tuning information</p>
   <table class="sortable">
    <thead>
@@ -5181,11 +5187,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GIMBAL_REPORT">GIMBAL_REPORT (<a href="#GIMBAL_REPORT">
+  <h3 class="mavlink_message_name" id="GIMBAL_REPORT">GIMBAL_REPORT (<a href="#GIMBAL_REPORT">
     #200
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">3 axis gimbal mesuraments</p>
   <table class="sortable">
    <thead>
@@ -5268,11 +5274,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GIMBAL_CONTROL">GIMBAL_CONTROL (<a href="#GIMBAL_CONTROL">
+  <h3 class="mavlink_message_name" id="GIMBAL_CONTROL">GIMBAL_CONTROL (<a href="#GIMBAL_CONTROL">
     #201
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Control message for rate gimbal</p>
   <table class="sortable">
    <thead>
@@ -5313,11 +5319,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GIMBAL_TORQUE_CMD_REPORT">GIMBAL_TORQUE_CMD_REPORT (<a href="#GIMBAL_TORQUE_CMD_REPORT">
+  <h3 class="mavlink_message_name" id="GIMBAL_TORQUE_CMD_REPORT">GIMBAL_TORQUE_CMD_REPORT (<a href="#GIMBAL_TORQUE_CMD_REPORT">
     #214
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">100 Hz gimbal torque command telemetry</p>
   <table class="sortable">
    <thead>
@@ -5355,11 +5361,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GOPRO_HEARTBEAT">GOPRO_HEARTBEAT (<a href="#GOPRO_HEARTBEAT">
+  <h3 class="mavlink_message_name" id="GOPRO_HEARTBEAT">GOPRO_HEARTBEAT (<a href="#GOPRO_HEARTBEAT">
     #215
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Heartbeat from a HeroBus attached GoPro</p>
   <table class="sortable">
    <thead>
@@ -5396,11 +5402,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GOPRO_GET_REQUEST">GOPRO_GET_REQUEST (<a href="#GOPRO_GET_REQUEST">
+  <h3 class="mavlink_message_name" id="GOPRO_GET_REQUEST">GOPRO_GET_REQUEST (<a href="#GOPRO_GET_REQUEST">
     #216
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request a GOPRO_COMMAND response from the GoPro</p>
   <table class="sortable">
    <thead>
@@ -5431,11 +5437,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GOPRO_GET_RESPONSE">GOPRO_GET_RESPONSE (<a href="#GOPRO_GET_RESPONSE">
+  <h3 class="mavlink_message_name" id="GOPRO_GET_RESPONSE">GOPRO_GET_RESPONSE (<a href="#GOPRO_GET_RESPONSE">
     #217
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Response from a GOPRO_COMMAND get request</p>
   <table class="sortable">
    <thead>
@@ -5469,11 +5475,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GOPRO_SET_REQUEST">GOPRO_SET_REQUEST (<a href="#GOPRO_SET_REQUEST">
+  <h3 class="mavlink_message_name" id="GOPRO_SET_REQUEST">GOPRO_SET_REQUEST (<a href="#GOPRO_SET_REQUEST">
     #218
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Request to set a GOPRO_COMMAND with a desired</p>
   <table class="sortable">
    <thead>
@@ -5509,11 +5515,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GOPRO_SET_RESPONSE">GOPRO_SET_RESPONSE (<a href="#GOPRO_SET_RESPONSE">
+  <h3 class="mavlink_message_name" id="GOPRO_SET_RESPONSE">GOPRO_SET_RESPONSE (<a href="#GOPRO_SET_RESPONSE">
     #219
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Response from a GOPRO_COMMAND set request</p>
   <table class="sortable">
    <thead>
@@ -5542,11 +5548,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RPM">RPM (<a href="#RPM">
+  <h3 class="mavlink_message_name" id="RPM">RPM (<a href="#RPM">
     #226
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">RPM sensor output</p>
   <table class="sortable">
    <thead>
@@ -5569,11 +5575,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DEVICE_OP_READ">DEVICE_OP_READ (<a href="#DEVICE_OP_READ">
+  <h3 class="mavlink_message_name" id="DEVICE_OP_READ">DEVICE_OP_READ (<a href="#DEVICE_OP_READ">
     #11000
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -5637,11 +5643,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DEVICE_OP_READ_REPLY">DEVICE_OP_READ_REPLY (<a href="#DEVICE_OP_READ_REPLY">
+  <h3 class="mavlink_message_name" id="DEVICE_OP_READ_REPLY">DEVICE_OP_READ_REPLY (<a href="#DEVICE_OP_READ_REPLY">
     #11001
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -5682,11 +5688,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DEVICE_OP_WRITE">DEVICE_OP_WRITE (<a href="#DEVICE_OP_WRITE">
+  <h3 class="mavlink_message_name" id="DEVICE_OP_WRITE">DEVICE_OP_WRITE (<a href="#DEVICE_OP_WRITE">
     #11002
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -5755,11 +5761,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DEVICE_OP_WRITE_REPLY">DEVICE_OP_WRITE_REPLY (<a href="#DEVICE_OP_WRITE_REPLY">
+  <h3 class="mavlink_message_name" id="DEVICE_OP_WRITE_REPLY">DEVICE_OP_WRITE_REPLY (<a href="#DEVICE_OP_WRITE_REPLY">
     #11003
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -5785,11 +5791,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ADAP_TUNING">ADAP_TUNING (<a href="#ADAP_TUNING">
+  <h3 class="mavlink_message_name" id="ADAP_TUNING">ADAP_TUNING (<a href="#ADAP_TUNING">
     #11010
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -5875,11 +5881,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="VISION_POSITION_DELTA">VISION_POSITION_DELTA (<a href="#VISION_POSITION_DELTA">
+  <h3 class="mavlink_message_name" id="VISION_POSITION_DELTA">VISION_POSITION_DELTA (<a href="#VISION_POSITION_DELTA">
     #11011
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)

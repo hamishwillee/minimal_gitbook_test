@@ -1,14 +1,17 @@
+# MAVLINK Message Set: ualberta.xml
+
+*This is a human-readable form of the XML definition file: [ualberta.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/ualberta.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_AUTOPILOT_MODE">
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_UALBERTA_AUTOPILOT_MODE">
    <a href="#ENUM_UALBERTA_AUTOPILOT_MODE">UALBERTA_AUTOPILOT_MODE</a>
-  </h2>
+  </h3>
   <p class="description">Available autopilot modes for ualberta uav</p>
   <table class="sortable">
    <thead>
@@ -61,9 +64,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_NAV_MODE">
+  <h3 class="mavlink_message_name" id="ENUM_UALBERTA_NAV_MODE">
    <a href="#ENUM_UALBERTA_NAV_MODE">UALBERTA_NAV_MODE</a>
-  </h2>
+  </h3>
   <p class="description">Navigation filter mode</p>
   <table class="sortable">
    <thead>
@@ -109,9 +112,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_PILOT_MODE">
+  <h3 class="mavlink_message_name" id="ENUM_UALBERTA_PILOT_MODE">
    <a href="#ENUM_UALBERTA_PILOT_MODE">UALBERTA_PILOT_MODE</a>
-  </h2>
+  </h3>
   <p class="description">Mode currently commanded by pilot</p>
   <table class="sortable">
    <thead>
@@ -148,12 +151,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="NAV_FILTER_BIAS">NAV_FILTER_BIAS (<a href="#NAV_FILTER_BIAS">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="NAV_FILTER_BIAS">NAV_FILTER_BIAS (<a href="#NAV_FILTER_BIAS">
     #220
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Accelerometer and Gyro biases from the navigation filter</p>
   <table class="sortable">
    <thead>
@@ -201,11 +204,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RADIO_CALIBRATION">RADIO_CALIBRATION (<a href="#RADIO_CALIBRATION">
+  <h3 class="mavlink_message_name" id="RADIO_CALIBRATION">RADIO_CALIBRATION (<a href="#RADIO_CALIBRATION">
     #221
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Complete set of calibration parameters for the radio</p>
   <table class="sortable">
    <thead>
@@ -248,11 +251,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UALBERTA_SYS_STATUS">UALBERTA_SYS_STATUS (<a href="#UALBERTA_SYS_STATUS">
+  <h3 class="mavlink_message_name" id="UALBERTA_SYS_STATUS">UALBERTA_SYS_STATUS (<a href="#UALBERTA_SYS_STATUS">
     #222
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">System status specific to ualberta uav</p>
   <table class="sortable">
    <thead>

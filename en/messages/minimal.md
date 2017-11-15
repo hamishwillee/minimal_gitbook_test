@@ -1,11 +1,15 @@
+# MAVLINK Message Set: minimal.xml
+
+*This is a human-readable form of the XML definition file: [minimal.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/minimal.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Protocol Version</h1>
+  <h2>MAVLink Protocol Version</h2>
   <p>This file has protocol version: 2. The version numbers range from 1-255.</p>
-  <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_AUTOPILOT">
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_MAV_AUTOPILOT">
    <a href="#ENUM_MAV_AUTOPILOT">MAV_AUTOPILOT</a>
-  </h2>
+  </h3>
   <p class="description">Micro air vehicle / autopilot classes. This identifies the individual model.</p>
   <table class="sortable">
    <thead>
@@ -102,9 +106,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_TYPE">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_TYPE">
    <a href="#ENUM_MAV_TYPE">MAV_TYPE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -237,9 +241,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_MODE_FLAG">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_MODE_FLAG">
    <a href="#ENUM_MAV_MODE_FLAG">MAV_MODE_FLAG</a>
-  </h2>
+  </h3>
   <p class="description">These flags encode the MAV mode.</p>
   <table class="sortable">
    <thead>
@@ -308,9 +312,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_MODE_FLAG_DECODE_POSITION">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_MODE_FLAG_DECODE_POSITION">
    <a href="#ENUM_MAV_MODE_FLAG_DECODE_POSITION">MAV_MODE_FLAG_DECODE_POSITION</a>
-  </h2>
+  </h3>
   <p class="description">These values encode the bit positions of the decode position. These values can be used to read the value of a flag bit by combining the base_mode variable with AND with the flag position value. The result will be either 0 or 1, depending on if the flag is set or not.</p>
   <table class="sortable">
    <thead>
@@ -379,9 +383,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_STATE">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_STATE">
    <a href="#ENUM_MAV_STATE">MAV_STATE</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -458,12 +462,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="HEARTBEAT">HEARTBEAT (<a href="#HEARTBEAT">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="HEARTBEAT">HEARTBEAT (<a href="#HEARTBEAT">
     #0
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">The heartbeat message shows that a system is present and responding. The type of the MAV and Autopilot hardware allow the receiving system to treat further messages from this system appropriate (e.g. by laying out the user interface based on the autopilot).</p>
   <table class="sortable">
    <thead>

@@ -1,16 +1,19 @@
+# MAVLINK Message Set: autoquad.xml
+
+*This is a human-readable form of the XML definition file: [autoquad.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/autoquad.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Protocol Version</h1>
+  <h2>MAVLink Protocol Version</h2>
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
-  <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">
    <a href="#ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">AUTOQUAD_MAVLINK_DEFS_VERSION</a>
-  </h2>
+  </h3>
   <p class="description">Track current version of these definitions (can be used by checking value of AUTOQUAD_MAVLINK_DEFS_VERSION_ENUM_END). Append a new entry for each published change.</p>
   <table class="sortable">
    <thead>
@@ -32,9 +35,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_AUTOQUAD_NAV_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_AUTOQUAD_NAV_STATUS">
    <a href="#ENUM_AUTOQUAD_NAV_STATUS">AUTOQUAD_NAV_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">Available operating modes/statuses for AutoQuad flight controller. 
 				Bitmask up to 32 bits. Low side bits for base modes, high side for 
 				additional active features/modifiers/constraints.</p>
@@ -189,9 +192,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_CMD">
    <a href="#ENUM_MAV_CMD">MAV_CMD</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -379,9 +382,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_DATA_STREAM">
+  <h3 class="mavlink_message_name" id="ENUM_MAV_DATA_STREAM">
    <a href="#ENUM_MAV_DATA_STREAM">MAV_DATA_STREAM</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -403,12 +406,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="AQ_TELEMETRY_F">AQ_TELEMETRY_F (<a href="#AQ_TELEMETRY_F">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="AQ_TELEMETRY_F">AQ_TELEMETRY_F (<a href="#AQ_TELEMETRY_F">
     #150
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Sends up to 20 raw float values.</p>
   <table class="sortable">
    <thead>
@@ -526,11 +529,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AQ_ESC_TELEMETRY">AQ_ESC_TELEMETRY (<a href="#AQ_ESC_TELEMETRY">
+  <h3 class="mavlink_message_name" id="AQ_ESC_TELEMETRY">AQ_ESC_TELEMETRY (<a href="#AQ_ESC_TELEMETRY">
     #152
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Sends ESC32 telemetry data for up to 4 motors. Multiple messages may be sent in sequence when system has &gt; 4 motors. Data is described as follows: 
 				// unsigned int state :   3;
 			    // unsigned int vin :	  12;  // x 100

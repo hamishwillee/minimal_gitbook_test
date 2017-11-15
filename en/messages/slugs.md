@@ -1,14 +1,17 @@
+# MAVLINK Message Set: slugs.xml
+
+*This is a human-readable form of the XML definition file: [slugs.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/slugs.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Include Files</h1>
   <p>
-   <strong>
-    <em>Including files:</em>common.xml</strong>
+   <strong>MAVLink Include Files:</strong>
+   <a href="common.md">common.xml</a>
   </p>
-  <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_MAV_CMD">
    <a href="#ENUM_MAV_CMD">MAV_CMD</a>
-  </h2>
+  </h3>
   <p class="description">
   </p>
   <table class="sortable">
@@ -130,9 +133,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_SLUGS_MODE">
+  <h3 class="mavlink_message_name" id="ENUM_SLUGS_MODE">
    <a href="#ENUM_SLUGS_MODE">SLUGS_MODE</a>
-  </h2>
+  </h3>
   <p class="description">Slugs-specific navigation modes.</p>
   <table class="sortable">
    <thead>
@@ -229,9 +232,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_CONTROL_SURFACE_FLAG">
+  <h3 class="mavlink_message_name" id="ENUM_CONTROL_SURFACE_FLAG">
    <a href="#ENUM_CONTROL_SURFACE_FLAG">CONTROL_SURFACE_FLAG</a>
-  </h2>
+  </h3>
   <p class="description">These flags encode the control surfaces for selective passthrough mode. If a bit is set then the pilot console
             has control of the surface, and if not then the autopilot has control of the surface.</p>
   <table class="sortable">
@@ -301,12 +304,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="CPU_LOAD">CPU_LOAD (<a href="#CPU_LOAD">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="CPU_LOAD">CPU_LOAD (<a href="#CPU_LOAD">
     #170
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Sensor and DSC control loads.</p>
   <table class="sortable">
    <thead>
@@ -334,11 +337,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENSOR_BIAS">SENSOR_BIAS (<a href="#SENSOR_BIAS">
+  <h3 class="mavlink_message_name" id="SENSOR_BIAS">SENSOR_BIAS (<a href="#SENSOR_BIAS">
     #172
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Accelerometer and gyro biases.</p>
   <table class="sortable">
    <thead>
@@ -381,11 +384,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DIAGNOSTIC">DIAGNOSTIC (<a href="#DIAGNOSTIC">
+  <h3 class="mavlink_message_name" id="DIAGNOSTIC">DIAGNOSTIC (<a href="#DIAGNOSTIC">
     #173
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Configurable diagnostic messages.</p>
   <table class="sortable">
    <thead>
@@ -428,11 +431,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_NAVIGATION">SLUGS_NAVIGATION (<a href="#SLUGS_NAVIGATION">
+  <h3 class="mavlink_message_name" id="SLUGS_NAVIGATION">SLUGS_NAVIGATION (<a href="#SLUGS_NAVIGATION">
     #176
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Data used in the navigation algorithm.</p>
   <table class="sortable">
    <thead>
@@ -495,11 +498,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA_LOG">DATA_LOG (<a href="#DATA_LOG">
+  <h3 class="mavlink_message_name" id="DATA_LOG">DATA_LOG (<a href="#DATA_LOG">
     #177
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Configurable data log probes to be used inside Simulink</p>
   <table class="sortable">
    <thead>
@@ -542,11 +545,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GPS_DATE_TIME">GPS_DATE_TIME (<a href="#GPS_DATE_TIME">
+  <h3 class="mavlink_message_name" id="GPS_DATE_TIME">GPS_DATE_TIME (<a href="#GPS_DATE_TIME">
     #179
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Pilot console PWM messges.</p>
   <table class="sortable">
    <thead>
@@ -619,11 +622,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MID_LVL_CMDS">MID_LVL_CMDS (<a href="#MID_LVL_CMDS">
+  <h3 class="mavlink_message_name" id="MID_LVL_CMDS">MID_LVL_CMDS (<a href="#MID_LVL_CMDS">
     #180
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Mid Level commands sent from the GS to the autopilot. These are only sent when being operated in mid-level commands mode from the ground.</p>
   <table class="sortable">
    <thead>
@@ -656,11 +659,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CTRL_SRFC_PT">CTRL_SRFC_PT (<a href="#CTRL_SRFC_PT">
+  <h3 class="mavlink_message_name" id="CTRL_SRFC_PT">CTRL_SRFC_PT (<a href="#CTRL_SRFC_PT">
     #181
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">This message sets the control surfaces for selective passthrough mode.</p>
   <table class="sortable">
    <thead>
@@ -683,11 +686,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_CAMERA_ORDER">SLUGS_CAMERA_ORDER (<a href="#SLUGS_CAMERA_ORDER">
+  <h3 class="mavlink_message_name" id="SLUGS_CAMERA_ORDER">SLUGS_CAMERA_ORDER (<a href="#SLUGS_CAMERA_ORDER">
     #184
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Orders generated to the SLUGS camera mount.</p>
   <table class="sortable">
    <thead>
@@ -725,11 +728,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CONTROL_SURFACE">CONTROL_SURFACE (<a href="#CONTROL_SURFACE">
+  <h3 class="mavlink_message_name" id="CONTROL_SURFACE">CONTROL_SURFACE (<a href="#CONTROL_SURFACE">
     #185
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Control for surface; pending and order to origin.</p>
   <table class="sortable">
    <thead>
@@ -762,11 +765,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_MOBILE_LOCATION">SLUGS_MOBILE_LOCATION (<a href="#SLUGS_MOBILE_LOCATION">
+  <h3 class="mavlink_message_name" id="SLUGS_MOBILE_LOCATION">SLUGS_MOBILE_LOCATION (<a href="#SLUGS_MOBILE_LOCATION">
     #186
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the last known position of the mobile GS to the UAV. Very relevant when Track Mobile is enabled</p>
   <table class="sortable">
    <thead>
@@ -794,11 +797,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_CONFIGURATION_CAMERA">SLUGS_CONFIGURATION_CAMERA (<a href="#SLUGS_CONFIGURATION_CAMERA">
+  <h3 class="mavlink_message_name" id="SLUGS_CONFIGURATION_CAMERA">SLUGS_CONFIGURATION_CAMERA (<a href="#SLUGS_CONFIGURATION_CAMERA">
     #188
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Control for camara.</p>
   <table class="sortable">
    <thead>
@@ -826,11 +829,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ISR_LOCATION">ISR_LOCATION (<a href="#ISR_LOCATION">
+  <h3 class="mavlink_message_name" id="ISR_LOCATION">ISR_LOCATION (<a href="#ISR_LOCATION">
     #189
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the position of watch</p>
   <table class="sortable">
    <thead>
@@ -878,11 +881,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="VOLT_SENSOR">VOLT_SENSOR (<a href="#VOLT_SENSOR">
+  <h3 class="mavlink_message_name" id="VOLT_SENSOR">VOLT_SENSOR (<a href="#VOLT_SENSOR">
     #191
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the readings from the voltage and current sensors</p>
   <table class="sortable">
    <thead>
@@ -910,11 +913,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="PTZ_STATUS">PTZ_STATUS (<a href="#PTZ_STATUS">
+  <h3 class="mavlink_message_name" id="PTZ_STATUS">PTZ_STATUS (<a href="#PTZ_STATUS">
     #192
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the actual Pan, Tilt and Zoom values of the camera unit</p>
   <table class="sortable">
    <thead>
@@ -942,11 +945,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UAV_STATUS">UAV_STATUS (<a href="#UAV_STATUS">
+  <h3 class="mavlink_message_name" id="UAV_STATUS">UAV_STATUS (<a href="#UAV_STATUS">
     #193
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the actual status values UAV in flight</p>
   <table class="sortable">
    <thead>
@@ -989,11 +992,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="STATUS_GPS">STATUS_GPS (<a href="#STATUS_GPS">
+  <h3 class="mavlink_message_name" id="STATUS_GPS">STATUS_GPS (<a href="#STATUS_GPS">
     #194
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">This contains the status of the GPS readings</p>
   <table class="sortable">
    <thead>
@@ -1041,11 +1044,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="NOVATEL_DIAG">NOVATEL_DIAG (<a href="#NOVATEL_DIAG">
+  <h3 class="mavlink_message_name" id="NOVATEL_DIAG">NOVATEL_DIAG (<a href="#NOVATEL_DIAG">
     #195
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Transmits the diagnostics data from the Novatel OEMStar GPS</p>
   <table class="sortable">
    <thead>
@@ -1093,11 +1096,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENSOR_DIAG">SENSOR_DIAG (<a href="#SENSOR_DIAG">
+  <h3 class="mavlink_message_name" id="SENSOR_DIAG">SENSOR_DIAG (<a href="#SENSOR_DIAG">
     #196
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">Diagnostic data Sensor MCU</p>
   <table class="sortable">
    <thead>
@@ -1130,11 +1133,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="BOOT">BOOT (<a href="#BOOT">
+  <h3 class="mavlink_message_name" id="BOOT">BOOT (<a href="#BOOT">
     #197
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">The boot message indicates that a system is starting. The onboard software version allows to keep track of onboard soft/firmware revisions. This message allows the sensor and control MCUs to communicate version numbers on startup.</p>
   <table class="sortable">
    <thead>

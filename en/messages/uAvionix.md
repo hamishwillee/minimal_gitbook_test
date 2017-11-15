@@ -1,9 +1,13 @@
+# MAVLINK Message Set: uAvionix.xml
+
+*This is a human-readable form of the XML definition file: [uAvionix.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/uAvionix.xml).*
+
 <html>
  <body>
-  <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_STATE">
+  <h2>MAVLink Type Enumerations</h2>
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_STATE">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_STATE">UAVIONIX_ADSB_OUT_DYNAMIC_STATE</a>
-  </h2>
+  </h3>
   <p class="description">State flags for ADS-B transponder dynamic report</p>
   <table class="sortable">
    <thead>
@@ -56,9 +60,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_RF_SELECT">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_RF_SELECT">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_RF_SELECT">UAVIONIX_ADSB_OUT_RF_SELECT</a>
-  </h2>
+  </h3>
   <p class="description">Transceiver RF control flags for ADS-B transponder dynamic reports</p>
   <table class="sortable">
    <thead>
@@ -95,9 +99,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX">UAVIONIX_ADSB_OUT_DYNAMIC_GPS_FIX</a>
-  </h2>
+  </h3>
   <p class="description">Status for ADS-B transponder dynamic input</p>
   <table class="sortable">
    <thead>
@@ -158,9 +162,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_RF_HEALTH">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_RF_HEALTH">
    <a href="#ENUM_UAVIONIX_ADSB_RF_HEALTH">UAVIONIX_ADSB_RF_HEALTH</a>
-  </h2>
+  </h3>
   <p class="description">Status flags for ADS-B transponder dynamic output</p>
   <table class="sortable">
    <thead>
@@ -205,9 +209,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE">UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE</a>
-  </h2>
+  </h3>
   <p class="description">Definitions for aircraft size</p>
   <table class="sortable">
    <thead>
@@ -348,9 +352,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT</a>
-  </h2>
+  </h3>
   <p class="description">GPS lataral offset encoding</p>
   <table class="sortable">
    <thead>
@@ -427,9 +431,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON">
    <a href="#ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON">UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LON</a>
-  </h2>
+  </h3>
   <p class="description">GPS longitudinal offset encoding</p>
   <table class="sortable">
    <thead>
@@ -458,9 +462,9 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_EMERGENCY_STATUS">
+  <h3 class="mavlink_message_name" id="ENUM_UAVIONIX_ADSB_EMERGENCY_STATUS">
    <a href="#ENUM_UAVIONIX_ADSB_EMERGENCY_STATUS">UAVIONIX_ADSB_EMERGENCY_STATUS</a>
-  </h2>
+  </h3>
   <p class="description">Emergency status encoding</p>
   <table class="sortable">
    <thead>
@@ -537,12 +541,12 @@
     </tr>
    </tbody>
   </table>
-  <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="UAVIONIX_ADSB_OUT_CFG">UAVIONIX_ADSB_OUT_CFG (<a href="#UAVIONIX_ADSB_OUT_CFG">
+  <h2>MAVLink Messages</h2>
+  <h3 class="mavlink_message_name" id="UAVIONIX_ADSB_OUT_CFG">UAVIONIX_ADSB_OUT_CFG (<a href="#UAVIONIX_ADSB_OUT_CFG">
     #10001
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -614,11 +618,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UAVIONIX_ADSB_OUT_DYNAMIC">UAVIONIX_ADSB_OUT_DYNAMIC (<a href="#UAVIONIX_ADSB_OUT_DYNAMIC">
+  <h3 class="mavlink_message_name" id="UAVIONIX_ADSB_OUT_DYNAMIC">UAVIONIX_ADSB_OUT_DYNAMIC (<a href="#UAVIONIX_ADSB_OUT_DYNAMIC">
     #10002
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
@@ -734,11 +738,11 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT">UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT (<a href="#UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT">
+  <h3 class="mavlink_message_name" id="UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT">UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT (<a href="#UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT">
     #10003
    </a>
    )
-  </h2>
+  </h3>
   <p class="description">
    <strong>
     (MAVLink 2)
