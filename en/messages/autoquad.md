@@ -8,7 +8,9 @@
   <h1>MAVLink Protocol Version</h1>
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
   <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="AUTOQUAD_MAVLINK_DEFS_VERSION" name="ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">AUTOQUAD_MAVLINK_DEFS_VERSION</h2>
+  <h2 class="mavlink_message_name" id="ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">
+   <a href="#ENUM_AUTOQUAD_MAVLINK_DEFS_VERSION">AUTOQUAD_MAVLINK_DEFS_VERSION</a>
+  </h2>
   <p class="description">Track current version of these definitions (can be used by checking value of AUTOQUAD_MAVLINK_DEFS_VERSION_ENUM_END). Append a new entry for each published change.</p>
   <table class="sortable">
    <thead>
@@ -22,13 +24,22 @@
     <tr class="mavlink_field" id="AQ_MAVLINK_DEFS_VERSION_1">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">AQ_MAVLINK_DEFS_VERSION_1</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_MAVLINK_DEFS_VERSION_1">AQ_MAVLINK_DEFS_VERSION_1</a>
+     </td>
      <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
      </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AUTOQUAD_NAV_STATUS" name="ENUM_AUTOQUAD_NAV_STATUS">AUTOQUAD_NAV_STATUS</h2>
+  <h2 class="mavlink_message_name" id="ENUM_AUTOQUAD_NAV_STATUS">
+   <a href="#ENUM_AUTOQUAD_NAV_STATUS">AUTOQUAD_NAV_STATUS</a>
+  </h2>
   <p class="description">Available operating modes/statuses for AutoQuad flight controller. 
 				Bitmask up to 32 bits. Low side bits for base modes, high side for 
 				additional active features/modifiers/constraints.</p>
@@ -43,107 +54,249 @@
    <tbody>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_INIT">
      <td class="mavlink_type" valign="top">0</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_INIT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_INIT">AQ_NAV_STATUS_INIT</a>
+     </td>
      <td class="mavlink_comment">System is initializing</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_STANDBY">
      <td class="mavlink_type" valign="top">0x00000001</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_STANDBY</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_STANDBY">AQ_NAV_STATUS_STANDBY</a>
+     </td>
      <td class="mavlink_comment">System is *armed* and standing by, with no throttle input and no autonomous mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_MANUAL">
      <td class="mavlink_type" valign="top">0x00000002</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_MANUAL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_MANUAL">AQ_NAV_STATUS_MANUAL</a>
+     </td>
      <td class="mavlink_comment">Flying (throttle input detected), assumed under manual control unless other mode bits are set</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_ALTHOLD">
      <td class="mavlink_type" valign="top">0x00000004</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_ALTHOLD</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_ALTHOLD">AQ_NAV_STATUS_ALTHOLD</a>
+     </td>
      <td class="mavlink_comment">Altitude hold engaged</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_POSHOLD">
      <td class="mavlink_type" valign="top">0x00000008</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_POSHOLD</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_POSHOLD">AQ_NAV_STATUS_POSHOLD</a>
+     </td>
      <td class="mavlink_comment">Position hold engaged</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_GUIDED">
      <td class="mavlink_type" valign="top">0x00000010</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_GUIDED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_GUIDED">AQ_NAV_STATUS_GUIDED</a>
+     </td>
      <td class="mavlink_comment">Externally-guided (eg. GCS) navigation mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_MISSION">
      <td class="mavlink_type" valign="top">0x00000020</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_MISSION</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_MISSION">AQ_NAV_STATUS_MISSION</a>
+     </td>
      <td class="mavlink_comment">Autonomous mission execution mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_READY">
      <td class="mavlink_type" valign="top">0x00000100</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_READY</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_READY">AQ_NAV_STATUS_READY</a>
+     </td>
      <td class="mavlink_comment">Ready but *not armed*</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_CALIBRATING">
      <td class="mavlink_type" valign="top">0x00000200</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_CALIBRATING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_CALIBRATING">AQ_NAV_STATUS_CALIBRATING</a>
+     </td>
      <td class="mavlink_comment">Calibration mode active</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_NO_RC">
      <td class="mavlink_type" valign="top">0x00001000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_NO_RC</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_NO_RC">AQ_NAV_STATUS_NO_RC</a>
+     </td>
      <td class="mavlink_comment">No valid control input (eg. no radio link)</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_FUEL_LOW">
      <td class="mavlink_type" valign="top">0x00002000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_FUEL_LOW</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_FUEL_LOW">AQ_NAV_STATUS_FUEL_LOW</a>
+     </td>
      <td class="mavlink_comment">Battery is low (stage 1 warning)</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_FUEL_CRITICAL">
      <td class="mavlink_type" valign="top">0x00004000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_FUEL_CRITICAL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_FUEL_CRITICAL">AQ_NAV_STATUS_FUEL_CRITICAL</a>
+     </td>
      <td class="mavlink_comment">Battery is depleted (stage 2 warning)</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_DVH">
      <td class="mavlink_type" valign="top">0x01000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_DVH</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_DVH">AQ_NAV_STATUS_DVH</a>
+     </td>
      <td class="mavlink_comment">Dynamic Velocity Hold is active (PH with proportional manual direction override)</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_DAO">
      <td class="mavlink_type" valign="top">0x02000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_DAO</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_DAO">AQ_NAV_STATUS_DAO</a>
+     </td>
      <td class="mavlink_comment">ynamic Altitude Override is active (AH with proportional manual adjustment)</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_CEILING_REACHED">
      <td class="mavlink_type" valign="top">0x04000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_CEILING_REACHED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_CEILING_REACHED">AQ_NAV_STATUS_CEILING_REACHED</a>
+     </td>
      <td class="mavlink_comment">Craft is at ceiling altitude</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_CEILING">
      <td class="mavlink_type" valign="top">0x08000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_CEILING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_CEILING">AQ_NAV_STATUS_CEILING</a>
+     </td>
      <td class="mavlink_comment">Ceiling altitude is set</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_HF_DYNAMIC">
      <td class="mavlink_type" valign="top">0x10000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_HF_DYNAMIC</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_HF_DYNAMIC">AQ_NAV_STATUS_HF_DYNAMIC</a>
+     </td>
      <td class="mavlink_comment">Heading-Free dynamic mode active</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_HF_LOCKED">
      <td class="mavlink_type" valign="top">0x20000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_HF_LOCKED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_HF_LOCKED">AQ_NAV_STATUS_HF_LOCKED</a>
+     </td>
      <td class="mavlink_comment">Heading-Free locked mode active</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_RTH">
      <td class="mavlink_type" valign="top">0x40000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_RTH</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_RTH">AQ_NAV_STATUS_RTH</a>
+     </td>
      <td class="mavlink_comment">Automatic Return to Home is active</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="AQ_NAV_STATUS_FAILSAFE">
      <td class="mavlink_type" valign="top">0x80000000</td>
-     <td class="mavlink_name" valign="top">AQ_NAV_STATUS_FAILSAFE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#AQ_NAV_STATUS_FAILSAFE">AQ_NAV_STATUS_FAILSAFE</a>
+     </td>
      <td class="mavlink_comment">System is in failsafe recovery mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MAV_CMD" name="ENUM_MAV_CMD">MAV_CMD</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+   <a href="#ENUM_MAV_CMD">MAV_CMD</a>
+  </h2>
   <p class="description">
   </p>
   <table class="sortable">
@@ -157,22 +310,183 @@
    <tbody>
     <tr class="mavlink_field" id="MAV_CMD_AQ_NAV_LEG_ORBIT">
      <td class="mavlink_type" valign="top">1</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_AQ_NAV_LEG_ORBIT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_AQ_NAV_LEG_ORBIT">MAV_CMD_AQ_NAV_LEG_ORBIT</a>
+     </td>
      <td class="mavlink_comment">Orbit a waypoint.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Orbit radius in meters</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">Loiter time in decimal seconds</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Maximum horizontal speed in m/s</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Desired yaw angle at waypoint</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Latitude</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Longitude</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Altitude</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_AQ_TELEMETRY">
      <td class="mavlink_type" valign="top">2</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_AQ_TELEMETRY</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_AQ_TELEMETRY">MAV_CMD_AQ_TELEMETRY</a>
+     </td>
      <td class="mavlink_comment">Start/stop AutoQuad telemetry values stream.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Start or stop (1 or 0)</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">Stream frequency in us</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Dataset ID (refer to aq_mavlink.h::mavlinkCustomDataSets enum in AQ flight controller code)</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_AQ_REQUEST_VERSION">
      <td class="mavlink_type" valign="top">4</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_AQ_REQUEST_VERSION</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_AQ_REQUEST_VERSION">MAV_CMD_AQ_REQUEST_VERSION</a>
+     </td>
      <td class="mavlink_comment">Request AutoQuad firmware version number.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MAV_DATA_STREAM" name="ENUM_MAV_DATA_STREAM">MAV_DATA_STREAM</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_DATA_STREAM">
+   <a href="#ENUM_MAV_DATA_STREAM">MAV_DATA_STREAM</a>
+  </h2>
   <p class="description">
   </p>
   <table class="sortable">
@@ -187,14 +501,20 @@
     <tr class="mavlink_field" id="MAV_DATA_STREAM_PROPULSION">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MAV_DATA_STREAM_PROPULSION</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_DATA_STREAM_PROPULSION">MAV_DATA_STREAM_PROPULSION</a>
+     </td>
      <td class="mavlink_comment">Motor/ESC telemetry data.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="AQ_TELEMETRY_F" name="AQ_TELEMETRY_F">AQ_TELEMETRY_F (<a href="
-      #AQ_TELEMETRY_F">
+  <h2 class="mavlink_message_name" id="AQ_TELEMETRY_F">AQ_TELEMETRY_F (<a href="#AQ_TELEMETRY_F">
     #150
    </a>
    )
@@ -316,8 +636,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AQ_ESC_TELEMETRY" name="AQ_ESC_TELEMETRY">AQ_ESC_TELEMETRY (<a href="
-      #AQ_ESC_TELEMETRY">
+  <h2 class="mavlink_message_name" id="AQ_ESC_TELEMETRY">AQ_ESC_TELEMETRY (<a href="#AQ_ESC_TELEMETRY">
     #152
    </a>
    )

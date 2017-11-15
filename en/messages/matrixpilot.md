@@ -6,7 +6,9 @@
     <em>Including files:</em>common.xml</strong>
   </p>
   <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="MAV_PREFLIGHT_STORAGE_ACTION" name="ENUM_MAV_PREFLIGHT_STORAGE_ACTION">MAV_PREFLIGHT_STORAGE_ACTION</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_PREFLIGHT_STORAGE_ACTION">
+   <a href="#ENUM_MAV_PREFLIGHT_STORAGE_ACTION">MAV_PREFLIGHT_STORAGE_ACTION</a>
+  </h2>
   <p class="description">Action required when performing CMD_PREFLIGHT_STORAGE</p>
   <table class="sortable">
    <thead>
@@ -19,42 +21,93 @@
    <tbody>
     <tr class="mavlink_field" id="MAV_PFS_CMD_READ_ALL">
      <td class="mavlink_type" valign="top">0</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_READ_ALL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_READ_ALL">MAV_PFS_CMD_READ_ALL</a>
+     </td>
      <td class="mavlink_comment">Read all parameters from storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_WRITE_ALL">
      <td class="mavlink_type" valign="top">1</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_WRITE_ALL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_WRITE_ALL">MAV_PFS_CMD_WRITE_ALL</a>
+     </td>
      <td class="mavlink_comment">Write all parameters to storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_CLEAR_ALL">
      <td class="mavlink_type" valign="top">2</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_CLEAR_ALL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_CLEAR_ALL">MAV_PFS_CMD_CLEAR_ALL</a>
+     </td>
      <td class="mavlink_comment">Clear all  parameters in storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_READ_SPECIFIC">
      <td class="mavlink_type" valign="top">3</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_READ_SPECIFIC</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_READ_SPECIFIC">MAV_PFS_CMD_READ_SPECIFIC</a>
+     </td>
      <td class="mavlink_comment">Read specific parameters from storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_WRITE_SPECIFIC">
      <td class="mavlink_type" valign="top">4</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_WRITE_SPECIFIC</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_WRITE_SPECIFIC">MAV_PFS_CMD_WRITE_SPECIFIC</a>
+     </td>
      <td class="mavlink_comment">Write specific parameters to storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_CLEAR_SPECIFIC">
      <td class="mavlink_type" valign="top">5</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_CLEAR_SPECIFIC</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_CLEAR_SPECIFIC">MAV_PFS_CMD_CLEAR_SPECIFIC</a>
+     </td>
      <td class="mavlink_comment">Clear specific parameters in storage</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_PFS_CMD_DO_NOTHING">
      <td class="mavlink_type" valign="top">6</td>
-     <td class="mavlink_name" valign="top">MAV_PFS_CMD_DO_NOTHING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_PFS_CMD_DO_NOTHING">MAV_PFS_CMD_DO_NOTHING</a>
+     </td>
      <td class="mavlink_comment">do nothing</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MAV_CMD" name="ENUM_MAV_CMD">MAV_CMD</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+   <a href="#ENUM_MAV_CMD">MAV_CMD</a>
+  </h2>
   <p class="description">
   </p>
   <table class="sortable">
@@ -68,14 +121,66 @@
    <tbody>
     <tr class="mavlink_field" id="MAV_CMD_PREFLIGHT_STORAGE_ADVANCED">
      <td class="mavlink_type" valign="top">0</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_PREFLIGHT_STORAGE_ADVANCED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_PREFLIGHT_STORAGE_ADVANCED">MAV_CMD_PREFLIGHT_STORAGE_ADVANCED</a>
+     </td>
      <td class="mavlink_comment">Request storage of different parameter values and logs. This command will be only accepted if in pre-flight mode.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Storage action: Action defined by MAV_PREFLIGHT_STORAGE_ACTION_ADVANCED</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">Storage area as defined by parameter database</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Storage flags as defined by parameter database</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_SET" name="FLEXIFUNCTION_SET">FLEXIFUNCTION_SET (<a href="
-      #FLEXIFUNCTION_SET">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_SET">FLEXIFUNCTION_SET (<a href="#FLEXIFUNCTION_SET">
     #150
    </a>
    )
@@ -102,8 +207,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_READ_REQ" name="FLEXIFUNCTION_READ_REQ">FLEXIFUNCTION_READ_REQ (<a href="
-      #FLEXIFUNCTION_READ_REQ">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_READ_REQ">FLEXIFUNCTION_READ_REQ (<a href="#FLEXIFUNCTION_READ_REQ">
     #151
    </a>
    )
@@ -140,8 +244,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_BUFFER_FUNCTION" name="FLEXIFUNCTION_BUFFER_FUNCTION">FLEXIFUNCTION_BUFFER_FUNCTION (<a href="
-      #FLEXIFUNCTION_BUFFER_FUNCTION">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_BUFFER_FUNCTION">FLEXIFUNCTION_BUFFER_FUNCTION (<a href="#FLEXIFUNCTION_BUFFER_FUNCTION">
     #152
    </a>
    )
@@ -193,8 +296,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_BUFFER_FUNCTION_ACK" name="FLEXIFUNCTION_BUFFER_FUNCTION_ACK">FLEXIFUNCTION_BUFFER_FUNCTION_ACK (<a href="
-      #FLEXIFUNCTION_BUFFER_FUNCTION_ACK">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_BUFFER_FUNCTION_ACK">FLEXIFUNCTION_BUFFER_FUNCTION_ACK (<a href="#FLEXIFUNCTION_BUFFER_FUNCTION_ACK">
     #153
    </a>
    )
@@ -231,8 +333,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_DIRECTORY" name="FLEXIFUNCTION_DIRECTORY">FLEXIFUNCTION_DIRECTORY (<a href="
-      #FLEXIFUNCTION_DIRECTORY">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_DIRECTORY">FLEXIFUNCTION_DIRECTORY (<a href="#FLEXIFUNCTION_DIRECTORY">
     #155
    </a>
    )
@@ -279,8 +380,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_DIRECTORY_ACK" name="FLEXIFUNCTION_DIRECTORY_ACK">FLEXIFUNCTION_DIRECTORY_ACK (<a href="
-      #FLEXIFUNCTION_DIRECTORY_ACK">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_DIRECTORY_ACK">FLEXIFUNCTION_DIRECTORY_ACK (<a href="#FLEXIFUNCTION_DIRECTORY_ACK">
     #156
    </a>
    )
@@ -327,8 +427,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_COMMAND" name="FLEXIFUNCTION_COMMAND">FLEXIFUNCTION_COMMAND (<a href="
-      #FLEXIFUNCTION_COMMAND">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_COMMAND">FLEXIFUNCTION_COMMAND (<a href="#FLEXIFUNCTION_COMMAND">
     #157
    </a>
    )
@@ -360,8 +459,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_COMMAND_ACK" name="FLEXIFUNCTION_COMMAND_ACK">FLEXIFUNCTION_COMMAND_ACK (<a href="
-      #FLEXIFUNCTION_COMMAND_ACK">
+  <h2 class="mavlink_message_name" id="FLEXIFUNCTION_COMMAND_ACK">FLEXIFUNCTION_COMMAND_ACK (<a href="#FLEXIFUNCTION_COMMAND_ACK">
     #158
    </a>
    )
@@ -388,8 +486,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F2_A" name="SERIAL_UDB_EXTRA_F2_A">SERIAL_UDB_EXTRA_F2_A (<a href="
-      #SERIAL_UDB_EXTRA_F2_A">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F2_A">SERIAL_UDB_EXTRA_F2_A (<a href="#SERIAL_UDB_EXTRA_F2_A">
     #170
    </a>
    )
@@ -541,8 +638,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F2_B" name="SERIAL_UDB_EXTRA_F2_B">SERIAL_UDB_EXTRA_F2_B (<a href="
-      #SERIAL_UDB_EXTRA_F2_B">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F2_B">SERIAL_UDB_EXTRA_F2_B (<a href="#SERIAL_UDB_EXTRA_F2_B">
     #171
    </a>
    )
@@ -809,8 +905,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F4" name="SERIAL_UDB_EXTRA_F4">SERIAL_UDB_EXTRA_F4 (<a href="
-      #SERIAL_UDB_EXTRA_F4">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F4">SERIAL_UDB_EXTRA_F4 (<a href="#SERIAL_UDB_EXTRA_F4">
     #172
    </a>
    )
@@ -877,8 +972,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F5" name="SERIAL_UDB_EXTRA_F5">SERIAL_UDB_EXTRA_F5 (<a href="
-      #SERIAL_UDB_EXTRA_F5">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F5">SERIAL_UDB_EXTRA_F5 (<a href="#SERIAL_UDB_EXTRA_F5">
     #173
    </a>
    )
@@ -915,8 +1009,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F6" name="SERIAL_UDB_EXTRA_F6">SERIAL_UDB_EXTRA_F6 (<a href="
-      #SERIAL_UDB_EXTRA_F6">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F6">SERIAL_UDB_EXTRA_F6 (<a href="#SERIAL_UDB_EXTRA_F6">
     #174
    </a>
    )
@@ -958,8 +1051,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F7" name="SERIAL_UDB_EXTRA_F7">SERIAL_UDB_EXTRA_F7 (<a href="
-      #SERIAL_UDB_EXTRA_F7">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F7">SERIAL_UDB_EXTRA_F7 (<a href="#SERIAL_UDB_EXTRA_F7">
     #175
    </a>
    )
@@ -1006,8 +1098,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F8" name="SERIAL_UDB_EXTRA_F8">SERIAL_UDB_EXTRA_F8 (<a href="
-      #SERIAL_UDB_EXTRA_F8">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F8">SERIAL_UDB_EXTRA_F8 (<a href="#SERIAL_UDB_EXTRA_F8">
     #176
    </a>
    )
@@ -1059,8 +1150,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F13" name="SERIAL_UDB_EXTRA_F13">SERIAL_UDB_EXTRA_F13 (<a href="
-      #SERIAL_UDB_EXTRA_F13">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F13">SERIAL_UDB_EXTRA_F13 (<a href="#SERIAL_UDB_EXTRA_F13">
     #177
    </a>
    )
@@ -1097,8 +1187,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F14" name="SERIAL_UDB_EXTRA_F14">SERIAL_UDB_EXTRA_F14 (<a href="
-      #SERIAL_UDB_EXTRA_F14">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F14">SERIAL_UDB_EXTRA_F14 (<a href="#SERIAL_UDB_EXTRA_F14">
     #178
    </a>
    )
@@ -1170,8 +1259,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F15" name="SERIAL_UDB_EXTRA_F15">SERIAL_UDB_EXTRA_F15 (<a href="
-      #SERIAL_UDB_EXTRA_F15">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F15">SERIAL_UDB_EXTRA_F15 (<a href="#SERIAL_UDB_EXTRA_F15">
     #179
    </a>
    )
@@ -1198,8 +1286,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F16" name="SERIAL_UDB_EXTRA_F16">SERIAL_UDB_EXTRA_F16 (<a href="
-      #SERIAL_UDB_EXTRA_F16">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F16">SERIAL_UDB_EXTRA_F16 (<a href="#SERIAL_UDB_EXTRA_F16">
     #180
    </a>
    )
@@ -1226,8 +1313,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ALTITUDES" name="ALTITUDES">ALTITUDES (<a href="
-      #ALTITUDES">
+  <h2 class="mavlink_message_name" id="ALTITUDES">ALTITUDES (<a href="#ALTITUDES">
     #181
    </a>
    )
@@ -1279,8 +1365,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="AIRSPEEDS" name="AIRSPEEDS">AIRSPEEDS (<a href="
-      #AIRSPEEDS">
+  <h2 class="mavlink_message_name" id="AIRSPEEDS">AIRSPEEDS (<a href="#AIRSPEEDS">
     #182
    </a>
    )
@@ -1332,8 +1417,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F17" name="SERIAL_UDB_EXTRA_F17">SERIAL_UDB_EXTRA_F17 (<a href="
-      #SERIAL_UDB_EXTRA_F17">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F17">SERIAL_UDB_EXTRA_F17 (<a href="#SERIAL_UDB_EXTRA_F17">
     #183
    </a>
    )
@@ -1365,8 +1449,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F18" name="SERIAL_UDB_EXTRA_F18">SERIAL_UDB_EXTRA_F18 (<a href="
-      #SERIAL_UDB_EXTRA_F18">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F18">SERIAL_UDB_EXTRA_F18 (<a href="#SERIAL_UDB_EXTRA_F18">
     #184
    </a>
    )
@@ -1408,8 +1491,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F19" name="SERIAL_UDB_EXTRA_F19">SERIAL_UDB_EXTRA_F19 (<a href="
-      #SERIAL_UDB_EXTRA_F19">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F19">SERIAL_UDB_EXTRA_F19 (<a href="#SERIAL_UDB_EXTRA_F19">
     #185
    </a>
    )
@@ -1466,8 +1548,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F20" name="SERIAL_UDB_EXTRA_F20">SERIAL_UDB_EXTRA_F20 (<a href="
-      #SERIAL_UDB_EXTRA_F20">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F20">SERIAL_UDB_EXTRA_F20 (<a href="#SERIAL_UDB_EXTRA_F20">
     #186
    </a>
    )
@@ -1549,8 +1630,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F21" name="SERIAL_UDB_EXTRA_F21">SERIAL_UDB_EXTRA_F21 (<a href="
-      #SERIAL_UDB_EXTRA_F21">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F21">SERIAL_UDB_EXTRA_F21 (<a href="#SERIAL_UDB_EXTRA_F21">
     #187
    </a>
    )
@@ -1597,8 +1677,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F22" name="SERIAL_UDB_EXTRA_F22">SERIAL_UDB_EXTRA_F22 (<a href="
-      #SERIAL_UDB_EXTRA_F22">
+  <h2 class="mavlink_message_name" id="SERIAL_UDB_EXTRA_F22">SERIAL_UDB_EXTRA_F22 (<a href="#SERIAL_UDB_EXTRA_F22">
     #188
    </a>
    )

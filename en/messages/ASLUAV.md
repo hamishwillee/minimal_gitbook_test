@@ -6,7 +6,9 @@
     <em>Including files:</em>common.xml</strong>
   </p>
   <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="MAV_CMD" name="ENUM_MAV_CMD">MAV_CMD</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+   <a href="#ENUM_MAV_CMD">MAV_CMD</a>
+  </h2>
   <p class="description">
   </p>
   <table class="sortable">
@@ -20,19 +22,124 @@
    <tbody>
     <tr class="mavlink_field" id="MAV_CMD_RESET_MPPT">
      <td class="mavlink_type" valign="top">40001</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_RESET_MPPT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_RESET_MPPT">MAV_CMD_RESET_MPPT</a>
+     </td>
      <td class="mavlink_comment">Mission command to reset Maximum Power Point Tracker (MPPT)</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">MPPT number</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_PAYLOAD_CONTROL">
      <td class="mavlink_type" valign="top">40002</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_PAYLOAD_CONTROL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_PAYLOAD_CONTROL">MAV_CMD_PAYLOAD_CONTROL</a>
+     </td>
      <td class="mavlink_comment">Mission command to perform a power cycle on payload</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Complete power cycle</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">VISensor power cycle</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #3</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #4</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #5</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #6</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #7</td>
+     <td class="mavlink_comment">Empty</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="SENS_POWER" name="SENS_POWER">SENS_POWER (<a href="
-      #SENS_POWER">
+  <h2 class="mavlink_message_name" id="SENS_POWER">SENS_POWER (<a href="#SENS_POWER">
     #201
    </a>
    )
@@ -69,8 +176,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENS_MPPT" name="SENS_MPPT">SENS_MPPT (<a href="
-      #SENS_MPPT">
+  <h2 class="mavlink_message_name" id="SENS_MPPT">SENS_MPPT (<a href="#SENS_MPPT">
     #202
    </a>
    )
@@ -152,8 +258,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ASLCTRL_DATA" name="ASLCTRL_DATA">ASLCTRL_DATA (<a href="
-      #ASLCTRL_DATA">
+  <h2 class="mavlink_message_name" id="ASLCTRL_DATA">ASLCTRL_DATA (<a href="#ASLCTRL_DATA">
     #203
    </a>
    )
@@ -310,8 +415,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ASLCTRL_DEBUG" name="ASLCTRL_DEBUG">ASLCTRL_DEBUG (<a href="
-      #ASLCTRL_DEBUG">
+  <h2 class="mavlink_message_name" id="ASLCTRL_DEBUG">ASLCTRL_DEBUG (<a href="#ASLCTRL_DEBUG">
     #204
    </a>
    )
@@ -383,8 +487,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ASLUAV_STATUS" name="ASLUAV_STATUS">ASLUAV_STATUS (<a href="
-      #ASLUAV_STATUS">
+  <h2 class="mavlink_message_name" id="ASLUAV_STATUS">ASLUAV_STATUS (<a href="#ASLUAV_STATUS">
     #205
    </a>
    )
@@ -421,8 +524,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="EKF_EXT" name="EKF_EXT">EKF_EXT (<a href="
-      #EKF_EXT">
+  <h2 class="mavlink_message_name" id="EKF_EXT">EKF_EXT (<a href="#EKF_EXT">
     #206
    </a>
    )
@@ -474,8 +576,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ASL_OBCTRL" name="ASL_OBCTRL">ASL_OBCTRL (<a href="
-      #ASL_OBCTRL">
+  <h2 class="mavlink_message_name" id="ASL_OBCTRL">ASL_OBCTRL (<a href="#ASL_OBCTRL">
     #207
    </a>
    )
@@ -532,8 +633,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENS_ATMOS" name="SENS_ATMOS">SENS_ATMOS (<a href="
-      #SENS_ATMOS">
+  <h2 class="mavlink_message_name" id="SENS_ATMOS">SENS_ATMOS (<a href="#SENS_ATMOS">
     #208
    </a>
    )
@@ -560,8 +660,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENS_BATMON" name="SENS_BATMON">SENS_BATMON (<a href="
-      #SENS_BATMON">
+  <h2 class="mavlink_message_name" id="SENS_BATMON">SENS_BATMON (<a href="#SENS_BATMON">
     #209
    </a>
    )
@@ -643,8 +742,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="FW_SOARING_DATA" name="FW_SOARING_DATA">FW_SOARING_DATA (<a href="
-      #FW_SOARING_DATA">
+  <h2 class="mavlink_message_name" id="FW_SOARING_DATA">FW_SOARING_DATA (<a href="#FW_SOARING_DATA">
     #210
    </a>
    )
@@ -786,8 +884,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENSORPOD_STATUS" name="SENSORPOD_STATUS">SENSORPOD_STATUS (<a href="
-      #SENSORPOD_STATUS">
+  <h2 class="mavlink_message_name" id="SENSORPOD_STATUS">SENSORPOD_STATUS (<a href="#SENSORPOD_STATUS">
     #211
    </a>
    )
@@ -844,8 +941,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENS_POWER_BOARD" name="SENS_POWER_BOARD">SENS_POWER_BOARD (<a href="
-      #SENS_POWER_BOARD">
+  <h2 class="mavlink_message_name" id="SENS_POWER_BOARD">SENS_POWER_BOARD (<a href="#SENS_POWER_BOARD">
     #212
    </a>
    )

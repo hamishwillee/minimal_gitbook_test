@@ -9,8 +9,7 @@
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
   <h1>MAVLink Type Enumerations</h1>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="SCRIPT_ITEM" name="SCRIPT_ITEM">SCRIPT_ITEM (<a href="
-      #SCRIPT_ITEM">
+  <h2 class="mavlink_message_name" id="SCRIPT_ITEM">SCRIPT_ITEM (<a href="#SCRIPT_ITEM">
     #180
    </a>
    )
@@ -47,8 +46,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST" name="SCRIPT_REQUEST">SCRIPT_REQUEST (<a href="
-      #SCRIPT_REQUEST">
+  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST">SCRIPT_REQUEST (<a href="#SCRIPT_REQUEST">
     #181
    </a>
    )
@@ -80,8 +78,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST_LIST" name="SCRIPT_REQUEST_LIST">SCRIPT_REQUEST_LIST (<a href="
-      #SCRIPT_REQUEST_LIST">
+  <h2 class="mavlink_message_name" id="SCRIPT_REQUEST_LIST">SCRIPT_REQUEST_LIST (<a href="#SCRIPT_REQUEST_LIST">
     #182
    </a>
    )
@@ -108,8 +105,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_COUNT" name="SCRIPT_COUNT">SCRIPT_COUNT (<a href="
-      #SCRIPT_COUNT">
+  <h2 class="mavlink_message_name" id="SCRIPT_COUNT">SCRIPT_COUNT (<a href="#SCRIPT_COUNT">
     #183
    </a>
    )
@@ -141,8 +137,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SCRIPT_CURRENT" name="SCRIPT_CURRENT">SCRIPT_CURRENT (<a href="
-      #SCRIPT_CURRENT">
+  <h2 class="mavlink_message_name" id="SCRIPT_CURRENT">SCRIPT_CURRENT (<a href="#SCRIPT_CURRENT">
     #184
    </a>
    )

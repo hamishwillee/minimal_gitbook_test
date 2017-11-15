@@ -6,8 +6,7 @@
     <em>Including files:</em>common.xml</strong>
   </p>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_0" name="ARRAY_TEST_0">ARRAY_TEST_0 (<a href="
-      #ARRAY_TEST_0">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_0">ARRAY_TEST_0 (<a href="#ARRAY_TEST_0">
     #150
    </a>
    )
@@ -49,8 +48,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_1" name="ARRAY_TEST_1">ARRAY_TEST_1 (<a href="
-      #ARRAY_TEST_1">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_1">ARRAY_TEST_1 (<a href="#ARRAY_TEST_1">
     #151
    </a>
    )
@@ -72,8 +70,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_3" name="ARRAY_TEST_3">ARRAY_TEST_3 (<a href="
-      #ARRAY_TEST_3">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_3">ARRAY_TEST_3 (<a href="#ARRAY_TEST_3">
     #153
    </a>
    )
@@ -100,8 +97,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_4" name="ARRAY_TEST_4">ARRAY_TEST_4 (<a href="
-      #ARRAY_TEST_4">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_4">ARRAY_TEST_4 (<a href="#ARRAY_TEST_4">
     #154
    </a>
    )
@@ -128,8 +124,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_5" name="ARRAY_TEST_5">ARRAY_TEST_5 (<a href="
-      #ARRAY_TEST_5">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_5">ARRAY_TEST_5 (<a href="#ARRAY_TEST_5">
     #155
    </a>
    )
@@ -156,8 +151,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_6" name="ARRAY_TEST_6">ARRAY_TEST_6 (<a href="
-      #ARRAY_TEST_6">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_6">ARRAY_TEST_6 (<a href="#ARRAY_TEST_6">
     #156
    </a>
    )
@@ -234,8 +228,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_7" name="ARRAY_TEST_7">ARRAY_TEST_7 (<a href="
-      #ARRAY_TEST_7">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_7">ARRAY_TEST_7 (<a href="#ARRAY_TEST_7">
     #157
    </a>
    )
@@ -297,8 +290,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ARRAY_TEST_8" name="ARRAY_TEST_8">ARRAY_TEST_8 (<a href="
-      #ARRAY_TEST_8">
+  <h2 class="mavlink_message_name" id="ARRAY_TEST_8">ARRAY_TEST_8 (<a href="#ARRAY_TEST_8">
     #158
    </a>
    )

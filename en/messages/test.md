@@ -3,8 +3,7 @@
   <h1>MAVLink Protocol Version</h1>
   <p>This file has protocol version: 3. The version numbers range from 1-255.</p>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="TEST_TYPES" name="TEST_TYPES">TEST_TYPES (<a href="
-      #TEST_TYPES">
+  <h2 class="mavlink_message_name" id="TEST_TYPES">TEST_TYPES (<a href="#TEST_TYPES">
     #0
    </a>
    )

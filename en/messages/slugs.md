@@ -6,7 +6,9 @@
     <em>Including files:</em>common.xml</strong>
   </p>
   <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="MAV_CMD" name="ENUM_MAV_CMD">MAV_CMD</h2>
+  <h2 class="mavlink_message_name" id="ENUM_MAV_CMD">
+   <a href="#ENUM_MAV_CMD">MAV_CMD</a>
+  </h2>
   <p class="description">
   </p>
   <table class="sortable">
@@ -20,37 +22,127 @@
    <tbody>
     <tr class="mavlink_field" id="MAV_CMD_DO_NOTHING">
      <td class="mavlink_type" valign="top">10001</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_DO_NOTHING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_DO_NOTHING">MAV_CMD_DO_NOTHING</a>
+     </td>
      <td class="mavlink_comment">Does nothing.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">1 to arm, 0 to disarm</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_RETURN_TO_BASE">
      <td class="mavlink_type" valign="top">10011</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_RETURN_TO_BASE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_RETURN_TO_BASE">MAV_CMD_RETURN_TO_BASE</a>
+     </td>
      <td class="mavlink_comment">Return vehicle to base.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">0: return to base, 1: track mobile base</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_STOP_RETURN_TO_BASE">
      <td class="mavlink_type" valign="top">10012</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_STOP_RETURN_TO_BASE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_STOP_RETURN_TO_BASE">MAV_CMD_STOP_RETURN_TO_BASE</a>
+     </td>
      <td class="mavlink_comment">Stops the vehicle from returning to base and resumes flight.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_TURN_LIGHT">
      <td class="mavlink_type" valign="top">10013</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_TURN_LIGHT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_TURN_LIGHT">MAV_CMD_TURN_LIGHT</a>
+     </td>
      <td class="mavlink_comment">Turns the vehicle's visible or infrared lights on or off.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">0: visible lights, 1: infrared lights</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #2</td>
+     <td class="mavlink_comment">0: turn on, 1: turn off</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_GET_MID_LEVEL_COMMANDS">
      <td class="mavlink_type" valign="top">10014</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_GET_MID_LEVEL_COMMANDS</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_GET_MID_LEVEL_COMMANDS">MAV_CMD_GET_MID_LEVEL_COMMANDS</a>
+     </td>
      <td class="mavlink_comment">Requests vehicle to send current mid-level commands to ground station.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MAV_CMD_MIDLEVEL_STORAGE">
      <td class="mavlink_type" valign="top">10015</td>
-     <td class="mavlink_name" valign="top">MAV_CMD_MIDLEVEL_STORAGE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MAV_CMD_MIDLEVEL_STORAGE">MAV_CMD_MIDLEVEL_STORAGE</a>
+     </td>
      <td class="mavlink_comment">Requests storage of mid-level commands.</td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="mavlink_mission_param" valign="top">Mission Param #1</td>
+     <td class="mavlink_comment">Mid-level command storage: 0: read from flash/EEPROM, 1: write to flash/EEPROM</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_MODE" name="ENUM_SLUGS_MODE">SLUGS_MODE</h2>
+  <h2 class="mavlink_message_name" id="ENUM_SLUGS_MODE">
+   <a href="#ENUM_SLUGS_MODE">SLUGS_MODE</a>
+  </h2>
   <p class="description">Slugs-specific navigation modes.</p>
   <table class="sortable">
    <thead>
@@ -63,67 +155,153 @@
    <tbody>
     <tr class="mavlink_field" id="SLUGS_MODE_NONE">
      <td class="mavlink_type" valign="top">0</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_NONE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_NONE">SLUGS_MODE_NONE</a>
+     </td>
      <td class="mavlink_comment">No change to SLUGS mode.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LIFTOFF">
      <td class="mavlink_type" valign="top">1</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_LIFTOFF</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_LIFTOFF">SLUGS_MODE_LIFTOFF</a>
+     </td>
      <td class="mavlink_comment">Vehicle is in liftoff mode.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_PASSTHROUGH">
      <td class="mavlink_type" valign="top">2</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_PASSTHROUGH</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_PASSTHROUGH">SLUGS_MODE_PASSTHROUGH</a>
+     </td>
      <td class="mavlink_comment">Vehicle is in passthrough mode, being controlled by a pilot.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_WAYPOINT">
      <td class="mavlink_type" valign="top">3</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_WAYPOINT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_WAYPOINT">SLUGS_MODE_WAYPOINT</a>
+     </td>
      <td class="mavlink_comment">Vehicle is in waypoint mode, navigating to waypoints.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_MID_LEVEL">
      <td class="mavlink_type" valign="top">4</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_MID_LEVEL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_MID_LEVEL">SLUGS_MODE_MID_LEVEL</a>
+     </td>
      <td class="mavlink_comment">Vehicle is executing mid-level commands.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_RETURNING">
      <td class="mavlink_type" valign="top">5</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_RETURNING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_RETURNING">SLUGS_MODE_RETURNING</a>
+     </td>
      <td class="mavlink_comment">Vehicle is returning to the home location.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LANDING">
      <td class="mavlink_type" valign="top">6</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_LANDING</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_LANDING">SLUGS_MODE_LANDING</a>
+     </td>
      <td class="mavlink_comment">Vehicle is landing.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LOST">
      <td class="mavlink_type" valign="top">7</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_LOST</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_LOST">SLUGS_MODE_LOST</a>
+     </td>
      <td class="mavlink_comment">Lost connection with vehicle.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_SELECTIVE_PASSTHROUGH">
      <td class="mavlink_type" valign="top">8</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_SELECTIVE_PASSTHROUGH</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_SELECTIVE_PASSTHROUGH">SLUGS_MODE_SELECTIVE_PASSTHROUGH</a>
+     </td>
      <td class="mavlink_comment">Vehicle is in selective passthrough mode, where selected surfaces are being manually controlled.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_ISR">
      <td class="mavlink_type" valign="top">9</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_ISR</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_ISR">SLUGS_MODE_ISR</a>
+     </td>
      <td class="mavlink_comment">Vehicle is in ISR mode, performing reconaissance at a point specified by ISR_LOCATION message.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_LINE_PATROL">
      <td class="mavlink_type" valign="top">10</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_LINE_PATROL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_LINE_PATROL">SLUGS_MODE_LINE_PATROL</a>
+     </td>
      <td class="mavlink_comment">Vehicle is patrolling along lines between waypoints.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="SLUGS_MODE_GROUNDED">
      <td class="mavlink_type" valign="top">11</td>
-     <td class="mavlink_name" valign="top">SLUGS_MODE_GROUNDED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#SLUGS_MODE_GROUNDED">SLUGS_MODE_GROUNDED</a>
+     </td>
      <td class="mavlink_comment">Vehicle is grounded or an error has occurred.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CONTROL_SURFACE_FLAG" name="ENUM_CONTROL_SURFACE_FLAG">CONTROL_SURFACE_FLAG</h2>
+  <h2 class="mavlink_message_name" id="ENUM_CONTROL_SURFACE_FLAG">
+   <a href="#ENUM_CONTROL_SURFACE_FLAG">CONTROL_SURFACE_FLAG</a>
+  </h2>
   <p class="description">These flags encode the control surfaces for selective passthrough mode. If a bit is set then the pilot console
             has control of the surface, and if not then the autopilot has control of the surface.</p>
   <table class="sortable">
@@ -137,49 +315,104 @@
    <tbody>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_THROTTLE">
      <td class="mavlink_type" valign="top">128</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_THROTTLE</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_THROTTLE">CONTROL_SURFACE_FLAG_THROTTLE</a>
+     </td>
      <td class="mavlink_comment">0b10000000 Throttle control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_AILERON">
      <td class="mavlink_type" valign="top">64</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_LEFT_AILERON</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_LEFT_AILERON">CONTROL_SURFACE_FLAG_LEFT_AILERON</a>
+     </td>
      <td class="mavlink_comment">0b01000000 Left aileron control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_AILERON">
      <td class="mavlink_type" valign="top">32</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_RIGHT_AILERON</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_RIGHT_AILERON">CONTROL_SURFACE_FLAG_RIGHT_AILERON</a>
+     </td>
      <td class="mavlink_comment">0b00100000 Right aileron control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RUDDER">
      <td class="mavlink_type" valign="top">16</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_RUDDER</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_RUDDER">CONTROL_SURFACE_FLAG_RUDDER</a>
+     </td>
      <td class="mavlink_comment">0b00010000 Rudder control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_ELEVATOR">
      <td class="mavlink_type" valign="top">8</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_LEFT_ELEVATOR</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_LEFT_ELEVATOR">CONTROL_SURFACE_FLAG_LEFT_ELEVATOR</a>
+     </td>
      <td class="mavlink_comment">0b00001000 Left elevator control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR">
      <td class="mavlink_type" valign="top">4</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR">CONTROL_SURFACE_FLAG_RIGHT_ELEVATOR</a>
+     </td>
      <td class="mavlink_comment">0b00000100 Right elevator control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_LEFT_FLAP">
      <td class="mavlink_type" valign="top">2</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_LEFT_FLAP</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_LEFT_FLAP">CONTROL_SURFACE_FLAG_LEFT_FLAP</a>
+     </td>
      <td class="mavlink_comment">0b00000010 Left flap control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="CONTROL_SURFACE_FLAG_RIGHT_FLAP">
      <td class="mavlink_type" valign="top">1</td>
-     <td class="mavlink_name" valign="top">CONTROL_SURFACE_FLAG_RIGHT_FLAP</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#CONTROL_SURFACE_FLAG_RIGHT_FLAP">CONTROL_SURFACE_FLAG_RIGHT_FLAP</a>
+     </td>
      <td class="mavlink_comment">0b00000001 Right flap control passes through to pilot console.</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="CPU_LOAD" name="CPU_LOAD">CPU_LOAD (<a href="
-      #CPU_LOAD">
+  <h2 class="mavlink_message_name" id="CPU_LOAD">CPU_LOAD (<a href="#CPU_LOAD">
     #170
    </a>
    )
@@ -211,8 +444,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENSOR_BIAS" name="SENSOR_BIAS">SENSOR_BIAS (<a href="
-      #SENSOR_BIAS">
+  <h2 class="mavlink_message_name" id="SENSOR_BIAS">SENSOR_BIAS (<a href="#SENSOR_BIAS">
     #172
    </a>
    )
@@ -259,8 +491,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DIAGNOSTIC" name="DIAGNOSTIC">DIAGNOSTIC (<a href="
-      #DIAGNOSTIC">
+  <h2 class="mavlink_message_name" id="DIAGNOSTIC">DIAGNOSTIC (<a href="#DIAGNOSTIC">
     #173
    </a>
    )
@@ -307,8 +538,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_NAVIGATION" name="SLUGS_NAVIGATION">SLUGS_NAVIGATION (<a href="
-      #SLUGS_NAVIGATION">
+  <h2 class="mavlink_message_name" id="SLUGS_NAVIGATION">SLUGS_NAVIGATION (<a href="#SLUGS_NAVIGATION">
     #176
    </a>
    )
@@ -375,8 +605,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="DATA_LOG" name="DATA_LOG">DATA_LOG (<a href="
-      #DATA_LOG">
+  <h2 class="mavlink_message_name" id="DATA_LOG">DATA_LOG (<a href="#DATA_LOG">
     #177
    </a>
    )
@@ -423,8 +652,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="GPS_DATE_TIME" name="GPS_DATE_TIME">GPS_DATE_TIME (<a href="
-      #GPS_DATE_TIME">
+  <h2 class="mavlink_message_name" id="GPS_DATE_TIME">GPS_DATE_TIME (<a href="#GPS_DATE_TIME">
     #179
    </a>
    )
@@ -501,8 +729,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="MID_LVL_CMDS" name="MID_LVL_CMDS">MID_LVL_CMDS (<a href="
-      #MID_LVL_CMDS">
+  <h2 class="mavlink_message_name" id="MID_LVL_CMDS">MID_LVL_CMDS (<a href="#MID_LVL_CMDS">
     #180
    </a>
    )
@@ -539,8 +766,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CTRL_SRFC_PT" name="CTRL_SRFC_PT">CTRL_SRFC_PT (<a href="
-      #CTRL_SRFC_PT">
+  <h2 class="mavlink_message_name" id="CTRL_SRFC_PT">CTRL_SRFC_PT (<a href="#CTRL_SRFC_PT">
     #181
    </a>
    )
@@ -567,8 +793,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_CAMERA_ORDER" name="SLUGS_CAMERA_ORDER">SLUGS_CAMERA_ORDER (<a href="
-      #SLUGS_CAMERA_ORDER">
+  <h2 class="mavlink_message_name" id="SLUGS_CAMERA_ORDER">SLUGS_CAMERA_ORDER (<a href="#SLUGS_CAMERA_ORDER">
     #184
    </a>
    )
@@ -610,8 +835,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="CONTROL_SURFACE" name="CONTROL_SURFACE">CONTROL_SURFACE (<a href="
-      #CONTROL_SURFACE">
+  <h2 class="mavlink_message_name" id="CONTROL_SURFACE">CONTROL_SURFACE (<a href="#CONTROL_SURFACE">
     #185
    </a>
    )
@@ -648,8 +872,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_MOBILE_LOCATION" name="SLUGS_MOBILE_LOCATION">SLUGS_MOBILE_LOCATION (<a href="
-      #SLUGS_MOBILE_LOCATION">
+  <h2 class="mavlink_message_name" id="SLUGS_MOBILE_LOCATION">SLUGS_MOBILE_LOCATION (<a href="#SLUGS_MOBILE_LOCATION">
     #186
    </a>
    )
@@ -681,8 +904,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SLUGS_CONFIGURATION_CAMERA" name="SLUGS_CONFIGURATION_CAMERA">SLUGS_CONFIGURATION_CAMERA (<a href="
-      #SLUGS_CONFIGURATION_CAMERA">
+  <h2 class="mavlink_message_name" id="SLUGS_CONFIGURATION_CAMERA">SLUGS_CONFIGURATION_CAMERA (<a href="#SLUGS_CONFIGURATION_CAMERA">
     #188
    </a>
    )
@@ -714,8 +936,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="ISR_LOCATION" name="ISR_LOCATION">ISR_LOCATION (<a href="
-      #ISR_LOCATION">
+  <h2 class="mavlink_message_name" id="ISR_LOCATION">ISR_LOCATION (<a href="#ISR_LOCATION">
     #189
    </a>
    )
@@ -767,8 +988,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="VOLT_SENSOR" name="VOLT_SENSOR">VOLT_SENSOR (<a href="
-      #VOLT_SENSOR">
+  <h2 class="mavlink_message_name" id="VOLT_SENSOR">VOLT_SENSOR (<a href="#VOLT_SENSOR">
     #191
    </a>
    )
@@ -800,8 +1020,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="PTZ_STATUS" name="PTZ_STATUS">PTZ_STATUS (<a href="
-      #PTZ_STATUS">
+  <h2 class="mavlink_message_name" id="PTZ_STATUS">PTZ_STATUS (<a href="#PTZ_STATUS">
     #192
    </a>
    )
@@ -833,8 +1052,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UAV_STATUS" name="UAV_STATUS">UAV_STATUS (<a href="
-      #UAV_STATUS">
+  <h2 class="mavlink_message_name" id="UAV_STATUS">UAV_STATUS (<a href="#UAV_STATUS">
     #193
    </a>
    )
@@ -881,8 +1099,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="STATUS_GPS" name="STATUS_GPS">STATUS_GPS (<a href="
-      #STATUS_GPS">
+  <h2 class="mavlink_message_name" id="STATUS_GPS">STATUS_GPS (<a href="#STATUS_GPS">
     #194
    </a>
    )
@@ -934,8 +1151,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="NOVATEL_DIAG" name="NOVATEL_DIAG">NOVATEL_DIAG (<a href="
-      #NOVATEL_DIAG">
+  <h2 class="mavlink_message_name" id="NOVATEL_DIAG">NOVATEL_DIAG (<a href="#NOVATEL_DIAG">
     #195
    </a>
    )
@@ -987,8 +1203,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="SENSOR_DIAG" name="SENSOR_DIAG">SENSOR_DIAG (<a href="
-      #SENSOR_DIAG">
+  <h2 class="mavlink_message_name" id="SENSOR_DIAG">SENSOR_DIAG (<a href="#SENSOR_DIAG">
     #196
    </a>
    )
@@ -1025,8 +1240,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="BOOT" name="BOOT">BOOT (<a href="
-      #BOOT">
+  <h2 class="mavlink_message_name" id="BOOT">BOOT (<a href="#BOOT">
     #197
    </a>
    )

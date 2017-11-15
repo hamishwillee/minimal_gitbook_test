@@ -6,7 +6,9 @@
     <em>Including files:</em>common.xml</strong>
   </p>
   <h1>MAVLink Type Enumerations</h1>
-  <h2 class="mavlink_message_name" id="UALBERTA_AUTOPILOT_MODE" name="ENUM_UALBERTA_AUTOPILOT_MODE">UALBERTA_AUTOPILOT_MODE</h2>
+  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_AUTOPILOT_MODE">
+   <a href="#ENUM_UALBERTA_AUTOPILOT_MODE">UALBERTA_AUTOPILOT_MODE</a>
+  </h2>
   <p class="description">Available autopilot modes for ualberta uav</p>
   <table class="sortable">
    <thead>
@@ -20,36 +22,73 @@
     <tr class="mavlink_field" id="MODE_MANUAL_DIRECT">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MODE_MANUAL_DIRECT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MODE_MANUAL_DIRECT">MODE_MANUAL_DIRECT</a>
+     </td>
      <td class="mavlink_comment">Raw input pulse widts sent to output</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MODE_MANUAL_SCALED">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MODE_MANUAL_SCALED</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MODE_MANUAL_SCALED">MODE_MANUAL_SCALED</a>
+     </td>
      <td class="mavlink_comment">Inputs are normalized using calibration, the converted back to raw pulse widths for output</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_ATT">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MODE_AUTO_PID_ATT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MODE_AUTO_PID_ATT">MODE_AUTO_PID_ATT</a>
+     </td>
      <td class="mavlink_comment">dfsdfs</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_VEL">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MODE_AUTO_PID_VEL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MODE_AUTO_PID_VEL">MODE_AUTO_PID_VEL</a>
+     </td>
      <td class="mavlink_comment">dfsfds</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="MODE_AUTO_PID_POS">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">MODE_AUTO_PID_POS</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#MODE_AUTO_PID_POS">MODE_AUTO_PID_POS</a>
+     </td>
      <td class="mavlink_comment">dfsdfsdfs</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UALBERTA_NAV_MODE" name="ENUM_UALBERTA_NAV_MODE">UALBERTA_NAV_MODE</h2>
+  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_NAV_MODE">
+   <a href="#ENUM_UALBERTA_NAV_MODE">UALBERTA_NAV_MODE</a>
+  </h2>
   <p class="description">Navigation filter mode</p>
   <table class="sortable">
    <thead>
@@ -63,31 +102,61 @@
     <tr class="mavlink_field" id="NAV_AHRS_INIT">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">NAV_AHRS_INIT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#NAV_AHRS_INIT">NAV_AHRS_INIT</a>
+     </td>
      <td class="mavlink_comment">
+     </td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
      </td>
     </tr>
     <tr class="mavlink_field" id="NAV_AHRS">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">NAV_AHRS</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#NAV_AHRS">NAV_AHRS</a>
+     </td>
      <td class="mavlink_comment">AHRS mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="NAV_INS_GPS_INIT">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">NAV_INS_GPS_INIT</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#NAV_INS_GPS_INIT">NAV_INS_GPS_INIT</a>
+     </td>
      <td class="mavlink_comment">INS/GPS initialization mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="NAV_INS_GPS">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">NAV_INS_GPS</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#NAV_INS_GPS">NAV_INS_GPS</a>
+     </td>
      <td class="mavlink_comment">INS/GPS mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UALBERTA_PILOT_MODE" name="ENUM_UALBERTA_PILOT_MODE">UALBERTA_PILOT_MODE</h2>
+  <h2 class="mavlink_message_name" id="ENUM_UALBERTA_PILOT_MODE">
+   <a href="#ENUM_UALBERTA_PILOT_MODE">UALBERTA_PILOT_MODE</a>
+  </h2>
   <p class="description">Mode currently commanded by pilot</p>
   <table class="sortable">
    <thead>
@@ -101,26 +170,46 @@
     <tr class="mavlink_field" id="PILOT_MANUAL">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">PILOT_MANUAL</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#PILOT_MANUAL">PILOT_MANUAL</a>
+     </td>
      <td class="mavlink_comment">sdf</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="PILOT_AUTO">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">PILOT_AUTO</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#PILOT_AUTO">PILOT_AUTO</a>
+     </td>
      <td class="mavlink_comment">dfs</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
     <tr class="mavlink_field" id="PILOT_ROTO">
      <td class="mavlink_type" valign="top">
      </td>
-     <td class="mavlink_name" valign="top">PILOT_ROTO</td>
+     <td class="mavlink_name" valign="top">
+      <a href="#PILOT_ROTO">PILOT_ROTO</a>
+     </td>
      <td class="mavlink_comment">Rotomotion mode</td>
+    </tr>
+    <tr>
+     <td colspan="3">
+      <br/>
+     </td>
     </tr>
    </tbody>
   </table>
   <h1>MAVLink Messages</h1>
-  <h2 class="mavlink_message_name" id="NAV_FILTER_BIAS" name="NAV_FILTER_BIAS">NAV_FILTER_BIAS (<a href="
-      #NAV_FILTER_BIAS">
+  <h2 class="mavlink_message_name" id="NAV_FILTER_BIAS">NAV_FILTER_BIAS (<a href="#NAV_FILTER_BIAS">
     #220
    </a>
    )
@@ -172,8 +261,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="RADIO_CALIBRATION" name="RADIO_CALIBRATION">RADIO_CALIBRATION (<a href="
-      #RADIO_CALIBRATION">
+  <h2 class="mavlink_message_name" id="RADIO_CALIBRATION">RADIO_CALIBRATION (<a href="#RADIO_CALIBRATION">
     #221
    </a>
    )
@@ -220,8 +308,7 @@
     </tr>
    </tbody>
   </table>
-  <h2 class="mavlink_message_name" id="UALBERTA_SYS_STATUS" name="UALBERTA_SYS_STATUS">UALBERTA_SYS_STATUS (<a href="
-      #UALBERTA_SYS_STATUS">
+  <h2 class="mavlink_message_name" id="UALBERTA_SYS_STATUS">UALBERTA_SYS_STATUS (<a href="#UALBERTA_SYS_STATUS">
     #222
    </a>
    )
