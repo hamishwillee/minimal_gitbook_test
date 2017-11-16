@@ -1,3 +1,4 @@
+<!-- THIS FILE IS AUTO-GENERATED: https://github.com/mavlink/mavlink/blob/master/doc/mavlink_gitbook.py -->
 # MAVLINK Message Set: uAvionix.xml
 
 *This is a human-readable form of the XML definition file: [uAvionix.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/uAvionix.xml).*
@@ -561,16 +562,19 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ICAO</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Vehicle address (24 bit)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">callsign</td>
      <td class="mavlink_type" valign="top">char[9]</td>
      <td class="mavlink_comment">Vehicle identifier (8 characters, null terminated, valid characters are A-Z, 0-9, " " only)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">emitterType</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Transmitting vehicle type. See ADSB_EMITTER_TYPE enum
@@ -579,6 +583,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aircraftSize</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Aircraft length and width encoding (table 2-35 of DO-282B)
@@ -587,6 +592,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsOffsetLat</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">GPS antenna lateral offset (table 2-36 of DO-282B)
@@ -595,6 +601,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsOffsetLon</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">GPS antenna longitudinal offset from nose [if non-zero, take position (in meters) divide by 2 and add one] (table 2-37 DO-282B)
@@ -603,12 +610,14 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">stallSpeed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Aircraft stall speed in cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rfSelect</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">ADS-B transponder reciever and transmit enable flags
@@ -637,30 +646,35 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">utcTime</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">UTC time in seconds since GPS epoch (Jan 6, 1980). If unknown set to UINT32_MAX
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsLat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude WGS84 (deg * 1E7). If unknown set to INT32_MAX
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsLon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude WGS84 (deg * 1E7). If unknown set to INT32_MAX
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsAlt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in mm (m * 1E-3) UP +ve. WGS84 altitude. If unknown set to INT32_MAX
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gpsFix</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0-1: no fix, 2: 2D fix, 3: 3D fix, 4: DGPS, 5: RTK
@@ -669,53 +683,62 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">numSats</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown set to UINT8_MAX</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baroAltMSL</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Barometric pressure altitude relative to a standard atmosphere of 1013.2 mBar and NOT bar corrected altitude (m * 1E-3). (up +ve). If unknown set to INT32_MAX
      (Units: mbar)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accuracyHor</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Horizontal accuracy in mm (m * 1E-3). If unknown set to UINT32_MAX
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accuracyVert</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Vertical accuracy in cm. If unknown set to UINT16_MAX
      (Units: cm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accuracyVel</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Velocity accuracy in mm/s (m * 1E-3). If unknown set to UINT16_MAX
      (Units: mm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">velVert</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">GPS vertical speed in cm/s. If unknown set to INT16_MAX
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">velNS</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">North-South velocity over ground in cm/s North +ve. If unknown set to INT16_MAX
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">VelEW</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">East-West velocity over ground in cm/s East +ve. If unknown set to INT16_MAX
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">emergencyStatus</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Emergency status
@@ -724,6 +747,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">state</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADS-B transponder dynamic input state flags
@@ -732,6 +756,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">squawk</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Mode A code (typically 1200 [0x04B0] for VFR)</td>
@@ -757,6 +782,7 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rfHealth</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">ADS-B transponder messages

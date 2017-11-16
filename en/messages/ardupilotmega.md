@@ -1,8 +1,11 @@
+<!-- THIS FILE IS AUTO-GENERATED: https://github.com/mavlink/mavlink/blob/master/doc/mavlink_gitbook.py -->
 # MAVLINK ArduPilotMega Message Set
 
 These messages define the APM specific message set, which is custom to [http://ardupilot.org](http://ardupilot.org).
 
 *This is a human-readable form of the XML definition file: [ardupilotmega.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/ardupilotmega.xml).*
+
+> **Note** The ArduPilot MAVLink fork of [ardupilotmega.xml](https://github.com/ArduPilot/mavlink/blob/master/message_definitions/v1.0/ardupilotmega.xml) may contain messages that have not yet been merged into this documentation.
 
 <html>
  <body>
@@ -3127,62 +3130,74 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_x</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer X offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_y</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer Y offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_z</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer Z offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_declination</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">magnetic declination (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">raw_press</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">raw pressure from barometer</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">raw_temp</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">raw temperature from barometer</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gyro_cal_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">gyro X calibration</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gyro_cal_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">gyro Y calibration</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gyro_cal_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">gyro Z calibration</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accel_cal_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">accel X calibration</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accel_cal_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">accel Y calibration</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accel_cal_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">accel Z calibration</td>
@@ -3205,26 +3220,31 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_x</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer X offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_y</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer Y offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ofs_z</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">magnetometer Z offset</td>
@@ -3247,18 +3267,21 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">brkval</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">heap top</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">freemem</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">free memory
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">freemem32</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">freemem32</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">free memory (32 bit)
      (Units: bytes)</td>
@@ -3281,31 +3304,37 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc1</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc2</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 2</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc3</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 3</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc4</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 4</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc5</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 5</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">adc6</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ADC output 6</td>
@@ -3328,57 +3357,68 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mode enumeration from 1 to N //P, TV, AV, M, Etc (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">shutter_speed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Divisor number //e.g. 1000 means 1/1000 (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aperture</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">F stop number x 10 //e.g. 28 means 2.8 (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">iso</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">ISO enumeration from 1 to N //e.g. 80, 100, 200, Etc (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">exposure_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Exposure type enumeration from 1 to N (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command Identity (incremental loop: 0 to 255)//A command sent multiple times will be executed or pooled just once</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">engine_cut_off</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Main engine cut-off time before camera trigger in seconds/10 (0 means no cut-off)
      (Units: ds)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">extra_param</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Extra parameters enumeration (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">extra_value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Correspondent value to given extra_param</td>
@@ -3401,26 +3441,31 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">session</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: stop, 1: start or keep it up //Session control e.g. show/hide lens</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zoom_pos</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">1 to N //Zoom's absolute position (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zoom_step</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">
@@ -3428,26 +3473,31 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">focus_lock</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: unlock focus or keep unlocked, 1: lock focus or keep locked, 3: re-lock focus</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">shot</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: ignore, 1: shot or start filming</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command Identity (incremental loop: 0 to 255)//A command sent multiple times will be executed or pooled just once</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">extra_param</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Extra parameters enumeration (0 means ignore)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">extra_value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Correspondent value to given extra_param</td>
@@ -3470,16 +3520,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mount_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">mount operating mode (see MAV_MOUNT_MODE enum)
@@ -3488,6 +3541,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">stab_roll</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">
@@ -3495,6 +3549,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">stab_pitch</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">
@@ -3502,6 +3557,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">stab_yaw</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">
@@ -3526,31 +3582,37 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">input_a</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">pitch(deg*100) or lat, depending on mount mode</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">input_b</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">roll(deg*100) or lon depending on mount mode</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">input_c</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">yaw(deg*100) or alt (in cm) depending on mount mode</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">save_position</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">if "1" it will save current trimmed position on EEPROM (just valid for NEUTRAL and LANDING)</td>
@@ -3573,28 +3635,33 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pointing_a</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">pitch(deg*100)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pointing_b</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">roll(deg*100)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pointing_c</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">yaw(deg*100)
@@ -3618,32 +3685,38 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">point index (first point is 1, 0 is for return point)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">total number of points (for sanity checking)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Latitude of point
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Longitude of point
@@ -3667,16 +3740,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">point index (first point is 1, 0 is for return point)</td>
@@ -3699,16 +3775,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">breach_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0 if currently inside fence, 1 if outside</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">breach_count</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">number of fence breaches</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">breach_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">last breach type (see FENCE_BREACH_* enum)
@@ -3717,6 +3796,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">breach_time</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">time of last breach in milliseconds since boot
@@ -3740,39 +3820,46 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">omegaIx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X gyro drift estimate rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">omegaIy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y gyro drift estimate rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">omegaIz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z gyro drift estimate rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accel_weight</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">average accel_weight</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">renorm_val</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">average renormalisation value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">error_rp</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">average error_roll_pitch value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">error_yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">average error_yaw value</td>
@@ -3795,66 +3882,77 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around X axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Y axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Z axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude in degrees * 1E7
@@ -3878,12 +3976,14 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Vcc</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">board voltage (mV)
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">I2Cerr</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">I2C error count</td>
@@ -3906,37 +4006,44 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">local signal strength</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">remrssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">remote signal strength</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">txbuf</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">how full the tx buffer is as a percentage
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">noise</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">background noise level</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">remnoise</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">remote background noise level</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rxerrors</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">receive errors</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fixed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">count of error corrected packets</td>
@@ -3959,6 +4066,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">limits_state</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">state of AP_Limits, (see enum LimitState, LIMITS_STATE)
@@ -3967,35 +4075,41 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_trigger</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">time of last breach in milliseconds since boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_action</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">time of last recovery action in milliseconds since boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_recovery</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">time of last successful recovery in milliseconds since boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_clear</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">time of last all-clear in milliseconds since boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">breach_count</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">number of fence breaches</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mods_enabled</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">AP_Limit_Module bitfield of enabled modules, (see enum moduleid or LIMIT_MODULE)
@@ -4004,6 +4118,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mods_required</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">AP_Limit_Module bitfield of required modules, (see enum moduleid or LIMIT_MODULE)
@@ -4012,6 +4127,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mods_triggered</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">AP_Limit_Module bitfield of triggered modules, (see enum moduleid or LIMIT_MODULE)
@@ -4037,18 +4153,21 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">direction</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">wind direction that wind is coming from (degrees)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">speed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">wind speed in ground plane (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">speed_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">vertical wind speed (m/s)
@@ -4072,17 +4191,20 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data type</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[16]</td>
      <td class="mavlink_comment">raw data</td>
@@ -4105,17 +4227,20 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data type</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[32]</td>
      <td class="mavlink_comment">raw data</td>
@@ -4138,17 +4263,20 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data type</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[64]</td>
      <td class="mavlink_comment">raw data</td>
@@ -4171,17 +4299,20 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data type</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[96]</td>
      <td class="mavlink_comment">raw data</td>
@@ -4204,12 +4335,14 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">distance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">distance in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">voltage</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">raw voltage if available, zero otherwise
@@ -4233,65 +4366,77 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity north m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity east m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity down m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diff_pressure</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure pascals
      (Units: Pa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">EAS2TAS</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Estimated to true airspeed ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Airspeed ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">state_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF state x</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">state_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF state y</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">state_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF state z</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Pax</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF Pax</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Pby</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF Pby</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Pcz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">EKF Pcz</td>
@@ -4314,56 +4459,66 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">point index (first point is 0)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">total number of points (for sanity checking)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude of point in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude of point in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Transit / loiter altitude in meters relative to home
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">break_alt</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Break altitude in meters relative to home
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">land_dir</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Heading to aim for when landing. In centi-degrees.
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See RALLY_FLAGS enum for definition of the bitmask.
@@ -4389,16 +4544,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">point index (first point is 0)</td>
@@ -4421,34 +4579,40 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">throttle</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">throttle (percent*10)
      (Units: d%)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">current (Ampere)
      (Units: A)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">interference</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">interference (percent)
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">CompensationX</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Motor Compensation X</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">CompensationY</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Motor Compensation Y</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">CompensationZ</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Motor Compensation Z</td>
@@ -4471,36 +4635,42 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude (MSL)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude in degrees * 1E7
@@ -4524,27 +4694,32 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Image timestamp (microseconds since UNIX epoch, according to camera clock)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cam_idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">img_idx</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Image index</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">event_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See CAMERA_STATUS_TYPES enum for definition of the bitmask
@@ -4553,21 +4728,25 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 1 (meaning depends on event, see CAMERA_STATUS_TYPES enum)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 2 (meaning depends on event, see CAMERA_STATUS_TYPES enum)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 3 (meaning depends on event, see CAMERA_STATUS_TYPES enum)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 4 (meaning depends on event, see CAMERA_STATUS_TYPES enum)</td>
@@ -4590,75 +4769,88 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Image timestamp (microseconds since UNIX epoch), as passed in by CAMERA_STATUS message (or autopilot if no CCB)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cam_idx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">img_idx</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Image index</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude in (deg * 1E7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude in (deg * 1E7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt_msl</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude Absolute (meters AMSL)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt_rel</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude Relative (meters above HOME location)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Camera Roll angle (earth frame, degrees, +-180)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Camera Pitch angle (earth frame, degrees, +-180)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Camera Yaw (earth frame, degrees, 0-360, true)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">foc_len</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Focal Length (mm)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See CAMERA_FEEDBACK_FLAGS enum for definition of the bitmask
@@ -4684,12 +4876,14 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">voltage</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">voltage in millivolts
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_battery</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Battery current, in 10*milliamperes (1 = 10 milliampere), -1: autopilot does not measure the current
@@ -4713,56 +4907,66 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude (MSL)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lng</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">v1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">test variable1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">v2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">test variable2</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">v3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">test variable3</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">v4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">test variable4</td>
@@ -4785,11 +4989,13 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
@@ -4812,16 +5018,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seqno</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">log data block sequence number
@@ -4830,6 +5039,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[200]</td>
      <td class="mavlink_comment">log data block</td>
@@ -4852,21 +5062,25 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seqno</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">log data block sequence number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">log data block status
@@ -4892,31 +5106,37 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">instance</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Instance (LED instance to control or 255 for all LEDs)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pattern</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Pattern (see LED_PATTERN_ENUM)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Custom Byte Length</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_bytes</td>
      <td class="mavlink_type" valign="top">uint8_t[24]</td>
      <td class="mavlink_comment">Custom Bytes</td>
@@ -4939,16 +5159,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">compass_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Compass being calibrated</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cal_mask</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bitmask of compasses being calibrated</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cal_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status (see MAG_CAL_STATUS enum)
@@ -4957,32 +5180,38 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">attempt</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Attempt number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">completion_pct</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Completion percentage
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">completion_mask</td>
      <td class="mavlink_type" valign="top">uint8_t[10]</td>
      <td class="mavlink_comment">Bitmask of sphere sections (see http://en.wikipedia.org/wiki/Geodesic_grid)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">direction_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame direction vector for display</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">direction_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame direction vector for display</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">direction_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame direction vector for display</td>
@@ -5005,16 +5234,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">compass_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Compass being calibrated</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cal_mask</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bitmask of compasses being calibrated</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cal_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status (see MAG_CAL_STATUS enum)
@@ -5023,57 +5255,68 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autosaved</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0=requires a MAV_CMD_DO_ACCEPT_MAG_CAL, 1=saved to parameters</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fitness</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RMS milligauss residuals
      (Units: mgauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ofs_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ofs_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ofs_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z offset</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diag_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X diagonal (matrix 11)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diag_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y diagonal (matrix 22)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diag_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z diagonal (matrix 33)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">offdiag_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X off-diagonal (matrix 12 and 21)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">offdiag_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y off-diagonal (matrix 13 and 31)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">offdiag_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z off-diagonal (matrix 32 and 23)</td>
@@ -5096,6 +5339,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Flags
@@ -5104,26 +5348,31 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">velocity_variance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Velocity variance</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_horiz_variance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Horizontal Position variance</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_vert_variance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vertical Position variance</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">compass_variance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Compass variance</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">terrain_alt_variance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Terrain Altitude variance</td>
@@ -5146,6 +5395,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">axis</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">axis
@@ -5154,33 +5404,39 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">desired</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">desired rate (degrees/s)
      (Units: deg/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">achieved</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">achieved rate (degrees/s)
      (Units: deg/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">FF</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">FF component</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">P</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">P component</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">I</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">I component</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">D</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">D component</td>
@@ -5203,70 +5459,82 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_time</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Time since last update (seconds)
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_angle_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta angle X (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_angle_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta angle Y (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_angle_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta angle X (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_velocity_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta velocity X (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_velocity_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta velocity Y (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">delta_velocity_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Delta velocity Z (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">joint_roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Joint ROLL (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">joint_el</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Joint EL (radians)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">joint_az</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Joint AZ (radians)
@@ -5290,28 +5558,33 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">demanded_rate_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Demanded angular rate X (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">demanded_rate_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Demanded angular rate Y (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">demanded_rate_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Demanded angular rate Z (rad/s)
@@ -5335,26 +5608,31 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rl_torque_cmd</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Roll Torque Command</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">el_torque_cmd</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Elevation Torque Command</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">az_torque_cmd</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Azimuth Torque Command</td>
@@ -5377,6 +5655,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status
@@ -5385,6 +5664,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">capture_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current capture mode
@@ -5393,6 +5673,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">additional status bits
@@ -5418,16 +5699,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cmd_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command ID
@@ -5453,6 +5737,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cmd_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command ID
@@ -5461,6 +5746,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status
@@ -5469,6 +5755,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">uint8_t[4]</td>
      <td class="mavlink_comment">Value</td>
@@ -5491,16 +5778,19 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cmd_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command ID
@@ -5509,6 +5799,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">uint8_t[4]</td>
      <td class="mavlink_comment">Value</td>
@@ -5531,6 +5822,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cmd_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Command ID
@@ -5539,6 +5831,7 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status
@@ -5564,11 +5857,13 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rpm1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RPM Sensor1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rpm2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RPM Sensor2</td>
@@ -5594,21 +5889,25 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">request_id</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">request ID - copied to reply</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bustype</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The bus type
@@ -5617,26 +5916,31 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bus</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bus number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">address</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bus address</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">busname</td>
      <td class="mavlink_type" valign="top">char[40]</td>
      <td class="mavlink_comment">Name of device on bus (for SPI)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">regstart</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">First register to read</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">count of registers to read</td>
@@ -5662,26 +5966,31 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">request_id</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">request ID - copied from request</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">result</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0 for success, anything else is failure code</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">regstart</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">starting register</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">count of bytes read</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[128]</td>
      <td class="mavlink_comment">reply data</td>
@@ -5707,21 +6016,25 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">request_id</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">request ID - copied to reply</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bustype</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The bus type
@@ -5730,31 +6043,37 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bus</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bus number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">address</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bus address</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">busname</td>
      <td class="mavlink_type" valign="top">char[40]</td>
      <td class="mavlink_comment">Name of device on bus (for SPI)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">regstart</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">First register to write</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">count of registers to write</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[128]</td>
      <td class="mavlink_comment">write data</td>
@@ -5780,11 +6099,13 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">request_id</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">request ID - copied from request</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">result</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0 for success, anything else is failure code</td>
@@ -5810,6 +6131,7 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">axis</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">axis
@@ -5818,63 +6140,75 @@ These messages define the APM specific message set, which is custom to [http://a
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">desired</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">desired rate (degrees/s)
      (Units: deg/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">achieved</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">achieved rate (degrees/s)
      (Units: deg/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">error</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">error between model and vehicle</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">theta</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">theta estimated state predictor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">omega</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">omega estimated state predictor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sigma</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">sigma estimated state predictor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">theta_dot</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">theta derivative</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">omega_dot</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">omega derivative</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sigma_dot</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">sigma derivative</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">f</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">projection operator value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">f_dot</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">projection operator derivative</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">u</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">u adaptive controlled output command</td>
@@ -5900,26 +6234,31 @@ These messages define the APM specific message set, which is custom to [http://a
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_delta_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Time in microseconds since the last reported camera frame</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">angle_delta</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">Defines a rotation vector in body frame that rotates the vehicle from the previous to the current orientation</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">position_delta</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">Change in position in meters from previous to current frame rotated into body frame (0=forward, 1=right, 2=down)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">confidence</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">normalised confidence value from 0 to 100</td>

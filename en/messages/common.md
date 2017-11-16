@@ -1,6 +1,9 @@
+<!-- THIS FILE IS AUTO-GENERATED: https://github.com/mavlink/mavlink/blob/master/doc/mavlink_gitbook.py -->
 # MAVLINK Common Message Set
 
 These messages define the common message set, which is the reference message set implemented by most ground control stations and autopilots.
+
+> **Note** MAVLink 2 messages have an ID > 255 and are marked up using **(MAVLink 2)** in their description. MAVLink 2 extension fields that have been added to MAVLink 1 messages are displayed in blue.
 
 *This is a human-readable form of the XML definition file: [common.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/common.xml).*
 
@@ -10855,6 +10858,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type of the MAV (quadrotor, helicopter, etc., up to 15 types, defined in MAV_TYPE ENUM)
@@ -10863,6 +10867,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autopilot</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Autopilot type / class. defined in MAV_AUTOPILOT ENUM
@@ -10871,6 +10876,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">base_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System mode bitfield, see MAV_MODE_FLAG ENUM in mavlink/include/mavlink_types.h
@@ -10879,11 +10885,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_mode</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">A bitfield for use for autopilot-specific flags.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">system_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System status flag, see MAV_STATE ENUM
@@ -10892,6 +10900,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mavlink_version</td>
      <td class="mavlink_type" valign="top">uint8_t_mavlink_version</td>
      <td class="mavlink_comment">MAVLink version, not writable by user, gets added by protocol because of magic data type: uint8_t_mavlink_version</td>
@@ -10914,6 +10923,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">onboard_control_sensors_present</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bitmask showing which onboard controllers and sensors are present. Value of 0: not present. Value of 1: present. Indices defined by ENUM MAV_SYS_STATUS_SENSOR
@@ -10922,6 +10932,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">onboard_control_sensors_enabled</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bitmask showing which onboard controllers and sensors are enabled:  Value of 0: not enabled. Value of 1: enabled. Indices defined by ENUM MAV_SYS_STATUS_SENSOR
@@ -10930,6 +10941,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">onboard_control_sensors_health</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bitmask showing which onboard controllers and sensors are operational or have an error:  Value of 0: not enabled. Value of 1: enabled. Indices defined by ENUM MAV_SYS_STATUS_SENSOR
@@ -10938,56 +10950,66 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">load</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Maximum usage in percent of the mainloop time, (0%: 0, 100%: 1000) should be always below 1000
      (Units: d%)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">voltage_battery</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Battery voltage, in millivolts (1 = 1 millivolt)
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_battery</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Battery current, in 10*milliamperes (1 = 10 milliampere), -1: autopilot does not measure the current
      (Units: cA)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">battery_remaining</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">Remaining battery energy: (0%: 0, 100%: 100), -1: autopilot estimate the remaining battery
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">drop_rate_comm</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Communication drops in percent, (0%: 0, 100%: 10'000), (UART, I2C, SPI, CAN), dropped packets on all links (packets that were corrupted on reception on the MAV)
      (Units: c%)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">errors_comm</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Communication errors (UART, I2C, SPI, CAN), dropped packets on all links (packets that were corrupted on reception on the MAV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">errors_count1</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Autopilot-specific errors</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">errors_count2</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Autopilot-specific errors</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">errors_count3</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Autopilot-specific errors</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">errors_count4</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Autopilot-specific errors</td>
@@ -11010,12 +11032,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_unix_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp of the master clock in microseconds since UNIX epoch.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp of the component clock since boot time in milliseconds.
@@ -11039,22 +11063,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Unix timestamp in microseconds or since system boot if smaller than MAVLink epoch (1.1.2009)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">PING sequence</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: request ping from all receiving systems, if greater than 0: message is a ping response and number is the system id of the requesting system</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: request ping from all receiving components, if greater than 0: message is a ping response and number is the system id of the requesting system</td>
@@ -11077,22 +11105,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System the GCS requests control for</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">control_request</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: request control of this MAV, 1: Release control of this MAV</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">version</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: key as plaintext, 1-255: future, different hashing/encryption variants. The GCS should in general use the safest mode possible initially and then gradually move down the encryption level if it gets a NACK message indicating an encryption mismatch.
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">passkey</td>
      <td class="mavlink_type" valign="top">char[25]</td>
      <td class="mavlink_comment">Password / Key, depending on version plaintext or encrypted. 25 or less characters, NULL terminated. The characters may involve A-Z, a-z, 0-9, and "!?,.-"</td>
@@ -11115,16 +11147,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gcs_system_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">ID of the GCS this message</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">control_request</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: request control of this MAV, 1: Release control of this MAV</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ack</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: ACK, 1: NACK: Wrong passkey, 2: NACK: Unsupported passkey encryption method, 3: NACK: Already under control</td>
@@ -11147,6 +11182,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">key</td>
      <td class="mavlink_type" valign="top">char[32]</td>
      <td class="mavlink_comment">key</td>
@@ -11169,11 +11205,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The system setting the mode</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">base_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The new base mode
@@ -11182,6 +11220,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_mode</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">The new autopilot-specific mode. This field can be ignored by an autopilot.</td>
@@ -11204,21 +11243,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Onboard parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Parameter index. Send -1 to use the param ID field as identifier (else the param id will be ignored)</td>
@@ -11241,11 +11284,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
@@ -11268,16 +11313,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Onboard parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Onboard parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Onboard parameter type: see the MAV_PARAM_TYPE enum for supported data types.
@@ -11286,11 +11334,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_count</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Total number of onboard parameters</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_index</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Index of this onboard parameter</td>
@@ -11313,26 +11363,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Onboard parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Onboard parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Onboard parameter type: see the MAV_PARAM_TYPE enum for supported data types.
@@ -11359,12 +11414,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fix_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See the GPS_FIX_TYPE enum.
@@ -11373,76 +11430,89 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84, EGM96 ellipsoid), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84, EGM96 ellipsoid), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL, NOT WGS84), in meters * 1000 (positive for up). Note that virtually all GPS modules provide the AMSL altitude in addition to the WGS84 altitude.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">eph</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS HDOP horizontal dilution of position (unitless). If unknown, set to: UINT16_MAX</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">epv</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS VDOP vertical dilution of position (unitless). If unknown, set to: UINT16_MAX</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS ground speed (m/s * 100). If unknown, set to: UINT16_MAX
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cog</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Course over ground (NOT heading, but direction of movement) in degrees * 100, 0.0..359.99 degrees. If unknown, set to: UINT16_MAX
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown, set to 255</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">alt_ellipsoid</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">alt_ellipsoid</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (above WGS84, EGM96 ellipsoid), in meters * 1000 (positive for up).
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">h_acc</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">h_acc</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Position uncertainty in meters * 1000 (positive for up).
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">v_acc</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">v_acc</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Altitude uncertainty in meters * 1000 (positive for up).
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">vel_acc</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">vel_acc</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Speed uncertainty in meters * 1000 (positive for up).
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">hdg_acc</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">hdg_acc</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Heading / track uncertainty in degrees * 1e5.
      (Units: mm)</td>
@@ -11465,31 +11535,37 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellite_prn</td>
      <td class="mavlink_type" valign="top">uint8_t[20]</td>
      <td class="mavlink_comment">Global satellite ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellite_used</td>
      <td class="mavlink_type" valign="top">uint8_t[20]</td>
      <td class="mavlink_comment">0: Satellite not used, 1: used for localization</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellite_elevation</td>
      <td class="mavlink_type" valign="top">uint8_t[20]</td>
      <td class="mavlink_comment">Elevation (0: right on top of receiver, 90: on the horizon) of satellite</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellite_azimuth</td>
      <td class="mavlink_type" valign="top">uint8_t[20]</td>
      <td class="mavlink_comment">Direction of satellite, 0: 0 deg, 255: 360 deg.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellite_snr</td>
      <td class="mavlink_type" valign="top">uint8_t[20]</td>
      <td class="mavlink_comment">Signal to noise ratio of satellite</td>
@@ -11512,60 +11588,70 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around X axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Y axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Z axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z Magnetic field (milli tesla)
@@ -11589,52 +11675,62 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around X axis (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Y axis (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Z axis (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X Magnetic field (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y Magnetic field (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z Magnetic field (raw)</td>
@@ -11657,27 +11753,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_abs</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Absolute pressure (raw)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_diff1</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Differential pressure 1 (raw, 0 if nonexistant)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_diff2</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Differential pressure 2 (raw, 0 if nonexistant)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Raw Temperature measurement (raw)</td>
@@ -11700,24 +11801,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_abs</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Absolute pressure (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_diff</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure 1 (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature measurement (0.01 degrees celsius)
@@ -11741,42 +11846,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle (rad, -pi..+pi)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle (rad, -pi..+pi)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle (rad, -pi..+pi)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rollspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitchspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yawspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angular speed (rad/s)
@@ -11800,44 +11912,52 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Quaternion component 1, w (1 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Quaternion component 2, x (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Quaternion component 3, y (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Quaternion component 4, z (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rollspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitchspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yawspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angular speed (rad/s)
@@ -11861,42 +11981,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Speed
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Speed
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Speed
@@ -11921,54 +12048,63 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in meters, expressed as * 1000 (millimeters), AMSL (not WGS84 - note that virtually all GPS modules provide the AMSL as well)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">relative_alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude above ground in meters, expressed as * 1000 (millimeters)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground X Speed (Latitude, positive north), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Y Speed (Longitude, positive east), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Z Speed (Altitude, positive down), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hdg</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Vehicle heading (yaw angle) in degrees * 100, 0.0..359.99 degrees. If unknown, set to: UINT16_MAX
@@ -11992,57 +12128,68 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">port</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Servo output port (set of 8 outputs = 1 port). Most MAVs will just use one, but this allows for more than 8 servos.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan1_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 1 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan2_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 2 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan3_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 3 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan4_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 4 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan5_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 5 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan6_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 6 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan7_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 7 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan8_scaled</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">RC channel 8 value scaled, (-100%) -10000, (0%) 0, (100%) 10000, (invalid) INT16_MAX.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Receive signal strength indicator, 0: 0%, 100: 100%, 255: invalid/unknown.
@@ -12066,65 +12213,76 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">port</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Servo output port (set of 8 outputs = 1 port). Most MAVs will just use one, but this allows for more than 8 servos.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan1_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 1 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan2_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 2 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan3_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 3 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan4_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 4 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan5_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 5 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan6_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 6 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan7_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 7 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan8_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 8 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Receive signal strength indicator, 0: 0%, 100: 100%, 255: invalid/unknown.
@@ -12148,108 +12306,126 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">port</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Servo output port (set of 8 outputs = 1 port). Most MAVs will just use one, but this allows to encode more than 8 servos.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo1_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 1 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo2_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 2 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo3_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 3 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo4_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 4 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo5_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 5 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo6_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 6 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo7_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 7 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">servo8_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 8 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo9_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo9_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 9 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo10_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo10_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 10 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo11_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo11_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 11 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo12_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo12_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 12 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo13_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo13_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 13 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo14_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo14_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 14 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo15_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo15_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 15 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">servo16_raw</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">servo16_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Servo output 16 value, in microseconds
      (Units: us)</td>
@@ -12272,27 +12448,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">start_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Start index, 0 by default</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">end_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">End index, -1 by default (-1: send list to end). Else a valid index of the list</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12317,27 +12498,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">start_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Start index, 0 by default and smaller / equal to the largest index of the current onboard list.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">end_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">End index, equal or greater than start index.</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12363,21 +12549,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The coordinate system of the waypoint. see MAV_FRAME in mavlink_types.h
@@ -12386,6 +12576,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The scheduled action for the waypoint. see MAV_CMD in common.xml MAVLink specs
@@ -12394,52 +12585,62 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">false:0, true:1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autocontinue</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">autocontinue to next wp</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM1, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM2, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM3, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM4, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM5 / local: x position, global: latitude</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM6 / y position: global: longitude</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM7 / z position: global: altitude (relative or absolute, depending on frame.</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12464,22 +12665,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12504,16 +12709,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
@@ -12536,6 +12744,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
@@ -12558,17 +12767,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12593,22 +12805,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Number of mission items in the sequence</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12633,17 +12849,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12668,6 +12887,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
@@ -12690,16 +12910,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See MAV_MISSION_RESULT enum
@@ -12708,7 +12931,8 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12733,30 +12957,35 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">latitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">longitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84, in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">time_usec</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
@@ -12779,25 +13008,29 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">latitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">longitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">time_usec</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
@@ -12820,46 +13053,55 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Onboard parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Parameter index. Send -1 to use the param ID field as identifier (else the param id will be ignored), send -2 to disable any existing map for this rc_channel_index.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">parameter_rc_channel_index</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Index of parameter RC channel. Not equal to the RC channel id. Typically correpsonds to a potentiometer-knob on the RC.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value0</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Initial parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">scale</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Scale, maps the RC range [-1, 1] to a parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value_min</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Minimum param value. The protocol does not define if this overwrites an onboard minimum value. (Depends on implementation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value_max</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Maximum param value. The protocol does not define if this overwrites an onboard maximum value. (Depends on implementation)</td>
@@ -12882,22 +13124,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Sequence</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -12922,16 +13168,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Coordinate frame, as defined by MAV_FRAME enum in mavlink_types.h. Can be either global, GPS, right-handed with Z axis up or local, right handed, Z axis down.
@@ -12940,36 +13189,42 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">x position 1 / Latitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">y position 1 / Longitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">z position 1 / Altitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">x position 2 / Latitude 2
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">y position 2 / Longitude 2
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">z position 2 / Altitude 2
@@ -12993,6 +13248,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Coordinate frame, as defined by MAV_FRAME enum in mavlink_types.h. Can be either global, GPS, right-handed with Z axis up or local, right handed, Z axis down.
@@ -13001,36 +13257,42 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">x position 1 / Latitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">y position 1 / Longitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p1z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">z position 1 / Altitude 1
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">x position 2 / Latitude 2
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">y position 2 / Longitude 2
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">p2z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">z position 2 / Altitude 2
@@ -13054,35 +13316,41 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since system boot or since UNIX epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Quaternion components, w, x, y, z (1 0 0 0 is the null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rollspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitchspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yawspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">covariance</td>
      <td class="mavlink_type" valign="top">float[9]</td>
      <td class="mavlink_comment">Attitude covariance</td>
@@ -13105,48 +13373,56 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nav_roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current desired roll in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nav_pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current desired pitch in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nav_bearing</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Current desired heading in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_bearing</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Bearing to current waypoint/target in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wp_dist</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Distance to active waypoint in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt_error</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current altitude error in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aspd_error</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current airspeed error in meters/second
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xtrack_error</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current crosstrack error on x-y plane in meters
@@ -13170,12 +13446,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since system boot or since UNIX epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">estimator_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Class id of the estimator this estimate originated from.
@@ -13184,48 +13462,56 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in meters, expressed as * 1000 (millimeters), above MSL
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">relative_alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude above ground in meters, expressed as * 1000 (millimeters)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Ground X Speed (Latitude), expressed as m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Ground Y Speed (Longitude), expressed as m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Ground Z Speed (Altitude), expressed as m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">covariance</td>
      <td class="mavlink_type" valign="top">float[36]</td>
      <td class="mavlink_comment">Covariance matrix (first six entries are the first ROW, next six entries are the second row, etc.)</td>
@@ -13248,12 +13534,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since system boot or since UNIX epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">estimator_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Class id of the estimator this estimate originated from.
@@ -13262,60 +13550,70 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Speed (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Speed (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Speed (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ax</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ay</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">az</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">covariance</td>
      <td class="mavlink_type" valign="top">float[45]</td>
      <td class="mavlink_comment">Covariance matrix upper right triangular (first nine entries are the first ROW, next eight entries are the second row, etc.)</td>
@@ -13338,125 +13636,146 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chancount</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Total number of RC channels being received. This can be larger than 18, indicating that more channels are available but not given in this message. This value should be 0 when no RC channels are available.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan1_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 1 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan2_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 2 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan3_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 3 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan4_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 4 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan5_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 5 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan6_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 6 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan7_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 7 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan8_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 8 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan9_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 9 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan10_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 10 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan11_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 11 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan12_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 12 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan13_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 13 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan14_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 14 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan15_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 15 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan16_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 16 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan17_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 17 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan18_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 18 value, in microseconds. A value of UINT16_MAX implies the channel is unused.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Receive signal strength indicator, 0: 0%, 100: 100%, 255: invalid/unknown.
@@ -13480,26 +13799,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The target requested to send the message stream.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The target requested to send the message stream.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">req_stream_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The ID of the requested data stream</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">req_message_rate</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The requested message rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">start_stop</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">1 to start sending, 0 to stop sending.</td>
@@ -13522,16 +13846,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">stream_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The ID of the requested data stream</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">message_rate</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The message rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">on_off</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">1 stream is enabled, 0 stream is stopped.</td>
@@ -13554,31 +13881,37 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The system to be controlled.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X-axis, normalized to the range [-1000,1000]. A value of INT16_MAX indicates that this axis is invalid. Generally corresponds to forward(1000)-backward(-1000) movement on a joystick and the pitch of a vehicle.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y-axis, normalized to the range [-1000,1000]. A value of INT16_MAX indicates that this axis is invalid. Generally corresponds to left(-1000)-right(1000) movement on a joystick and the roll of a vehicle.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z-axis, normalized to the range [-1000,1000]. A value of INT16_MAX indicates that this axis is invalid. Generally corresponds to a separate slider movement with maximum being 1000 and minimum being -1000 on a joystick and the thrust of a vehicle. Positive values are positive thrust, negative values are negative thrust.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">r</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">R-axis, normalized to the range [-1000,1000]. A value of INT16_MAX indicates that this axis is invalid. Generally corresponds to a twisting of the joystick, with counter-clockwise being 1000 and clockwise being -1000, and the yaw of a vehicle.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">buttons</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">A bitfield corresponding to the joystick buttons' current state, 1 for pressed, 0 for released. The lowest bit corresponds to Button 1.</td>
@@ -13601,58 +13934,68 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan1_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 1 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan2_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 2 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan3_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 3 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan4_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 4 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan5_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 5 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan6_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 6 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan7_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 7 value, in microseconds. A value of UINT16_MAX means to ignore this field.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan8_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 8 value, in microseconds. A value of UINT16_MAX means to ignore this field.
@@ -13677,21 +14020,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Waypoint ID (sequence number). Starts at zero. Increases monotonically for each waypoint, no gaps in the sequence (0,1,2,3,4).</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The coordinate system of the waypoint. see MAV_FRAME in mavlink_types.h
@@ -13700,6 +14047,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The scheduled action for the waypoint. see MAV_CMD in common.xml MAVLink specs
@@ -13708,52 +14056,62 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">false:0, true:1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autocontinue</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">autocontinue to next wp</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM1, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM2, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM3, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM4, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">PARAM5 / local: x position in meters * 1e4, global: latitude in degrees * 10^7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">PARAM6 / y position: local: x position in meters * 1e4, global: longitude in degrees *10^7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM7 / z position: global: altitude in meters (relative or absolute, depending on frame.</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">mission_type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">mission_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mission type, see MAV_MISSION_TYPE
      (Enum:<a href="#ENUM_MAV_MISSION_TYPE">MAV_MISSION_TYPE</a>
@@ -13778,36 +14136,42 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">airspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current airspeed in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">groundspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current ground speed in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">heading</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Current heading in degrees, in compass units (0..360, 0=north)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">throttle</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Current throttle setting in integer percent, 0 to 100
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current altitude (MSL), in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">climb</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current climb rate in meters/second
@@ -13831,16 +14195,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The coordinate system of the COMMAND. see MAV_FRAME in mavlink_types.h
@@ -13849,6 +14216,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The scheduled action for the mission item. see MAV_CMD in common.xml MAVLink specs
@@ -13857,46 +14225,55 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">false:0, true:1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autocontinue</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">autocontinue to next wp</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM1, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM2, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM3, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM4, see MAV_CMD enum</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">PARAM5 / local: x position in meters * 1e4, global: latitude in degrees * 10^7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">PARAM6 / local: y position in meters * 1e4, global: longitude in degrees * 10^7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">PARAM7 / z position: global: altitude in meters (relative or absolute, depending on frame.</td>
@@ -13919,16 +14296,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System which should execute the command</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component which should execute the command, 0 for all components</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Command ID, as defined by MAV_CMD enum.
@@ -13937,41 +14317,49 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">confirmation</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0: First transmission of this command. 1-255: Confirmation transmissions (e.g. for kill command)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 1, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 2, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 3, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 4, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param5</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 5, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param6</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 6, as defined by MAV_CMD enum.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param7</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Parameter 7, as defined by MAV_CMD enum.</td>
@@ -13994,6 +14382,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">command</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Command ID, as defined by MAV_CMD enum.
@@ -14002,6 +14391,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">result</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See MAV_RESULT enum
@@ -14010,22 +14400,26 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">progress</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">progress</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">WIP: Also used as result_param1, it can be set with a enum containing the errors reasons of why the command was denied or the progress percentage or 255 if unknown the progress when result is MAV_RESULT_IN_PROGRESS.</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">result_param2</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">result_param2</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">WIP: Additional parameter of the result, example: which parameter of MAV_CMD_NAV_WAYPOINT caused it to be denied.</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">target_system</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">WIP: System which requested the command to be executed</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">target_component</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">WIP: Component which requested the command to be executed</td>
     </tr>
@@ -14047,40 +14441,47 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Desired roll rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Desired pitch rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Desired yaw rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">thrust</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Collective thrust, normalized to 0 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode_switch</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Flight mode switch position, 0.. 255</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">manual_override_switch</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Override mode switch position, 0.. 255</td>
@@ -14103,50 +14504,59 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mappings: If any of these bits are set, the corresponding input should be ignored: bit 1: body roll rate, bit 2: body pitch rate, bit 3: body yaw rate. bit 4-bit 6: reserved, bit 7: throttle, bit 8: attitude</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Attitude quaternion (w, x, y, z order, zero-rotation is 1, 0, 0, 0)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_roll_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body roll rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_pitch_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body roll rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body roll rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">thrust</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Collective thrust, normalized to 0 .. 1 (-1 .. 1 for vehicles capable of reverse trust)</td>
@@ -14169,40 +14579,47 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Mappings: If any of these bits are set, the corresponding input should be ignored: bit 1: body roll rate, bit 2: body pitch rate, bit 3: body yaw rate. bit 4-bit 7: reserved, bit 8: attitude</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Attitude quaternion (w, x, y, z order, zero-rotation is 1, 0, 0, 0)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_roll_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body roll rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_pitch_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body pitch rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">body_yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body yaw rate in radians per second
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">thrust</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Collective thrust, normalized to 0 .. 1 (-1 .. 1 for vehicles capable of reverse trust)</td>
@@ -14225,22 +14642,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">coordinate_frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Valid options are: MAV_FRAME_LOCAL_NED = 1, MAV_FRAME_LOCAL_OFFSET_NED = 7, MAV_FRAME_BODY_NED = 8, MAV_FRAME_BODY_OFFSET_NED = 9
@@ -14249,71 +14670,83 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Bitmask to indicate which dimensions should be ignored by the vehicle: a value of 0b0000000000000000 or 0b0000001000000000 indicates that none of the setpoint dimensions should be ignored. If bit 10 is set the floats afx afy afz should be interpreted as force instead of acceleration. Mapping: bit 1: x, bit 2: y, bit 3: z, bit 4: vx, bit 5: vy, bit 6: vz, bit 7: ax, bit 8: ay, bit 9: az, bit 10: is force setpoint, bit 11: yaw, bit 12: yaw rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position in NED frame in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position in NED frame in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position in NED frame in meters (note, altitude is negative in NED)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw setpoint in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw rate setpoint in rad/s
@@ -14337,12 +14770,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">coordinate_frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Valid options are: MAV_FRAME_LOCAL_NED = 1, MAV_FRAME_LOCAL_OFFSET_NED = 7, MAV_FRAME_BODY_NED = 8, MAV_FRAME_BODY_OFFSET_NED = 9
@@ -14351,71 +14786,83 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Bitmask to indicate which dimensions should be ignored by the vehicle: a value of 0b0000000000000000 or 0b0000001000000000 indicates that none of the setpoint dimensions should be ignored. If bit 10 is set the floats afx afy afz should be interpreted as force instead of acceleration. Mapping: bit 1: x, bit 2: y, bit 3: z, bit 4: vx, bit 5: vy, bit 6: vz, bit 7: ax, bit 8: ay, bit 9: az, bit 10: is force setpoint, bit 11: yaw, bit 12: yaw rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position in NED frame in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position in NED frame in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position in NED frame in meters (note, altitude is negative in NED)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw setpoint in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw rate setpoint in rad/s
@@ -14439,22 +14886,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot. The rationale for the timestamp in the setpoint is to allow the system to compensate for the transport delay of the setpoint. This allows the system to compensate processing latency.
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">coordinate_frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Valid options are: MAV_FRAME_GLOBAL_INT = 5, MAV_FRAME_GLOBAL_RELATIVE_ALT_INT = 6, MAV_FRAME_GLOBAL_TERRAIN_ALT_INT = 11
@@ -14463,71 +14914,83 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Bitmask to indicate which dimensions should be ignored by the vehicle: a value of 0b0000000000000000 or 0b0000001000000000 indicates that none of the setpoint dimensions should be ignored. If bit 10 is set the floats afx afy afz should be interpreted as force instead of acceleration. Mapping: bit 1: x, bit 2: y, bit 3: z, bit 4: vx, bit 5: vy, bit 6: vz, bit 7: ax, bit 8: ay, bit 9: az, bit 10: is force setpoint, bit 11: yaw, bit 12: yaw rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat_int</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">X Position in WGS84 frame in 1e7 * meters
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon_int</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Y Position in WGS84 frame in 1e7 * meters
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude in meters in AMSL altitude, not WGS84 if absolute or relative, above terrain if GLOBAL_TERRAIN_ALT_INT
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw setpoint in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw rate setpoint in rad/s
@@ -14551,12 +15014,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot. The rationale for the timestamp in the setpoint is to allow the system to compensate for the transport delay of the setpoint. This allows the system to compensate processing latency.
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">coordinate_frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Valid options are: MAV_FRAME_GLOBAL_INT = 5, MAV_FRAME_GLOBAL_RELATIVE_ALT_INT = 6, MAV_FRAME_GLOBAL_TERRAIN_ALT_INT = 11
@@ -14565,71 +15030,83 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type_mask</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Bitmask to indicate which dimensions should be ignored by the vehicle: a value of 0b0000000000000000 or 0b0000001000000000 indicates that none of the setpoint dimensions should be ignored. If bit 10 is set the floats afx afy afz should be interpreted as force instead of acceleration. Mapping: bit 1: x, bit 2: y, bit 3: z, bit 4: vx, bit 5: vy, bit 6: vz, bit 7: ax, bit 8: ay, bit 9: az, bit 10: is force setpoint, bit 11: yaw, bit 12: yaw rate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat_int</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">X Position in WGS84 frame in 1e7 * meters
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon_int</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Y Position in WGS84 frame in 1e7 * meters
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude in meters in AMSL altitude, not WGS84 if absolute or relative, above terrain if GLOBAL_TERRAIN_ALT_INT
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z velocity in NED frame in meter / s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afx</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">afz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration or force (if bit 10 of type_mask is set) in NED frame in meter / s^2 or N
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw setpoint in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">yaw rate setpoint in rad/s
@@ -14653,42 +15130,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw
@@ -14712,94 +15196,110 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rollspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame roll / phi angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitchspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame pitch / theta angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yawspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame yaw / psi angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as * 1E7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as * 1E7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in meters, expressed as * 1000 (millimeters)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground X Speed (Latitude), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Y Speed (Longitude), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Z Speed (Altitude), expressed as m/s * 100
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (mg)
@@ -14823,52 +15323,62 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll_ailerons</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Control output -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch_elevator</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Control output -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rudder</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Control output -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">throttle</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Throttle 0 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aux1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Aux 1, -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aux2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Aux 2, -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aux3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Aux 3, -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">aux4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Aux 4, -1 .. 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System mode (MAV_MODE)
@@ -14877,6 +15387,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nav_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Navigation mode (MAV_NAV_MODE)</td>
@@ -14899,84 +15410,98 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan1_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 1 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan2_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 2 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan3_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 3 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan4_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 4 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan5_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 5 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan6_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 6 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan7_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 7 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan8_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 8 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan9_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 9 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan10_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 10 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan11_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 11 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">chan12_raw</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">RC channel 12 value, in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Receive signal strength indicator, 0: 0%, 255: 100%</td>
@@ -14999,17 +15524,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">controls</td>
      <td class="mavlink_type" valign="top">float[16]</td>
      <td class="mavlink_comment">Control outputs -1 .. 1. Channel assignment depends on the simulated hardware.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System mode (MAV_MODE), includes arming state.
@@ -15018,6 +15546,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Flags as bitfield, reserved for future use.</td>
@@ -15040,59 +15569,69 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (UNIX)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sensor_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Sensor ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flow_x</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Flow in pixels * 10 in x-sensor direction (dezi-pixels)
      (Units: dpixels)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flow_y</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Flow in pixels * 10 in y-sensor direction (dezi-pixels)
      (Units: dpixels)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flow_comp_m_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in meters in x-sensor direction, angular-speed compensated
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flow_comp_m_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in meters in y-sensor direction, angular-speed compensated
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">quality</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Optical flow quality / confidence. 0: bad, 255: maximum quality</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ground_distance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Ground distance in meters. Positive value: distance known. Negative value: Unknown distance
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">flow_rate_x</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">flow_rate_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow rate in radians/second about X axis
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">flow_rate_y</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">flow_rate_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow rate in radians/second about Y axis
      (Units: rad/s)</td>
@@ -15116,42 +15655,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global X position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Y position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Z position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle in rad
@@ -15176,42 +15722,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global X position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Y position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Z position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle in rad
@@ -15236,24 +15789,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global X speed
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Y speed
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Z speed
@@ -15278,42 +15835,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global X position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Y position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Global Z position
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch angle in rad
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw angle in rad
@@ -15337,89 +15901,104 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around X axis (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Y axis (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Z axis (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">abs_pressure</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Absolute pressure in millibar
      (Units: mbar)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diff_pressure</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure in millibar
      (Units: mbar)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pressure_alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude calculated from pressure</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Temperature in degrees celsius
      (Units: degC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fields_updated</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Bitmask for fields that have updated since last message, bit 0 = xacc, bit 12: temperature</td>
@@ -15442,70 +16021,82 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sensor_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Sensor ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integration_time_us</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Integration time in microseconds. Divide integrated_x and integrated_y by the integration time to obtain average flow. The integration time also indicates the.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in radians around X axis (Sensor RH rotation about the X axis induces a positive flow. Sensor linear motion along the positive Y axis induces a negative flow.)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in radians around Y axis (Sensor RH rotation about the Y axis induces a positive flow. Sensor linear motion along the positive X axis induces a positive flow.)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around X axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around Y axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around Z axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature * 100 in centi-degrees Celsius
      (Units: cdegC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">quality</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Optical flow quality / confidence. 0: no valid flow, 255: maximum quality</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_delta_distance_us</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time in microseconds since the distance was sampled.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">distance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Distance to the center of the flow field in meters. Positive value (including zero): distance known. Negative value: Unknown distance.
@@ -15529,89 +16120,104 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration (m/s^2)
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around X axis in body frame (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Y axis in body frame (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Z axis in body frame (rad / sec)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Magnetic field (Gauss)
      (Units: gauss)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">abs_pressure</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Absolute pressure in millibar
      (Units: mbar)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">diff_pressure</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure (airspeed) in millibar
      (Units: mbar)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pressure_alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude calculated from pressure</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Temperature in degrees celsius
      (Units: degC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fields_updated</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bitmask for fields that have updated since last message, bit 0 = xacc, bit 12: temperature, bit 31: full reset of attitude/position/velocities/etc was performed in sim.</td>
@@ -15634,117 +16240,138 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True attitude quaternion component 1, w (1 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True attitude quaternion component 2, x (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True attitude quaternion component 3, y (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True attitude quaternion component 4, z (0 in null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Attitude roll expressed as Euler angles, not recommended except for human-readable outputs</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Attitude pitch expressed as Euler angles, not recommended except for human-readable outputs</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Attitude yaw expressed as Euler angles, not recommended except for human-readable outputs</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration m/s/s
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around X axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Y axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular speed around Z axis rad/s
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Latitude in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Longitude in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">std_dev_horz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Horizontal position standard deviation</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">std_dev_vert</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vertical position standard deviation</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vn</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True velocity in m/s in NORTH direction in earth-fixed NED frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ve</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True velocity in m/s in EAST direction in earth-fixed NED frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vd</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True velocity in m/s in DOWN direction in earth-fixed NED frame
@@ -15768,37 +16395,44 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Local signal strength</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">remrssi</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Remote signal strength</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">txbuf</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Remaining free buffer space in percent.
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">noise</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Background noise level</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">remnoise</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Remote background noise level</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rxerrors</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Receive errors</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fixed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Count of error corrected packets</td>
@@ -15821,21 +16455,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_network</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Network ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">payload</td>
      <td class="mavlink_type" valign="top">uint8_t[251]</td>
      <td class="mavlink_comment">Variable length payload. The length is defined by the remaining message length when subtracting the header and other fields.  The entire content of this block is opaque unless you understand any the encoding message_type.  The particular encoding used can be extension specific and might not always be documented as part of the mavlink specification.</td>
@@ -15858,11 +16496,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tc1</td>
      <td class="mavlink_type" valign="top">int64_t</td>
      <td class="mavlink_comment">Time sync timestamp 1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ts1</td>
      <td class="mavlink_type" valign="top">int64_t</td>
      <td class="mavlink_comment">Time sync timestamp 2</td>
@@ -15885,12 +16525,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp for the image frame in microseconds
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Image frame sequence</td>
@@ -15914,75 +16556,88 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fix_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0-1: no fix, 2: 2D fix, 3: 3D fix. Some applications will not use the value of this field unless it is at least two, so always correctly fill in the fix.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL, not WGS84), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">eph</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS HDOP horizontal dilution of position in cm (m*100). If unknown, set to: 65535</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">epv</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS VDOP vertical dilution of position in cm (m*100). If unknown, set to: 65535</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS ground speed in cm/s. If unknown, set to: 65535
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vn</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">GPS velocity in cm/s in NORTH direction in earth-fixed NED frame
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ve</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">GPS velocity in cm/s in EAST direction in earth-fixed NED frame
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vd</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">GPS velocity in cm/s in DOWN direction in earth-fixed NED frame
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cog</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Course over ground (NOT heading, but direction of movement) in degrees * 100, 0.0..359.99 degrees. If unknown, set to: 65535
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown, set to 255</td>
@@ -16005,70 +16660,82 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds, synced to UNIX time or since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sensor_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Sensor ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integration_time_us</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Integration time in microseconds. Divide integrated_x and integrated_y by the integration time to obtain average flow. The integration time also indicates the.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in radians around X axis (Sensor RH rotation about the X axis induces a positive flow. Sensor linear motion along the positive Y axis induces a negative flow.)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Flow in radians around Y axis (Sensor RH rotation about the Y axis induces a positive flow. Sensor linear motion along the positive X axis induces a positive flow.)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_xgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around X axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_ygyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around Y axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">integrated_zgyro</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">RH rotation around Z axis (rad)
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature * 100 in centi-degrees Celsius
      (Units: cdegC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">quality</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Optical flow quality / confidence. 0: no valid flow, 255: maximum quality</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_delta_distance_us</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time in microseconds since the distance was sampled.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">distance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Distance to the center of the flow field in meters. Positive value (including zero): distance known. Negative value: Unknown distance.
@@ -16092,93 +16759,109 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">attitude_quaternion</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Vehicle attitude expressed as normalized quaternion in w, x, y, z order (with 1 0 0 0 being the null-rotation)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rollspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame roll / phi angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitchspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame pitch / theta angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yawspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Body frame yaw / psi angular speed (rad/s)
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as * 1E7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as * 1E7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in meters, expressed as * 1000 (millimeters)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vx</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground X Speed (Latitude), expressed as cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vy</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Y Speed (Longitude), expressed as cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vz</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Ground Z Speed (Altitude), expressed as cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ind_airspeed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Indicated airspeed, expressed as cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">true_airspeed</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">True airspeed, expressed as cm/s
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (mg)
@@ -16202,60 +16885,70 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around X axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Y axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Z axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z Magnetic field (milli tesla)
@@ -16279,21 +16972,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">start</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">First log id (0 for first available)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">end</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Last log id (0xffff for last available)</td>
@@ -16316,27 +17013,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Log id</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">num_logs</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Total number of logs</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_log_num</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">High log number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_utc</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">UTC timestamp of log in seconds since 1970, or 0 if not available
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">size</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Size of the log (may be approximate) in bytes
@@ -16360,26 +17062,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Log id (from LOG_ENTRY reply)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ofs</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Offset into the log</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Number of bytes
@@ -16403,22 +17110,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Log id (from LOG_ENTRY reply)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ofs</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Offset into the log</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of bytes (zero for end of log)
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[90]</td>
      <td class="mavlink_comment">log data</td>
@@ -16441,11 +17152,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
@@ -16468,11 +17181,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
@@ -16495,22 +17210,26 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[110]</td>
      <td class="mavlink_comment">raw data (110 is enough for 12 satellites of RTCMv2)</td>
@@ -16533,12 +17252,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fix_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See the GPS_FIX_TYPE enum.
@@ -16547,58 +17268,68 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL, not WGS84), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">eph</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS HDOP horizontal dilution of position in cm (m*100). If unknown, set to: UINT16_MAX
      (Units: cm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">epv</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS VDOP vertical dilution of position in cm (m*100). If unknown, set to: UINT16_MAX
      (Units: cm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS ground speed (m/s * 100). If unknown, set to: UINT16_MAX
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cog</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Course over ground (NOT heading, but direction of movement) in degrees * 100, 0.0..359.99 degrees. If unknown, set to: UINT16_MAX
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown, set to 255</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">dgps_numch</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of DGPS satellites</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">dgps_age</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Age of DGPS info</td>
@@ -16621,18 +17352,21 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Vcc</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">5V rail voltage in millivolts
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Vservo</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">servo rail voltage in millivolts
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">power supply status flags (see MAV_POWER_STATUS enum)
@@ -16658,6 +17392,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">device</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See SERIAL_CONTROL_DEV enum
@@ -16666,6 +17401,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See SERIAL_CONTROL_FLAG enum
@@ -16674,23 +17410,27 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">timeout</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Timeout for reply data in milliseconds
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baudrate</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Baudrate of transfer. Zero means no change.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">how many bytes in this transfer
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[70]</td>
      <td class="mavlink_comment">serial data</td>
@@ -16713,72 +17453,85 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_last_baseline_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time since boot of last baseline message received in ms.
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_receiver_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Identification of connected RTK receiver.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wn</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS Week Number of last baseline</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tow</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">GPS Time of Week of last baseline
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_health</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">GPS-specific health report for RTK data.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_rate</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Rate of baseline messages being received by GPS, in HZ
      (Units: Hz)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nsats</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current number of sats used for RTK calculation.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_coords_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Coordinate system of baseline. 0 == ECEF, 1 == NED</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_a_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF x or NED north component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_b_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF y or NED east component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_c_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF z or NED down component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accuracy</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Current estimate of baseline accuracy.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">iar_num_hypotheses</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current number of integer ambiguity hypotheses.</td>
@@ -16801,72 +17554,85 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_last_baseline_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time since boot of last baseline message received in ms.
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_receiver_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Identification of connected RTK receiver.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wn</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS Week Number of last baseline</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tow</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">GPS Time of Week of last baseline
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_health</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">GPS-specific health report for RTK data.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rtk_rate</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Rate of baseline messages being received by GPS, in HZ
      (Units: Hz)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">nsats</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current number of sats used for RTK calculation.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_coords_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Coordinate system of baseline. 0 == ECEF, 1 == NED</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_a_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF x or NED north component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_b_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF y or NED east component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">baseline_c_mm</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current baseline in ECEF z or NED down component in mm.
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">accuracy</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Current estimate of baseline accuracy.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">iar_num_hypotheses</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Current number of integer ambiguity hypotheses.</td>
@@ -16889,60 +17655,70 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zacc</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z acceleration (mg)
      (Units: mG)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around X axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ygyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Y axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zgyro</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Angular speed around Z axis (millirad /sec)
      (Units: mrad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">xmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">X Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ymag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Y Magnetic field (milli tesla)
      (Units: mT)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">zmag</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Z Magnetic field (milli tesla)
@@ -16967,38 +17743,45 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">type of requested/acknowledged data (as defined in ENUM DATA_TYPES in mavlink/include/mavlink_types.h)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">size</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">total data size in bytes (set on ACK only)
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">width</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Width of a matrix or image</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">height</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Height of a matrix or image</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">packets</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">number of packets beeing sent (set on ACK only)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">payload</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">payload size per packet (normally 253 byte, see DATA field size in message ENCAPSULATED_DATA) (set on ACK only)
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">jpg_quality</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">JPEG quality out of [1,100]</td>
@@ -17022,11 +17805,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seqnr</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">sequence number (starting with 0 on every transmission)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[253]</td>
      <td class="mavlink_comment">image data bytes</td>
@@ -17050,29 +17835,34 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">min_distance</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Minimum distance the sensor can measure in centimeters
      (Units: cm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">max_distance</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Maximum distance the sensor can measure in centimeters
      (Units: cm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_distance</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Current distance reading</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type from MAV_DISTANCE_SENSOR enum.
@@ -17081,11 +17871,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Onboard ID of the sensor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">orientation</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Direction the sensor faces from MAV_SENSOR_ORIENTATION enum. downward-facing: ROTATION_PITCH_270, upward-facing: ROTATION_PITCH_90, backward-facing: ROTATION_PITCH_180, forward-facing: ROTATION_NONE, left-facing: ROTATION_YAW_90, right-facing: ROTATION_YAW_270
@@ -17094,6 +17886,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">covariance</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Measurement covariance in centimeters, 0 for unknown / invalid readings
@@ -17117,24 +17910,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude of SW corner of first grid (degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude of SW corner of first grid (in degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">grid_spacing</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Grid spacing in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mask</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Bitmask of requested 4x4 grids (row major 8x7 array of grids, 56 bits)</td>
@@ -17157,29 +17954,34 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude of SW corner of first grid (degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude of SW corner of first grid (in degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">grid_spacing</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Grid spacing in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gridbit</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">bit within the terrain request mask</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">int16_t[16]</td>
      <td class="mavlink_comment">Terrain data in meters AMSL
@@ -17203,12 +18005,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (degrees *10^7)
@@ -17232,40 +18036,47 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (degrees *10^7)
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">spacing</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">grid spacing (zero if terrain at this location unavailable)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">terrain_height</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Terrain height in meters AMSL
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_height</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Current vehicle height above lat/lon terrain height (meters)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pending</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Number of 4x4 terrain blocks waiting to be received or read from disk</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">loaded</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Number of 4x4 terrain blocks in memory</td>
@@ -17288,24 +18099,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_abs</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Absolute pressure (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_diff</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure 1 (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature measurement (0.01 degrees celsius)
@@ -17329,29 +18144,34 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Attitude quaternion (w, x, y, z order, zero-rotation is 1, 0, 0, 0)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X position in meters (NED)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y position in meters (NED)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z position in meters (NED)
@@ -17375,27 +18195,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">group_mlx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Actuator group. The "_mlx" indicates this is a multi-instance message and a MAVLink parser should use this field to difference between instances.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">controls</td>
      <td class="mavlink_type" valign="top">float[8]</td>
      <td class="mavlink_comment">Actuator controls. Normed to -1..+1 where 0 is neutral position. Throttle for single rotation direction motors is 0..1, negative range for reverse direction. Standard mapping for attitude controls (group 0): (index 0-7): roll, pitch, yaw, throttle, flaps, spoilers, airbrakes, landing gear. Load a pass-through mixer to repurpose them as generic outputs.</td>
@@ -17418,17 +18243,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">group_mlx</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Actuator group. The "_mlx" indicates this is a multi-instance message and a MAVLink parser should use this field to difference between instances.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">controls</td>
      <td class="mavlink_type" valign="top">float[8]</td>
      <td class="mavlink_comment">Actuator controls. Normed to -1..+1 where 0 is neutral position. Throttle for single rotation direction motors is 0..1, negative range for reverse direction. Standard mapping for attitude controls (group 0): (index 0-7): roll, pitch, yaw, throttle, flaps, spoilers, airbrakes, landing gear. Load a pass-through mixer to repurpose them as generic outputs.</td>
@@ -17451,42 +18279,49 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_monotonic</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This altitude measure is initialized on system boot and monotonic (it is never reset, but represents the local altitude change). The only guarantee on this field is that it will never be reset and is consistent within a flight. The recommended value for this field is the uncorrected barometric altitude at boot time. This altitude will also drift and vary between flights.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_amsl</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This altitude measure is strictly above mean sea level and might be non-monotonic (it might reset on events like GPS lock or when a new QNH value is set). It should be the altitude to which global altitude waypoints are compared to. Note that it is *not* the GPS altitude, however, most GPS modules already output AMSL by default and not the WGS84 altitude.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_local</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This is the local altitude in the local coordinate frame. It is not the altitude above home, but in reference to the coordinate origin (0, 0, 0). It is up-positive.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_relative</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This is the altitude above the home position. It resets on each change of the current home position.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_terrain</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This is the altitude above terrain. It might be fed by a terrain database or an altimeter. Values smaller than -1000 should be interpreted as unknown.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bottom_clearance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">This is not the altitude, but the clear space below the system according to the fused clearance estimate. It generally should max out at the maximum range of e.g. the laser altimeter. It is generally a moving target. A negative value indicates no measurement available.
@@ -17510,26 +18345,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">request_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Request ID. This ID should be re-used when sending back URI contents</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uri_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The type of requested URI. 0 = a file via URL. 1 = a UAVCAN binary</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uri</td>
      <td class="mavlink_type" valign="top">uint8_t[120]</td>
      <td class="mavlink_comment">The requested unique resource identifier (URI). It is not necessarily a straight domain name (depends on the URI type enum)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">transfer_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The way the autopilot wants to receive the URI. 0 = MAVLink FTP. 1 = binary stream.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">storage</td>
      <td class="mavlink_type" valign="top">uint8_t[120]</td>
      <td class="mavlink_comment">The storage path the autopilot wants the URI to be stored in. Will only be valid if the transfer_type has a storage associated (e.g. MAVLink FTP).</td>
@@ -17552,24 +18392,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_abs</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Absolute pressure (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">press_diff</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Differential pressure 1 (hectopascal)
      (Units: hPa)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature measurement (0.01 degrees celsius)
@@ -17593,47 +18437,55 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">timestamp</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp in milliseconds since system boot
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">est_capabilities</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">bit positions for tracker reporting capabilities (POS = 0, VEL = 1, ACCEL = 2, ATT + RATES = 3)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">AMSL, in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">target velocity (0,0,0) for unknown
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">acc</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">linear target acceleration (0,0,0) for unknown
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">attitude_q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">
@@ -17641,6 +18493,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rates</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">
@@ -17648,11 +18501,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">position_cov</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">eph epv</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_state</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">button states or switches of a tracker device</td>
@@ -17675,99 +18530,116 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x_acc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X acceleration in body frame
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y_acc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y acceleration in body frame
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z_acc</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z acceleration in body frame
      (Units: m/s/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x_vel</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X velocity in body frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y_vel</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y velocity in body frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z_vel</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z velocity in body frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x_pos</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X position in local frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y_pos</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y position in local frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z_pos</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z position in local frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">airspeed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Airspeed, set to -1 if unknown
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel_variance</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">Variance of body velocity estimate</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_variance</td>
      <td class="mavlink_type" valign="top">float[3]</td>
      <td class="mavlink_comment">Variance in local position</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">The attitude, represented as Quaternion</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular rate in roll axis
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular rate in pitch axis
      (Units: rad/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw_rate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Angular rate in yaw axis
@@ -17791,11 +18663,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Battery ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">battery_function</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Function of the battery
@@ -17804,6 +18678,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type (chemistry) of the battery
@@ -17812,36 +18687,42 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Temperature of the battery in centi-degrees celsius. INT16_MAX for unknown temperature.
      (Units: cdegC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">voltages</td>
      <td class="mavlink_type" valign="top">uint16_t[10]</td>
      <td class="mavlink_comment">Battery voltage of cells, in millivolts (1 = 1 millivolt). Cells above the valid cell count for this battery should have the UINT16_MAX value.
      (Units: mV)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_battery</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Battery current, in 10*milliamperes (1 = 10 milliampere), -1: autopilot does not measure the current
      (Units: cA)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">current_consumed</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Consumed charge, in milliampere hours (1 = 1 mAh), -1: autopilot does not provide mAh consumption estimate
      (Units: mAh)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">energy_consumed</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Consumed energy, in HectoJoules (intergrated U*I*dt)  (1 = 100 Joule), -1: autopilot does not provide energy consumption estimate
      (Units: hJ)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">battery_remaining</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">Remaining battery energy: (0%: 0, 100%: 100), -1: autopilot does not estimate the remaining battery
@@ -17865,6 +18746,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">capabilities</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">bitmask of capabilities (see MAV_PROTOCOL_CAPABILITY enum)
@@ -17873,57 +18755,68 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flight_sw_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Firmware version number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">middleware_sw_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Middleware version number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">os_sw_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Operating system version number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">board_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">HW / board version (last 8 bytes should be silicon ID, if any)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flight_custom_version</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">Custom version field, commonly the first 8 bytes of the git hash. This is not an unique identifier, but should allow to identify the commit using the main version number even for very large code bases.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">middleware_custom_version</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">Custom version field, commonly the first 8 bytes of the git hash. This is not an unique identifier, but should allow to identify the commit using the main version number even for very large code bases.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">os_custom_version</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">Custom version field, commonly the first 8 bytes of the git hash. This is not an unique identifier, but should allow to identify the commit using the main version number even for very large code bases.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vendor_id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ID of the board vendor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">product_id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">ID of the product</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uid</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">UID if provided by hardware (see uid2)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">uid2</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">uid2</td>
      <td class="mavlink_type" valign="top">uint8_t[18]</td>
      <td class="mavlink_comment">UID if provided by hardware (supersedes the uid field. If this is non-zero, use this field, otherwise use uid)</td>
     </tr>
@@ -17945,17 +18838,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_num</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The ID of the target if multiple targets are present</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">frame</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">MAV_FRAME enum specifying the whether the following feilds are earth-frame, body-frame, etc.
@@ -17964,60 +18860,70 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">angle_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X-axis angular offset (in radians) of the target from the center of the image
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">angle_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y-axis angular offset (in radians) of the target from the center of the image
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">distance</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Distance to the target from the vehicle in meters
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">size_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Size in radians of target along x-axis
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">size_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Size in radians of target along y-axis
      (Units: rad)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">x</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">X Position of the landing target on MAV_FRAME
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">y</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Y Position of the landing target on MAV_FRAME
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">z</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Z Position of the landing target on MAV_FRAME
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">q</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Quaternion of landing target orientation (w, x, y, z order, zero-rotation is 1, 0, 0, 0)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">type</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">LANDING_TARGET_TYPE enum specifying the type of landing target
      (Enum:<a href="#ENUM_LANDING_TARGET_TYPE">LANDING_TARGET_TYPE</a>
@@ -18025,7 +18931,8 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">position_valid</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">position_valid</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Boolean indicating known position (1) or default unkown position (0), for validation of positioning of the landing target</td>
     </tr>
@@ -18047,12 +18954,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Integer bitmask indicating which EKF outputs are valid. See definition for ESTIMATOR_STATUS_FLAGS.
@@ -18061,43 +18970,51 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vel_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Velocity innovation test ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_horiz_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Horizontal position innovation test ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_vert_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vertical position innovation test ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mag_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Magnetometer innovation test ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hagl_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Height above terrain innovation test ratio</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tas_ratio</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">True airspeed innovation test ratio
      (Units: Hz)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_horiz_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Horizontal position 1-STD accuracy relative to the EKF local origin (m)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pos_vert_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vertical position 1-STD accuracy relative to the EKF local origin (m)
@@ -18122,54 +19039,63 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wind_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Wind in X (NED) direction in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wind_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Wind in Y (NED) direction in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wind_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Wind in Z (NED) direction in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">var_horiz</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Variability of the wind in XY. RMS of a 1 Hz lowpassed wind estimate.
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">var_vert</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Variability of the wind in Z. RMS of a 1 Hz lowpassed wind estimate.
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wind_alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">AMSL altitude (m) this measurement was taken at
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">horiz_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Horizontal speed 1-STD accuracy
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vert_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vertical speed 1-STD accuracy
@@ -18193,17 +19119,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gps_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">ID of the GPS for multiple GPS inputs</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ignore_flags</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Flags indicating which fields to ignore (see GPS_INPUT_IGNORE_FLAGS enum).  All other fields must be provided.
@@ -18212,88 +19141,103 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_week_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">GPS time (milliseconds from start of GPS week)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_week</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">GPS week number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">fix_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">0-1: no fix, 2: 2D fix, 3: 3D fix. 4: 3D with DGPS. 5: 3D with RTK</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Altitude (AMSL, not WGS84), in m (positive for up)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hdop</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS HDOP horizontal dilution of position in m
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vdop</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS VDOP vertical dilution of position in m
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vn</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity in m/s in NORTH direction in earth-fixed NED frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ve</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity in m/s in EAST direction in earth-fixed NED frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vd</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS velocity in m/s in DOWN direction in earth-fixed NED frame
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">speed_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS speed accuracy in m/s
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">horiz_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS horizontal accuracy in m
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vert_accuracy</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">GPS vertical accuracy in m
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">satellites_visible</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible.</td>
@@ -18316,17 +19260,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">LSB: 1 means message is fragmented, next 2 bits are the fragment ID, the remaining 5 bits are used for the sequence ID. Messages are only to be flushed to the GPS when the entire message has been reconstructed on the autopilot. The fragment ID specifies which order the fragments should be assembled into a buffer, while the sequence ID is used to detect a mismatch between different buffers. The buffer is considered fully reconstructed when either all 4 fragments are present, or all the fragments before the first fragment with a non full payload is received. This management is used to ensure that normal GPS operation doesn't corrupt RTCM data, and to recover from a unreliable transport delivery order.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">len</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[180]</td>
      <td class="mavlink_comment">RTCM message (may be fragmented)</td>
@@ -18349,6 +19296,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">base_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System mode bitfield, see MAV_MODE_FLAG ENUM in mavlink/include/mavlink_types.h
@@ -18357,11 +19305,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_mode</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">A bitfield for use for autopilot-specific flags.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">landed_state</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The landed state. Is set to MAV_LANDED_STATE_UNDEFINED if landed state is unknown.
@@ -18370,89 +19320,104 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">roll (centidegrees)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">pitch (centidegrees)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">heading</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">heading (centidegrees)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">throttle</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">throttle (percentage)
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">heading_sp</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">heading setpoint (centidegrees)
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">latitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">longitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_amsl</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Altitude above mean sea level (meters)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_sp</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Altitude setpoint relative to the home position (meters)
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">airspeed</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">airspeed (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">airspeed_sp</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">airspeed setpoint (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">groundspeed</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">groundspeed (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">climb_rate</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">climb rate (m/s)
      (Units: m/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gps_nsat</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of satellites visible. If unknown, set to 255</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">gps_fix_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">See the GPS_FIX_TYPE enum.
@@ -18461,34 +19426,40 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">battery_remaining</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Remaining battery (percentage)
      (Units: %)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">Autopilot temperature (degrees C)
      (Units: degC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">temperature_air</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">Air temperature (degrees C) from airspeed sensor
      (Units: degC)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">failsafe</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">failsafe (each bit represents a failsafe where 0=ok, 1=failsafe active (bit0:RC, bit1:batt, bit2:GPS, bit3:GCS, bit4:fence)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wp_num</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">current waypoint number</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">wp_distance</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">distance to target (meters)
@@ -18512,37 +19483,44 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (micros since boot or Unix epoch)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vibration_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vibration levels on X-axis</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vibration_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vibration levels on Y-axis</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vibration_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Vibration levels on Z-axis</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">clipping_0</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">first accelerometer clipping count</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">clipping_1</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">second accelerometer clipping count</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">clipping_2</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">third accelerometer clipping count</td>
@@ -18565,66 +19543,77 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">latitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">longitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84, in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local X position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Y position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">World to surface normal and heading transformation of the takeoff position. Used to indicate the heading and slope of the ground</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local X position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Y position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">time_usec</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
@@ -18647,71 +19636,83 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">latitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude (WGS84), in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">longitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude (WGS84, in degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude (AMSL), in meters * 1000 (positive for up)
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local X position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Y position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of this position in the local coordinate frame
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">World to surface normal and heading transformation of the takeoff position. Used to indicate the heading and slope of the ground</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local X position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Y position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">approach_z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Local Z position of the end of the approach vector. Multicopters should set this position based on their takeoff path. Grass-landing fixed wing aircraft should set it the same way as multicopters. Runway-landing fixed wing aircraft should set it to the opposite direction of the takeoff, assuming the takeoff happened from the threshold / touchdown zone.
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
-     <td class="mavlink_name" valign="top">time_usec</td>
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
+     <td class="mavlink_name" style="color:blue;" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
@@ -18734,11 +19735,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">message_id</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The ID of the requested MAVLink message. v1.0 is limited to 254 messages.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">interval_us</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">The interval between two messages, in microseconds. A value of -1 indicates this stream is disabled, 0 indicates it is not available, &gt; 0 indicates the interval at which it is sent.
@@ -18762,6 +19765,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vtol_state</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The VTOL state if applicable. Is set to MAV_VTOL_STATE_UNDEFINED if UAV is not in VTOL configuration.
@@ -18770,6 +19774,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">landed_state</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">The landed state. Is set to MAV_LANDED_STATE_UNDEFINED if landed state is unknown.
@@ -18795,23 +19800,27 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ICAO_address</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">ICAO address</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as degrees * 1E7
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type from ADSB_ALTITUDE_TYPE enum
@@ -18820,35 +19829,41 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude(ASL) in millimeters
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">heading</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Course over ground in centidegrees
      (Units: cdeg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hor_velocity</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">The horizontal velocity in centimeters/second
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ver_velocity</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">The vertical velocity in centimeters/second, positive is up
      (Units: cm/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">callsign</td>
      <td class="mavlink_type" valign="top">char[9]</td>
      <td class="mavlink_comment">The callsign, 8+null</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">emitter_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type from ADSB_EMITTER_TYPE enum
@@ -18857,12 +19872,14 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tslc</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Time since last communication in seconds
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Flags to indicate various statuses including valid data fields
@@ -18871,6 +19888,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">squawk</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Squawk code</td>
@@ -18893,6 +19911,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">src</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Collision data source
@@ -18901,11 +19920,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">id</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Unique identifier, domain based on src field</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">action</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Action that is being taken to avoid this collision
@@ -18914,6 +19935,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">threat_level</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">How concerned the aircraft is about this collision
@@ -18922,18 +19944,21 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_to_minimum_delta</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Estimated time until collision occurs (seconds)
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">altitude_minimum_delta</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Closest vertical distance in meters between vehicle and object
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">horizontal_minimum_delta</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Closest horizontal distance in meteres between vehicle and object
@@ -18957,26 +19982,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_network</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Network ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID (0 for broadcast)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">message_type</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">A code that identifies the software component that understands this message (analogous to usb device classes or mime type strings).  If this code is less than 32768, it is considered a 'registered' protocol extension and the corresponding entry should be added to https://github.com/mavlink/mavlink/extension-message-ids.xml.  Software creators can register blocks of message IDs as needed (useful for GCS specific metadata, etc...). Message_types greater than 32767 are considered local experiments and should not be checked in to any widely distributed codebase.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">payload</td>
      <td class="mavlink_type" valign="top">uint8_t[249]</td>
      <td class="mavlink_comment">Variable length payload. The length is defined by the remaining message length when subtracting the header and other fields.  The entire content of this block is opaque unless you understand any the encoding message_type.  The particular encoding used can be extension specific and might not always be documented as part of the mavlink specification.</td>
@@ -18999,21 +20029,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">address</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Starting address of the debug variables</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ver</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Version code of the type variable. 0=unknown, type ignored and assumed int16_t. 1=as below</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type code of the memory variables. for ver = 1: 0=16 x int16_t, 1=16 x uint16_t, 2=16 x Q15, 3=16 x 1Q14</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">int8_t[32]</td>
      <td class="mavlink_comment">Memory contents at specified address</td>
@@ -19037,27 +20071,32 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">name</td>
      <td class="mavlink_type" valign="top">char[10]</td>
      <td class="mavlink_comment">Name</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">x</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">x</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">y</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">y</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">z</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">z</td>
@@ -19080,17 +20119,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">name</td>
      <td class="mavlink_type" valign="top">char[10]</td>
      <td class="mavlink_comment">Name of the debug variable</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Floating point value</td>
@@ -19113,17 +20155,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">name</td>
      <td class="mavlink_type" valign="top">char[10]</td>
      <td class="mavlink_comment">Name of the debug variable</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Signed integer value</td>
@@ -19146,6 +20191,7 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">severity</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Severity of status. Relies on the definitions within RFC-5424. See enum MAV_SEVERITY.
@@ -19154,6 +20200,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">text</td>
      <td class="mavlink_type" valign="top">char[50]</td>
      <td class="mavlink_comment">Status text message, without null termination character</td>
@@ -19176,17 +20223,20 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ind</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">index of debug variable</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">DEBUG value</td>
@@ -19212,21 +20262,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">system id of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">component ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">secret_key</td>
      <td class="mavlink_type" valign="top">uint8_t[32]</td>
      <td class="mavlink_comment">signing key</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">initial_timestamp</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">initial timestamp</td>
@@ -19252,18 +20306,21 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">last_change_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time of last change of button state
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">state</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Bitmap state of buttons</td>
@@ -19289,16 +20346,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">tune</td>
      <td class="mavlink_type" valign="top">char[30]</td>
      <td class="mavlink_comment">tune in board specific format</td>
@@ -19324,62 +20384,73 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vendor_name</td>
      <td class="mavlink_type" valign="top">uint8_t[32]</td>
      <td class="mavlink_comment">Name of the camera vendor</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">model_name</td>
      <td class="mavlink_type" valign="top">uint8_t[32]</td>
      <td class="mavlink_comment">Name of the camera model</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">firmware_version</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Version of the camera firmware (v &lt;&lt; 24 &amp; 0xff = Dev, v &lt;&lt; 16 &amp; 0xff = Patch, v &lt;&lt; 8 &amp; 0xff = Minor, v &amp; 0xff = Major)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">focal_length</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Focal length in mm
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sensor_size_h</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Image sensor size horizontal in mm
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sensor_size_v</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Image sensor size vertical in mm
      (Units: mm)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_h</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Image resolution in pixels horizontal
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_v</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Image resolution in pixels vertical
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lens_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Reserved for a lens ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flags</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">CAMERA_CAP_FLAGS enum flags (bitmap) describing camera capabilities.
@@ -19388,11 +20459,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cam_definition_version</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Camera definition version (iteration)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">cam_definition_uri</td>
      <td class="mavlink_type" valign="top">char[140]</td>
      <td class="mavlink_comment">Camera definition URI (if any, otherwise only basic functions will be available).</td>
@@ -19418,12 +20491,14 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera mode (CAMERA_MODE)
@@ -19452,51 +20527,60 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">storage_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Storage ID (1 for first, 2 for second, etc.)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">storage_count</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of storage devices</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Status of storage (0 not available, 1 unformatted, 2 formatted)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">total_capacity</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Total capacity in MiB
      (Units: Mibytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">used_capacity</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Used capacity in MiB
      (Units: Mibytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">available_capacity</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Available capacity in MiB
      (Units: Mibytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">read_speed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Read speed in MiB/s
      (Units: Mibytes/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">write_speed</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Write speed in MiB/s
@@ -19523,34 +20607,40 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">image_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current status of image capturing (0: idle, 1: capture in progress, 2: interval set but idle, 3: interval set and capture in progress)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">video_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current status of video capturing (0: idle, 1: capture in progress)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">image_interval</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Image capture interval in seconds
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">recording_time_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Time in milliseconds since recording started
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">available_capacity</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Available storage capacity in MiB
@@ -19577,62 +20667,73 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_utc</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch) in UTC. 0 for unknown.
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">camera_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lat</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Latitude, expressed as degrees * 1E7 where image was taken
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">lon</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Longitude, expressed as degrees * 1E7 where capture was taken
      (Units: degE7)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude in meters, expressed as * 1E3 (AMSL, not WGS84) where image was taken
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">relative_alt</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Altitude above ground in meters, expressed as * 1E3 where image was taken
      (Units: m)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">q</td>
      <td class="mavlink_type" valign="top">float[4]</td>
      <td class="mavlink_comment">Quaternion of camera orientation (w, x, y, z order, zero-rotation is 0, 0, 0, 0)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">image_index</td>
      <td class="mavlink_type" valign="top">int32_t</td>
      <td class="mavlink_comment">Zero based index of this image (image count since armed -1)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">capture_result</td>
      <td class="mavlink_type" valign="top">int8_t</td>
      <td class="mavlink_comment">Boolean indicating success (1) or failure (0) while capturing this image.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">file_url</td>
      <td class="mavlink_type" valign="top">char[205]</td>
      <td class="mavlink_comment">URL of image taken. Either local storage or http://foo.jpg if camera provides an HTTP interface.</td>
@@ -19658,24 +20759,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">arming_time_utc</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp at arming (microseconds since UNIX epoch) in UTC, 0 for unknown
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">takeoff_time_utc</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp at takeoff (microseconds since UNIX epoch) in UTC, 0 for unknown
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">flight_uuid</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Universally unique identifier (UUID) of flight, should correspond to name of logfiles</td>
@@ -19701,24 +20806,28 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp (milliseconds since system boot)
      (Units: ms)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">roll</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Roll in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">pitch</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Pitch in degrees
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">yaw</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Yaw in degrees
@@ -19745,33 +20854,39 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">system ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">component ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sequence</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">sequence number (can wrap)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">length</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">first_message_offset</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">offset into data where first message starts. This can be used for recovery, when a previous message got lost (set to 255 if no start exists).
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[249]</td>
      <td class="mavlink_comment">logged data</td>
@@ -19797,33 +20912,39 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">system ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">component ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sequence</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">sequence number (can wrap)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">length</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">data length
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">first_message_offset</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">offset into data where first message starts. This can be used for recovery, when a previous message got lost (set to 255 if no start exists).
      (Units: bytes)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data</td>
      <td class="mavlink_type" valign="top">uint8_t[249]</td>
      <td class="mavlink_comment">logged data</td>
@@ -19849,16 +20970,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">system ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">component ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sequence</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">sequence number (must match the one in LOGGING_DATA_ACKED)</td>
@@ -19884,46 +21008,54 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">camera_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Current status of video streaming (0: not running, 1: in progress)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">framerate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Frames per second
      (Units: Hz)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_h</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Resolution horizontal in pixels
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_v</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Resolution vertical in pixels
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bitrate</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bit rate in bits per second
      (Units: b/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rotation</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Video image rotation clockwise
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uri</td>
      <td class="mavlink_type" valign="top">char[230]</td>
      <td class="mavlink_comment">Video stream URI</td>
@@ -19949,51 +21081,60 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">system ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">component ID of the target</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">camera_id</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Camera ID (1 for first, 2 for second, etc.)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">framerate</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">Frames per second (set to -1 for highest framerate possible)
      (Units: Hz)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_h</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Resolution horizontal in pixels (set to -1 for highest resolution possible)
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">resolution_v</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Resolution vertical in pixels (set to -1 for highest resolution possible)
      (Units: pix)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">bitrate</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Bit rate in bits per second (set to -1 for auto)
      (Units: b/s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">rotation</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Video image rotation clockwise (0-359 degrees)
      (Units: deg)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uri</td>
      <td class="mavlink_type" valign="top">char[230]</td>
      <td class="mavlink_comment">Video stream URI</td>
@@ -20019,11 +21160,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">ssid</td>
      <td class="mavlink_type" valign="top">char[32]</td>
      <td class="mavlink_comment">Name of Wi-Fi network (SSID). Leave it blank to leave it unchanged.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">password</td>
      <td class="mavlink_type" valign="top">char[64]</td>
      <td class="mavlink_comment">Password. Leave it blank for an open AP.</td>
@@ -20049,26 +21192,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">version</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Currently active MAVLink version number * 100: v1.0 is 100, v2.0 is 200, etc.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">min_version</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Minimum MAVLink version supported</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">max_version</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Maximum MAVLink version supported (set to the same value as version by default)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">spec_version_hash</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">The first 8 bytes (not characters printed in hex!) of the git hash.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">library_version_hash</td>
      <td class="mavlink_type" valign="top">uint8_t[8]</td>
      <td class="mavlink_comment">The first 8 bytes (not characters printed in hex!) of the git hash.</td>
@@ -20094,18 +21242,21 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uptime_sec</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">The number of seconds since the start-up of the node.
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">health</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Generalized node health status.
@@ -20114,6 +21265,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Generalized operating mode.
@@ -20122,11 +21274,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sub_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Not used currently.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">vendor_specific_status_code</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Vendor-specific status information.</td>
@@ -20152,48 +21306,57 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_usec</td>
      <td class="mavlink_type" valign="top">uint64_t</td>
      <td class="mavlink_comment">Timestamp (microseconds since UNIX epoch or microseconds since system boot)
      (Units: us)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">uptime_sec</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">The number of seconds since the start-up of the node.
      (Units: s)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">name</td>
      <td class="mavlink_type" valign="top">char[80]</td>
      <td class="mavlink_comment">Node name string. For example, "sapog.px4.io".</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hw_version_major</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Hardware major version number.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hw_version_minor</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Hardware minor version number.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">hw_unique_id</td>
      <td class="mavlink_type" valign="top">uint8_t[16]</td>
      <td class="mavlink_comment">Hardware unique 128-bit ID.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sw_version_major</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Software major version number.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sw_version_minor</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Software minor version number.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">sw_vcs_commit</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Version control system (VCS) revision identifier (e.g. git short commit hash). Zero if unknown.</td>
@@ -20219,21 +21382,25 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_index</td>
      <td class="mavlink_type" valign="top">int16_t</td>
      <td class="mavlink_comment">Parameter index. Set to -1 to use the Parameter ID field as identifier (else param_id will be ignored)</td>
@@ -20259,11 +21426,13 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
@@ -20289,16 +21458,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value</td>
      <td class="mavlink_type" valign="top">char[128]</td>
      <td class="mavlink_comment">Parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.
@@ -20307,11 +21479,13 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_count</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Total number of parameters</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_index</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Index of this parameter</td>
@@ -20337,26 +21511,31 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_system</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">target_component</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Component ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value</td>
      <td class="mavlink_type" valign="top">char[128]</td>
      <td class="mavlink_comment">Parameter value</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.
@@ -20385,16 +21564,19 @@ These messages define the common message set, which is the reference message set
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_id</td>
      <td class="mavlink_type" valign="top">char[16]</td>
      <td class="mavlink_comment">Parameter id, terminated by NULL if the length is less than 16 human-readable chars and WITHOUT null termination (NULL) byte if the length is exactly 16 chars - applications have to provide 16+1 bytes storage if the ID is stored as string</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_value</td>
      <td class="mavlink_type" valign="top">char[128]</td>
      <td class="mavlink_comment">Parameter value (new value if PARAM_ACK_ACCEPTED, current value otherwise)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Parameter type: see the MAV_PARAM_EXT_TYPE enum for supported data types.
@@ -20403,6 +21585,7 @@ These messages define the common message set, which is the reference message set
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">param_result</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Result code: see the PARAM_ACK enum for possible codes.

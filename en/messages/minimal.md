@@ -1,3 +1,4 @@
+<!-- THIS FILE IS AUTO-GENERATED: https://github.com/mavlink/mavlink/blob/master/doc/mavlink_gitbook.py -->
 # MAVLINK Message Set: minimal.xml
 
 *This is a human-readable form of the XML definition file: [minimal.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/minimal.xml).*
@@ -479,6 +480,7 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">type</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Type of the MAV (quadrotor, helicopter, etc., up to 15 types, defined in MAV_TYPE ENUM)
@@ -487,6 +489,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">autopilot</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Autopilot type / class. defined in MAV_AUTOPILOT ENUM
@@ -495,16 +498,19 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">base_mode</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System mode bitfield, see MAV_MODE_FLAGS ENUM in mavlink/include/mavlink_types.h</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">custom_mode</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">A bitfield for use for autopilot-specific flags.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">system_status</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">System status flag, see MAV_STATE ENUM
@@ -513,6 +519,7 @@
      </td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">mavlink_version</td>
      <td class="mavlink_type" valign="top">uint8_t_mavlink_version</td>
      <td class="mavlink_comment">MAVLink version</td>

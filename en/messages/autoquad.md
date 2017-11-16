@@ -1,3 +1,4 @@
+<!-- THIS FILE IS AUTO-GENERATED: https://github.com/mavlink/mavlink/blob/master/doc/mavlink_gitbook.py -->
 # MAVLINK Message Set: autoquad.xml
 
 *This is a human-readable form of the XML definition file: [autoquad.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/autoquad.xml).*
@@ -423,106 +424,127 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">Index</td>
      <td class="mavlink_type" valign="top">uint16_t</td>
      <td class="mavlink_comment">Index of message</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value1</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value1</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value2</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value2</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value3</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value3</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value4</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value4</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value5</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value5</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value6</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value6</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value7</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value7</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value8</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value8</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value9</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value9</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value10</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value10</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value11</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value11</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value12</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value12</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value13</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value13</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value14</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value14</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value15</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value15</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value16</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value16</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value17</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value17</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value18</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value18</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value19</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value19</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">value20</td>
      <td class="mavlink_type" valign="top">float</td>
      <td class="mavlink_comment">value20</td>
@@ -555,46 +577,55 @@
    </thead>
    <tbody>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">time_boot_ms</td>
      <td class="mavlink_type" valign="top">uint32_t</td>
      <td class="mavlink_comment">Timestamp of the component clock since boot time in ms.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">seq</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Sequence number of message (first set of 4 motors is #1, next 4 is #2, etc).</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">num_motors</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Total number of active ESCs/motors on the system.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">num_in_seq</td>
      <td class="mavlink_type" valign="top">uint8_t</td>
      <td class="mavlink_comment">Number of active ESCs in this sequence (1 through this many array members will be populated with data)</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">escid</td>
      <td class="mavlink_type" valign="top">uint8_t[4]</td>
      <td class="mavlink_comment">ESC/Motor ID</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">status_age</td>
      <td class="mavlink_type" valign="top">uint16_t[4]</td>
      <td class="mavlink_comment">Age of each ESC telemetry reading in ms compared to boot time. A value of 0xFFFF means timeout/no data.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data_version</td>
      <td class="mavlink_type" valign="top">uint8_t[4]</td>
      <td class="mavlink_comment">Version of data structure (determines contents).</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data0</td>
      <td class="mavlink_type" valign="top">uint32_t[4]</td>
      <td class="mavlink_comment">Data bits 1-32 for each ESC.</td>
     </tr>
     <tr class="mavlink_field">
+     #Conditionally format field name based on whether it is MAVLink 2 (to blue)
      <td class="mavlink_name" valign="top">data1</td>
      <td class="mavlink_type" valign="top">uint32_t[4]</td>
      <td class="mavlink_comment">Data bits 33-64 for each ESC.</td>
