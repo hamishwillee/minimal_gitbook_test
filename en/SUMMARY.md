@@ -8,7 +8,9 @@
   * [Doc 3](folder2/doc3.md)
   * [Doc 4](folder2/doc4.md)
   * [Fail tests](folder2/fail_links.md)
-  
+* [Paramtest - current](paramtest/current.md)
+  * [nowrapstrong](paramtest/nowrapstrong.md)
+  * [tablescroll](paramtest/tablescroll.md)
 * [Messages 1.0](messages/README.md)
   * [ardupilotmega.xml](messages/ardupilotmega.md)
   * [ASLUAV.xml](messages/ASLUAV.md)
