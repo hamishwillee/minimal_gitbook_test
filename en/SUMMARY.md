@@ -8,6 +8,7 @@
   * [Doc 3](folder2/doc3.md)
   * [Doc 4](folder2/doc4.md)
   * [Fail tests](folder2/fail_links.md)
+* [Position Controller](test_docs/position_controller.md)
   
 ----
   
