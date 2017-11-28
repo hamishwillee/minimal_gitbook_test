@@ -71,7 +71,7 @@
         },
         
         "versions": {
-            "type": "tags"
+            "type": "branches"
         }
         
         

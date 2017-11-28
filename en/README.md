@@ -1,7 +1,9 @@
 # Minimal Gitbook Test
 
-TEST: X{{ gitbookConfigURL }}Y
-TEST: X{{ book.gitbookConfigURL }}Y
+TEST: 1X{{ file.path }}Y
+TEST: 2X{{ readme.path }}Y
+TEST: BOOKROOT 3X{{ gitbook.state.bookRoot }}Y
+
 
 This repo contains a test book for testing plugins and themes that I plan to use with dronecode docs sites. E.g. 
 * [PX4 Dev Guide](https://dev.px4.io/)
