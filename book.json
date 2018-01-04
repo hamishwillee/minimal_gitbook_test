@@ -18,12 +18,13 @@
         "-autosize-iframe",
         "versions",
         "theme-api",
-        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
+        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
+        "fancybox"
 
         ],
     "pluginsConfig": { 
     
-    
+        
         "summary-enhance": {
             "myConfigKey":"SOME TEST STRING"
         },
