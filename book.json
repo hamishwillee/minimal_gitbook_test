@@ -17,6 +17,7 @@
         "-validate-links",
         "-autosize-iframe",
         "versions",
+        "mermaid-flow",
         "theme-api",
         "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
 
